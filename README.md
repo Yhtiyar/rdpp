@@ -1,17 +1,52 @@
-# readapp
+# littlewins
 
-A new Flutter project.
+An offline Flutter reading app built from `MVP.md` and the supplied `scenes/` references. Children read, answer a question, and earn 10 coins per verified page. 100 coins buys a 15-minute access window.
 
-## Getting Started
+## Run the web preview
 
-This project is a starting point for a Flutter application.
+```sh
+flutter pub get
+flutter run -d web-server --web-hostname=0.0.0.0 --web-port=7357
+```
 
-A few resources to get you started if this is your first Flutter project:
+For the release build used for UI verification:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```sh
+flutter build web --no-web-resources-cdn
+python3 -m http.server 7357 --directory build/web
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Open http://localhost:7357. Web purchases are explicitly labelled previews: a browser cannot restrict other apps. There are no seeded coins or default parent PINs; set up a profile and read to earn coins.
+
+## Included
+
+- Reference artwork, bundled Nunito font with Cyrillic support, animation, confetti, sound and reduced-motion support.
+- Parent onboarding, age group, confirmed six-digit PIN, private recovery code, and persisted retry cooldown.
+- English and Russian interfaces; English book content/questions stay English in Russian UI.
+- Both supplied books for every age: 13 text-bearing pages of **The Frog Prince**, 9 pages of **Колобок**. Original illustrations and source PDFs are bundled. Illustration-only PDF pages accompany text pages and do not generate extra rewards.
+- Reader with saved position, completion percentage, contents, backwards navigation, adjustable text and illustration zoom.
+- One source-grounded, pregenerated question and hint per reading page. Repeated answers do not award duplicate coins. Credits are once per distinct page in this MVP; both books together can earn 220 coins.
+- Wallet, daily allowance, elapsed access windows, transaction recovery, reading streak and milestones.
+- PIN-gated parent settings, language, sounds, daily allowance and essential app selection.
+- Native Android/iOS restriction implementations; **native compilation, signing and device behavior are not yet verified**.
+
+All state stays in local preferences. Uninstalling the app or clearing browser storage removes the local profile. There is no account, backend, advertising, subscription, remote report or game.
+
+## Verify
+
+```sh
+flutter analyze
+flutter test
+flutter build web --no-web-resources-cdn
+npm install --prefix /tmp/littlewins-browser playwright
+# In another terminal, serve build/web on port 7357 first.
+node tools/web_smoke.cjs
+```
+
+The browser test earns ten pages through the UI, purchases time, reloads, tests the parent gate and languages, and saves screenshots/report in `docs/verification/`. Override `APP_URL` or `PLAYWRIGHT_MODULE` if needed. It aborts external runtime requests and fails if any occur.
+
+See [the implementation plan](docs/superpowers/plans/2026-09-25-littlewins.md), [verification report](docs/verification/REPORT.md), and [native setup](docs/NATIVE_SETUP.md).
+
+## Content
+
+`tools/prepare_books.py` regenerates the bundled reading content from `books/` using Poppler and Pillow. `tools/prepare_art.py` extracts supplied illustration assets and generates local sound effects. `assets/fonts/OFL.txt` contains the font license. Book credit screens retain source attribution; original PDFs retain their full notices. The Frog Prince source is non-commercial and includes Creative Commons attribution/share-alike notices; review the original source terms before distribution. No content is fetched at runtime.

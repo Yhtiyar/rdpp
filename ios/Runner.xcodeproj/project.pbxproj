@@ -16,6 +16,11 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		FF16792EAE214AF29158F45D /* ScreenTimeMonitor.appex in Copy Files */ = {isa = PBXBuildFile; fileRef = 9DC9E6963ECA49FC90A95E0E /* ScreenTimeMonitor.appex */; };
+		6D975A86700A4FFCB907AAEE /* ScreenTimeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862EA8128D247BAAEB1C77B /* ScreenTimeBridge.swift */; };
+		97824FFE8BAC4F56887AF571 /* ProtectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A4CF8A08B4C94A125EB35 /* ProtectionState.swift */; };
+		5950577F679E4A44BDEDEFDB /* ScreenTimeMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FF1FFC8A6473ABE09C080 /* ScreenTimeMonitor.swift */; };
+		91CB9AF60BBD4AE281C5DC48 /* ProtectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A4CF8A08B4C94A125EB35 /* ProtectionState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
+		};
+		D4410E1775AD41DBB8693BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE95D5CAD99480792FEAC84;
+			remoteInfo = "ScreenTimeMonitor";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +50,17 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6471E6690EF4FDBBCBD866F /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF16792EAE214AF29158F45D /* ScreenTimeMonitor.appex in Copy Files */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Files";
+			dstPath = "";
+			dstSubfolderSpec = 13;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -59,6 +82,12 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC9E6963ECA49FC90A95E0E /* ScreenTimeMonitor.appex */ = {isa = PBXFileReference; name = "ScreenTimeMonitor.appex"; path = "ScreenTimeMonitor.appex"; sourceTree = BUILT_PRODUCTS_DIR; fileEncoding = undefined; lastKnownFileType = undefined; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; };
+		1862EA8128D247BAAEB1C77B /* ScreenTimeBridge.swift */ = {isa = PBXFileReference; name = "ScreenTimeBridge.swift"; path = "ScreenTimeBridge.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		836A4CF8A08B4C94A125EB35 /* ProtectionState.swift */ = {isa = PBXFileReference; name = "ProtectionState.swift"; path = "ProtectionState.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		9E4FF1FFC8A6473ABE09C080 /* ScreenTimeMonitor.swift */ = {isa = PBXFileReference; name = "ScreenTimeMonitor.swift"; path = "ScreenTimeMonitor.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		9073D88C53154F78AC2196A9 /* ScreenTimeMonitor.entitlements */ = {isa = PBXFileReference; name = "ScreenTimeMonitor.entitlements"; path = "ScreenTimeMonitor.entitlements"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA294441B2AE41AB8CC626A5 /* Runner.entitlements */ = {isa = PBXFileReference; name = "Runner.entitlements"; path = "Runner.entitlements"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +96,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A318202AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB031934D0DB4CB3B5AAD22A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +136,8 @@
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
+				CBCD1FDC415A403CA51FAD26 /* ScreenTimeMonitor */,
+				1E0B238B2872464DA7D9CA7F /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +146,7 @@
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
+				9DC9E6963ECA49FC90A95E0E /* ScreenTimeMonitor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +163,29 @@
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				7884E8672EC3CC0400C636F2 /* SceneDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				1862EA8128D247BAAEB1C77B /* ScreenTimeBridge.swift */,
+				FA294441B2AE41AB8CC626A5 /* Runner.entitlements */,
 			);
 			path = Runner;
+			sourceTree = "<group>";
+		};
+		CBCD1FDC415A403CA51FAD26 /* ScreenTimeMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FF1FFC8A6473ABE09C080 /* ScreenTimeMonitor.swift */,
+				9073D88C53154F78AC2196A9 /* ScreenTimeMonitor.entitlements */,
+			);
+			name = ScreenTimeMonitor;
+			path = ScreenTimeMonitor;
+			sourceTree = "<group>";
+		};
+		1E0B238B2872464DA7D9CA7F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				836A4CF8A08B4C94A125EB35 /* ProtectionState.swift */,
+			);
+			name = Shared;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +218,12 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				D6471E6690EF4FDBBCBD866F /* Copy Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1980D000FEA746639674027F /* PBXTargetDependency */,
 			);
 			name = Runner;
 			packageProductDependencies = (
@@ -170,6 +232,23 @@
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1EE95D5CAD99480792FEAC84 /* "ScreenTimeMonitor" */ = {
+			isa = PBXNativeTarget;
+			name = "ScreenTimeMonitor";
+			productName = "ScreenTimeMonitor";
+			productReference = 9DC9E6963ECA49FC90A95E0E;
+			productType = "com.apple.product-type.app-extension";
+			buildConfigurationList = 1813F03E95CF4EBB8F41A3CB;
+			buildPhases = (
+				E0E735376FA7447D9EDB0A4E /* Sources */,
+				FB031934D0DB4CB3B5AAD22A /* Frameworks */,
+				A9574BFC367544EEA2586501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
 		};
 /* End PBXNativeTarget section */
 
@@ -188,6 +267,25 @@
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.FamilyControls = {
+								enabled = 1;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1EE95D5CAD99480792FEAC84 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.FamilyControls = {
+								enabled = 1;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -209,6 +307,7 @@
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
+				1EE95D5CAD99480792FEAC84 /* "ScreenTimeMonitor" */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +328,13 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9574BFC367544EEA2586501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +390,17 @@
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 				7884E8682EC3CC0700C636F2 /* SceneDelegate.swift in Sources */,
+				6D975A86700A4FFCB907AAEE /* ScreenTimeBridge.swift in Sources */,
+				97824FFE8BAC4F56887AF571 /* ProtectionState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E735376FA7447D9EDB0A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5950577F679E4A44BDEDEFDB /* ScreenTimeMonitor.swift in Sources */,
+				91CB9AF60BBD4AE281C5DC48 /* ProtectionState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +411,11 @@
 			isa = PBXTargetDependency;
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
+		};
+		1980D000FEA746639674027F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE95D5CAD99480792FEAC84 /* "ScreenTimeMonitor" */;
+			targetProxy = D4410E1775AD41DBB8693BE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -388,6 +510,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 			};
 			name = Profile;
 		};
@@ -487,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -539,7 +664,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -570,6 +695,9 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 			};
 			name = Debug;
 		};
@@ -591,8 +719,81 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 			};
 			name = Release;
+		};
+		FE044485969D4917A83A03B8 /* Debug */ = {
+			name = Debug;
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenTimeMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "ScreenTimeMonitor";
+				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.readapp.ScreenTimeMonitor";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeMonitor/ScreenTimeMonitor.entitlements;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = iphoneos;
+				CLANG_ENABLE_MODULES = YES;
+			};
+		};
+		F6EB188469174E4EBE83422E /* Release */ = {
+			name = Release;
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenTimeMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "ScreenTimeMonitor";
+				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.readapp.ScreenTimeMonitor";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeMonitor/ScreenTimeMonitor.entitlements;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = iphoneos;
+				CLANG_ENABLE_MODULES = YES;
+			};
+		};
+		B8DF0FF10A94421C8FB0E5B5 /* Profile */ = {
+			name = Profile;
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenTimeMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "ScreenTimeMonitor";
+				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.readapp.ScreenTimeMonitor";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LITTLEWINS_APP_GROUP = group.com.example.readapp;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeMonitor/ScreenTimeMonitor.entitlements;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = iphoneos;
+				CLANG_ENABLE_MODULES = YES;
+			};
 		};
 /* End XCBuildConfiguration section */
 
@@ -623,6 +824,16 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1813F03E95CF4EBB8F41A3CB /* Build configuration list for PBXNativeTarget "ScreenTimeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE044485969D4917A83A03B8 /* Debug */,
+				F6EB188469174E4EBE83422E /* Release */,
+				B8DF0FF10A94421C8FB0E5B5 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

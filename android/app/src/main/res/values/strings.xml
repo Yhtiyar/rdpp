@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">littlewins</string>
+    <string name="accessibility_description">With parent permission, Littlewins checks which app is open and covers non-essential apps until earned reading time is available. It does not read screen contents or send usage data anywhere. Disable this permission here at any time.</string>
+    <string name="reading_first">A little reading first.</string>
+    <string name="earn_time">Read, answer a question, and earn your next little win. Essential apps are always available.</string>
+    <string name="open_reading">Let’s read a story</string>
+</resources>

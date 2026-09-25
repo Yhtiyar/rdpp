@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">littlewins</string>
+    <string name="accessibility_description">С разрешения родителей Littlewins определяет открытое приложение и закрывает развлекательные приложения, пока не заработано время за чтение. Содержимое экрана не читается, данные никуда не передаются. Это разрешение можно отключить здесь в любое время.</string>
+    <string name="reading_first">Сначала немного почитаем.</string>
+    <string name="earn_time">Читай, отвечай на вопросы и делай шаг вперёд. Важные приложения доступны всегда.</string>
+    <string name="open_reading">Почитаем историю</string>
+</resources>
