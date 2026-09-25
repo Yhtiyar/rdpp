@@ -1,0 +1,23 @@
+{
+  "project": "readapp",
+  "platform": "ios",
+  "github": {
+    "owner": "Yhtiyar",
+    "repo": "rdpp"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "path": "ios",
+    "scheme": "Runner",
+    "bundleId": "com.example.readapp"
+  },
+  "flutter": {
+    "version": "3.47.5",
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
