@@ -30,7 +30,7 @@ class QuizFeedbackPanel extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          if (character != null) character!,
+          ?character,
           Flexible(
             child: SingleChildScrollView(
               child: Semantics(

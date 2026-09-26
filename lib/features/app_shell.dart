@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../core/app_controller.dart';
 import '../ui/components.dart';
 import '../ui/theme.dart';
+import '../ui/motion_spec.dart';
 import 'home_screen.dart';
 import 'reading/library_screen.dart';
 import 'rewards/progress_content.dart';
@@ -26,6 +27,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    _scroll.dispose();
     super.dispose();
   }
 
@@ -37,6 +39,21 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
   }
 
   int _tab = 0;
+  final _scroll = ScrollController();
+  final _offsets = <int, double>{};
+  void _selectTab(int tab) {
+    if (tab == _tab) return;
+    _offsets[_tab] = _scroll.hasClients ? _scroll.offset : 0;
+    setState(() => _tab = tab);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted && _scroll.hasClients) {
+        _scroll.jumpTo(
+          (_offsets[tab] ?? 0).clamp(0, _scroll.position.maxScrollExtent),
+        );
+      }
+    });
+  }
+
   AppController get c => widget.controller;
   void _wallet() => Navigator.push<void>(
     context,
@@ -46,6 +63,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
   Widget build(BuildContext context) => ListenableBuilder(
     listenable: c,
     builder: (context, _) => SceneScaffold(
+      scrollController: _scroll,
       trailing: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -71,7 +89,8 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
       bottom: NavigationBar(
         height: 74,
         selectedIndex: _tab,
-        onDestinationSelected: (v) => setState(() => _tab = v),
+        onDestinationSelected: _selectTab,
+        animationDuration: MotionSpec.of(context).transition,
         backgroundColor: const Color(0xFFFEFDFF),
         indicatorColor: WinTheme.lavender,
         destinations: [
@@ -101,12 +120,18 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
           ),
         ],
       ),
-      child: KeyedSubtree(
+      child: TweenAnimationBuilder<double>(
         key: ValueKey(_tab),
+        tween: Tween(begin: 0, end: 1),
+        duration: MotionSpec.of(context).transition,
+        builder: (context, value, child) => Opacity(
+          opacity: MotionSpec.of(context).reduceMotion ? 1 : value,
+          child: child,
+        ),
         child: switch (_tab) {
           0 => HomeContent(
             controller: c,
-            onLibrary: () => setState(() => _tab = 1),
+            onLibrary: () => _selectTab(1),
             onWallet: _wallet,
           ),
           1 => LibraryContent(controller: c),

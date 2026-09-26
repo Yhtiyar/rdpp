@@ -82,26 +82,30 @@ class _RewardCelebrationState extends State<RewardCelebration>
     final earned = widget.coinsEarned > 0
         ? tr('+${widget.coinsEarned} coins', '+${widget.coinsEarned} монет')
         : tr('Great remembering!', 'Отличная память!');
+    final heading = widget.bookCompleted
+        ? tr('You finished ${widget.title}!', 'Ты прочитал ${widget.title}!')
+        : tr(
+            'You understood this part of the story.',
+            'Ты понял этот отрывок истории.',
+          );
+    final milestones = widget.newlyReachedMilestones
+        .map(
+          (m) => switch (m) {
+            1 => tr('First little win', 'Первая победа'),
+            10 => tr('Ten-page explorer', '10 страниц открытий'),
+            _ => tr('Story superstar', 'Звезда чтения'),
+          },
+        )
+        .join(' · ');
     final content = Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Semantics(
           liveRegion: true,
-          label: '$earned. ${tr('Balance', 'Баланс')}: ${widget.balanceAfter}.',
+          label:
+              '$heading $earned. ${tr('Balance', 'Баланс')}: ${widget.balanceAfter}. $milestones',
           child: ExcludeSemantics(
-            child: Heading(
-              widget.bookCompleted
-                  ? tr(
-                      'You finished ${widget.title}!',
-                      'Ты прочитал ${widget.title}!',
-                    )
-                  : tr(
-                      'You understood this part of the story.',
-                      'Ты понял этот отрывок истории.',
-                    ),
-              large: true,
-              center: true,
-            ),
+            child: Heading(heading, large: true, center: true),
           ),
         ),
         smallGap,
@@ -211,15 +215,7 @@ class _RewardCelebrationState extends State<RewardCelebration>
         if (widget.newlyReachedMilestones.isNotEmpty) ...[
           smallGap,
           Text(
-            widget.newlyReachedMilestones
-                .map(
-                  (m) => switch (m) {
-                    1 => tr('First little win', 'Первая победа'),
-                    10 => tr('Ten-page explorer', '10 страниц открытий'),
-                    _ => tr('Story superstar', 'Звезда чтения'),
-                  },
-                )
-                .join(' · '),
+            milestones,
             textAlign: TextAlign.center,
             style: const TextStyle(
               fontWeight: FontWeight.w800,

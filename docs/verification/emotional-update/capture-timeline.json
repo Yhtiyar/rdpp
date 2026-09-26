@@ -1,0 +1,215 @@
+{
+  "captures": [
+    {
+      "name": "01-welcome",
+      "time": 1790418186038
+    },
+    {
+      "name": "02-age",
+      "time": 1790418187021
+    },
+    {
+      "name": "03-pin",
+      "time": 1790418187699
+    },
+    {
+      "name": "04-setup",
+      "time": 1790418192906
+    },
+    {
+      "name": "05-home",
+      "time": 1790418193942
+    },
+    {
+      "name": "29-first-progress",
+      "time": 1790418194392
+    },
+    {
+      "name": "06-library",
+      "time": 1790418195164
+    },
+    {
+      "name": "07-reader",
+      "time": 1790418195827
+    },
+    {
+      "name": "23-start-test",
+      "time": 1790418198224
+    },
+    {
+      "name": "08-quiz",
+      "time": 1790418198809
+    },
+    {
+      "name": "22-small-quiz",
+      "time": 1790418199179
+    },
+    {
+      "name": "09-hint",
+      "time": 1790418200519
+    },
+    {
+      "name": "30-reduced-motion-feedback",
+      "time": 1790418201965
+    },
+    {
+      "name": "31-exhausted",
+      "time": 1790418206262
+    },
+    {
+      "name": "21-batch-reset",
+      "time": 1790418207419
+    },
+    {
+      "name": "23-start-test",
+      "time": 1790418211295
+    },
+    {
+      "name": "24-selected-before-check",
+      "time": 1790418211819
+    },
+    {
+      "name": "25-correct-answer",
+      "time": 1790418212528
+    },
+    {
+      "name": "26-small-correct",
+      "time": 1790418212707
+    },
+    {
+      "name": "reward-30-early",
+      "time": 1790418216324
+    },
+    {
+      "name": "reward-30-middle",
+      "time": 1790418216824
+    },
+    {
+      "name": "reward-30-settled",
+      "time": 1790418217481
+    },
+    {
+      "name": "10-success",
+      "time": 1790418217948
+    },
+    {
+      "name": "reward-60-early",
+      "time": 1790418225044
+    },
+    {
+      "name": "reward-60-middle",
+      "time": 1790418225553
+    },
+    {
+      "name": "reward-60-settled",
+      "time": 1790418226173
+    },
+    {
+      "name": "reward-90-early",
+      "time": 1790418233538
+    },
+    {
+      "name": "reward-90-middle",
+      "time": 1790418234069
+    },
+    {
+      "name": "reward-90-settled",
+      "time": 1790418234691
+    },
+    {
+      "name": "reward-120-early",
+      "time": 1790418241993
+    },
+    {
+      "name": "reward-120-middle",
+      "time": 1790418242505
+    },
+    {
+      "name": "reward-120-settled",
+      "time": 1790418243150
+    },
+    {
+      "name": "11-reader-resume",
+      "time": 1790418243520
+    },
+    {
+      "name": "33-home-after-batch",
+      "time": 1790418244533
+    },
+    {
+      "name": "18-wallet",
+      "time": 1790418245217
+    },
+    {
+      "name": "19-playtime",
+      "time": 1790418246076
+    },
+    {
+      "name": "12-parent",
+      "time": 1790418254885
+    },
+    {
+      "name": "13-parent-russian",
+      "time": 1790418256214
+    },
+    {
+      "name": "14-library-russian",
+      "time": 1790418257087
+    },
+    {
+      "name": "15-english-tab-russian",
+      "time": 1790418257565
+    },
+    {
+      "name": "20-english-quiz-russian",
+      "time": 1790418259262
+    },
+    {
+      "name": "32-book-finished",
+      "time": 1790418263403
+    },
+    {
+      "name": "16-small-phone",
+      "time": 1790418264443
+    },
+    {
+      "name": "17-desktop",
+      "time": 1790418264790
+    }
+  ],
+  "audioRequests": [
+    "retry.wav",
+    "retry.wav",
+    "retry.wav",
+    "retry.wav",
+    "retry.wav",
+    "correct.wav",
+    "correct.wav",
+    "correct.wav",
+    "correct.wav",
+    "milestone.wav",
+    "milestone.wav",
+    "correct.wav",
+    "correct.wav",
+    "correct.wav",
+    "batchComplete.wav",
+    "batchComplete.wav",
+    "correct.wav",
+    "correct.wav",
+    "correct.wav",
+    "batchComplete.wav",
+    "correct.wav",
+    "correct.wav",
+    "correct.wav",
+    "milestone.wav",
+    "timeReady.wav",
+    "timeReady.wav"
+  ],
+  "frameCadence": {
+    "samples": 79,
+    "medianMs": 16.700000000000045,
+    "p95Ms": 66.69999999999993,
+    "over33ms": 6,
+    "note": "Browser requestAnimationFrame cadence during the final reload; not native-device or Flutter raster timings."
+  }
+}

@@ -116,7 +116,7 @@ class _WalletScreenState extends State<WalletScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Heading(
-            _ready || c.wallet.remaining > Duration.zero
+            c.wallet.remaining > Duration.zero
                 ? c.tr('Your playtime is ready', 'Время для отдыха')
                 : c.tr('Your wins, your time', 'Твои победы, твоё время'),
             large: true,
@@ -344,48 +344,55 @@ class _WalletScreenState extends State<WalletScreen> {
               Text(_error!, style: const TextStyle(color: Color(0xFFB64943))),
               gap,
             ],
-            WinButton(
-              c.protection.preview
-                  ? c.tr(
-                      'Preview $_minutes minutes',
-                      'Попробовать $_minutes минут',
-                    )
-                  : c.tr('Use $_minutes minutes', 'Получить $_minutes минут'),
-              onPressed:
-                  !reachableDurations(c).contains(_minutes) ||
-                      c.purchasing ||
-                      c.pendingPurchase != null ||
-                      c.wallet.problem(
-                            minutes: _minutes,
-                            balance: c.reading.balance,
-                            dailyLimit: c.dailyLimit,
-                          ) !=
-                          null
-                  ? null
-                  : _redeem,
-              loading: c.purchasing,
-            ),
-            smallGap,
-            Text(
-              c.wallet.problem(
-                        minutes: _minutes,
-                        balance: c.reading.balance,
-                        dailyLimit: c.dailyLimit,
-                      ) !=
-                      null
-                  ? _reason(
-                      c.wallet.problem(
-                        minutes: _minutes,
-                        balance: c.reading.balance,
-                        dailyLimit: c.dailyLimit,
+            if (reachableDurations(c).isEmpty)
+              WinButton(
+                c.tr('Back to my books', 'К моим книгам'),
+                onPressed: () => Navigator.pop(context),
+              )
+            else ...[
+              WinButton(
+                c.protection.preview
+                    ? c.tr(
+                        'Preview $_minutes minutes',
+                        'Попробовать $_minutes минут',
+                      )
+                    : c.tr('Use $_minutes minutes', 'Получить $_minutes минут'),
+                onPressed:
+                    !reachableDurations(c).contains(_minutes) ||
+                        c.purchasing ||
+                        c.pendingPurchase != null ||
+                        c.wallet.problem(
+                              minutes: _minutes,
+                              balance: c.reading.balance,
+                              dailyLimit: c.dailyLimit,
+                            ) !=
+                            null
+                    ? null
+                    : _redeem,
+                loading: c.purchasing,
+              ),
+              smallGap,
+              Text(
+                c.wallet.problem(
+                          minutes: _minutes,
+                          balance: c.reading.balance,
+                          dailyLimit: c.dailyLimit,
+                        ) !=
+                        null
+                    ? _reason(
+                        c.wallet.problem(
+                          minutes: _minutes,
+                          balance: c.reading.balance,
+                          dailyLimit: c.dailyLimit,
+                        ),
+                      )
+                    : c.tr(
+                        'A parent sets your daily limit.',
+                        'Дневной лимит устанавливают родители.',
                       ),
-                    )
-                  : c.tr(
-                      'A parent sets your daily limit.',
-                      'Дневной лимит устанавливают родители.',
-                    ),
-              textAlign: TextAlign.center,
-            ),
+                textAlign: TextAlign.center,
+              ),
+            ],
           ],
         ],
       ),

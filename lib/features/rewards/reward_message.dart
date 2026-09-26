@@ -34,6 +34,13 @@ String rewardMessage(AppController c) {
   }
   if (!p.affordable) {
     if (remainingCatalogPages(c) * 10 + c.reading.balance < 100) {
+      final remaining = remainingCatalogPages(c);
+      if (remaining > 0) {
+        return c.tr(
+          '$remaining new ${remaining == 1 ? 'page' : 'pages'} left to discover. Those coins stay saved; this catalog cannot fund another 15 minutes.',
+          'Осталось новых страниц: $remaining. Монеты сохранятся; на ещё 15 минут книг в этом наборе не хватит.',
+        );
+      }
       return c.tr(
         'You’ve explored these stories! Reread for fun; these pages won’t earn more coins.',
         'Эти истории уже изучены! Перечитывай для удовольствия; за эти страницы новых монет не будет.',

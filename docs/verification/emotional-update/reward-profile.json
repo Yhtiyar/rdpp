@@ -1,0 +1,9 @@
+{
+  "samples": 79,
+  "medianMs": 16.699999999999818,
+  "p95Ms": 66.70000000000027,
+  "over33ms": 8,
+  "drawFrameEvents": 31,
+  "paintEvents": 4,
+  "note": "Chromium release-web reward sequence, video enabled, software-rendered host. rAF cadence plus CDP frame/paint events; not Flutter raster or physical-device timings."
+}

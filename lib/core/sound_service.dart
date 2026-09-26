@@ -6,6 +6,8 @@ enum FeedbackCue { correct, retry, batchComplete, milestone, timeReady }
 /// One optional voice for accepted outcomes; a newer cue replaces the old one.
 class SoundService with WidgetsBindingObserver {
   SoundService({this.playback}) {
+    final lifecycle = WidgetsBinding.instance.lifecycleState;
+    _visible = lifecycle == null || lifecycle == AppLifecycleState.resumed;
     WidgetsBinding.instance.addObserver(this);
   }
   static final instance = SoundService();

@@ -122,6 +122,13 @@ void main() {
         ),
       );
       await t.pumpWidget(build('en'));
+      final announcement = t
+          .widgetList<Semantics>(find.byType(Semantics))
+          .singleWhere((s) => s.properties.liveRegion == true);
+      expect(
+        announcement.properties.label,
+        contains('You finished The Frog Prince!'),
+      );
       await t.pumpAndSettle();
       await t.pumpWidget(build('ru'));
       await t.pump();

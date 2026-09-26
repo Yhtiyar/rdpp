@@ -12,7 +12,8 @@ void main() {
           ),
         );
     String asset(WidgetTester t) =>
-        (t.widget<Image>(find.byType(Image).last).image as AssetImage)
+        (t.widget<Image>(find.byKey(const ValueKey('mimi-frame'))).image
+                as AssetImage)
             .assetName;
     testWidgets('should render each mood immediately with reduced motion', (
       t,
@@ -23,6 +24,19 @@ void main() {
         expect(t.hasRunningAnimations, isFalse);
       }
     });
+    testWidgets(
+      'should animate a distinct frame sequence for celebration and encouragement',
+      (t) async {
+        for (final mood in [MiMiMood.celebrating, MiMiMood.encouraging]) {
+          await t.pumpWidget(scene(mood, id: mood.index));
+          final first = asset(t);
+          await t.pump(const Duration(milliseconds: 300));
+          expect(asset(t), isNot(first));
+          await t.pump(const Duration(seconds: 1));
+          expect(asset(t), contains('${mood.name}.webp'));
+        }
+      },
+    );
     testWidgets(
       'should blink once for a new reaction and not replay on rebuild',
       (t) async {

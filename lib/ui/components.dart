@@ -244,13 +244,47 @@ class FloatArt extends StatefulWidget {
 }
 
 class _FloatArtState extends State<FloatArt>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   late final AnimationController _controller = AnimationController(
     vsync: this,
     duration: const Duration(seconds: 3),
-  )..repeat(reverse: true);
+  );
+  bool _visible = true;
+  @override
+  void initState() {
+    super.initState();
+    final lifecycle = WidgetsBinding.instance.lifecycleState;
+    _visible = lifecycle == null || lifecycle == AppLifecycleState.resumed;
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _configure();
+  }
+
+  void _configure() {
+    if (_visible &&
+        !MotionSpec.of(context).reduceMotion &&
+        TickerMode.valuesOf(context).enabled &&
+        (ModalRoute.of(context)?.isCurrent ?? true)) {
+      if (!_controller.isAnimating) _controller.repeat(reverse: true);
+    } else {
+      _controller.stop();
+      _controller.value = 0;
+    }
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    _visible = state == AppLifecycleState.resumed;
+    _configure();
+  }
+
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _controller.dispose();
     super.dispose();
   }
@@ -265,7 +299,7 @@ class _FloatArtState extends State<FloatArt>
         builder: (context, child) => Transform.translate(
           offset: Offset(
             0,
-            MediaQuery.disableAnimationsOf(context)
+            MotionSpec.of(context).reduceMotion
                 ? 0
                 : -3 * Curves.easeInOut.transform(_controller.value),
           ),

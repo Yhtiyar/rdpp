@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
 import '../../ui/theme.dart';
+import '../../ui/motion_spec.dart';
 import 'pin_pad.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -45,9 +46,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             style: const TextStyle(fontSize: 12, color: WinTheme.muted),
           ),
     child: AnimatedSwitcher(
-      duration: MediaQuery.disableAnimationsOf(context)
-          ? Duration.zero
-          : const Duration(milliseconds: 220),
+      duration: MotionSpec.of(context).transition,
       child: KeyedSubtree(
         key: ValueKey(_step),
         child: switch (_step) {
@@ -130,8 +129,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
             content: Text(
               c.tr(
-                'Read 10 pages and answer their questions to earn 100 coins. Exchange 100 coins for 15 minutes of screen time. Everything stays on this device.',
-                'Прочитай 10 страниц и ответь на вопросы, чтобы получить 100 монет. Обменяй их на 15 минут экранного времени. Все данные остаются на устройстве.',
+                'Read three pages, then pass a short quiz. Each verified page earns 10 coins. Exchange 100 coins for 15 minutes of screen time. Everything stays on this device.',
+                'Читай по три страницы и проходи проверку. За каждую проверенную страницу — 10 монет. Обменяй 100 монет на 15 минут экранного времени. Все данные остаются на устройстве.',
               ),
             ),
             actions: [
@@ -186,7 +185,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               borderRadius: BorderRadius.circular(26),
               onTap: () => setState(() => c.age = v.$1),
               child: AnimatedContainer(
-                duration: const Duration(milliseconds: 180),
+                duration: MotionSpec.of(context).selection,
                 padding: const EdgeInsets.all(16),
                 height: 153,
                 decoration: BoxDecoration(

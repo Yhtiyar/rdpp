@@ -98,12 +98,19 @@ void main() {
               ) as List).first
               as Map<String, dynamic>,
         );
-        c.markRead(book, 10);
-        final answer = c.answerPage(book, 10, book.pages[10].question.answer);
+        final batch = book.batches[3];
+        for (final page in batch.pageIndices) {
+          await c.markRead(book, page);
+        }
+        for (var q = 0; q < 3; q++) {
+          await c.answerBatch(book, batch, q, batch.questions[q].answer);
+        }
+        store.delay = true;
+        final answer = c.answerBatch(book, batch, 3, batch.questions[3].answer);
         await expectLater(c.redeem(15), throwsStateError);
         store.pending.complete();
         await answer;
-        expect(c.reading.balance, 110);
+        expect(c.reading.balance, 120);
         expect(platform.receipt, isNull);
       },
     );
@@ -112,9 +119,12 @@ void main() {
 
 class DelayedStore extends MemoryStore {
   final pending = Completer<void>();
+  bool delay = false;
   @override
   Future<void> write(Map<String, dynamic> value) async {
-    await pending.future;
+    if (delay) {
+      await pending.future;
+    }
     await super.write(value);
   }
 }

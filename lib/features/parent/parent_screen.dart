@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
 import '../../ui/theme.dart';
+import '../../core/sound_service.dart';
 import 'parent_access.dart';
 import 'parent_session_lock.dart';
 
@@ -293,6 +294,7 @@ class _ParentScreenState extends State<ParentScreen>
             value: c.sound,
             onChanged: (v) async {
               c.sound = v;
+              if (!v) SoundService.instance.silence();
               await c.save();
             },
           ),
