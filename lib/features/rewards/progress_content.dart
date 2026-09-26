@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
 import '../../ui/theme.dart';
+import '../../ui/mimi_character.dart';
+import '../reading/library_screen.dart';
 
 class ProgressContent extends StatelessWidget {
   const ProgressContent({
@@ -16,6 +18,46 @@ class ProgressContent extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = controller;
     final pages = c.reading.totalPages;
+    if (pages == 0) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Heading(
+            c.tr(
+              'Your first little win is waiting',
+              'Твоя первая победа впереди',
+            ),
+            large: true,
+          ),
+          gap,
+          const MiMiCharacter(mood: MiMiMood.encouraging, size: 190),
+          gap,
+          Text(
+            c.tr(
+              'Finish your first section with MiMi. Read, discover, and tell us what happened.',
+              'Закончи первый отрывок с МиМи. Читай, узнавай и расскажи, что произошло.',
+            ),
+          ),
+          gap,
+          SoftPanel(
+            color: WinTheme.peach,
+            child: Text(
+              c.tr(
+                'First little win · Understand your first section',
+                'Первая победа · Разберись в первом отрывке',
+              ),
+            ),
+          ),
+          gap,
+          WinButton(
+            c.tr('Let’s read a story', 'Почитаем историю'),
+            onPressed: c.journeyBook == null
+                ? null
+                : () => openBook(context, c, c.journeyBook!),
+          ),
+        ],
+      );
+    }
     final streak = c.reading.streak(DateTime.now());
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,

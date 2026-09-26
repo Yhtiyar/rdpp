@@ -5,6 +5,7 @@ import '../ui/components.dart';
 import '../ui/mimi_character.dart';
 import '../ui/theme.dart';
 import 'reading/library_screen.dart';
+import 'rewards/reward_message.dart';
 
 class HomeContent extends StatelessWidget {
   const HomeContent({
@@ -19,38 +20,31 @@ class HomeContent extends StatelessWidget {
   Widget build(BuildContext context) {
     final c = controller;
     final today = c.reading.pagesOn(DateTime.now());
-    final book =
-        c.books.where((b) => b.language == c.locale).firstOrNull ??
-        c.books.first;
+    final book = c.journeyBook;
+    if (book == null) return const SizedBox.shrink();
+    final remaining = remainingCatalogPages(c);
+    final batch = c.pendingBatch(book);
+    final started = c.lastOpenedBookId != null || c.reading.totalPages > 0;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Row(
-          children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-              decoration: BoxDecoration(
-                color: WinTheme.peach,
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Text(
-                c.tr(
-                  '${c.reading.streak(DateTime.now())} day streak',
-                  'Дней подряд: ${c.reading.streak(DateTime.now())}',
-                ),
-                style: const TextStyle(
-                  color: WinTheme.ink,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-            ),
-            const Spacer(),
-            Text(c.tr('Let’s grow!', 'Растём вместе!')),
-          ],
-        ),
-        gap,
         Heading(
-          c.tr('Your next\nlittle win awaits.', 'Твоя следующая\nпобеда ждёт.'),
+          remaining == 0
+              ? c.tr(
+                  'Two stories. So many discoveries!',
+                  'Две истории. Столько открытий!',
+                )
+              : today > 0
+              ? c.tr(
+                  'You understood $today pages today.',
+                  'Сегодня ты разобрался в $today страницах.',
+                )
+              : started
+              ? c.tr(
+                  'Welcome back to your story.',
+                  'С возвращением в твою историю.',
+                )
+              : c.tr('Let’s read our first story.', 'Почитаем первую историю.'),
           large: true,
         ),
         gap,
@@ -60,42 +54,33 @@ class HomeContent extends StatelessWidget {
           size: (MediaQuery.sizeOf(context).width.clamp(0, 400) - 44) * .7,
         ),
         gap,
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                c.tr('Today’s reading goal', 'Цель на сегодня'),
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-            ),
-            Text(
-              '${today.clamp(0, 10)} / 10',
-              style: const TextStyle(
-                color: WinTheme.purple,
-                fontWeight: FontWeight.w900,
-              ),
-            ),
-          ],
-        ),
-        gap,
-        ClipRRect(
-          borderRadius: BorderRadius.circular(9),
-          child: LinearProgressIndicator(
-            value: (today / 10).clamp(0, 1),
-            minHeight: 12,
-            backgroundColor: WinTheme.lavender,
-          ),
-        ),
+        Text(book.title, style: Theme.of(context).textTheme.headlineMedium),
         smallGap,
         Text(
-          c.tr(
-            '10 pages = 100 coins = 15 minutes',
-            '10 страниц = 100 монет = 15 минут',
-          ),
+          batch != null
+              ? c.tr(
+                  'Your section: pages ${batch.startPage + 1}–${batch.endPage}',
+                  'Твой отрывок: страницы ${batch.startPage + 1}–${batch.endPage}',
+                )
+              : c.tr(
+                  'A story to enjoy again. Previously verified pages earn no extra coins.',
+                  'История для нового прочтения. За проверенные страницы новых монет не будет.',
+                ),
         ),
+        if (!started) ...[
+          smallGap,
+          Text(
+            c.tr(
+              'Read the first section with MiMi, then try four questions.',
+              'Прочитай первый отрывок с МиМи и ответь на четыре вопроса.',
+            ),
+          ),
+        ],
         const SizedBox(height: 22),
         WinButton(
-          c.reading.completedCount(book.id) > 0
+          batch == null
+              ? c.tr('Read it again', 'Перечитать')
+              : started
               ? c.tr('Continue my story', 'Продолжить историю')
               : c.tr('Let’s read a story', 'Почитаем историю'),
           onPressed: () => openBook(context, c, book),
@@ -127,12 +112,7 @@ class HomeContent extends StatelessWidget {
                         ),
                         style: Theme.of(context).textTheme.titleMedium,
                       ),
-                      Text(
-                        c.tr(
-                          'A little effort. Time you earned.',
-                          'Твои старания — твоё время.',
-                        ),
-                      ),
+                      Text(rewardMessage(c)),
                     ],
                   ),
                 ),

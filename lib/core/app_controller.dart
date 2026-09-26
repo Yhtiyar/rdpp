@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import 'local_store.dart';
+import 'batch_progress.dart';
 import 'parent_auth.dart';
 import 'reading_ledger.dart';
 import 'time_wallet.dart';
@@ -18,11 +19,13 @@ class AppController extends ChangeNotifier {
   bool purchasing = false;
   List<Book> books = [];
   ReadingLedger reading = ReadingLedger();
-  final Set<String> _readPages = {};
+  final Map<String, BatchProgress> _batchProgress = {};
   double textSize = 20;
   bool _answering = false;
+  bool _markingRead = false;
   ParentAuth auth = ParentAuth();
   String locale = 'en';
+  String? lastOpenedBookId;
   int age = 7;
   bool onboarded = false;
   bool sound = true;
@@ -33,6 +36,7 @@ class AppController extends ChangeNotifier {
   Future<void> load() async {
     final data = await store.read();
     if (data != null) {
+      lastOpenedBookId = data['lastOpenedBookId'] as String?;
       locale = data['locale'] as String? ?? 'en';
       age = data['age'] as int? ?? 7;
       onboarded = data['onboarded'] as bool? ?? false;
@@ -56,41 +60,193 @@ class AppController extends ChangeNotifier {
         ? null
         : Map<String, dynamic>.from(data['pendingPurchase'] as Map);
     textSize = (data['textSize'] as num?)?.toDouble() ?? 20;
+    _batchProgress.clear();
+    final sessions = Map<String, dynamic>.from(
+      data['batchProgress'] as Map? ?? {},
+    );
+    for (final entry in sessions.entries) {
+      _batchProgress[entry.key] = BatchProgress.fromJson(
+        Map<String, dynamic>.from(entry.value as Map),
+      );
+    }
+  }
+
+  Book? get journeyBook {
+    final remembered = books.where((b) => b.id == lastOpenedBookId).firstOrNull;
+    if (remembered != null) return remembered;
+    final unfinished = books.where((b) => pendingBatch(b) != null);
+    return unfinished.where((b) => b.language == locale).firstOrNull ??
+        unfinished.firstOrNull ??
+        books.where((b) => b.language == locale).firstOrNull ??
+        books.firstOrNull;
+  }
+
+  Future<void> rememberBook(String bookId) async {
+    if (!books.any((b) => b.id == bookId)) {
+      throw ArgumentError.value(bookId, 'bookId');
+    }
+    final previous = lastOpenedBookId;
+    lastOpenedBookId = bookId;
+    try {
+      await save();
+    } catch (_) {
+      lastOpenedBookId = previous;
+      try {
+        await save();
+      } catch (_) {
+        /* Preserve the original storage failure. */
+      }
+      rethrow;
+    }
+  }
+
+  BookBatch? pendingBatch(Book book) {
+    for (final batch in book.batches) {
+      if (!batch.pageIndices.every(
+        (page) => reading.isComplete(book.id, page),
+      )) {
+        return batch;
+      }
+    }
+    return null;
+  }
+
+  BatchProgress progressFor(Book book, BookBatch batch) => _batchProgress
+      .putIfAbsent('${book.id}:${batch.startPage}', BatchProgress.new);
+
+  bool batchReady(Book book, BookBatch batch) =>
+      !_markingRead &&
+      batch.pageIndices.every(progressFor(book, batch).readPages.contains);
+
+  bool canOpenPage(Book book, int page) {
+    if (page < 0 || page >= book.pages.length) {
+      return false;
+    }
+    final batch = pendingBatch(book);
+    if (batch == null) {
+      return true;
+    }
+    final progress = progressFor(book, batch);
+    final furthest = batch.pageIndices.firstWhere(
+      (p) => !progress.readPages.contains(p),
+      orElse: () => batch.endPage - 1,
+    );
+    return page <= furthest;
   }
 
   Future<void> savePosition(Book book, int page) async {
-    if (page < 0 || page >= book.pages.length) {
-      throw RangeError.index(page, book.pages);
+    if (_markingRead) {
+      throw StateError('busy');
+    }
+    if (!canOpenPage(book, page)) {
+      throw StateError('Finish the current section first.');
     }
     reading.savePosition(book.id, page);
     await save();
   }
 
-  void markRead(Book book, int page) {
-    _readPages.add('${book.id}:$page');
-  }
-
-  Future<int> answerPage(Book book, int page, int answer) async {
-    if (_answering ||
-        !_readPages.contains('${book.id}:$page') ||
-        book.pages[page].question.answer != answer) {
-      return -1;
+  Future<void> markRead(Book book, int page) async {
+    if (_markingRead) {
+      throw StateError('busy');
     }
-    _answering = true;
+    final batch = pendingBatch(book);
+    if (_answering ||
+        batch == null ||
+        page < batch.startPage ||
+        page >= batch.endPage ||
+        !canOpenPage(book, page)) {
+      return;
+    }
+    final progress = progressFor(book, batch);
+    if (progress.readPages.contains(page)) {
+      return;
+    }
+    final before = progress.toJson();
+    _markingRead = true;
+    progress.readPages.add(page);
+    progress.needsReread = false;
     try {
-      final coins = reading.completePage(book.id, page, DateTime.now());
-      if (coins == 0) {
-        return 0;
-      }
       await save();
-      return coins;
     } catch (_) {
-      reading.revokePage(book.id, page);
-      // Flush a correction after any already-queued position/settings snapshots.
+      _batchProgress['${book.id}:${batch.startPage}'] = BatchProgress.fromJson(
+        before,
+      );
+      // An unrelated save may have queued the optimistic read marker. Ensure
+      // the rollback follows those writes instead of resurrecting it on reload.
       try {
         await save();
       } catch (_) {
-        /* Keep the storage error visible. */
+        /* Preserve the storage error. */
+      }
+      notifyListeners();
+      rethrow;
+    } finally {
+      _markingRead = false;
+      notifyListeners();
+    }
+  }
+
+  Future<BatchAnswerResult> answerBatch(
+    Book book,
+    BookBatch batch,
+    int questionIndex,
+    int answer,
+  ) async {
+    if (_answering || _markingRead || purchasing || pendingPurchase != null) {
+      throw StateError('busy');
+    }
+    final progress = progressFor(book, batch);
+    if (pendingBatch(book)?.startPage != batch.startPage ||
+        !batchReady(book, batch) ||
+        progress.needsReread ||
+        progress.passed ||
+        questionIndex != progress.questionIndex ||
+        questionIndex < 0 ||
+        questionIndex >= batch.questions.length) {
+      throw StateError('Finish reading this section before answering.');
+    }
+    final question = batch.questions[questionIndex];
+    if (answer < 0 || answer >= question.options.length) {
+      throw RangeError.index(answer, question.options);
+    }
+    _answering = true;
+    final beforeProgress = progress.toJson();
+    final beforeReading = reading.toJson();
+    try {
+      final correct = answer == question.answer;
+      progress.recordAnswer(
+        correct: correct,
+        questionCount: batch.questions.length,
+      );
+      var coins = 0;
+      late BatchAnswerOutcome outcome;
+      if (progress.needsReread) {
+        reading.savePosition(book.id, batch.startPage);
+        outcome = BatchAnswerOutcome.reset;
+      } else if (progress.passed) {
+        for (final page in batch.pageIndices) {
+          coins += reading.completePage(book.id, page, DateTime.now());
+        }
+        outcome = BatchAnswerOutcome.completed;
+      } else if (correct) {
+        outcome = BatchAnswerOutcome.correct;
+      } else {
+        outcome = progress.questionIndex == questionIndex
+            ? BatchAnswerOutcome.wrong
+            : BatchAnswerOutcome.exhausted;
+      }
+      await save();
+      return BatchAnswerResult(outcome, coins: coins);
+    } catch (_) {
+      reading = ReadingLedger.fromJson(beforeReading);
+      _batchProgress['${book.id}:${batch.startPage}'] = BatchProgress.fromJson(
+        beforeProgress,
+      );
+      // Flush the rollback after any already queued snapshots.
+      try {
+        await save();
+      } catch (_) {
+        /* The storage error stays visible. */
       }
       notifyListeners();
       rethrow;
@@ -197,12 +353,17 @@ class AppController extends ChangeNotifier {
   Map<String, dynamic> get snapshot => {
     'version': 1,
     'locale': locale,
+    'lastOpenedBookId': lastOpenedBookId,
     'age': age,
     'onboarded': onboarded,
     'sound': sound,
     'dailyLimit': dailyLimit,
     'auth': auth.toJson(),
     'reading': reading.toJson(),
+    'batchProgress': {
+      for (final entry in _batchProgress.entries)
+        entry.key: entry.value.toJson(),
+    },
     'textSize': textSize,
     'wallet': wallet.toJson(),
     'pendingPurchase': pendingPurchase == null

@@ -204,9 +204,30 @@ Future<void> openBook(
   BuildContext context,
   AppController controller,
   Book book,
-) => Navigator.push<void>(
-  context,
-  MaterialPageRoute(
-    builder: (_) => ReaderScreen(controller: controller, book: book),
-  ),
-);
+) async {
+  try {
+    await controller.rememberBook(book.id);
+  } catch (_) {
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            controller.error ??
+                controller.tr(
+                  'Could not save your place.',
+                  'Не удалось сохранить место.',
+                ),
+          ),
+        ),
+      );
+    }
+    return;
+  }
+  if (!context.mounted) return;
+  await Navigator.push<void>(
+    context,
+    MaterialPageRoute(
+      builder: (_) => ReaderScreen(controller: controller, book: book),
+    ),
+  );
+}
