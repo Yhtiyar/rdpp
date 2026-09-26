@@ -6,6 +6,8 @@ import '../../core/app_controller.dart';
 import '../../core/sound_service.dart';
 import '../../ui/components.dart';
 import '../../ui/theme.dart';
+import '../../ui/mimi_character.dart';
+import 'reward_message.dart';
 
 class WalletScreen extends StatefulWidget {
   const WalletScreen({super.key, required this.controller});
@@ -96,7 +98,7 @@ class _WalletScreenState extends State<WalletScreen> {
       await c.redeem(_minutes);
       if (mounted) {
         setState(() => _ready = true);
-        SoundService.instance.play('success', enabled: c.sound);
+        SoundService.instance.playCue(FeedbackCue.timeReady, enabled: c.sound);
       }
     } catch (e) {
       if (mounted) {
@@ -186,7 +188,11 @@ class _WalletScreenState extends State<WalletScreen> {
               ),
             ),
             gap,
-            const FloatArt('mimi_celebrate', height: 225),
+            MiMiCharacter(
+              mood: MiMiMood.proud,
+              size: 200,
+              reactionId: _ready ? 1 : null,
+            ),
             gap,
             WinButton(
               c.tr('Back to my books', 'К моим книгам'),
@@ -223,7 +229,8 @@ class _WalletScreenState extends State<WalletScreen> {
               ),
             ),
             gap,
-            ...[15, 30, 45].map((minutes) {
+            if (reachableDurations(c).isEmpty) ...[Text(rewardMessage(c)), gap],
+            ...reachableDurations(c).map((minutes) {
               final cost = minutes * 100 ~/ 15;
               final selected = minutes == _minutes;
               return Padding(
@@ -345,7 +352,8 @@ class _WalletScreenState extends State<WalletScreen> {
                     )
                   : c.tr('Use $_minutes minutes', 'Получить $_minutes минут'),
               onPressed:
-                  c.purchasing ||
+                  !reachableDurations(c).contains(_minutes) ||
+                      c.purchasing ||
                       c.pendingPurchase != null ||
                       c.wallet.problem(
                             minutes: _minutes,

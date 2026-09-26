@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import 'theme.dart';
+import 'motion_spec.dart';
 
 class Celebration extends StatefulWidget {
   const Celebration({super.key, required this.child});
@@ -12,13 +13,39 @@ class Celebration extends StatefulWidget {
 }
 
 class _CelebrationState extends State<Celebration>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   late final AnimationController _animation = AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 1800),
-  )..forward();
+    duration: const Duration(milliseconds: 1100),
+  );
+  bool _started = false;
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (MotionSpec.of(context).reduceMotion ||
+        !TickerMode.valuesOf(context).enabled) {
+      _animation.value = 1;
+      _started = true;
+    } else if (!_started) {
+      _started = true;
+      _animation.forward();
+    }
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state != AppLifecycleState.resumed) _animation.value = 1;
+  }
+
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _animation.dispose();
     super.dispose();
   }
@@ -27,7 +54,7 @@ class _CelebrationState extends State<Celebration>
   Widget build(BuildContext context) => Stack(
     children: [
       widget.child,
-      if (!MediaQuery.disableAnimationsOf(context))
+      if (!MotionSpec.of(context).reduceMotion)
         Positioned.fill(
           child: IgnorePointer(
             child: AnimatedBuilder(

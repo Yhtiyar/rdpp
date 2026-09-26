@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import '../../core/app_controller.dart';
 import '../../core/batch_progress.dart';
 import '../../core/sound_service.dart';
-import '../../ui/celebration.dart';
+import '../rewards/reward_celebration.dart';
+import '../rewards/reward_message.dart';
 import '../../ui/components.dart';
 import '../../ui/theme.dart';
 import 'book.dart';
 import 'quiz_feedback_panel.dart';
 import '../../ui/motion_spec.dart';
+import '../../ui/mimi_character.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({
@@ -27,6 +29,10 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   final ScrollController _scroll = ScrollController();
   int? _selected, _coins;
+  int _reactionId = 0;
+  int _balanceBefore = 0, _balanceAfter = 0;
+  List<int> _milestones = [];
+  bool _bookCompleted = false;
   late int _questionIndex;
   bool _busy = false, _hint = false, _reset = false, _resetByErrors = false;
   BatchAnswerOutcome? _feedback;
@@ -77,6 +83,8 @@ class _QuizScreenState extends State<QuizScreen> {
       _busy = true;
       _error = null;
     });
+    final pagesBefore = c.reading.totalPages;
+    final balanceBefore = c.reading.balance;
     final thirdError = progress.errors == 2 && _selected != q.answer;
     try {
       final result = await c.answerBatch(
@@ -89,8 +97,19 @@ class _QuizScreenState extends State<QuizScreen> {
         return;
       }
       setState(() {
+        _reactionId++;
         if (result.outcome == BatchAnswerOutcome.completed) {
           _coins = result.coins;
+          _balanceBefore = balanceBefore;
+          _balanceAfter = c.reading.balance;
+          _milestones = [
+            1,
+            10,
+            22,
+          ].where((m) => pagesBefore < m && c.reading.totalPages >= m).toList();
+          _bookCompleted =
+              c.reading.completedCount(widget.book.id) ==
+              widget.book.pages.length;
         } else if (result.outcome == BatchAnswerOutcome.reset) {
           _reset = true;
           _resetByErrors = thirdError;
@@ -99,11 +118,14 @@ class _QuizScreenState extends State<QuizScreen> {
           _hint = _wrong;
         }
       });
-      SoundService.instance.play(
-        result.outcome == BatchAnswerOutcome.correct ||
-                result.outcome == BatchAnswerOutcome.completed
-            ? 'success'
-            : 'try_again',
+      SoundService.instance.playCue(
+        result.outcome == BatchAnswerOutcome.completed
+            ? (_milestones.isNotEmpty || _bookCompleted
+                  ? FeedbackCue.milestone
+                  : FeedbackCue.batchComplete)
+            : result.outcome == BatchAnswerOutcome.correct
+            ? FeedbackCue.correct
+            : FeedbackCue.retry,
         enabled: c.sound,
       );
     } catch (_) {
@@ -133,6 +155,15 @@ class _QuizScreenState extends State<QuizScreen> {
           ? null
           : QuizFeedbackPanel(
               outcome: _feedback!,
+              character: MiMiCharacter(
+                mood: _feedback == BatchAnswerOutcome.correct
+                    ? MiMiMood.proud
+                    : _feedback == BatchAnswerOutcome.exhausted
+                    ? MiMiMood.calm
+                    : MiMiMood.encouraging,
+                size: 64,
+                reactionId: _reactionId,
+              ),
               message: _feedbackMessage,
               actionLabel: _feedback == BatchAnswerOutcome.wrong
                   ? c.tr('Try again', 'Попробовать ещё')
@@ -158,12 +189,15 @@ class _QuizScreenState extends State<QuizScreen> {
     crossAxisAlignment: CrossAxisAlignment.stretch,
     children: [
       Heading(
-        c.tr('Let’s read it once more', 'Давай прочитаем ещё раз'),
+        c.tr(
+          'Let’s read this part together again',
+          'Давай перечитаем этот отрывок вместе',
+        ),
         large: true,
         center: true,
       ),
       gap,
-      const Art('mimi_face', height: 160),
+      MiMiCharacter(mood: MiMiMood.calm, size: 160, reactionId: _reactionId),
       gap,
       Text(
         _resetByErrors
@@ -249,6 +283,7 @@ class _QuizScreenState extends State<QuizScreen> {
           padding: const EdgeInsets.only(bottom: 10),
           child: Semantics(
             selected: _selected == i,
+            enabled: !_busy && _feedback == null,
             button: true,
             child: InkWell(
               onTap: _busy || _feedback != null
@@ -319,7 +354,10 @@ class _QuizScreenState extends State<QuizScreen> {
       if (_feedback == null) ...[
         Row(
           children: [
-            const Art('mimi_face', width: 64, height: 66),
+            MiMiCharacter(
+              mood: _selected == null ? MiMiMood.ready : MiMiMood.thinking,
+              size: 64,
+            ),
             const SizedBox(width: 8),
             Expanded(
               child: Text(
@@ -347,10 +385,8 @@ class _QuizScreenState extends State<QuizScreen> {
   );
 
   String get _feedbackMessage => switch (_feedback) {
-    BatchAnswerOutcome.correct => c.tr(
-      'Correct! You spotted that detail!',
-      'Правильно! Ты заметил эту деталь!',
-    ),
+    BatchAnswerOutcome.correct =>
+      '${c.tr(_attemptsLeft == 0 ? 'Correct! You tried again and found it.' : 'Correct! You spotted that detail!', _attemptsLeft == 0 ? 'Правильно! Ещё одна попытка — и получилось.' : 'Правильно! Ты заметил эту деталь!')}\n${q.explanation}',
     BatchAnswerOutcome.exhausted => c.tr(
       'No attempts left. Let’s practice the next one. We’ll reread this section before earning coins.',
       'Попытки закончились. Попробуем следующий вопрос. Перед получением монет перечитаем отрывок.',
@@ -358,99 +394,20 @@ class _QuizScreenState extends State<QuizScreen> {
     _ =>
       '${c.tr('Let’s look for a clue. One attempt left.', 'Поищем подсказку. Осталась одна попытка.')}\n${q.hint}',
   };
-  Widget _success() => Celebration(
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Heading(c.tr('You did it!', 'Получилось!'), large: true, center: true),
-        gap,
-        const FloatArt('mimi_celebrate', height: 280),
-        gap,
-        Heading(
-          _coins! > 0
-              ? c.tr('+$_coins coins', '+$_coins монет')
-              : c.tr('Great remembering!', 'Отличная память!'),
-          large: true,
-          center: true,
-        ),
-        smallGap,
-        Text(
-          c.tr(
-            'Pages ${widget.batch.startPage + 1}–${widget.batch.endPage} verified. A whole section understood!',
-            'Страницы ${widget.batch.startPage + 1}–${widget.batch.endPage} проверены. Целый отрывок понят!',
-          ),
-          textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.titleLarge,
-        ),
-        gap,
-        SoftPanel(
-          color: WinTheme.mint,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              const Icon(Icons.check_circle, color: WinTheme.green),
-              const SizedBox(width: 10),
-              Flexible(
-                child: Text(
-                  _coins! > 0
-                      ? c.tr('Added to your coins', 'Монеты добавлены')
-                      : c.tr(
-                          'You already earned this section’s coins',
-                          'Монеты за этот отрывок уже получены',
-                        ),
-                  style: const TextStyle(
-                    color: WinTheme.green,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-        gap,
-        SoftPanel(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                c.tr('Your next 100 coins', 'Следующие 100 монет'),
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              smallGap,
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8),
-                child: LinearProgressIndicator(
-                  value: (c.reading.totalPages % 10) / 10,
-                  minHeight: 12,
-                  backgroundColor: const Color(0xFFDED0F8),
-                ),
-              ),
-              smallGap,
-              Text(
-                c.tr(
-                  '${c.reading.totalPages % 10} of 10 pages • 15 minutes of playtime',
-                  '${c.reading.totalPages % 10} из 10 страниц • 15 минут отдыха',
-                ),
-              ),
-            ],
-          ),
-        ),
-        gap,
-        WinButton(
-          c.tr('Keep reading', 'Читать дальше'),
-          onPressed: () => Navigator.pop(context, true),
-        ),
-        smallGap,
-        WinButton(
-          c.tr('Back to my books', 'К моим книгам'),
-          secondary: true,
-          icon: null,
-          onPressed: () {
-            Navigator.pop(context, false);
-            Navigator.pop(context);
-          },
-        ),
-      ],
-    ),
+  Widget _success() => RewardCelebration(
+    coinsEarned: _coins!,
+    balanceBefore: _balanceBefore,
+    balanceAfter: _balanceAfter,
+    bookCompleted: _bookCompleted,
+    newlyReachedMilestones: _milestones,
+    title: widget.book.title,
+    cover: widget.book.cover,
+    locale: c.locale,
+    nextMessage: rewardMessage(c),
+    onContinue: () => Navigator.pop(context, true),
+    onBooks: () {
+      Navigator.pop(context, false);
+      Navigator.pop(context);
+    },
   );
 }
