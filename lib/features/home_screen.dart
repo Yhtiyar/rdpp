@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/app_controller.dart';
 import '../ui/components.dart';
-import '../ui/mimi_character.dart';
+import '../ui/mimi_reading.dart';
 import '../ui/theme.dart';
 import 'reading/library_screen.dart';
 import 'rewards/reward_message.dart';
@@ -48,11 +48,7 @@ class HomeContent extends StatelessWidget {
           large: true,
         ),
         gap,
-        MiMiCharacter(
-          mood: MiMiMood.ready,
-          idle: true,
-          size: (MediaQuery.sizeOf(context).width.clamp(0, 400) - 44) * .7,
-        ),
+        const MiMiReading(),
         gap,
         Text(book.title, style: Theme.of(context).textTheme.headlineMedium),
         smallGap,

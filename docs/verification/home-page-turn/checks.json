@@ -1,0 +1,329 @@
+{
+  "passed": true,
+  "observedPageTurnStartsMs": [
+    4232,
+    8846
+  ],
+  "intervalMs": 4614,
+  "samples": [
+    {
+      "ms": 64,
+      "changed": false
+    },
+    {
+      "ms": 205,
+      "changed": false
+    },
+    {
+      "ms": 346,
+      "changed": false
+    },
+    {
+      "ms": 483,
+      "changed": false
+    },
+    {
+      "ms": 629,
+      "changed": false
+    },
+    {
+      "ms": 772,
+      "changed": false
+    },
+    {
+      "ms": 914,
+      "changed": false
+    },
+    {
+      "ms": 1057,
+      "changed": false
+    },
+    {
+      "ms": 1201,
+      "changed": false
+    },
+    {
+      "ms": 1344,
+      "changed": false
+    },
+    {
+      "ms": 1485,
+      "changed": false
+    },
+    {
+      "ms": 1630,
+      "changed": false
+    },
+    {
+      "ms": 1773,
+      "changed": false
+    },
+    {
+      "ms": 1912,
+      "changed": false
+    },
+    {
+      "ms": 2057,
+      "changed": false
+    },
+    {
+      "ms": 2200,
+      "changed": false
+    },
+    {
+      "ms": 2348,
+      "changed": false
+    },
+    {
+      "ms": 2497,
+      "changed": false
+    },
+    {
+      "ms": 2636,
+      "changed": false
+    },
+    {
+      "ms": 2781,
+      "changed": false
+    },
+    {
+      "ms": 2924,
+      "changed": false
+    },
+    {
+      "ms": 3064,
+      "changed": false
+    },
+    {
+      "ms": 3201,
+      "changed": false
+    },
+    {
+      "ms": 3345,
+      "changed": false
+    },
+    {
+      "ms": 3486,
+      "changed": false
+    },
+    {
+      "ms": 4232,
+      "changed": true
+    },
+    {
+      "ms": 4469,
+      "changed": true
+    },
+    {
+      "ms": 4612,
+      "changed": false
+    },
+    {
+      "ms": 4753,
+      "changed": false
+    },
+    {
+      "ms": 4896,
+      "changed": false
+    },
+    {
+      "ms": 5048,
+      "changed": false
+    },
+    {
+      "ms": 5198,
+      "changed": false
+    },
+    {
+      "ms": 5339,
+      "changed": false
+    },
+    {
+      "ms": 5478,
+      "changed": false
+    },
+    {
+      "ms": 5617,
+      "changed": false
+    },
+    {
+      "ms": 5762,
+      "changed": false
+    },
+    {
+      "ms": 5903,
+      "changed": false
+    },
+    {
+      "ms": 6045,
+      "changed": false
+    },
+    {
+      "ms": 6190,
+      "changed": false
+    },
+    {
+      "ms": 6330,
+      "changed": false
+    },
+    {
+      "ms": 6472,
+      "changed": false
+    },
+    {
+      "ms": 6612,
+      "changed": false
+    },
+    {
+      "ms": 6752,
+      "changed": false
+    },
+    {
+      "ms": 6897,
+      "changed": false
+    },
+    {
+      "ms": 7036,
+      "changed": false
+    },
+    {
+      "ms": 7178,
+      "changed": false
+    },
+    {
+      "ms": 7319,
+      "changed": false
+    },
+    {
+      "ms": 7463,
+      "changed": false
+    },
+    {
+      "ms": 7605,
+      "changed": false
+    },
+    {
+      "ms": 7747,
+      "changed": false
+    },
+    {
+      "ms": 7888,
+      "changed": false
+    },
+    {
+      "ms": 8030,
+      "changed": false
+    },
+    {
+      "ms": 8172,
+      "changed": false
+    },
+    {
+      "ms": 8314,
+      "changed": false
+    },
+    {
+      "ms": 8456,
+      "changed": false
+    },
+    {
+      "ms": 8598,
+      "changed": false
+    },
+    {
+      "ms": 8846,
+      "changed": true
+    },
+    {
+      "ms": 9107,
+      "changed": true
+    },
+    {
+      "ms": 9371,
+      "changed": true
+    },
+    {
+      "ms": 9524,
+      "changed": false
+    },
+    {
+      "ms": 9663,
+      "changed": false
+    },
+    {
+      "ms": 9802,
+      "changed": false
+    },
+    {
+      "ms": 9945,
+      "changed": false
+    },
+    {
+      "ms": 10086,
+      "changed": false
+    },
+    {
+      "ms": 10229,
+      "changed": false
+    },
+    {
+      "ms": 10370,
+      "changed": false
+    },
+    {
+      "ms": 10516,
+      "changed": false
+    },
+    {
+      "ms": 10662,
+      "changed": false
+    },
+    {
+      "ms": 10803,
+      "changed": false
+    },
+    {
+      "ms": 10947,
+      "changed": false
+    },
+    {
+      "ms": 11085,
+      "changed": false
+    },
+    {
+      "ms": 11230,
+      "changed": false
+    },
+    {
+      "ms": 11379,
+      "changed": false
+    },
+    {
+      "ms": 11530,
+      "changed": false
+    },
+    {
+      "ms": 11667,
+      "changed": false
+    },
+    {
+      "ms": 11815,
+      "changed": false
+    },
+    {
+      "ms": 11957,
+      "changed": false
+    }
+  ],
+  "checks": [
+    "welcome artwork on Home",
+    "two turns five seconds apart",
+    "steady illustration between turns",
+    "no reading-state changes",
+    "reduced motion remains still",
+    "320px and desktop layouts",
+    "silent page turns",
+    "no browser errors"
+  ],
+  "errors": []
+}
