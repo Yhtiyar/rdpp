@@ -858,6 +858,10 @@ jobs:
           echo "  identity: $CODE_SIGN_IDENTITY"
           echo "The build writes these into the app target's build settings; its PRODUCT_BUNDLE_IDENTIFIER must match the app id above. Extension targets get the profiles listed above by bundle id."
 
+      - name: Configure preview without Screen Time
+        if: env.LITTLEWINS_WITHOUT_SC == '1'
+        run: python3 tools/configure_ios_preview.py
+
       - name: Build IPA
         env:
           BUILD_ID: ${{ steps.params.outputs.build_id }}
@@ -1270,6 +1274,10 @@ jobs:
             rm -rf Payload
             echo "Created unsigned IPA: build/$BUILD_ID.ipa"
           fi
+
+      - name: Verify preview IPA has no Screen Time extension
+        if: env.LITTLEWINS_WITHOUT_SC == '1'
+        run: python3 tools/verify_preview_ipa.py build/*.ipa
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v7
