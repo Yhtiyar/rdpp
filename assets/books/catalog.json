@@ -11,197 +11,339 @@
       {
         "sourcePage": 5,
         "text": "Once upon a time, a mighty king lived in a palace in the shadow of a dark, mysterious forest. He had only one child, a beautiful little girl with long, flowing hair, and her favorite plaything was a bright golden ball that looked just like the sun in the sky. Day after day, she would run and skip under the shadow of the huge forest trees, tossing and bouncing her ball to amuse herself. She liked to pretend that her ball was indeed the sun and that the whole wide world was hers to play with.\n\nOne day, however, as she spun the ball in her little hands, it slipped from her fingers, rolled over the leafy ground, and fell— splash!—into a deep well. She ran quickly to the edge of the well and peered in, but her beautiful golden toy had vanished into darkness.",
-        "image": "assets/books/frog_01.webp",
-        "question": {
-          "prompt": "What fell into the well?",
-          "options": [
-            "A silver crown",
-            "A golden ball",
-            "A little shoe"
-          ],
-          "answer": 1,
-          "hint": "The princess’s favourite toy looked like the sun."
-        }
+        "image": "assets/books/frog_01.webp"
       },
       {
         "sourcePage": 7,
         "text": "She began to cry loudly, because she was not used to disappointment, when she suddenly heard a timid, scratchy voice behind her say, “What is the matter, princess?” Spinning around, she realized that the speaker was the ickiest frog she had ever seen. “I have dropped my ball into the well, and it is lost forever!” she wailed. The frog looked at her and blinked. “I could get it for you, if . . .” “Oh, froggy! I’d give you anything you want if you could get my lovely ball back! You could have my crown!” “I do not want a crown,” the frog said. “Or all my jewels!” she offered. “What would a frog do with jewels?” he wondered. “I do not care!” the princess snapped. “Just get my ball!”",
-        "image": "assets/books/frog_02.webp",
-        "question": {
-          "prompt": "What did the princess offer the frog?",
-          "options": [
-            "Her crown and jewels",
-            "A new pond",
-            "A bowl of soup"
-          ],
-          "answer": 0,
-          "hint": "She offered the precious things she owned."
-        }
+        "image": "assets/books/frog_02.webp"
       },
       {
         "sourcePage": 9,
         "text": "“Well,” the frog said, “I do not want jewels, but I do want a friend. It is a lonely life being an icky frog. If I fetch your ball from the dark, chilly well for you, will you agree to be my friend forever afterward, and love me, and share everything that you have with me?”\n\n“Of course!” the princess promised. But in her heart, she thought, “Who cares what that old frog wants? He’ll never leave this well anyway.”\n\nThe frog did not know her thoughts, however, and he dived eagerly down into the well. A few seconds later, he emerged from the water holding the precious golden ball between two slimy webbed hands. “It was very cold down there,” the frog remarked, but the princess was not listening.",
-        "image": "assets/books/frog_03.webp",
-        "question": {
-          "prompt": "What did the frog want in return?",
-          "options": [
-            "A golden crown",
-            "A bigger well",
-            "A friend who would share with him"
-          ],
-          "answer": 2,
-          "hint": "The frog said that his life was lonely."
-        }
+        "image": "assets/books/frog_03.webp"
       },
       {
         "sourcePage": 11,
         "text": "“Hurray!” she cried, and seizing the ball, she immediately ran back to the palace. The frog croaked after her, “Wait! I cannot run as fast as you!” She ignored him, however, and considered the matter settled.\n\nThat night, however, while the court feasted, a loud knock sounded on the door. The princess loved visitors, so she ran to open the door, but who should stand on the palace stairs but the icky, warty frog! She slammed the door in his face and ran back to her delicious dinner on her golden plate. Behind the heavy wood door, though, she could hear him croaking: “O careful, careful, princess fair! Promises are more than air!”",
-        "image": "assets/books/frog_04.webp",
-        "question": {
-          "prompt": "Who knocked on the palace door?",
-          "options": [
-            "The king",
-            "The frog",
-            "A witch"
-          ],
-          "answer": 1,
-          "hint": "The visitor had followed the princess from the well."
-        }
+        "image": "assets/books/frog_04.webp"
       },
       {
         "sourcePage": 13,
         "text": "“Who was at the door, my daughter?” asked the king. “Nobody! Just an old frog,” she said, and she told him how the frog had retrieved her ball from the well on the condition that she would be its friend and share everything she had with it forever afterward. She thought her father would be pleased with how she had escaped the frog’s demands, but, to her surprise, he frowned.\n\nThe princess was shocked and wanted to refuse, but she could see from her father’s stern looks that she had to obey.\n\nUnwillingly, she got up and opened the door. The frog was still sitting patiently on the steps of the palace. When he saw the princess, he smiled happily—a smiling frog is quite a sight to behold—and bounced up and down with froggy glee.",
-        "image": "assets/books/frog_05.webp",
-        "question": {
-          "prompt": "How did the king react to the princess’s story?",
-          "options": [
-            "He frowned",
-            "He laughed at the frog",
-            "He sent the frog away"
-          ],
-          "answer": 0,
-          "hint": "He was not pleased that she had broken her promise."
-        }
+        "image": "assets/books/frog_05.webp"
       },
       {
         "sourcePage": 15,
         "text": "Unwillingly, the princess allowed the frog into the magnificent palace. He bounced up and down, as frogs will when they are very happy, but she only glared at him dreadfully. She thought to herself, “Why should I have to keep my promise to this old croaker just because he fetched my ball from the well?” Her father insisted, however, that she should be his friend just as she said she would.\n\nThe frog hopped after her into the great dining hall—boing! boing!—and immediately jumped onto the table.\n\n“So, princess,” he said, “we shall be the best of friends now.” With a contented croak, he began to eat from her shining gold plate and sparkling silver bowl. Frogs do not eat very neatly, I’m afraid, and the princess, noticing how he smeared the food all over his face, turned away in disgust. She refused to look at the frog or speak to him, but she still felt sick just thinking of such an ugly creature eating with her.",
-        "image": "assets/books/frog_06.webp",
-        "question": {
-          "prompt": "What did the frog do in the dining hall?",
-          "options": [
-            "He hid under the table",
-            "He ate from the princess’s plate",
-            "He danced with the king"
-          ],
-          "answer": 1,
-          "hint": "The princess had promised to share everything."
-        }
+        "image": "assets/books/frog_06.webp"
       },
       {
         "sourcePage": 17,
         "text": "“What a lovely golden plate,” the frog remarked. “It reminds me of your ball. You have such beautiful possessions, princess. It must be nice to be a princess and have everything you want.” “If I had everything I wanted,” the princess retorted, “you would not be eating with me.”\n\nThe frog ignored her rudeness. “May I have a drink from your cup?” he asked politely. The princess was about to refuse, but her father caught her eye, and so she nodded. The frog drank thirstily. Perhaps it was because of that long hop from the well to the palace doors! “Would you like to drink now, princess?” he asked, nudging the cup back in her direction. “You must be joking!” she snapped. “Princesses do not drink after yucky frogs.”",
-        "image": "assets/books/frog_07.webp",
-        "question": {
-          "prompt": "What did the frog politely ask for?",
-          "options": [
-            "A new crown",
-            "A golden ball",
-            "A drink from her cup"
-          ],
-          "answer": 2,
-          "hint": "He was thirsty after his long hop to the palace."
-        }
+        "image": "assets/books/frog_07.webp"
       },
       {
         "sourcePage": 19,
         "text": "The frog sighed and continued eating, but soon he began to look sleepy. “I’m tired, princess,” he said. “Will you take me up to bed?” “I could never have such a slimy frog in my bed!” the princess burst out.\n\nHer father was about to scold her, but the frog beat him to it: “O careful, careful, princess fair! Promises are more than air.”\n\nWhat could the princess do? She had promised. So she ran up the stairs to her bedroom, and all the way up she could hear the frog hopping behind her—boing! boing!—and leaving little muddy footprints—splish! splash!—on the castle floor.",
-        "image": "assets/books/frog_08.webp",
-        "question": {
-          "prompt": "What did the frog leave on the castle floor?",
-          "options": [
-            "Golden coins",
-            "Little muddy footprints",
-            "Flower petals"
-          ],
-          "answer": 1,
-          "hint": "His feet were wet and dirty as he hopped upstairs."
-        }
+        "image": "assets/books/frog_08.webp"
       },
       {
         "sourcePage": 21,
         "text": "She opened the door to her bedroom. The beautiful princess and the ugly frog stood in the doorway looking at the princess’s lovely room, hung with silk curtains, beautiful paintings, and jeweled lamps. A thick, soft goosefeather quilt lay across her cozy bed, and a full, plump pillow waited to support the princess’s pretty head.\n\nThe princess left the frog at the door and climbed into her beautiful bed. She wished the frog would go away, but he sat on the floor looking up at her.",
-        "image": "assets/books/frog_09.webp",
-        "question": {
-          "prompt": "Where did the princess leave the frog?",
-          "options": [
-            "At her bedroom door",
-            "In the well",
-            "Under the kitchen table"
-          ],
-          "answer": 0,
-          "hint": "She climbed into bed while he looked up from the floor."
-        }
+        "image": "assets/books/frog_09.webp"
       },
       {
         "sourcePage": 23,
         "text": "“I want to sleep on your pillow,” the frog said decidedly. The princess shook her head. “No! Please! You can sleep anywhere you want, just not on my bed. Please! You are just too disgusting, and you will leave slime on the pillow.”\n\n“I want the pillow,” the frog insisted. “You promised you would share everything with me!” The princess pleaded and cried, but nothing could change the frog’s mind.\n\n“You promised,” he said, “and promises are more than air.” Finally, she had to give in. Frustrated, she climbed down and tossed the frog roughly onto the pillow, and then climbed back into bed herself.",
-        "image": "assets/books/frog_10.webp",
-        "question": {
-          "prompt": "Where did the frog want to sleep?",
-          "options": [
-            "In a basket",
-            "Beside the window",
-            "On the princess’s pillow"
-          ],
-          "answer": 2,
-          "hint": "He reminded her of her promise to share everything."
-        }
+        "image": "assets/books/frog_10.webp"
       },
       {
         "sourcePage": 24,
         "text": "She tried to keep as far away from her new friend as possible. “I wish you’d just go away,” she hissed into the darkness. The frog was silent for a long minute, and then he whispered, “Princess? There’s one more thing.” The princess groaned.\n\nThe princess groaned. “Could I have a good-night kiss? I have been a very lonely frog. And you did promise you would love me.” The princess was so exhausted that she did not even bother to argue. In the dark, she rolled over and planted one kiss on the top of the frog’s cold, wet head. “Now, please go to sleep,” she begged. “Good night,” croaked the frog. The next morning, the princess woke to find the frog still snoring on the pillow. The princess watched him sleeping for some time.",
-        "image": "assets/books/frog_11.webp",
-        "question": {
-          "prompt": "What did the frog ask for before sleeping?",
-          "options": [
-            "A good-night kiss",
-            "Another golden ball",
-            "A new blanket"
-          ],
-          "answer": 0,
-          "hint": "He said that he had been a very lonely frog."
-        }
+        "image": "assets/books/frog_11.webp"
       },
       {
         "sourcePage": 26,
         "text": "She began to feel impatient for him to wake up, for she found that, gross as he was, she preferred arguing with the frog to playing by herself. It was so quiet without him croaking away. Finally, she poked him hard with her finger. “Get up, you lazy toad!” she said. The frog did not stir, so with the palm of her hand, she gave him a rough shove that sent him sliding off the pillow and onto the cold, stone floor of her bedroom. The moment his little webbed feet touched the ground, however, the warty frog disappeared, and in his place sat a little prince, rubbing his eyes sleepily and smiling up at the princess. “Hello, princess! Thank you so much for keeping your promise.” “Who are you?” she asked, very much surprised. “Why, I’m the frog,” he responded. “A wicked witch living in the forest turned me into an ugly frog, and only you could save me. I knew that your heart was just as golden as your plate and your ball—and I was right!",
-        "image": "assets/books/frog_12.webp",
-        "question": {
-          "prompt": "What happened when the frog touched the floor?",
-          "options": [
-            "He disappeared into the forest",
-            "He became a little prince",
-            "He turned into a bird"
-          ],
-          "answer": 1,
-          "hint": "The witch’s spell was finally broken."
-        }
+        "image": "assets/books/frog_12.webp"
       },
       {
         "sourcePage": 28,
         "text": "Now I am free of her spell!” He looked at her. “Thank you, princess. Now I will leave you alone and go back to my home on the other side of the forest.” “Wait!” said the princess. “I thought we were supposed to be friends forever after. And promises are more than air, you know.” The prince laughed. “So they are. Shall we go play with your ball?” And together they ran down the stairs and out into the bright golden sunshine. They were friends forever afterward, and when they were quite grown up, they were married with great celebration and joy. They invited the entire kingdom to their wedding, not to mention a number of frogs that the prince had met during his long enchantment. They lived happily ever after, of course, and the princess was always glad that she had kept her promise.",
-        "image": "assets/books/frog_13.webp",
-        "question": {
-          "prompt": "What did the princess learn to keep?",
-          "options": [
-            "Every golden coin",
-            "The frog in a cage",
-            "Her promise"
-          ],
-          "answer": 2,
-          "hint": "Promises are more than air."
-        }
+        "image": "assets/books/frog_13.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "What happened to the princess’s golden ball?",
+            "options": [
+              "It fell into a deep well.",
+              "A bird carried it away.",
+              "It broke against a tree.",
+              "The king hid it in the palace."
+            ],
+            "answer": 0,
+            "hint": "Think about where the ball rolled after slipping from her hands.",
+            "explanation": "The ball slipped from her hands, rolled away, and splashed into the well."
+          },
+          {
+            "prompt": "What did the princess first offer the frog for helping her?",
+            "options": [
+              "A place in the forest",
+              "Her crown",
+              "A silver spoon",
+              "A new golden ball"
+            ],
+            "answer": 1,
+            "hint": "She offered something precious that she wore.",
+            "explanation": "She offered her crown first, then her jewels."
+          },
+          {
+            "prompt": "Why did the frog ask the princess to be his friend?",
+            "options": [
+              "He wanted to become king.",
+              "He was afraid of the water.",
+              "He was lonely.",
+              "He needed help finding the palace."
+            ],
+            "answer": 2,
+            "hint": "Remember how he described his life as a frog.",
+            "explanation": "The frog said life was lonely and asked for a friend."
+          },
+          {
+            "prompt": "What had the princess promised before the frog fetched the ball?",
+            "options": [
+              "To build him a new well",
+              "To give him all her jewels",
+              "To bring him food once a year",
+              "To be his friend and share everything"
+            ],
+            "answer": 3,
+            "hint": "His request was about friendship, not treasure.",
+            "explanation": "She agreed to be his friend forever and share everything with him."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "What did the princess do as soon as she got her ball back?",
+            "options": [
+              "She waited for the frog.",
+              "She ran back to the palace.",
+              "She invited the frog to dinner.",
+              "She gave the frog her crown."
+            ],
+            "answer": 1,
+            "hint": "The frog called after her because he could not run as fast.",
+            "explanation": "She grabbed the ball and ran away while the frog called after her."
+          },
+          {
+            "prompt": "Who knocked at the palace door during dinner?",
+            "options": [
+              "A forest witch",
+              "A lost traveller",
+              "The frog",
+              "The princess’s friend"
+            ],
+            "answer": 2,
+            "hint": "The visitor reminded her that promises matter.",
+            "explanation": "The frog came to the palace and reminded her of her promise."
+          },
+          {
+            "prompt": "What did the king insist that the princess do?",
+            "options": [
+              "Keep her promise and be the frog’s friend",
+              "Hide her golden ball",
+              "Send the frog back to the well",
+              "Eat dinner alone"
+            ],
+            "answer": 0,
+            "hint": "Her father frowned when he heard the story.",
+            "explanation": "The king insisted that she be the frog’s friend as she had promised."
+          },
+          {
+            "prompt": "Where did the frog eat in the dining hall?",
+            "options": [
+              "On the palace stairs",
+              "Under the table",
+              "From the king’s cup",
+              "From the princess’s plate and bowl"
+            ],
+            "answer": 3,
+            "hint": "Remember what the princess had promised to share.",
+            "explanation": "He jumped onto the table and ate from her gold plate and silver bowl."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "What did the frog politely ask to drink from?",
+            "options": [
+              "A silver bucket",
+              "The princess’s cup",
+              "The well outside",
+              "The king’s bowl"
+            ],
+            "answer": 1,
+            "hint": "He was thirsty after hopping to the palace.",
+            "explanation": "The frog politely asked for a drink from her cup."
+          },
+          {
+            "prompt": "Why did the princess agree to let the frog drink?",
+            "options": [
+              "She had lost her ball again.",
+              "The frog offered her jewels.",
+              "Her father caught her eye.",
+              "A servant brought another cup."
+            ],
+            "answer": 2,
+            "hint": "Think about who was watching her manners.",
+            "explanation": "She was about to refuse, but nodded when her father caught her eye."
+          },
+          {
+            "prompt": "What did the frog leave as he followed her upstairs?",
+            "options": [
+              "Little muddy footprints",
+              "A trail of golden coins",
+              "Pieces of the golden ball",
+              "Flowers from the forest"
+            ],
+            "answer": 0,
+            "hint": "His feet went splish, splash on the castle floor.",
+            "explanation": "His hopping feet left little muddy footprints on the castle floor."
+          },
+          {
+            "prompt": "Where did the princess leave the frog when she climbed into bed?",
+            "options": [
+              "On her pillow",
+              "Inside a cupboard",
+              "Under her quilt",
+              "At her bedroom door"
+            ],
+            "answer": 3,
+            "hint": "He sat on the floor looking up at her.",
+            "explanation": "She climbed into bed while the frog stayed on the floor by the door."
+          }
+        ]
+      },
+      {
+        "startPage": 9,
+        "endPage": 12,
+        "questions": [
+          {
+            "prompt": "Where did the frog insist on sleeping?",
+            "options": [
+              "In a basket by the door",
+              "On the princess’s pillow",
+              "On the windowsill",
+              "In the king’s room"
+            ],
+            "answer": 1,
+            "hint": "He reminded her that she had promised to share everything.",
+            "explanation": "He asked for her pillow and reminded her of the promise to share."
+          },
+          {
+            "prompt": "What did the frog ask for before going to sleep?",
+            "options": [
+              "A good-night kiss",
+              "Another dinner",
+              "A golden crown",
+              "A story about the king"
+            ],
+            "answer": 0,
+            "hint": "He said he had been very lonely.",
+            "explanation": "The lonely frog asked for a good-night kiss."
+          },
+          {
+            "prompt": "What happened when the frog’s feet touched the bedroom floor?",
+            "options": [
+              "He hopped back to the well.",
+              "He became a bird.",
+              "He turned into a little prince.",
+              "He vanished without a trace."
+            ],
+            "answer": 2,
+            "hint": "The princess saw someone new sitting where the frog had been.",
+            "explanation": "When his feet touched the floor, the frog disappeared and a prince took his place."
+          },
+          {
+            "prompt": "Who had turned the prince into a frog?",
+            "options": [
+              "The king",
+              "The princess",
+              "A palace servant",
+              "A wicked witch in the forest"
+            ],
+            "answer": 3,
+            "hint": "The prince explained why he had been enchanted.",
+            "explanation": "The prince explained that a wicked witch in the forest had enchanted him."
+          }
+        ]
+      },
+      {
+        "startPage": 12,
+        "endPage": 13,
+        "questions": [
+          {
+            "prompt": "Where did the prince say his home was?",
+            "options": [
+              "At the bottom of the well",
+              "On the other side of the forest",
+              "Above the palace kitchen",
+              "Beside the sea"
+            ],
+            "answer": 1,
+            "hint": "He told the princess where he would go after thanking her.",
+            "explanation": "He said he would return to his home on the other side of the forest."
+          },
+          {
+            "prompt": "Why did the princess ask the prince to wait?",
+            "options": [
+              "She wanted to hide her ball.",
+              "She needed him to find her crown.",
+              "They had promised to be friends forever.",
+              "She wanted him to become a frog again."
+            ],
+            "answer": 2,
+            "hint": "She reminded him that promises are more than air.",
+            "explanation": "She reminded him of their promise to be friends forever."
+          },
+          {
+            "prompt": "What did the two friends go outside to play with?",
+            "options": [
+              "The golden ball",
+              "A silver hoop",
+              "A toy boat",
+              "A wooden horse"
+            ],
+            "answer": 0,
+            "hint": "The prince suggested playing with her favourite toy.",
+            "explanation": "The prince suggested playing with her ball, and they ran outside together."
+          },
+          {
+            "prompt": "Which unusual guests came to their wedding when they grew up?",
+            "options": [
+              "The witch and her sisters",
+              "Only the palace servants",
+              "A family of birds",
+              "Frogs the prince had met"
+            ],
+            "answer": 3,
+            "hint": "The prince remembered friends from his time under the spell.",
+            "explanation": "They invited frogs he had met during his enchantment."
+          }
+        ]
       }
     ]
   },
@@ -217,137 +359,211 @@
       {
         "sourcePage": 1,
         "text": "Жили-были старик со старухой. Однажды просит старик:\n\n— Испеки, старуха, колобок.\n\n— Из чего испечь-то? Муки нет.\n\n— Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
-        "image": "assets/books/kolobok_01.webp",
-        "question": {
-          "prompt": "Что старик попросил испечь?",
-          "options": [
-            "Пирог",
-            "Колобок",
-            "Хлеб"
-          ],
-          "answer": 1,
-          "hint": "Название сказки — это и название угощения."
-        }
+        "image": "assets/books/kolobok_01.webp"
       },
       {
         "sourcePage": 2,
         "text": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.\n\nКолобок полежал-полежал, да вдруг и покатился — с окна на лавку, с лавки на пол, по полу да к дверям, перепрыгнул через порог в сени, из сеней на крыльцо, с крыльца на двор, со двора за ворота, дальше и дальше.\n\nКатится колобок по дороге, а навстречу ему заяц:",
-        "image": "assets/books/kolobok_02.webp",
-        "question": {
-          "prompt": "Кого Колобок встретил первым?",
-          "options": [
-            "Зайца",
-            "Медведя",
-            "Лису"
-          ],
-          "answer": 0,
-          "hint": "Этот зверёк с длинными ушами встретился ему на дороге."
-        }
+        "image": "assets/books/kolobok_02.webp"
       },
       {
         "sourcePage": 3,
         "text": "— Колобок, колобок! Я тебя съем!\n\n— Не ешь меня, косой зайчик! Я тебе песенку спою, — сказал колобок и запел:\n\nЯ по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел,",
-        "image": "assets/books/kolobok_03.webp",
-        "question": {
-          "prompt": "Что Колобок предложил зайцу?",
-          "options": [
-            "Поиграть",
-            "Поспать",
-            "Спеть песенку"
-          ],
-          "answer": 2,
-          "hint": "Колобок сказал: «Я тебе песенку спою»."
-        }
+        "image": "assets/books/kolobok_03.webp"
       },
       {
         "sourcePage": 4,
         "text": "От тебя, зайца, не хитро уйти!\n\nИ покатился себе дальше; только заяц его и видел!..\n\nКатится колобок, а навстречу ему волк:\n\n— Колобок, колобок! Я тебя съем!\n\n— Не ешь меня, серый волк! Я тебе песенку спою!\n\nЯ по коробу скребен,",
-        "image": "assets/books/kolobok_04.webp",
-        "question": {
-          "prompt": "Кого Колобок встретил после зайца?",
-          "options": [
-            "Лису",
-            "Волка",
-            "Старика"
-          ],
-          "answer": 1,
-          "hint": "Он обратился к зверю: «серый волк»."
-        }
+        "image": "assets/books/kolobok_04.webp"
       },
       {
         "sourcePage": 5,
         "text": "По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, Я от зайца ушел, От тебя, волка, не хитро уйти!\n\nИ покатился себе дальше; только волк его и видел!..\n\nКатится колобок, а навстречу ему медведь:",
-        "image": "assets/books/kolobok_05.webp",
-        "question": {
-          "prompt": "Кто встретился Колобку после волка?",
-          "options": [
-            "Медведь",
-            "Заяц",
-            "Лиса"
-          ],
-          "answer": 0,
-          "hint": "Это большой косолапый зверь."
-        }
+        "image": "assets/books/kolobok_05.webp"
       },
       {
         "sourcePage": 6,
         "text": "— Колобок, колобок! Я тебя съем.\n\n— Где тебе, косолапому, съесть меня!\n\nЯ по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел,",
-        "image": "assets/books/kolobok_06.webp",
-        "question": {
-          "prompt": "Как Колобок назвал медведя?",
-          "options": [
-            "Рыжий",
-            "Косой",
-            "Косолапый"
-          ],
-          "answer": 2,
-          "hint": "Колобок сказал: «Где тебе, косолапому, съесть меня!»"
-        }
+        "image": "assets/books/kolobok_06.webp"
       },
       {
         "sourcePage": 7,
         "text": "Я от зайца ушел, Я от волка ушел, От тебя, медведь, не хитро уйти!\n\nИ опять укатился; только медведь его и видел!..\n\nКатится, катится колобок, а навстречу ему лиса:\n\n— Здравствуй, колобок! Какой ты хорошенький!\n\nА колобок запел:",
-        "image": "assets/books/kolobok_07.webp",
-        "question": {
-          "prompt": "Как лиса встретила Колобка?",
-          "options": [
-            "Стала ругаться",
-            "Похвалила его",
-            "Спряталась"
-          ],
-          "answer": 1,
-          "hint": "Лиса сказала: «Какой ты хорошенький!»"
-        }
+        "image": "assets/books/kolobok_07.webp"
       },
       {
         "sourcePage": 8,
         "text": "Я по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, Я от зайца ушел, Я от волка ушел, От медведя ушел, От тебя, лиса, и подавно уйду!\n\n— Какая славная песенка! — сказала лиса. — Но ведь я, колобок, стара стала, плохо слышу; сядь-ка на мою мордочку да пропой еще разок погромче.\n\nКолобок вскочил лисе на мордочку и запел ту же песню.",
-        "image": "assets/books/kolobok_08.webp",
-        "question": {
-          "prompt": "Почему лиса попросила петь погромче?",
-          "options": [
-            "Она сказала, что плохо слышит",
-            "Вокруг шумел дождь",
-            "Колобок забыл слова"
-          ],
-          "answer": 0,
-          "hint": "Лиса притворилась старой и глухой."
-        }
+        "image": "assets/books/kolobok_08.webp"
       },
       {
         "sourcePage": 9,
         "text": "— Спасибо, колобок! Славная песенка, еще бы послушала! Сядь-ка на мой язычок да пропой в последний разок, — сказала лиса и высунула свой язык.\n\nКолобок прыг ей на язык, а лиса — ам его! — и скушала.",
-        "image": "assets/books/kolobok_09.webp",
-        "question": {
-          "prompt": "Чем закончилась сказка?",
-          "options": [
-            "Колобок вернулся домой",
-            "Колобок убежал",
-            "Лиса съела Колобка"
-          ],
-          "answer": 2,
-          "hint": "Лиса обманула доверчивого Колобка."
-        }
+        "image": "assets/books/kolobok_09.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Что старик попросил старуху испечь?",
+            "options": [
+              "Пирог",
+              "Блины",
+              "Колобок",
+              "Пряник"
+            ],
+            "answer": 2,
+            "hint": "Вспомни название сказки.",
+            "explanation": "Старик попросил старуху испечь колобок."
+          },
+          {
+            "prompt": "Как старуха нашла муку для Колобка?",
+            "options": [
+              "Купила на ярмарке",
+              "Поскребла по коробу и помела по сусеку",
+              "Попросила у зайца",
+              "Нашла в лесу"
+            ],
+            "answer": 1,
+            "hint": "Старик подсказал, где поискать остатки муки.",
+            "explanation": "Старуха поскребла по коробу, помела по сусеку и набрала две пригоршни муки."
+          },
+          {
+            "prompt": "Куда старуха положила Колобка остывать?",
+            "options": [
+              "На окошечко",
+              "В корзину",
+              "Под стол",
+              "На печку"
+            ],
+            "answer": 0,
+            "hint": "Оттуда он покатился сначала на лавку, а потом на пол.",
+            "explanation": "Старуха положила Колобка на окошечко остудить."
+          },
+          {
+            "prompt": "Что Колобок предложил зайцу, чтобы тот его не съел?",
+            "options": [
+              "Принести морковку",
+              "Поиграть в прятки",
+              "Найти старика",
+              "Спеть песенку"
+            ],
+            "answer": 3,
+            "hint": "Колобок стал рассказывать о себе в песне.",
+            "explanation": "Колобок попросил зайца не есть его и предложил спеть песенку."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "Кто встретился Колобку после зайца?",
+            "options": [
+              "Медведь",
+              "Лиса",
+              "Старик",
+              "Волк"
+            ],
+            "answer": 3,
+            "hint": "Колобок назвал этого зверя серым.",
+            "explanation": "После зайца Колобок встретил волка и назвал его серым."
+          },
+          {
+            "prompt": "Как Колобок спасся от волка?",
+            "options": [
+              "Спрятался под лавкой",
+              "Вернулся к бабушке",
+              "Спел песенку и укатился",
+              "Переплыл реку"
+            ],
+            "answer": 2,
+            "hint": "Он поступил так же, как при встрече с зайцем.",
+            "explanation": "Колобок спел волку песенку и покатился дальше."
+          },
+          {
+            "prompt": "Кого Колобок встретил после волка?",
+            "options": [
+              "Медведя",
+              "Лису",
+              "Зайца",
+              "Старуху"
+            ],
+            "answer": 0,
+            "hint": "Этот большой зверь тоже захотел его съесть.",
+            "explanation": "Укатившись от волка, Колобок встретил медведя."
+          },
+          {
+            "prompt": "Как Колобок назвал медведя?",
+            "options": [
+              "Рыжим",
+              "Косолапым",
+              "Серым",
+              "Косым"
+            ],
+            "answer": 1,
+            "hint": "Вспомни его слова: «Где тебе ... съесть меня!»",
+            "explanation": "Колобок сказал медведю: «Где тебе, косолапому, съесть меня!»"
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "Как лиса встретила Колобка?",
+            "options": [
+              "Сразу стала ругаться",
+              "Убежала в лес",
+              "Назвала его хорошеньким",
+              "Позвала старика"
+            ],
+            "answer": 2,
+            "hint": "Лиса начала разговор с похвалы.",
+            "explanation": "Лиса поздоровалась и сказала Колобку, что он хорошенький."
+          },
+          {
+            "prompt": "Почему лиса попросила Колобка сесть ей на мордочку?",
+            "options": [
+              "Сказала, что стара и плохо слышит",
+              "Хотела показать ему дорогу",
+              "Боялась, что он замёрзнет",
+              "Хотела спрятать его от медведя"
+            ],
+            "answer": 0,
+            "hint": "Вспомни, что она сказала после его песни.",
+            "explanation": "Лиса сказала, что стала старой и плохо слышит его песенку."
+          },
+          {
+            "prompt": "Куда лиса предложила Колобку сесть в последний раз?",
+            "options": [
+              "На хвост",
+              "На язычок",
+              "На лапку",
+              "На пенёк"
+            ],
+            "answer": 1,
+            "hint": "Это было ещё ближе к её пасти.",
+            "explanation": "В последний раз лиса попросила Колобка сесть ей на язычок."
+          },
+          {
+            "prompt": "Что случилось с Колобком в конце сказки?",
+            "options": [
+              "Он укатился от лисы",
+              "Он вернулся к старухе",
+              "Он спрятался в лесу",
+              "Лиса его съела"
+            ],
+            "answer": 3,
+            "hint": "Колобок поверил лисе и прыгнул туда, куда она попросила.",
+            "explanation": "Колобок прыгнул лисе на язык, и она его съела."
+          }
+        ]
       }
     ]
   }

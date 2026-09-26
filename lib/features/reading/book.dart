@@ -8,35 +8,50 @@ class Question {
     required this.options,
     required this.answer,
     required this.hint,
+    this.explanation = '',
   });
   factory Question.fromJson(Map<String, dynamic> j) => Question(
     prompt: j['prompt'] as String,
     options: List<String>.from(j['options'] as List),
     answer: j['answer'] as int,
     hint: j['hint'] as String,
+    explanation: j['explanation'] as String? ?? '',
   );
-  final String prompt, hint;
+  final String prompt, hint, explanation;
   final List<String> options;
   final int answer;
 }
 
 class BookPage {
-  const BookPage({
-    required this.text,
-    required this.sourcePage,
-    required this.question,
-    this.image,
-  });
+  const BookPage({required this.text, required this.sourcePage, this.image});
   factory BookPage.fromJson(Map<String, dynamic> j) => BookPage(
     text: j['text'] as String,
     sourcePage: j['sourcePage'] as int,
     image: j['image'] as String?,
-    question: Question.fromJson(j['question'] as Map<String, dynamic>),
   );
   final String text;
   final String? image;
   final int sourcePage;
-  final Question question;
+}
+
+class BookBatch {
+  const BookBatch({
+    required this.startPage,
+    required this.endPage,
+    required this.questions,
+  });
+  factory BookBatch.fromJson(Map<String, dynamic> j) => BookBatch(
+    startPage: j['startPage'] as int,
+    endPage: j['endPage'] as int,
+    questions: (j['questions'] as List)
+        .map((q) => Question.fromJson(q as Map<String, dynamic>))
+        .toList(),
+  );
+  final int startPage, endPage;
+  final List<Question> questions;
+  int get pageCount => endPage - startPage;
+  Iterable<int> get pageIndices =>
+      Iterable.generate(pageCount, (i) => startPage + i);
 }
 
 class Book {
@@ -49,6 +64,7 @@ class Book {
     required this.original,
     required this.cover,
     required this.pages,
+    required this.batches,
   });
   factory Book.fromJson(Map<String, dynamic> j) => Book(
     id: j['id'] as String,
@@ -61,9 +77,16 @@ class Book {
     pages: (j['pages'] as List)
         .map((p) => BookPage.fromJson(p as Map<String, dynamic>))
         .toList(),
+    batches: (j['batches'] as List)
+        .map((b) => BookBatch.fromJson(b as Map<String, dynamic>))
+        .toList(),
   );
   final String id, title, author, language, attribution, original, cover;
   final List<BookPage> pages;
+  final List<BookBatch> batches;
+  BookBatch batchForPage(int page) => batches.firstWhere(
+    (batch) => page >= batch.startPage && page < batch.endPage,
+  );
 }
 
 abstract final class BookCatalog {

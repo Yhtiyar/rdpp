@@ -12,7 +12,9 @@ class QuizFeedbackPanel extends StatelessWidget {
     required this.message,
     required this.actionLabel,
     required this.onContinue,
+    this.character,
   });
+  final Widget? character;
   final BatchAnswerOutcome outcome;
   final String message, actionLabel;
   final VoidCallback onContinue;
@@ -28,6 +30,7 @@ class QuizFeedbackPanel extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          if (character != null) character!,
           Flexible(
             child: SingleChildScrollView(
               child: Semantics(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/app_controller.dart';
 import '../ui/components.dart';
+import '../ui/mimi_character.dart';
 import '../ui/theme.dart';
 import 'reading/library_screen.dart';
 
@@ -53,10 +54,10 @@ class HomeContent extends StatelessWidget {
           large: true,
         ),
         gap,
-        FloatArt(
-          'mimi_reading',
-          height:
-              (MediaQuery.sizeOf(context).width.clamp(0, 480) - 44) * 327 / 381,
+        MiMiCharacter(
+          mood: MiMiMood.ready,
+          idle: true,
+          size: (MediaQuery.sizeOf(context).width.clamp(0, 400) - 44) * .7,
         ),
         gap,
         Row(
