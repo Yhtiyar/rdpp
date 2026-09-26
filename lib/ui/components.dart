@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 
 import 'theme.dart';
+import 'motion_spec.dart';
 
 class SceneScaffold extends StatelessWidget {
   const SceneScaffold({
     super.key,
     required this.child,
     this.bottom,
+    this.scrollController,
     this.title,
     this.onBack,
     this.trailing,
     this.padding = const EdgeInsets.fromLTRB(22, 12, 22, 24),
   });
+  final ScrollController? scrollController;
   final Widget child;
   final Widget? bottom, trailing;
   final String? title;
@@ -56,7 +59,11 @@ class SceneScaffold extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: SingleChildScrollView(padding: padding, child: child),
+            child: SingleChildScrollView(
+              controller: scrollController,
+              padding: padding,
+              child: child,
+            ),
           ),
           ?bottom,
         ],
@@ -73,10 +80,11 @@ class WinButton extends StatefulWidget {
     this.secondary = false,
     this.icon = Icons.arrow_forward_rounded,
     this.loading = false,
+    this.autofocus = false,
   });
   final String label;
   final VoidCallback? onPressed;
-  final bool secondary, loading;
+  final bool secondary, loading, autofocus;
   final IconData? icon;
   @override
   State<WinButton> createState() => _WinButtonState();
@@ -87,10 +95,10 @@ class _WinButtonState extends State<WinButton> {
   @override
   Widget build(BuildContext context) => Semantics(
     button: true,
-    enabled: widget.onPressed != null,
+    enabled: widget.onPressed != null && !widget.loading,
     child: AnimatedScale(
-      scale: _pressed ? .97 : 1,
-      duration: const Duration(milliseconds: 100),
+      scale: _pressed && !MotionSpec.of(context).reduceMotion ? .97 : 1,
+      duration: MotionSpec.of(context).press,
       child: Container(
         width: double.infinity,
         constraints: const BoxConstraints(minHeight: 56),
@@ -111,6 +119,7 @@ class _WinButtonState extends State<WinButton> {
           color: Colors.transparent,
           child: InkWell(
             borderRadius: BorderRadius.circular(25),
+            autofocus: widget.autofocus,
             onTap: widget.loading ? null : widget.onPressed,
             onHighlightChanged: (v) => setState(() => _pressed = v),
             child: Padding(
