@@ -131,8 +131,8 @@ class _WalletScreenState extends State<WalletScreen> {
                   Expanded(
                     child: Text(
                       c.tr(
-                        'Web preview · Other apps are not blocked.',
-                        'Веб-просмотр · Другие приложения не блокируются.',
+                        'Preview mode · Other apps are not blocked.',
+                        'Предпросмотр · Другие приложения не блокируются.',
                       ),
                     ),
                   ),

@@ -11,7 +11,22 @@
   "ios": {
     "path": "ios",
     "scheme": "Runner",
-    "bundleId": "com.example.readapp"
+    "bundleId": "com.example.readapp",
+    "extensions": [
+      "com.example.readapp.ScreenTimeMonitor"
+    ]
+  },
+  "profiles": {
+    "preview": {
+      "configuration": "Debug",
+      "env": {
+        "LITTLEWINS_WITHOUT_SC": "1"
+      }
+    },
+    "development": {
+      "distribution": "development",
+      "configuration": "Debug"
+    }
   },
   "flutter": {
     "version": "3.47.5",

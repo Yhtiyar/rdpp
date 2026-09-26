@@ -13,6 +13,7 @@ class ProtectionStatus {
   });
   factory ProtectionStatus.fromMap(Map<Object?, Object?> data) =>
       ProtectionStatus(
+        preview: data['preview'] as bool? ?? false,
         supported: data['supported'] as bool? ?? true,
         authorized: data['authorized'] as bool? ?? false,
         essentialsCount: data['essentialsCount'] as int? ?? 0,

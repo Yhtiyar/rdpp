@@ -1,3 +1,4 @@
+#if !WITHOUT_SCREEN_TIME
 import Foundation
 import FamilyControls
 import ManagedSettings
@@ -63,3 +64,4 @@ enum ProtectionState {
         return result
     }
 }
+#endif

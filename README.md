@@ -18,6 +18,31 @@ python3 -m http.server 7357 --directory build/web
 
 Open http://localhost:7357. Web purchases are explicitly labelled previews: a browser cannot restrict other apps. There are no seeded coins or default parent PINs; set up a profile and read to earn coins.
 
+## Build an iPhone preview without Screen Time
+
+```sh
+./build.sh --withoutSC
+# Equivalent: builder ios build --profile preview --unsigned
+builder dev flutter --ipa dist/<new-build>.ipa
+```
+
+Choose **Yes** at **Resign app** for this unsigned preview and use your free
+Apple ID. This path does not need an App Store Connect API key or the
+`DEVELOPMENT` signing secrets. Reading, quizzes, coins, parent controls and
+simulated reward timers remain available; **other apps are not blocked**.
+
+The preview profile sets `LITTLEWINS_WITHOUT_SC=1`. A CI step removes the
+ScreenTimeMonitor build dependency and embedded extension, clears the restricted
+entitlements, and compiles a preview service instead of the Screen Time code.
+Your local Xcode project stays configured for the full app. `./build.sh` without
+the flag retains the normal unsigned build with Screen Time; the paid-account
+`development` profile remains available separately.
+
+**One-time setup:** push the updated `.github/workflows/ios-build.yml` to your
+GitHub default branch before using the flag. Builder dispatches that workflow
+from the default branch even when it builds a working-tree snapshot. Use the
+new IPA explicitly; older `-signed.ipa` files still contain the previous build.
+
 ## Included
 
 - Reference artwork, bundled Nunito font with Cyrillic support, animation, confetti, sound and reduced-motion support.

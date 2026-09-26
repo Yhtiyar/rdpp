@@ -1,5 +1,34 @@
 import Flutter
 import UIKit
+
+#if WITHOUT_SCREEN_TIME
+// Free-Apple-ID preview: no restricted frameworks, authorization or app shielding.
+@available(iOS 16.0, *)
+@MainActor
+final class ScreenTimeBridge {
+    private let channel: FlutterMethodChannel
+
+    init(messenger: FlutterBinaryMessenger) {
+        channel = FlutterMethodChannel(name: "littlewins/screen_time", binaryMessenger: messenger)
+        channel.setMethodCallHandler { call, result in
+            switch call.method {
+            case "status", "authorize", "configureEssentials":
+                result(["preview": true, "supported": false, "authorized": false])
+            case "unlock":
+                guard let args = call.arguments as? [String: Any],
+                      let minutes = args["minutes"] as? Int,
+                      [15, 30, 45].contains(minutes) else {
+                    result(FlutterError(code: "duration", message: "Invalid preview duration.", details: nil))
+                    return
+                }
+                let end = Date().addingTimeInterval(Double(minutes * 60))
+                result(["endsAt": Int64(end.timeIntervalSince1970 * 1000)])
+            default: result(FlutterMethodNotImplemented)
+            }
+        }
+    }
+}
+#else
 import SwiftUI
 import FamilyControls
 import ManagedSettings
@@ -146,3 +175,4 @@ private struct EssentialsPicker: View {
         }
     }
 }
+#endif

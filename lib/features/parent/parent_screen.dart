@@ -28,8 +28,8 @@ class _ParentScreenState extends State<ParentScreen>
     if (c.protection.preview) {
       setState(
         () => _message = c.tr(
-          'Open Littlewins on iOS or Android to connect device protection. Web can preview reading and rewards.',
-          'Откройте Littlewins на iOS или Android для защиты устройства. Веб-версия позволяет проверить чтение и награды.',
+          'This preview supports reading and rewards. Device protection is disabled in this build.',
+          'В этом режиме доступны чтение и награды. Защита устройства отключена.',
         ),
       );
       return;
@@ -171,7 +171,7 @@ class _ParentScreenState extends State<ParentScreen>
                     Expanded(
                       child: Text(
                         c.protection.preview
-                            ? c.tr('Web preview', 'Веб-просмотр')
+                            ? c.tr('Preview mode', 'Режим предпросмотра')
                             : c.protection.authorized
                             ? c.tr('Protection connected', 'Защита подключена')
                             : c.tr(
@@ -187,8 +187,8 @@ class _ParentScreenState extends State<ParentScreen>
                 Text(
                   c.protection.preview
                       ? c.tr(
-                          'Reading works here. Blocking other apps needs the mobile app.',
-                          'Чтение работает здесь. Для блокировки других приложений нужна мобильная версия.',
+                          'Reading and rewards work here. Other apps are not blocked.',
+                          'Чтение и награды работают. Другие приложения не блокируются.',
                         )
                       : c.tr(
                           'Essential apps stay available. Other apps unlock with earned time.',
@@ -230,8 +230,8 @@ class _ParentScreenState extends State<ParentScreen>
             c.tr('Always-available apps', 'Всегда доступные приложения'),
             c.protection.preview
                 ? c.tr(
-                    'Choose on a mobile device',
-                    'Выберите на мобильном устройстве',
+                    'Unavailable in preview mode',
+                    'Недоступно в режиме предпросмотра',
                   )
                 : c.tr(
                     '${c.protection.essentialsCount} selected · essential system apps stay available',
