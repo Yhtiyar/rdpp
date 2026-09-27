@@ -1,15 +1,23 @@
-# Home kitten page turn
+# Coordinated reading loop
 
-Home reuses the exact kitten-with-book artwork from the welcome screen. A curled paper leaf turns across the book every five seconds; each turn lasts 850 milliseconds. The kitten and book cover stay still between turns. The animation is silent and stops when hidden or when reduced motion is enabled.
+Home uses one five-second animation: MiMi reads, looks down, lifts its paw to the book's corner, carries the page into a turn, releases it, and settles back into reading. Head movement, gaze, blinking, breathing, supporting paw, tail, and the page share the same timeline.
 
-Verification on 2026-09-26:
+The scene uses `assets/art/mimi_reading.webp` and the existing `assets/art/mimi/ready_blink.webp` expression. The page corner follows the fingertip while held. Fur edges are feathered, and the foreleg bends using texture from the original artwork. The scene is silent and pauses for reduced motion, hidden routes, disabled tickers, and app backgrounding.
+
+Verified on 2026-09-27:
 
 - `flutter analyze`: no issues.
-- `flutter test`: 61 tests passed, including exact five-second cadence, ordinary rebuilds, reduced motion, disabled tickers, lifecycle pause, and disposal.
+- `flutter test`: 66 tests passed. These cover the five-second cycle, paw/page contact, continuous poses, route and lifecycle pausing, reduced motion, and cleanup.
 - `flutter build web --no-web-resources-cdn`: passed.
-- `node tools/home_animation_web_check.cjs`: eight browser checks passed. Sampled screenshots observe two turns approximately five seconds apart (500 ms capture tolerance); widget tests verify the exact timer interval. Saved reading state stays unchanged and no sound is requested.
-- Flutter web visually checked at 320, 430, and 1365 pixels wide. No browser exceptions or layout overflows reported.
+- `node tools/home_animation_web_check.cjs`: checks head and paw motion separately from the surrounding UI, persisted state, reduced motion over a full cycle, responsive layouts, silence, and browser errors.
+- Flutter web poses reviewed at close range, then the full sequence reviewed on Home at 430 pixels wide. Layouts captured at 320 and 1365 pixels wide as well.
 
-[Browser recording](home-page-turn.webm) · [Motion frames](motion-frames.png) · [Browser results](checks.json)
+[Play the loop](preview.html) · [WebM recording](home-page-turn.webm) · [Motion frames](motion-frames.png) · [Browser results](checks.json)
 
-The recording includes normal motion followed by the reduced-motion and viewport checks. Screenshots show the idle scene, a lifted page, and the page settling back onto the book.
+The recording contains uninterrupted playback of Home. Pixel checks run separately to avoid screenshot capture stalls affecting the recorded motion.
+
+To scrub individual poses locally:
+
+```sh
+flutter run -d web-server --no-web-resources-cdn -t tools/mimi_reading_preview.dart
+```
