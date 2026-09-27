@@ -20,6 +20,10 @@ class ReadingKittenPainter extends CustomPainter {
   static final _uv = _textureCoordinates();
   static final _indices = _triangles();
   static final _weights = _skinWeights();
+  static final _edgeColors = Int32List.fromList([
+    for (var i = 1; i < _uv.length; i += 2)
+      ((_smooth(0, 3, _uv[i]) * 255).round() << 24) | 0xFFFFFF,
+  ]);
   static final _shaders = Expando<ui.ImageShader>();
   ui.ImageShader get _shader => _shaders[artwork] ??= ui.ImageShader(
     artwork,
@@ -80,8 +84,7 @@ class ReadingKittenPainter extends CustomPainter {
       weights[i * 2 + 1] =
           (1 - _smooth(177, 224, y)) *
           _smooth(28, 76, x) *
-          (1 - _smooth(330, 373, x)) *
-          _smooth(0, 12, y);
+          (1 - _smooth(350, 381, x));
       weights[i * 2 + 2] =
           _smooth(175, 217, y) *
           (1 - _smooth(283, 322, y)) *
@@ -100,6 +103,17 @@ class ReadingKittenPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     canvas.save();
     canvas.scale(size.width / _width, size.height / _height);
+    // The ear reaches the source image's top edge. Let that entire edge move
+    // with the head; a matching backdrop fills the space it reveals. Pinning
+    // the edge would stretch the ear tip while its base rotates away.
+    canvas.drawRect(
+      const Rect.fromLTWH(0, 0, _width, _height),
+      Paint()
+        ..shader = const LinearGradient(
+          colors: [Color(0xFFF0EBFD), Color(0xFFF0EBFD), Color(0xFFF1E9FE)],
+          stops: [0, .65, 1],
+        ).createShader(const Rect.fromLTWH(0, 0, _width, _height)),
+    );
     final pose = ReadingPose.at(progress);
     _drawBody(canvas, pose);
     if (blinkArtwork != null && pose.blink > 0) _drawBlink(canvas, pose);
@@ -123,7 +137,8 @@ class ReadingKittenPainter extends CustomPainter {
     canvas.restore();
   }
 
-  void _drawBody(Canvas canvas, ReadingPose pose) {
+  /// Positions shared by rendering and geometry regression checks.
+  static Float32List bodyVertices(ReadingPose pose) {
     final points = Float32List(_uv.length);
     final sin = math.sin(pose.headAngle), cos = math.cos(pose.headAngle);
     for (var i = 0; i < _uv.length; i += 2) {
@@ -146,13 +161,19 @@ class ReadingKittenPainter extends CustomPainter {
       points[i] = px;
       points[i + 1] = py;
     }
+    return points;
+  }
+
+  void _drawBody(Canvas canvas, ReadingPose pose) {
     final mesh = ui.Vertices.raw(
       ui.VertexMode.triangles,
-      points,
+      bodyVertices(pose),
       textureCoordinates: _uv,
+      // Soften the cropped fur at the source boundary without pinning vertices.
+      colors: _edgeColors,
       indices: _indices,
     );
-    canvas.drawVertices(mesh, BlendMode.srcOver, Paint()..shader = _shader);
+    canvas.drawVertices(mesh, BlendMode.modulate, Paint()..shader = _shader);
     mesh.dispose();
   }
 

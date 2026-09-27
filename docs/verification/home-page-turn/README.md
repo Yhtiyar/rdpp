@@ -7,7 +7,7 @@ The scene uses `assets/art/mimi_reading.webp` and the existing `assets/art/mimi/
 Verified on 2026-09-27:
 
 - `flutter analyze`: no issues.
-- `flutter test`: 66 tests passed. These cover the five-second cycle, paw/page contact, continuous poses, route and lifecycle pausing, reduced motion, and cleanup.
+- `flutter test`: 68 tests passed. These cover the five-second cycle, paw/page contact, continuous poses, route and lifecycle pausing, reduced motion, cleanup, and preservation of both ear shapes across 201 phases.
 - `flutter build web --no-web-resources-cdn`: passed.
 - `node tools/home_animation_web_check.cjs`: checks head and paw motion separately from the surrounding UI, persisted state, reduced motion over a full cycle, responsive layouts, silence, and browser errors.
 - Flutter web poses reviewed at close range, then the full sequence reviewed on Home at 430 pixels wide. Layouts captured at 320 and 1365 pixels wide as well.
@@ -21,3 +21,5 @@ To scrub individual poses locally:
 ```sh
 flutter run -d web-server --no-web-resources-cdn -t tools/mimi_reading_preview.dart
 ```
+
+The [ear correction review](ear-fix/README.md) includes close-ups of the previously pinned ear tip and the corrected movement.
