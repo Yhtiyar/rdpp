@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "All three age categories can be switched inside the PIN-protected parent area",
+    "Every change preserves reading progress, coins, parent PIN, wallet and other settings",
+    "Saved category survives reload and another parent PIN entry",
+    "Age switching works in English and Russian at 320px width",
+    "Desktop layout and reduced-motion selection verified"
+  ],
+  "errors": []
+}

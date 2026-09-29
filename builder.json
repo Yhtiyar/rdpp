@@ -17,6 +17,15 @@
     ]
   },
   "profiles": {
+    "release": {
+      "configuration": "Release"
+    },
+    "preview-release": {
+      "configuration": "Release",
+      "env": {
+        "LITTLEWINS_WITHOUT_SC": "1"
+      }
+    },
     "preview": {
       "configuration": "Debug",
       "env": {

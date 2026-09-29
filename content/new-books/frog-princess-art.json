@@ -1,0 +1,85 @@
+{
+  "tool": "built-in imagegen",
+  "useCase": "illustration-story",
+  "review": "All seven outputs visually inspected. Six scene subjects match Russian listening narration. Six equal atlas cells inspected for complete subjects and neighboring-image bleed.",
+  "atlasOrder": [
+    "frog",
+    "embroidered shirt",
+    "golden round loaf",
+    "red yarn ball",
+    "pike fish",
+    "white swan"
+  ],
+  "assets": [
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-76d9bfb7-ae2e-4b9c-a841-6485d1164aaf.png",
+      "prompt": "Children’s storybook watercolor. At a sunny pond, young brown-haired Prince Ivan in a teal tunic kneels beside this friendly green frog holding a wooden arrow. Warm expressive faces, beautiful painted detail, simple lush reeds, square scene, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "7a8329bf5fd7e73e945744e09ad18a90498000f2a6f96315f975c399513df780"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-6ddc9469-dc1e-4dc0-b101-887924d269d8.png",
+      "prompt": "Same beautiful children’s watercolor style. Princess Vasilisa, kind face, dark braid, lavender gown, presents an embroidered white shirt and a golden round loaf on a wooden table in a cozy palace. Both gifts clearly visible. Square storybook scene, warm light, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "5e18b81d2cc11d037e3309bdc09cb69d7363041d6f3932877897c35a862e406d"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_03.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-1c13eeee-c7ee-46ee-8d47-98623b2b42d9.png",
+      "prompt": "Same Vasilisa and painted watercolor style. She joyfully dances, gracefully raising her long lavender sleeves beside a magical sparkling lake with two white swans. Dark braid, lavender gown, tiny golden crown. Enchanting garden, warm light, complete figure, square storybook illustration, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "f9a503b2d60587bb8ec886183443d379c0e36dc9bb37613a4ba7b76cfb0fc667"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-4efbc4ef-d0cd-4b30-a4c7-9a26db5e5e2c.png",
+      "prompt": "Same Prince Ivan and watercolor storybook style. Brown-haired Ivan in his teal tunic and blue cape follows a bright red ball of yarn rolling along a woodland path. Yarn clearly visible in foreground, Ivan looks toward it. Gentle green forest, dappled sunlight, square scene, no frog, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "ee1e5a4fff7f5e63388aa4d511e252c34263f5b16a00e1521ae6dcba3195aa43"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_05.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-c38daa9f-f238-4d1a-8ac7-878cbe5b9ed8.png",
+      "prompt": "Same Prince Ivan and beautiful watercolor storybook style. At a tranquil shore Ivan kneels in his teal tunic, receiving a white egg from a friendly long green pike fish at the water’s edge. Fish has a recognizable long pointed snout. Egg clearly visible, gentle magical mood, square scene, no frog, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "4a7aadc4479429b882cb6874f0e0a93802740cff464f46e71ed6d5a8490c6ced"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess_06.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-1b58d46f-ca09-470c-9b81-4dd72f73a698.png",
+      "prompt": "Same Prince Ivan and Princess Vasilisa, same beautiful watercolor style. A joyful reunion: Ivan in teal tunic and blue cape gently holds hands with Vasilisa in her lavender gown and dark braid. They smile at each other beside a sunlit palace garden. Square storybook happy ending, no frog, no text.",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "23439aa74c29644050c3ca2349bf6ca7473f8692c2182315453846f96eed7271"
+    },
+    {
+      "path": "assets/books/frog-princess/art/frog-princess-answers.webp",
+      "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4cd-bff3-7cc3-a621-067a129a30a4/exec-b998c749-b15d-4bc1-9af8-32684912dd57.png",
+      "prompt": "Watercolor picture-choice atlas, landscape 3:2. Exactly six equal square cells, three columns and two rows, ivory background, generous empty margins, no lines or text. Top row: friendly green frog; white embroidered shirt unfolded with sleeves; golden round loaf. Bottom row: red yarn ball; long green pike fish; white swan. One complete centered object per cell. Match reference painting style and objects.",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "7bdfedbd71d22bb862efec46b7708f559b7d8daf3cf1c29262d8e9d05304a975"
+    }
+  ]
+}

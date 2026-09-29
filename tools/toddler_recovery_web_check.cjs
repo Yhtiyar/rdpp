@@ -1,0 +1,43 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/tmp/littlewins-browser/node_modules/playwright');
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const out=process.env.RECOVERY_OUTPUT_DIR||path.resolve(__dirname,'../docs/verification/toddler-books'),url=process.env.APP_URL||'http://127.0.0.1:7358';
+(async()=>{
+ const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+ const ctx=await browser.newContext({viewport:{width:430,height:932},reducedMotion:'reduce'});
+ const p=await ctx.newPage(),errors=[],checks=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.addInitScript(()=>{
+  localStorage.setItem('littlewins.state.v1',JSON.stringify(JSON.stringify({onboarded:true,locale:'en',age:4,sound:false})));
+  window.__block=true;window.__rate=8;window.__media=[];
+  const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){this.playbackRate=window.__rate;window.__media.push(this);return window.__block?Promise.reject(new DOMException('Autoplay intentionally blocked','NotAllowedError')):play.call(this);};
+ });
+ const button=name=>p.getByRole('button',{name,exact:false});
+ const tap=async locator=>{await locator.click();await p.mouse.move(1,1);await p.waitForTimeout(150);};
+ const state=()=>p.evaluate(()=>{const s=localStorage.getItem('littlewins.listening.v1');return s?JSON.parse(JSON.parse(s)).frog:null;});
+ const active=()=>p.evaluate(()=>window.__media.filter(e=>!e.paused&&!e.ended&&e.currentSrc).length);
+ await p.goto(url);await p.waitForFunction(()=>document.querySelector('flutter-view'));await p.evaluate(()=>document.querySelector('flt-semantics-placeholder')?.click());
+ await tap(p.getByText('Listen & play',{exact:true}));
+ await p.getByText('Tap play to try the voice again.',{exact:true}).waitFor();
+ assert.equal(await active(),0);await p.screenshot({path:path.join(out,'11-autoplay-retry.png')});
+ await p.evaluate(()=>{window.__block=false;window.__rate=.5;});
+ await tap(button('Play story'));await p.getByText('Listen closely',{exact:true}).waitFor();
+ assert.equal(await active(),1);checks.push('blocked browser autoplay exposes working retry; narration works with effects off');
+ await p.waitForTimeout(250);const before=await p.screenshot();await p.waitForTimeout(750);assert(before.equals(await p.screenshot()));
+ await p.screenshot({path:path.join(out,'12-reduced-motion.png')});checks.push('reduced-motion speaking page stays visually stable during real playback');
+ await p.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,get:()=>true});Object.defineProperty(document,'visibilityState',{configurable:true,get:()=>'hidden'});document.dispatchEvent(new Event('visibilitychange'));});
+ await button('Play story').waitFor();await p.waitForTimeout(200);assert.equal(await active(),0);
+ await p.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,get:()=>false});Object.defineProperty(document,'visibilityState',{configurable:true,get:()=>'visible'});document.dispatchEvent(new Event('visibilitychange'));});
+ await p.waitForTimeout(300);assert.equal(await active(),0);checks.push('hidden document stops audio; returning stays paused');
+ await tap(button('Listening options'));
+ await tap(p.getByRole('switch').nth(0));await tap(p.getByRole('switch').nth(1));
+ await p.screenshot({path:path.join(out,'13-listening-options.png')});
+ await tap(p.getByText('Back to the story',{exact:true}));
+ await p.evaluate(()=>window.__rate=8);await tap(button('Play story'));
+ for(let i=0;i<100;i++){if((await state())?.heard.includes(0))break;await p.waitForTimeout(100);}
+ assert((await state()).heard.includes(0));await p.waitForTimeout(1600);assert.equal((await state()).page,0);
+ await p.screenshot({path:path.join(out,'14-manual-page-captions.png')});
+ await tap(button('Next page'));assert.equal((await state()).page,1);checks.push('manual page turns and captions persist; next remains gated by narration');
+ await tap(button('Replay page'));await tap(button('Replay page'));await tap(button('Pause story'));
+ await p.waitForTimeout(250);assert.equal(await active(),0);
+ await tap(button('Close story'));await p.waitForTimeout(250);assert.equal(await active(),0);checks.push('rapid replay, pause and close leave no overlapping audio');
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'recovery-check.json'),JSON.stringify({passed:true,checks,errors},null,2));console.log(JSON.stringify({passed:true,checks},null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1);});

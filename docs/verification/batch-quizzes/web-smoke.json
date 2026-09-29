@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "verifiedPages": 13,
+  "checks": [
+    "onboarding",
+    "PIN confirmation",
+    "three-page quiz starts only by button",
+    "four answer options",
+    "two attempts total",
+    "attempt persistence and manual resume on reload",
+    "third error resets batch",
+    "contents cannot skip rereading",
+    "batch credits only after four correct answers",
+    "final shorter batch",
+    "15-minute purchase",
+    "purchase persistence on reload",
+    "wrong parent PIN",
+    "Russian interface",
+    "English questions in Russian UI",
+    "320px phone",
+    "desktop",
+    "locale persistence",
+    "no external runtime requests",
+    "no browser errors"
+  ],
+  "errors": [],
+  "external": []
+}

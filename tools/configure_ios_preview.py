@@ -69,7 +69,11 @@ def main():
                             check=True, capture_output=True, text=True)
     project = json.loads(result.stdout)
     configure_preview(project)
+    info_path = args.project.parent.parent / 'Runner' / 'Info.plist'
+    info = plistlib.loads(info_path.read_bytes())
+    info['LittlewinsScreenTimePreview'] = True
     args.project.write_bytes(plistlib.dumps(project, sort_keys=False))
+    info_path.write_bytes(plistlib.dumps(info, sort_keys=False))
     print('Preview configured: ScreenTimeMonitor omitted, restricted entitlements removed, blocking disabled.')
 
 

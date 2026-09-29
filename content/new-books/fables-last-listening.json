@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "little-red-hen",
+    "title": "The Little Red Hen",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/little-red-hen/art/little-red-hen_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening edition using the original illustrations and crops for picture answers. Preserves the ending: the hen eats the bread herself after doing all the work.",
+    "pages": [
+      {
+        "id": "little-red-hen-page-01",
+        "text": "A little red hen lived on a farm with her friends. She worked hard. One day, she wanted to plant wheat. Her friends would not help, so the hen planted the little grains herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_02.webp",
+        "sourcePages": [
+          65,
+          66
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-01.mp3"
+      },
+      {
+        "id": "little-red-hen-page-02",
+        "text": "The wheat grew tall. In summer, it was golden and ready to gather. The little red hen asked for help again. Nobody came to help her, so she gathered all the wheat herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_03.webp",
+        "sourcePages": [
+          67
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-02.mp3"
+      },
+      {
+        "id": "little-red-hen-page-03",
+        "text": "Now the hen needed flour. She ground the wheat into flour. Her friends still did not want to work. The little red hen kept going and did this job herself, too.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_04.webp",
+        "sourcePages": [
+          68
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-03.mp3"
+      },
+      {
+        "id": "little-red-hen-page-04",
+        "text": "The little red hen mixed her flour into bread dough. She pushed and folded the dough. That is called kneading. Her friends would not help, so she kneaded the dough all by herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_05.webp",
+        "sourcePages": [
+          69
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-04.mp3"
+      },
+      {
+        "id": "little-red-hen-page-05",
+        "text": "The hen baked her bread. Soon, a lovely smell drifted through the air. Her friends smelled the freshly baked bread. At last, they came to see what she had made.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_06.webp",
+        "sourcePages": [
+          70
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-05.mp3"
+      },
+      {
+        "id": "little-red-hen-page-06",
+        "text": "Now the hen’s friends wanted to help eat the bread! But the little red hen had done all the work. She ate the bread herself. She had planted, gathered, ground, kneaded, and baked it.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_07.webp",
+        "sourcePages": [
+          71
+        ],
+        "audio": "assets/books/little-red-hen/audio/little-red-hen-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "little-red-hen-question-01",
+        "afterPage": 2,
+        "prompt": "Who planted the grains? Tap the helper.",
+        "hint": "She had red feathers and worked hard on the farm.",
+        "feedback": "Yes! The little red hen planted the grains herself.",
+        "choices": [
+          {
+            "label": "Little red hen",
+            "image": "assets/books/little-red-hen/art/little-red-hen-hen.webp"
+          },
+          {
+            "label": "Bread",
+            "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows little red hen.",
+        "audio": {
+          "prompt": "assets/books/little-red-hen/audio/little-red-hen-question-01-prompt.mp3",
+          "hint": "assets/books/little-red-hen/audio/little-red-hen-question-01-hint.mp3",
+          "guided": "assets/books/little-red-hen/audio/little-red-hen-question-01-guided.mp3",
+          "feedback": "assets/books/little-red-hen/audio/little-red-hen-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-hen-question-02",
+        "afterPage": 2,
+        "prompt": "What did the hen gather in summer?",
+        "hint": "It grew tall and golden in the field.",
+        "feedback": "You found the wheat! The hen gathered it herself.",
+        "choices": [
+          {
+            "label": "Bread",
+            "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+          },
+          {
+            "label": "Wheat",
+            "image": "assets/books/little-red-hen/art/little-red-hen-wheat.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows wheat.",
+        "audio": {
+          "prompt": "assets/books/little-red-hen/audio/little-red-hen-question-02-prompt.mp3",
+          "hint": "assets/books/little-red-hen/audio/little-red-hen-question-02-hint.mp3",
+          "guided": "assets/books/little-red-hen/audio/little-red-hen-question-02-guided.mp3",
+          "feedback": "assets/books/little-red-hen/audio/little-red-hen-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-hen-question-03",
+        "afterPage": 5,
+        "prompt": "Who kneaded the dough?",
+        "hint": "She pushed and folded the dough all by herself.",
+        "feedback": "The little red hen kneaded the dough!",
+        "choices": [
+          {
+            "label": "Little red hen",
+            "image": "assets/books/little-red-hen/art/little-red-hen-hen.webp"
+          },
+          {
+            "label": "Wheat",
+            "image": "assets/books/little-red-hen/art/little-red-hen-wheat.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows little red hen.",
+        "audio": {
+          "prompt": "assets/books/little-red-hen/audio/little-red-hen-question-03-prompt.mp3",
+          "hint": "assets/books/little-red-hen/audio/little-red-hen-question-03-hint.mp3",
+          "guided": "assets/books/little-red-hen/audio/little-red-hen-question-03-guided.mp3",
+          "feedback": "assets/books/little-red-hen/audio/little-red-hen-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-hen-question-04",
+        "afterPage": 5,
+        "prompt": "What did the hen bake and eat?",
+        "hint": "It smelled lovely when it came out of the oven.",
+        "feedback": "Yes! She baked the bread and ate it herself.",
+        "choices": [
+          {
+            "label": "Little red hen",
+            "image": "assets/books/little-red-hen/art/little-red-hen-hen.webp"
+          },
+          {
+            "label": "Bread",
+            "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows bread.",
+        "audio": {
+          "prompt": "assets/books/little-red-hen/audio/little-red-hen-question-04-prompt.mp3",
+          "hint": "assets/books/little-red-hen/audio/little-red-hen-question-04-hint.mp3",
+          "guided": "assets/books/little-red-hen/audio/little-red-hen-question-04-guided.mp3",
+          "feedback": "assets/books/little-red-hen/audio/little-red-hen-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "You listened to The Little Red Hen and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/little-red-hen/audio/little-red-hen-complete.mp3"
+    }
+  },
+  {
+    "id": "thumbelina",
+    "title": "Thumbelina",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Original story by Hans Christian Andersen. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/thumbelina/art/thumbelina_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening edition using the original illustrations and crops for picture answers. Combines source pages while preserving the toad and mole marriage proposals, the fish and swallow rescues, and Thumbelina becoming queen.",
+    "pages": [
+      {
+        "id": "thumbelina-page-01",
+        "text": "A woman wished for a child. She planted a magical seed, and a flower grew. When she kissed the petals, the flower opened. A tiny girl was sitting inside!",
+        "image": "assets/books/thumbelina/art/thumbelina_02.webp",
+        "sourcePages": [
+          75,
+          76
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-01.mp3"
+      },
+      {
+        "id": "thumbelina-page-02",
+        "text": "The girl was no bigger than a thumb. The woman named her Thumbelina. At bedtime, Thumbelina curled up in a polished walnut shell. It was a little bed for a very little girl.",
+        "image": "assets/books/thumbelina/art/thumbelina_03.webp",
+        "sourcePages": [
+          77
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-02.mp3"
+      },
+      {
+        "id": "thumbelina-page-03",
+        "text": "One night, a mother toad carried Thumbelina away. She wanted Thumbelina to marry her son. The toads left the little girl on a lily leaf in the river. Thumbelina felt sad and cried.",
+        "image": "assets/books/thumbelina/art/thumbelina_05.webp",
+        "sourcePages": [
+          78,
+          79
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-03.mp3"
+      },
+      {
+        "id": "thumbelina-page-04",
+        "text": "A fish heard Thumbelina crying. It nibbled the stem under her lily leaf. Nibble, nibble! The stem broke, and the leaf floated away. Thumbelina sailed down the river, away from the toads.",
+        "image": "assets/books/thumbelina/art/thumbelina_06.webp",
+        "sourcePages": [
+          80
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-04.mp3"
+      },
+      {
+        "id": "thumbelina-page-05",
+        "text": "Winter came, and Thumbelina was cold. A kind field mouse invited her inside. Thumbelina stayed in the mouse’s warm burrow for the rest of winter. The little girl and the mouse became good friends.",
+        "image": "assets/books/thumbelina/art/thumbelina_08.webp",
+        "sourcePages": [
+          81,
+          82
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-05.mp3"
+      },
+      {
+        "id": "thumbelina-page-06",
+        "text": "Mr. Mole lived in a nearby burrow. In the evenings, he came to visit the field mouse and Thumbelina. He liked to sit and listen to the little girl sing.",
+        "image": "assets/books/thumbelina/art/thumbelina_09.webp",
+        "sourcePages": [
+          83
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-06.mp3"
+      },
+      {
+        "id": "thumbelina-page-07",
+        "text": "One evening, Thumbelina found a swallow at Mr. Mole’s home. The bird was cold and hurt. Thumbelina cared for him. Every day, she brought the swallow food to help him get better.",
+        "image": "assets/books/thumbelina/art/thumbelina_10.webp",
+        "sourcePages": [
+          84
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-07.mp3"
+      },
+      {
+        "id": "thumbelina-page-08",
+        "text": "Mr. Mole wanted to marry Thumbelina, but she did not want to marry him. Then the swallow returned to help her escape. Thumbelina climbed onto his back. Together, they flew south to warmer lands.",
+        "image": "assets/books/thumbelina/art/thumbelina_12.webp",
+        "sourcePages": [
+          85,
+          86
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-08.mp3"
+      },
+      {
+        "id": "thumbelina-page-09",
+        "text": "The swallow brought Thumbelina to a land full of flowers. There she met a king who was tiny, just like her. Thumbelina became the queen. She and the king lived happily ever after.",
+        "image": "assets/books/thumbelina/art/thumbelina_14.webp",
+        "sourcePages": [
+          87,
+          88
+        ],
+        "audio": "assets/books/thumbelina/audio/thumbelina-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "thumbelina-question-01",
+        "afterPage": 2,
+        "prompt": "Where did the woman first find the tiny girl?",
+        "hint": "The petals opened, and there she was!",
+        "feedback": "Thumbelina was inside a flower!",
+        "choices": [
+          {
+            "label": "Thumbelina in a flower",
+            "image": "assets/books/thumbelina/art/thumbelina-flower.webp"
+          },
+          {
+            "label": "Thumbelina in her walnut bed",
+            "image": "assets/books/thumbelina/art/thumbelina-bed.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows thumbelina in a flower.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-01-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-01-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-01-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "thumbelina-question-02",
+        "afterPage": 2,
+        "prompt": "Who carried Thumbelina away in the night?",
+        "hint": "It was the mother of the little toad.",
+        "feedback": "A mother toad carried Thumbelina away.",
+        "choices": [
+          {
+            "label": "Fish",
+            "image": "assets/books/thumbelina/art/thumbelina-fish.webp"
+          },
+          {
+            "label": "Toad",
+            "image": "assets/books/thumbelina/art/thumbelina-toad.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows toad.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-02-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-02-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-02-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "thumbelina-question-03",
+        "afterPage": 5,
+        "prompt": "Who nibbled the lily stem to help Thumbelina?",
+        "hint": "This helper swam in the river.",
+        "feedback": "The fish nibbled the stem so Thumbelina could float away!",
+        "choices": [
+          {
+            "label": "Fish",
+            "image": "assets/books/thumbelina/art/thumbelina-fish.webp"
+          },
+          {
+            "label": "Field mouse",
+            "image": "assets/books/thumbelina/art/thumbelina-mouse.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows fish.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-03-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-03-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-03-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "thumbelina-question-04",
+        "afterPage": 5,
+        "prompt": "Who shared a warm home with Thumbelina in winter?",
+        "hint": "This kind little animal invited her into a burrow.",
+        "feedback": "The field mouse shared her warm home with Thumbelina.",
+        "choices": [
+          {
+            "label": "Mr. Mole",
+            "image": "assets/books/thumbelina/art/thumbelina-mole.webp"
+          },
+          {
+            "label": "Field mouse",
+            "image": "assets/books/thumbelina/art/thumbelina-mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows field mouse.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-04-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-04-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-04-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-04-feedback.mp3"
+        }
+      },
+      {
+        "id": "thumbelina-question-05",
+        "afterPage": 8,
+        "prompt": "Who carried Thumbelina through the sky?",
+        "hint": "She had cared for this bird when he was hurt.",
+        "feedback": "The swallow flew south with Thumbelina!",
+        "choices": [
+          {
+            "label": "Swallow",
+            "image": "assets/books/thumbelina/art/thumbelina-swallow.webp"
+          },
+          {
+            "label": "Mr. Mole",
+            "image": "assets/books/thumbelina/art/thumbelina-mole.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows swallow.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-05-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-05-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-05-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-05-feedback.mp3"
+        }
+      },
+      {
+        "id": "thumbelina-question-06",
+        "afterPage": 8,
+        "prompt": "Who did Thumbelina meet in the land of flowers?",
+        "hint": "He was tiny like her, and she became his queen.",
+        "feedback": "Thumbelina met the tiny king!",
+        "choices": [
+          {
+            "label": "Field mouse",
+            "image": "assets/books/thumbelina/art/thumbelina-mouse.webp"
+          },
+          {
+            "label": "Tiny king",
+            "image": "assets/books/thumbelina/art/thumbelina-king.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows tiny king.",
+        "audio": {
+          "prompt": "assets/books/thumbelina/audio/thumbelina-question-06-prompt.mp3",
+          "hint": "assets/books/thumbelina/audio/thumbelina-question-06-hint.mp3",
+          "guided": "assets/books/thumbelina/audio/thumbelina-question-06-guided.mp3",
+          "feedback": "assets/books/thumbelina/audio/thumbelina-question-06-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "You listened to Thumbelina and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/thumbelina/audio/thumbelina-complete.mp3"
+    }
+  },
+  {
+    "id": "turtle-shell",
+    "title": "How Turtle Cracked His Shell",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh and Barbara L. Gibson. Adapted by Rosie McCormick from How the Turtle Flew South for the Winter by Joseph Bruchac, courtesy of Fulcrum Publishing, Inc. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/turtle-shell/art/turtle-shell_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening edition using the original illustrations and crops for picture answers. Preserves Turtle’s fall, cracked shell, winter in the pond, and spring awakening. The explanation of shell markings is explicitly presented as the story’s explanation.",
+    "pages": [
+      {
+        "id": "turtle-shell-page-01",
+        "text": "One autumn day, Turtle talked with the birds. Winter was coming. The birds were getting ready to fly south, where it was warm. Turtle wanted to go with them. At last, the birds agreed.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_02.webp",
+        "sourcePages": [
+          93,
+          94
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-01.mp3"
+      },
+      {
+        "id": "turtle-shell-page-02",
+        "text": "The birds brought a stick. Turtle held the middle tightly in his mouth. Two big birds held the ends. Up they flew, carrying Turtle into the sky. He had to keep holding on!",
+        "image": "assets/books/turtle-shell/art/turtle-shell_03.webp",
+        "sourcePages": [
+          95
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-02.mp3"
+      },
+      {
+        "id": "turtle-shell-page-03",
+        "text": "Turtle looked down from high in the sky. Everything below looked so small! He wondered how far they had traveled. He also wondered how much farther they still had to go.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_04.webp",
+        "sourcePages": [
+          96
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-03.mp3"
+      },
+      {
+        "id": "turtle-shell-page-04",
+        "text": "Turtle wanted the birds to look at him. He rolled his eyes and waved his legs. Then he opened his mouth to speak. He let go of the stick and fell hard onto the ground.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_05.webp",
+        "sourcePages": [
+          97
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-04.mp3"
+      },
+      {
+        "id": "turtle-shell-page-05",
+        "text": "Turtle ached all over. His shell had cracked, but he did not notice yet. He crawled into a pond and swam to the bottom. There he dug a hole in the mud and slept all winter.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_06.webp",
+        "sourcePages": [
+          98
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-05.mp3"
+      },
+      {
+        "id": "turtle-shell-page-06",
+        "text": "Spring came, and Turtle woke up. Now he saw the cracks on his shell, and he felt proud of them. This story says that ever since then, turtle shells have looked as though they have cracks.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_07.webp",
+        "sourcePages": [
+          99
+        ],
+        "audio": "assets/books/turtle-shell/audio/turtle-shell-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "turtle-shell-question-01",
+        "afterPage": 2,
+        "prompt": "Who was getting ready to fly south?",
+        "hint": "They had wings and wanted to find warm weather.",
+        "feedback": "The birds were getting ready to fly south!",
+        "choices": [
+          {
+            "label": "Bird",
+            "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+          },
+          {
+            "label": "Turtle",
+            "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows bird.",
+        "audio": {
+          "prompt": "assets/books/turtle-shell/audio/turtle-shell-question-01-prompt.mp3",
+          "hint": "assets/books/turtle-shell/audio/turtle-shell-question-01-hint.mp3",
+          "guided": "assets/books/turtle-shell/audio/turtle-shell-question-01-guided.mp3",
+          "feedback": "assets/books/turtle-shell/audio/turtle-shell-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "turtle-shell-question-02",
+        "afterPage": 2,
+        "prompt": "Who held the stick in his mouth?",
+        "hint": "He had a shell and wanted to fly with the birds.",
+        "feedback": "Turtle held the stick in his mouth!",
+        "choices": [
+          {
+            "label": "Bird",
+            "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+          },
+          {
+            "label": "Turtle",
+            "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows turtle.",
+        "audio": {
+          "prompt": "assets/books/turtle-shell/audio/turtle-shell-question-02-prompt.mp3",
+          "hint": "assets/books/turtle-shell/audio/turtle-shell-question-02-hint.mp3",
+          "guided": "assets/books/turtle-shell/audio/turtle-shell-question-02-guided.mp3",
+          "feedback": "assets/books/turtle-shell/audio/turtle-shell-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "turtle-shell-question-03",
+        "afterPage": 5,
+        "prompt": "Where did Turtle sleep through winter?",
+        "hint": "He swam down and dug a hole in the mud.",
+        "feedback": "Turtle slept at the bottom of the pond.",
+        "choices": [
+          {
+            "label": "Turtle under the pond water",
+            "image": "assets/books/turtle-shell/art/turtle-shell-pond.webp"
+          },
+          {
+            "label": "Turtle flying in the sky",
+            "image": "assets/books/turtle-shell/art/turtle-shell-sky.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows turtle under the pond water.",
+        "audio": {
+          "prompt": "assets/books/turtle-shell/audio/turtle-shell-question-03-prompt.mp3",
+          "hint": "assets/books/turtle-shell/audio/turtle-shell-question-03-hint.mp3",
+          "guided": "assets/books/turtle-shell/audio/turtle-shell-question-03-guided.mp3",
+          "feedback": "assets/books/turtle-shell/audio/turtle-shell-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "turtle-shell-question-04",
+        "afterPage": 5,
+        "prompt": "Who woke up with cracks on his shell?",
+        "hint": "He had slept in the pond until spring.",
+        "feedback": "Turtle woke up and saw the cracks on his shell.",
+        "choices": [
+          {
+            "label": "Bird",
+            "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+          },
+          {
+            "label": "Turtle",
+            "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows turtle.",
+        "audio": {
+          "prompt": "assets/books/turtle-shell/audio/turtle-shell-question-04-prompt.mp3",
+          "hint": "assets/books/turtle-shell/audio/turtle-shell-question-04-hint.mp3",
+          "guided": "assets/books/turtle-shell/audio/turtle-shell-question-04-guided.mp3",
+          "feedback": "assets/books/turtle-shell/audio/turtle-shell-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "You listened to How Turtle Cracked His Shell and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-complete.mp3"
+    }
+  },
+  {
+    "id": "why-flies-buzz",
+    "title": "Why Flies Buzz",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh; illustration on PDF page 113 by Barbara L. Gibson. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening edition using the original illustrations and crops for picture answers. Preserves the full chain of accidents, broken eggs, the lion taking away the fly’s speech, and the bushfowl calling the sun again. The explanations of sunlight and buzzing are presented as events in the tale.",
+    "pages": [
+      {
+        "id": "why-flies-buzz-page-01",
+        "text": "One sunny day, a man and his wife went into the jungle to find food. The man climbed a coconut tree. He carried a knife to cut down the coconuts.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp",
+        "sourcePages": [
+          103
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-01.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-02",
+        "text": "A black fly buzzed around the man’s face. The man tried to swat it away. His knife slipped and fell! “Watch out!” he called to his wife down below.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_02.webp",
+        "sourcePages": [
+          104
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-02.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-03",
+        "text": "The wife jumped out of the way. As she jumped, she kicked a sleeping crocodile under the tree. The crocodile woke up angry. Swack, swack! Its great tail swung through the air.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_03.webp",
+        "sourcePages": [
+          105
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-03.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-04",
+        "text": "A bird flew away from the crocodile’s swinging tail. It landed beside a monkey with a mango. The startled monkey dropped his fruit. Splat! The mango landed on a hippo’s head.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_05.webp",
+        "sourcePages": [
+          106,
+          107
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-04.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-05",
+        "text": "The hippo thought hunters were after him. He ran away, stomping through the jungle. His feet trampled a bushfowl’s nest. The eggs inside the nest broke, and the bushfowl was very sad.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_06.webp",
+        "sourcePages": [
+          108,
+          109
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-05.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-06",
+        "text": "The bushfowl stayed beside her broken eggs and cried. In this story, her morning call woke the sun. Now she did not call. The sky stayed dark for several days.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_07.webp",
+        "sourcePages": [
+          109
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-06.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-07",
+        "text": "The worried animals went to the wise lion. The lion gathered everyone to hear what had happened. Everyone blamed someone else. Last, the man explained that a black fly had made him drop his knife.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_08.webp",
+        "sourcePages": [
+          110,
+          111
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-07.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-08",
+        "text": "The lion asked the fly to answer. “Buzz, buzz, buzz!” said the fly. The angry lion took away the fly’s power to talk. After that, the fly could only buzz. That is how this tale explains a fly’s sound.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_10.webp",
+        "sourcePages": [
+          112,
+          113
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-08.mp3"
+      },
+      {
+        "id": "why-flies-buzz-page-09",
+        "text": "The bushfowl heard that the fly had been punished. She agreed to call the sun again. Her call welcomed the morning, and the day could begin. The fly still could only say, “Buzz, buzz, buzz!”",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_12.webp",
+        "sourcePages": [
+          113,
+          114
+        ],
+        "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "why-flies-buzz-question-01",
+        "afterPage": 2,
+        "prompt": "Who buzzed around the man’s face?",
+        "hint": "It was a tiny insect with wings.",
+        "feedback": "The black fly buzzed around the man!",
+        "choices": [
+          {
+            "label": "Black fly",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-fly.webp"
+          },
+          {
+            "label": "Lion",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-lion.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows black fly.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-01-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-01-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-01-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "why-flies-buzz-question-02",
+        "afterPage": 2,
+        "prompt": "Who was sleeping under the coconut tree?",
+        "hint": "It woke up and swung a long tail.",
+        "feedback": "The crocodile was sleeping under the tree.",
+        "choices": [
+          {
+            "label": "Monkey",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-monkey.webp"
+          },
+          {
+            "label": "Crocodile",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-crocodile.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows crocodile.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-02-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-02-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-02-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "why-flies-buzz-question-03",
+        "afterPage": 5,
+        "prompt": "Who dropped the mango?",
+        "hint": "This animal was sitting beside the bird in a tree.",
+        "feedback": "The monkey dropped the mango onto the hippo!",
+        "choices": [
+          {
+            "label": "Monkey",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-monkey.webp"
+          },
+          {
+            "label": "Hippo",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-hippo.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows monkey.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-03-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-03-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-03-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "why-flies-buzz-question-04",
+        "afterPage": 5,
+        "prompt": "Who stayed beside the broken eggs?",
+        "hint": "She was a bird with a nest.",
+        "feedback": "The bushfowl stayed beside her broken eggs.",
+        "choices": [
+          {
+            "label": "Hippo",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-hippo.webp"
+          },
+          {
+            "label": "Bushfowl",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-bushfowl.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows bushfowl.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-04-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-04-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-04-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-04-feedback.mp3"
+        }
+      },
+      {
+        "id": "why-flies-buzz-question-05",
+        "afterPage": 8,
+        "prompt": "Who gathered everyone to hear what happened?",
+        "hint": "This wise animal had a big mane.",
+        "feedback": "The lion gathered everyone together.",
+        "choices": [
+          {
+            "label": "Lion",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-lion.webp"
+          },
+          {
+            "label": "Black fly",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-fly.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows lion.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-05-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-05-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-05-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-05-feedback.mp3"
+        }
+      },
+      {
+        "id": "why-flies-buzz-question-06",
+        "afterPage": 8,
+        "prompt": "Who called the sun again at the end?",
+        "hint": "It was the bird who had been sad about her eggs.",
+        "feedback": "The bushfowl called the sun, and the day could begin!",
+        "choices": [
+          {
+            "label": "Monkey",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-monkey.webp"
+          },
+          {
+            "label": "Bushfowl",
+            "image": "assets/books/why-flies-buzz/art/why-flies-buzz-bushfowl.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows bushfowl.",
+        "audio": {
+          "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-06-prompt.mp3",
+          "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-06-hint.mp3",
+          "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-06-guided.mp3",
+          "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-question-06-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "You listened to Why Flies Buzz and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-complete.mp3"
+    }
+  },
+  {
+    "id": "three-little-pigs",
+    "title": "The Three Little Pigs",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/three-little-pigs/art/three-little-pigs_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening edition using the original illustrations and crops for picture answers. Preserves all three building materials and the source ending: the wolf lands in hot water, jumps out, and runs away; all three pigs live happily ever after.",
+    "pages": [
+      {
+        "id": "three-little-pigs-page-01",
+        "text": "Three little pigs lived with Mama Pig. One day, she told them they were grown and ready to live on their own. The pigs said goodbye and set off to build their homes.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_01.webp",
+        "sourcePages": [
+          119,
+          120
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-01.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-02",
+        "text": "The first little pig built a house from straw. He finished quickly. Now he had time to rest in the shade. His new straw house stood nearby.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_02.webp",
+        "sourcePages": [
+          120
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-02.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-03",
+        "text": "The second little pig built a house from sticks. He worked hard to put his house together. When he finished, he still had time to rest in the shade.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_03.webp",
+        "sourcePages": [
+          121
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-03.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-04",
+        "text": "The third little pig chose bricks for his house. Building it took a long time. He worked very, very hard. There was no time for him to rest in the shade.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_04.webp",
+        "sourcePages": [
+          122
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-04.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-05",
+        "text": "A hungry wolf came along. The first pig hurried inside his straw house. “Let me come in,” said the wolf. “Not by the hair of my chinny-chin-chin!” said the little pig.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_06.webp",
+        "sourcePages": [
+          123,
+          124
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-05.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-06",
+        "text": "“Then I’ll huff, and I’ll puff!” said the wolf. He blew the straw house down. Straw flew everywhere. The first little pig ran away as fast as he could.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_07.webp",
+        "sourcePages": [
+          125
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-06.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-07",
+        "text": "The wolf came to the stick house next. The second pig would not let him in. The wolf threatened to blow this house down, too. The two little pigs ran to their brother’s brick house.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_08.webp",
+        "sourcePages": [
+          126,
+          127
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-07.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-08",
+        "text": "The wolf followed the pigs to the brick house. The third pig would not open the door. So the wolf climbed onto the roof and jumped down the chimney.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_09.webp",
+        "sourcePages": [
+          127
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-08.mp3"
+      },
+      {
+        "id": "three-little-pigs-page-09",
+        "text": "Down the chimney fell the wolf, right into a pot of hot water! He jumped straight out and ran away. The three little pigs were safe. They lived happily ever after.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_10.webp",
+        "sourcePages": [
+          128
+        ],
+        "audio": "assets/books/three-little-pigs/audio/three-little-pigs-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "three-little-pigs-question-01",
+        "afterPage": 2,
+        "prompt": "Who told the pigs they were ready to live on their own?",
+        "hint": "She was the pigs’ mother.",
+        "feedback": "Mama Pig told her little pigs they were ready.",
+        "choices": [
+          {
+            "label": "Mama Pig",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-mother.webp"
+          },
+          {
+            "label": "Wolf",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows mama pig.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-01-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-01-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-01-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "three-little-pigs-question-02",
+        "afterPage": 2,
+        "prompt": "Which house did the first little pig build?",
+        "hint": "His house was made of golden straw.",
+        "feedback": "The first little pig built the straw house.",
+        "choices": [
+          {
+            "label": "Stick house",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-sticks.webp"
+          },
+          {
+            "label": "Straw house",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-straw.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows straw house.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-02-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-02-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-02-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "three-little-pigs-question-03",
+        "afterPage": 5,
+        "prompt": "Who worked hard to build with bricks?",
+        "hint": "It was the third little pig.",
+        "feedback": "The third little pig built his house with bricks.",
+        "choices": [
+          {
+            "label": "Third little pig",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-third.webp"
+          },
+          {
+            "label": "Wolf",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows third little pig.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-03-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-03-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-03-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "three-little-pigs-question-04",
+        "afterPage": 5,
+        "prompt": "Who huffed and puffed the straw house down?",
+        "hint": "He wanted the first pig to let him in.",
+        "feedback": "The wolf blew the straw house down.",
+        "choices": [
+          {
+            "label": "First little pig",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-first.webp"
+          },
+          {
+            "label": "Wolf",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows wolf.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-04-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-04-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-04-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-04-feedback.mp3"
+        }
+      },
+      {
+        "id": "three-little-pigs-question-05",
+        "afterPage": 8,
+        "prompt": "Which house did the two pigs run to?",
+        "hint": "Their brother had built it with bricks.",
+        "feedback": "They ran to their brother’s brick house.",
+        "choices": [
+          {
+            "label": "Brick house",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-bricks.webp"
+          },
+          {
+            "label": "Straw house",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-straw.webp"
+          }
+        ],
+        "answer": 0,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows brick house.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-05-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-05-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-05-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-05-feedback.mp3"
+        }
+      },
+      {
+        "id": "three-little-pigs-question-06",
+        "afterPage": 8,
+        "prompt": "Who jumped out of the hot water and ran away?",
+        "hint": "He had come down the chimney.",
+        "feedback": "The wolf ran away. The three pigs were safe!",
+        "choices": [
+          {
+            "label": "Third little pig",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-third.webp"
+          },
+          {
+            "label": "Wolf",
+            "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+          }
+        ],
+        "answer": 1,
+        "guided": "Let’s do it together. Tap the picture with the green frame. It shows wolf.",
+        "audio": {
+          "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-question-06-prompt.mp3",
+          "hint": "assets/books/three-little-pigs/audio/three-little-pigs-question-06-hint.mp3",
+          "guided": "assets/books/three-little-pigs/audio/three-little-pigs-question-06-guided.mp3",
+          "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-question-06-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "You listened to The Three Little Pigs and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-complete.mp3"
+    }
+  }
+]

@@ -2,7 +2,6 @@
 from pathlib import Path
 from PIL import Image
 import urllib.request
-import wave, math, struct
 root=Path(__file__).resolve().parents[1]
 scenes=sorted((root/'scenes').glob('*.png'))
 crops={
@@ -24,13 +23,4 @@ for name,(i,box) in crops.items():
 base='https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/'
 for source,target in [('Nunito[wght].ttf','Nunito.ttf'),('OFL.txt','OFL.txt')]:
  urllib.request.urlretrieve(base+urllib.parse.quote(source),root/'assets/fonts'/target)
-for name,notes in [('tap',[660]),('success',[523.25,659.25,783.99,1046.5]),('try_again',[440,349.23])]:
- rate=22050; frames=[]
- for freq in notes:
-  length=.10 if name=='tap' else .16
-  for i in range(int(rate*length)):
-   t=i/rate; env=min(1,t/.008)*max(0,1-t/length)**2
-   val=.22*env*(math.sin(2*math.pi*freq*t)+.25*math.sin(2*math.pi*freq*2*t))
-   frames.append(struct.pack('<h',int(val*32767)))
- with wave.open(str(root/'assets/sounds'/f'{name}.wav'),'w') as w:
-  w.setnchannels(1);w.setsampwidth(2);w.setframerate(rate);w.writeframes(b''.join(frames))
+# Sound assets are authored independently by prepare_feedback_sounds.py.

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/theme.dart';
 import '../onboarding/pin_pad.dart';
 import 'parent_screen.dart';
@@ -137,7 +138,7 @@ class _ParentAccessScreenState extends State<ParentAccessScreen>
           center: true,
         ),
         gap,
-        const Art('lock', height: 150),
+        const IllustratedIcon(Illustration.lock, size: 150),
         gap,
         Text(
           c.tr('Enter your 6-digit PIN', 'Введите PIN из 6 цифр'),
@@ -199,7 +200,7 @@ class _ChangePinScreenState extends State<ChangePinScreen>
       children: [
         Heading(c.tr('A new parent PIN', 'Новый PIN родителей'), center: true),
         gap,
-        const Art('lock', height: 130),
+        const IllustratedIcon(Illustration.lock, size: 130),
         gap,
         if (_recovery != null) ...[
           Text(

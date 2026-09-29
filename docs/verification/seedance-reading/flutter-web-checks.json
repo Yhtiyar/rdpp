@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "setup": {
+    "duration": 5,
+    "width": 972,
+    "height": 834,
+    "muted": true,
+    "loop": true,
+    "paused": false
+  },
+  "playback": {
+    "loops": 2,
+    "frames": 276,
+    "droppedFrames": 0,
+    "error": null,
+    "paused": false
+  },
+  "reducedMotion": "unchanged for 5.2 seconds",
+  "navigation": "pauses away from Home and resumes on return",
+  "widths": [
+    320,
+    430,
+    1365
+  ],
+  "errors": []
+}

@@ -1,0 +1,258 @@
+{
+  "timeline": [
+    {
+      "name": "01-welcome",
+      "ms": 3358
+    },
+    {
+      "name": "02-age",
+      "ms": 4418
+    },
+    {
+      "name": "03-pin",
+      "ms": 4838
+    },
+    {
+      "name": "04-setup",
+      "ms": 10149
+    },
+    {
+      "name": "05-home",
+      "ms": 11170
+    },
+    {
+      "name": "05-home-later",
+      "ms": 12425
+    },
+    {
+      "name": "29-first-progress",
+      "ms": 13403
+    },
+    {
+      "name": "06-library",
+      "ms": 14098
+    },
+    {
+      "name": "07-reader",
+      "ms": 14871
+    },
+    {
+      "name": "23-start-test",
+      "ms": 17492
+    },
+    {
+      "name": "08-quiz",
+      "ms": 18147
+    },
+    {
+      "name": "22-small-quiz",
+      "ms": 18557
+    },
+    {
+      "name": "24-selected-before-check",
+      "ms": 19084
+    },
+    {
+      "name": "09-hint",
+      "ms": 20227
+    },
+    {
+      "name": "30-exhausted-question",
+      "ms": 25686
+    },
+    {
+      "name": "21-batch-reset",
+      "ms": 26830
+    },
+    {
+      "name": "23-start-test",
+      "ms": 30472
+    },
+    {
+      "name": "25-correct-answer",
+      "ms": 32116
+    },
+    {
+      "name": "26-batch-reward",
+      "ms": 35537
+    },
+    {
+      "name": "27-batch-reward-later",
+      "ms": 36386
+    },
+    {
+      "name": "10-success",
+      "ms": 37181
+    },
+    {
+      "name": "31-home-after-batch",
+      "ms": 38131
+    },
+    {
+      "name": "32-progress-after-batch",
+      "ms": 38946
+    },
+    {
+      "name": "28-reward-120",
+      "ms": 61022
+    },
+    {
+      "name": "11-reader-resume",
+      "ms": 61810
+    },
+    {
+      "name": "18-wallet",
+      "ms": 62698
+    },
+    {
+      "name": "33-wallet-options",
+      "ms": 63435
+    },
+    {
+      "name": "19-playtime",
+      "ms": 64259
+    },
+    {
+      "name": "12-parent",
+      "ms": 73896
+    },
+    {
+      "name": "13-parent-russian",
+      "ms": 74766
+    },
+    {
+      "name": "14-library-russian",
+      "ms": 76016
+    },
+    {
+      "name": "15-english-tab-russian",
+      "ms": 76505
+    },
+    {
+      "name": "20-english-quiz-russian",
+      "ms": 78088
+    },
+    {
+      "name": "16-small-phone",
+      "ms": 83514
+    },
+    {
+      "name": "17-desktop",
+      "ms": 83870
+    }
+  ],
+  "sounds": [
+    {
+      "time": 19459,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/try_again.wav"
+    },
+    {
+      "time": 20117,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/try_again.wav"
+    },
+    {
+      "time": 24756,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/try_again.wav"
+    },
+    {
+      "time": 24876,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/try_again.wav"
+    },
+    {
+      "time": 26527,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/try_again.wav"
+    },
+    {
+      "time": 31282,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 31374,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 32938,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 34093,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 35233,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 42618,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 43740,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 44875,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 46044,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 49890,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 51040,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 52166,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 53335,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 57103,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 58301,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 59527,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 60710,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 64020,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 78509,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 79050,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 80001,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 81120,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    },
+    {
+      "time": 82321,
+      "url": "http://127.0.0.1:7359/assets/assets/sounds/success.wav"
+    }
+  ]
+}

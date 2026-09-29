@@ -389,6 +389,18 @@ class AppController extends ChangeNotifier {
     await save();
   }
 
+  Future<void> setAge(int value) async {
+    final previous = age;
+    age = value;
+    try {
+      await save();
+    } catch (_) {
+      age = previous;
+      notifyListeners();
+      rethrow;
+    }
+  }
+
   Future<void> finishSetup() async {
     onboarded = true;
     try {

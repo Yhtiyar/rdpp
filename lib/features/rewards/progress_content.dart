@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/theme.dart';
 import '../../ui/mimi_character.dart';
 import '../reading/library_screen.dart';
@@ -70,7 +71,7 @@ class ProgressContent extends StatelessWidget {
         SoftPanel(
           child: Row(
             children: [
-              const Art('reward_star', width: 80, height: 86),
+              const IllustratedIcon(Illustration.coin, size: 80),
               const SizedBox(width: 16),
               Expanded(
                 child: Column(
@@ -144,9 +145,9 @@ class ProgressContent extends StatelessWidget {
         ),
         gap,
         ...[
-          (1, 'First little win', 'Первая победа', Icons.auto_stories_rounded),
-          (10, 'Ten-page explorer', '10 страниц открытий', Icons.stars_rounded),
-          (22, 'Story superstar', 'Звезда чтения', Icons.emoji_events_rounded),
+          (1, 'First little win', 'Первая победа', Illustration.book),
+          (10, 'Ten-page explorer', '10 страниц открытий', Illustration.coin),
+          (22, 'Story superstar', 'Звезда чтения', Illustration.trophy),
         ].map(
           (v) => Padding(
             padding: const EdgeInsets.only(bottom: 12),
@@ -154,13 +155,7 @@ class ProgressContent extends StatelessWidget {
               color: pages >= v.$1 ? WinTheme.peach : const Color(0xFFF5F2F9),
               child: Row(
                 children: [
-                  Icon(
-                    v.$4,
-                    size: 39,
-                    color: pages >= v.$1
-                        ? const Color(0xFFF2B420)
-                        : const Color(0xFFB7AACB),
-                  ),
+                  IllustratedIcon(v.$4, size: 52, locked: pages < v.$1),
                   const SizedBox(width: 16),
                   Expanded(
                     child: Column(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/app_controller.dart';
 import '../ui/components.dart';
+import '../ui/illustrated_icon.dart';
 import '../ui/theme.dart';
 import '../ui/motion_spec.dart';
 import 'home_screen.dart';
@@ -69,7 +70,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
         children: [
           TextButton.icon(
             onPressed: _wallet,
-            icon: const Icon(Icons.stars_rounded, size: 20),
+            icon: const IllustratedIcon(Illustration.coin, size: 28),
             label: Text(
               '${c.reading.balance}',
               style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 17),
@@ -78,16 +79,12 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
           IconButton(
             tooltip: c.tr('Parents', 'Родителям'),
             onPressed: () => openParentArea(context, c),
-            icon: const Icon(
-              Icons.lock_rounded,
-              color: WinTheme.purple,
-              size: 22,
-            ),
+            icon: const IllustratedIcon(Illustration.lock, size: 30),
           ),
         ],
       ),
       bottom: NavigationBar(
-        height: 74,
+        height: 80,
         selectedIndex: _tab,
         onDestinationSelected: _selectTab,
         animationDuration: MotionSpec.of(context).transition,
@@ -95,26 +92,23 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
         indicatorColor: WinTheme.lavender,
         destinations: [
           NavigationDestination(
-            icon: const Icon(Icons.home_outlined),
-            selectedIcon: const Icon(
-              Icons.home_rounded,
-              color: WinTheme.purple,
+            icon: IllustratedNavigationIcon(
+              Illustration.home,
+              selected: _tab == 0,
             ),
             label: c.tr('Home', 'Главная'),
           ),
           NavigationDestination(
-            icon: const Icon(Icons.auto_stories_outlined),
-            selectedIcon: const Icon(
-              Icons.auto_stories_rounded,
-              color: WinTheme.purple,
+            icon: IllustratedNavigationIcon(
+              Illustration.book,
+              selected: _tab == 1,
             ),
             label: c.tr('Books', 'Книги'),
           ),
           NavigationDestination(
-            icon: const Icon(Icons.emoji_events_outlined),
-            selectedIcon: const Icon(
-              Icons.emoji_events_rounded,
-              color: WinTheme.purple,
+            icon: IllustratedNavigationIcon(
+              Illustration.trophy,
+              selected: _tab == 2,
             ),
             label: c.tr('My wins', 'Победы'),
           ),

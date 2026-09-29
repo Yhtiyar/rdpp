@@ -44,14 +44,18 @@ with tempfile.TemporaryDirectory() as temp:
   for index,(source_page,img_num) in enumerate(zip(indices,image_numbers)):
    # pdfimages counts soft masks too. Image numbers match `pdfimages -list`.
    extracted=list(Path(temp).glob(f'{book_id}-{img_num:03d}.*'))[0]
-   image_path=f'assets/books/{book_id}_{index+1:02d}.webp'
+   image_path=f'assets/books/{book_id}/art/{book_id}_{index+1:02d}.webp'
+   (root/image_path).parent.mkdir(parents=True,exist_ok=True)
    im=Image.open(extracted).convert('RGB');im.thumbnail((1100,1100));im.save(root/image_path,quality=88)
    pages.append(dict(sourcePage=source_page,text=clean(text[source_page-1],lang),image=image_path))
   attribution=('Based on an original work of the Core Knowledge® Foundation, remixed and published by Free Kids Books (freekidsbooks.org). Source PDF contains CC BY-NC-SA 3.0 and CC BY-NC notices. Non-commercial use; attribution and original license notices retained. Core Knowledge does not endorse this app.' if lang=='en' else 'Русская народная сказка «Колобок». Текст и иллюстрации из предоставленного PDF deti-online.com. Оригинальный файл и указание источника сохранены.')
   # Bundle source PDFs to retain complete attribution/licensing and original page layout.
   import shutil
-  shutil.copyfile(source,output/f'{book_id}_original.pdf')
+  shutil.copyfile(source,output/book_id/f'{book_id}_original.pdf')
   books.append(dict(id=book_id,title=title,author=author,language=lang,attribution=attribution,
-    original=f'assets/books/{book_id}_original.pdf',cover=pages[0]['image'],pages=pages,batches=quizzes[book_id]))
-(output/'catalog.json').write_text(json.dumps(books,ensure_ascii=False,indent=2)+'\n')
+    original=f'assets/books/{book_id}/{book_id}_original.pdf',cover=pages[0]['image'],pages=pages,batches=quizzes[book_id]))
 print('Prepared',[(b['id'],len(b['pages'])) for b in books])
+
+# Retain independently authored editions when rebuilding the original sources.
+from merge_book_catalogs import merge_catalogs
+merge_catalogs(reading_editions=books)

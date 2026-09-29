@@ -1,0 +1,806 @@
+[
+  {
+    "phase": 0.0,
+    "meanPixelDifference": 0.046165385652642936
+  },
+  {
+    "phase": 0.005,
+    "meanPixelDifference": 0.18633360302049626
+  },
+  {
+    "phase": 0.01,
+    "meanPixelDifference": 0.18634540183387271
+  },
+  {
+    "phase": 0.015,
+    "meanPixelDifference": 0.1865257551240561
+  },
+  {
+    "phase": 0.02,
+    "meanPixelDifference": 0.18608751348435815
+  },
+  {
+    "phase": 0.025,
+    "meanPixelDifference": 0.1862038160733549
+  },
+  {
+    "phase": 0.03,
+    "meanPixelDifference": 0.18600997842502698
+  },
+  {
+    "phase": 0.035,
+    "meanPixelDifference": 0.18625101132686084
+  },
+  {
+    "phase": 0.04,
+    "meanPixelDifference": 0.18624258360302048
+  },
+  {
+    "phase": 0.045,
+    "meanPixelDifference": 0.1871072680690399
+  },
+  {
+    "phase": 0.05,
+    "meanPixelDifference": 0.18561893203883495
+  },
+  {
+    "phase": 0.055,
+    "meanPixelDifference": 0.18623921251348438
+  },
+  {
+    "phase": 0.06,
+    "meanPixelDifference": 0.18594424217907227
+  },
+  {
+    "phase": 0.065,
+    "meanPixelDifference": 0.18659486245954693
+  },
+  {
+    "phase": 0.07,
+    "meanPixelDifference": 0.18587850593311758
+  },
+  {
+    "phase": 0.075,
+    "meanPixelDifference": 0.18672464940668823
+  },
+  {
+    "phase": 0.08,
+    "meanPixelDifference": 0.1860403182308522
+  },
+  {
+    "phase": 0.085,
+    "meanPixelDifference": 0.18603863268608414
+  },
+  {
+    "phase": 0.09,
+    "meanPixelDifference": 0.18588524811218984
+  },
+  {
+    "phase": 0.095,
+    "meanPixelDifference": 0.18607065803667744
+  },
+  {
+    "phase": 0.1,
+    "meanPixelDifference": 0.186133023193096
+  },
+  {
+    "phase": 0.105,
+    "meanPixelDifference": 0.1861667340884574
+  },
+  {
+    "phase": 0.11,
+    "meanPixelDifference": 0.1860302049622438
+  },
+  {
+    "phase": 0.115,
+    "meanPixelDifference": 0.18567961165048544
+  },
+  {
+    "phase": 0.12,
+    "meanPixelDifference": 0.18620381607335493
+  },
+  {
+    "phase": 0.125,
+    "meanPixelDifference": 0.18621224379719525
+  },
+  {
+    "phase": 0.13,
+    "meanPixelDifference": 0.18664711434735706
+  },
+  {
+    "phase": 0.135,
+    "meanPixelDifference": 0.1860891990291262
+  },
+  {
+    "phase": 0.14,
+    "meanPixelDifference": 0.18653755393743257
+  },
+  {
+    "phase": 0.145,
+    "meanPixelDifference": 0.1860217772384035
+  },
+  {
+    "phase": 0.15,
+    "meanPixelDifference": 0.18616167745415316
+  },
+  {
+    "phase": 0.155,
+    "meanPixelDifference": 0.18557847896440127
+  },
+  {
+    "phase": 0.16,
+    "meanPixelDifference": 0.18219221952535058
+  },
+  {
+    "phase": 0.165,
+    "meanPixelDifference": 0.16884607605177993
+  },
+  {
+    "phase": 0.17,
+    "meanPixelDifference": 0.1738015776699029
+  },
+  {
+    "phase": 0.175,
+    "meanPixelDifference": 0.17379314994606257
+  },
+  {
+    "phase": 0.18,
+    "meanPixelDifference": 0.17379483549083063
+  },
+  {
+    "phase": 0.185,
+    "meanPixelDifference": 0.18230515102481124
+  },
+  {
+    "phase": 0.19,
+    "meanPixelDifference": 0.1849750539374326
+  },
+  {
+    "phase": 0.195,
+    "meanPixelDifference": 0.18627798004314997
+  },
+  {
+    "phase": 0.2,
+    "meanPixelDifference": 0.18590716019417478
+  },
+  {
+    "phase": 0.205,
+    "meanPixelDifference": 0.18543352211434738
+  },
+  {
+    "phase": 0.21,
+    "meanPixelDifference": 0.18576220334412083
+  },
+  {
+    "phase": 0.215,
+    "meanPixelDifference": 0.18576220334412083
+  },
+  {
+    "phase": 0.22,
+    "meanPixelDifference": 0.18550094390507013
+  },
+  {
+    "phase": 0.225,
+    "meanPixelDifference": 0.18550094390507013
+  },
+  {
+    "phase": 0.23,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.235,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.24,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.245,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.25,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.255,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.26,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.265,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.27,
+    "meanPixelDifference": 0.185302049622438
+  },
+  {
+    "phase": 0.275,
+    "meanPixelDifference": 0.18597121089536137
+  },
+  {
+    "phase": 0.28,
+    "meanPixelDifference": 0.18570658036677454
+  },
+  {
+    "phase": 0.285,
+    "meanPixelDifference": 0.18582119741100322
+  },
+  {
+    "phase": 0.29,
+    "meanPixelDifference": 0.1853222761596548
+  },
+  {
+    "phase": 0.295,
+    "meanPixelDifference": 0.1856054476806904
+  },
+  {
+    "phase": 0.3,
+    "meanPixelDifference": 0.1857891720604099
+  },
+  {
+    "phase": 0.305,
+    "meanPixelDifference": 0.18458400755124058
+  },
+  {
+    "phase": 0.31,
+    "meanPixelDifference": 0.18644653451995685
+  },
+  {
+    "phase": 0.315,
+    "meanPixelDifference": 0.18582456850053938
+  },
+  {
+    "phase": 0.32,
+    "meanPixelDifference": 0.18492280204962244
+  },
+  {
+    "phase": 0.325,
+    "meanPixelDifference": 0.18529530744336567
+  },
+  {
+    "phase": 0.33,
+    "meanPixelDifference": 0.18535598705501619
+  },
+  {
+    "phase": 0.335,
+    "meanPixelDifference": 0.18554308252427185
+  },
+  {
+    "phase": 0.34,
+    "meanPixelDifference": 0.18499022384034522
+  },
+  {
+    "phase": 0.345,
+    "meanPixelDifference": 0.1844525350593312
+  },
+  {
+    "phase": 0.35,
+    "meanPixelDifference": 0.1843311758360302
+  },
+  {
+    "phase": 0.355,
+    "meanPixelDifference": 0.18403620550161812
+  },
+  {
+    "phase": 0.36,
+    "meanPixelDifference": 0.18382382686084142
+  },
+  {
+    "phase": 0.365,
+    "meanPixelDifference": 0.18542172330097087
+  },
+  {
+    "phase": 0.37,
+    "meanPixelDifference": 0.18441039644012944
+  },
+  {
+    "phase": 0.375,
+    "meanPixelDifference": 0.1848587513484358
+  },
+  {
+    "phase": 0.38,
+    "meanPixelDifference": 0.1861717907227616
+  },
+  {
+    "phase": 0.385,
+    "meanPixelDifference": 0.18532564724919096
+  },
+  {
+    "phase": 0.39,
+    "meanPixelDifference": 0.18620213052858683
+  },
+  {
+    "phase": 0.395,
+    "meanPixelDifference": 0.186669026429342
+  },
+  {
+    "phase": 0.4,
+    "meanPixelDifference": 0.187646642394822
+  },
+  {
+    "phase": 0.405,
+    "meanPixelDifference": 0.18731121898597627
+  },
+  {
+    "phase": 0.41,
+    "meanPixelDifference": 0.1884911003236246
+  },
+  {
+    "phase": 0.415,
+    "meanPixelDifference": 0.18882146709816613
+  },
+  {
+    "phase": 0.42,
+    "meanPixelDifference": 0.18876921521035597
+  },
+  {
+    "phase": 0.425,
+    "meanPixelDifference": 0.1899541531823085
+  },
+  {
+    "phase": 0.43,
+    "meanPixelDifference": 0.18940803667745412
+  },
+  {
+    "phase": 0.435,
+    "meanPixelDifference": 0.1899069579288026
+  },
+  {
+    "phase": 0.44,
+    "meanPixelDifference": 0.18962884304207117
+  },
+  {
+    "phase": 0.445,
+    "meanPixelDifference": 0.19004854368932037
+  },
+  {
+    "phase": 0.45,
+    "meanPixelDifference": 0.18995920981661274
+  },
+  {
+    "phase": 0.455,
+    "meanPixelDifference": 0.18938275350593312
+  },
+  {
+    "phase": 0.46,
+    "meanPixelDifference": 0.1887304476806904
+  },
+  {
+    "phase": 0.465,
+    "meanPixelDifference": 0.18713255124056094
+  },
+  {
+    "phase": 0.47,
+    "meanPixelDifference": 0.18662857335490832
+  },
+  {
+    "phase": 0.475,
+    "meanPixelDifference": 0.18608245685005395
+  },
+  {
+    "phase": 0.48,
+    "meanPixelDifference": 0.18712918015102478
+  },
+  {
+    "phase": 0.485,
+    "meanPixelDifference": 0.1855177993527508
+  },
+  {
+    "phase": 0.49,
+    "meanPixelDifference": 0.18693197141316076
+  },
+  {
+    "phase": 0.495,
+    "meanPixelDifference": 0.18629483549083062
+  },
+  {
+    "phase": 0.5,
+    "meanPixelDifference": 0.18584985167206045
+  },
+  {
+    "phase": 0.505,
+    "meanPixelDifference": 0.18712918015102478
+  },
+  {
+    "phase": 0.51,
+    "meanPixelDifference": 0.18769552319309601
+  },
+  {
+    "phase": 0.515,
+    "meanPixelDifference": 0.18889225997842504
+  },
+  {
+    "phase": 0.52,
+    "meanPixelDifference": 0.1889596817691478
+  },
+  {
+    "phase": 0.525,
+    "meanPixelDifference": 0.1891872303128371
+  },
+  {
+    "phase": 0.53,
+    "meanPixelDifference": 0.18920240021574974
+  },
+  {
+    "phase": 0.535,
+    "meanPixelDifference": 0.1894822006472492
+  },
+  {
+    "phase": 0.54,
+    "meanPixelDifference": 0.19097053667745414
+  },
+  {
+    "phase": 0.545,
+    "meanPixelDifference": 0.19165149676375404
+  },
+  {
+    "phase": 0.55,
+    "meanPixelDifference": 0.19204422869471413
+  },
+  {
+    "phase": 0.555,
+    "meanPixelDifference": 0.19146777238403453
+  },
+  {
+    "phase": 0.56,
+    "meanPixelDifference": 0.19189084412081983
+  },
+  {
+    "phase": 0.565,
+    "meanPixelDifference": 0.19233919902912622
+  },
+  {
+    "phase": 0.57,
+    "meanPixelDifference": 0.19295105177993524
+  },
+  {
+    "phase": 0.575,
+    "meanPixelDifference": 0.19304881337648327
+  },
+  {
+    "phase": 0.58,
+    "meanPixelDifference": 0.19345502966558792
+  },
+  {
+    "phase": 0.585,
+    "meanPixelDifference": 0.19399946062567422
+  },
+  {
+    "phase": 0.59,
+    "meanPixelDifference": 0.19326119201725997
+  },
+  {
+    "phase": 0.595,
+    "meanPixelDifference": 0.19277912621359225
+  },
+  {
+    "phase": 0.6,
+    "meanPixelDifference": 0.19284317691477884
+  },
+  {
+    "phase": 0.605,
+    "meanPixelDifference": 0.19331175836030204
+  },
+  {
+    "phase": 0.61,
+    "meanPixelDifference": 0.19129247572815533
+  },
+  {
+    "phase": 0.615,
+    "meanPixelDifference": 0.19244538834951455
+  },
+  {
+    "phase": 0.62,
+    "meanPixelDifference": 0.191675094390507
+  },
+  {
+    "phase": 0.625,
+    "meanPixelDifference": 0.19039408036677452
+  },
+  {
+    "phase": 0.63,
+    "meanPixelDifference": 0.1903687971952535
+  },
+  {
+    "phase": 0.635,
+    "meanPixelDifference": 0.18912823624595468
+  },
+  {
+    "phase": 0.64,
+    "meanPixelDifference": 0.18867313915857606
+  },
+  {
+    "phase": 0.645,
+    "meanPixelDifference": 0.18767192556634305
+  },
+  {
+    "phase": 0.65,
+    "meanPixelDifference": 0.18679375674217905
+  },
+  {
+    "phase": 0.655,
+    "meanPixelDifference": 0.1850509034519957
+  },
+  {
+    "phase": 0.66,
+    "meanPixelDifference": 0.18406148867313918
+  },
+  {
+    "phase": 0.665,
+    "meanPixelDifference": 0.18479807173678534
+  },
+  {
+    "phase": 0.67,
+    "meanPixelDifference": 0.18371258090614886
+  },
+  {
+    "phase": 0.675,
+    "meanPixelDifference": 0.18431937702265375
+  },
+  {
+    "phase": 0.68,
+    "meanPixelDifference": 0.18263046116504852
+  },
+  {
+    "phase": 0.685,
+    "meanPixelDifference": 0.18230852211434737
+  },
+  {
+    "phase": 0.69,
+    "meanPixelDifference": 0.1817067826321467
+  },
+  {
+    "phase": 0.695,
+    "meanPixelDifference": 0.1829153182308522
+  },
+  {
+    "phase": 0.7,
+    "meanPixelDifference": 0.1826776564185545
+  },
+  {
+    "phase": 0.705,
+    "meanPixelDifference": 0.18343109492988133
+  },
+  {
+    "phase": 0.71,
+    "meanPixelDifference": 0.18424352750809062
+  },
+  {
+    "phase": 0.715,
+    "meanPixelDifference": 0.1840058656957929
+  },
+  {
+    "phase": 0.72,
+    "meanPixelDifference": 0.1850812432578209
+  },
+  {
+    "phase": 0.725,
+    "meanPixelDifference": 0.1844609627831715
+  },
+  {
+    "phase": 0.73,
+    "meanPixelDifference": 0.18389461974110033
+  },
+  {
+    "phase": 0.735,
+    "meanPixelDifference": 0.18465142934196332
+  },
+  {
+    "phase": 0.74,
+    "meanPixelDifference": 0.1845149002157497
+  },
+  {
+    "phase": 0.745,
+    "meanPixelDifference": 0.18460929072276158
+  },
+  {
+    "phase": 0.75,
+    "meanPixelDifference": 0.18531384843581444
+  },
+  {
+    "phase": 0.755,
+    "meanPixelDifference": 0.18482166936353828
+  },
+  {
+    "phase": 0.76,
+    "meanPixelDifference": 0.18508967098166126
+  },
+  {
+    "phase": 0.765,
+    "meanPixelDifference": 0.18528182308522112
+  },
+  {
+    "phase": 0.77,
+    "meanPixelDifference": 0.1850930420711974
+  },
+  {
+    "phase": 0.775,
+    "meanPixelDifference": 0.185399811218986
+  },
+  {
+    "phase": 0.78,
+    "meanPixelDifference": 0.1859375
+  },
+  {
+    "phase": 0.785,
+    "meanPixelDifference": 0.18587344929881336
+  },
+  {
+    "phase": 0.79,
+    "meanPixelDifference": 0.18585322276159655
+  },
+  {
+    "phase": 0.795,
+    "meanPixelDifference": 0.18540318230852212
+  },
+  {
+    "phase": 0.8,
+    "meanPixelDifference": 0.18083198489751887
+  },
+  {
+    "phase": 0.805,
+    "meanPixelDifference": 0.17357740021574974
+  },
+  {
+    "phase": 0.81,
+    "meanPixelDifference": 0.17396170442286948
+  },
+  {
+    "phase": 0.815,
+    "meanPixelDifference": 0.17570624325782092
+  },
+  {
+    "phase": 0.82,
+    "meanPixelDifference": 0.1745583872707659
+  },
+  {
+    "phase": 0.825,
+    "meanPixelDifference": 0.18062297734627833
+  },
+  {
+    "phase": 0.83,
+    "meanPixelDifference": 0.17985774002157498
+  },
+  {
+    "phase": 0.835,
+    "meanPixelDifference": 0.18557510787486517
+  },
+  {
+    "phase": 0.84,
+    "meanPixelDifference": 0.18650215749730314
+  },
+  {
+    "phase": 0.845,
+    "meanPixelDifference": 0.1860942556634304
+  },
+  {
+    "phase": 0.85,
+    "meanPixelDifference": 0.18599312297734627
+  },
+  {
+    "phase": 0.855,
+    "meanPixelDifference": 0.18638585490830636
+  },
+  {
+    "phase": 0.86,
+    "meanPixelDifference": 0.1866841963322546
+  },
+  {
+    "phase": 0.865,
+    "meanPixelDifference": 0.1871780609492988
+  },
+  {
+    "phase": 0.87,
+    "meanPixelDifference": 0.18640271035598707
+  },
+  {
+    "phase": 0.875,
+    "meanPixelDifference": 0.18632517529665585
+  },
+  {
+    "phase": 0.88,
+    "meanPixelDifference": 0.1861987594390507
+  },
+  {
+    "phase": 0.885,
+    "meanPixelDifference": 0.18660666127292344
+  },
+  {
+    "phase": 0.89,
+    "meanPixelDifference": 0.18629820658036675
+  },
+  {
+    "phase": 0.895,
+    "meanPixelDifference": 0.18664205771305287
+  },
+  {
+    "phase": 0.9,
+    "meanPixelDifference": 0.18615830636461705
+  },
+  {
+    "phase": 0.905,
+    "meanPixelDifference": 0.1864043959007551
+  },
+  {
+    "phase": 0.91,
+    "meanPixelDifference": 0.18600660733549082
+  },
+  {
+    "phase": 0.915,
+    "meanPixelDifference": 0.18622235706580367
+  },
+  {
+    "phase": 0.92,
+    "meanPixelDifference": 0.18668588187702265
+  },
+  {
+    "phase": 0.925,
+    "meanPixelDifference": 0.18656452265372167
+  },
+  {
+    "phase": 0.93,
+    "meanPixelDifference": 0.18635382955771304
+  },
+  {
+    "phase": 0.935,
+    "meanPixelDifference": 0.18614145091693635
+  },
+  {
+    "phase": 0.94,
+    "meanPixelDifference": 0.18684432308522114
+  },
+  {
+    "phase": 0.945,
+    "meanPixelDifference": 0.1863352885652643
+  },
+  {
+    "phase": 0.95,
+    "meanPixelDifference": 0.1862526968716289
+  },
+  {
+    "phase": 0.955,
+    "meanPixelDifference": 0.18624932578209275
+  },
+  {
+    "phase": 0.96,
+    "meanPixelDifference": 0.1862257281553398
+  },
+  {
+    "phase": 0.965,
+    "meanPixelDifference": 0.18565601402373247
+  },
+  {
+    "phase": 0.97,
+    "meanPixelDifference": 0.18637574163969794
+  },
+  {
+    "phase": 0.975,
+    "meanPixelDifference": 0.1861717907227616
+  },
+  {
+    "phase": 0.98,
+    "meanPixelDifference": 0.18622741370010787
+  },
+  {
+    "phase": 0.985,
+    "meanPixelDifference": 0.1861987594390507
+  },
+  {
+    "phase": 0.99,
+    "meanPixelDifference": 0.18617516181229773
+  },
+  {
+    "phase": 0.995,
+    "meanPixelDifference": 0.1870533306364617
+  },
+  {
+    "phase": 1.0,
+    "meanPixelDifference": 0.1860285194174757
+  }
+]

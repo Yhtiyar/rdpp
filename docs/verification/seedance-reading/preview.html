@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MiMi reading · Seedance preview</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#faf7ff;color:#463154;font:17px system-ui;padding:28px;max-width:840px;margin-inline:auto}
+  h1{font-size:24px;margin:0 0 8px}p{line-height:1.5;margin:8px 0 20px}video{width:100%;display:block;border-radius:24px;background:#f0e8ff}
+  label{display:block;margin-top:18px}select{font:inherit;margin-left:8px;padding:6px;border:1px solid #cabbda;border-radius:8px;background:white}
+  a{color:#70409d}
+</style>
+<h1>MiMi reading</h1>
+<p>One five-second Seedance 2.5 generation using the welcome illustration as both reference frames.</p>
+<video id="clip" src="seedance-reading.mp4" poster="reference.png" controls autoplay muted loop playsinline></video>
+<label>Playback speed <select id="speed"><option value="1">Normal</option><option value="0.5">Half speed</option><option value="0.25">Quarter speed</option></select></label>
+<p><a href="prompt.txt">Generation prompt</a> · <a href="seedance-reading.mp4" download>Download MP4</a></p>
+<script>document.querySelector('#speed').onchange=e=>document.querySelector('#clip').playbackRate=Number(e.target.value);</script>
+</html>

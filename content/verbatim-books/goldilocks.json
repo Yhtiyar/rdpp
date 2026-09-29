@@ -1,0 +1,294 @@
+{
+  "id": "goldilocks",
+  "title": "Goldilocks and the Three Bears",
+  "language": "en",
+  "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/goldilocks/art/goldilocks_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "goldilocks-part-001",
+      "text": "One morning, Papa Bear made some steaming-hot porridge for his family. He poured his porridge into a big bowl. He poured Mama Bear’s porridge into a middle-sized bowl. Finally, he poured Baby Bear’s porridge into a tiny bowl. While the porridge cooled, the Three Bears went for a walk in the forest.",
+      "image": "assets/books/goldilocks/art/goldilocks_01.webp",
+      "sourcePages": [
+        27
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 299,
+      "estimatedPlaybackSeconds": 23.67,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-001.mp3"
+    },
+    {
+      "id": "goldilocks-part-002",
+      "text": "That very same morning, a little girl named Goldilocks had also gone for a walk in the forest. However, Goldilocks lost her way and came upon the Bears’ cozy cottage. Goldilocks was hungry. She stepped inside the cozy cottage. There, she found the three bowls of porridge.",
+      "image": "assets/books/goldilocks/art/goldilocks_02.webp",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 300,
+      "sourceTextEnd": 572,
+      "estimatedPlaybackSeconds": 21.54,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-002.mp3"
+    },
+    {
+      "id": "goldilocks-part-003",
+      "text": "Goldilocks tasted the porridge in the big bowl—too hot! She tasted the porridge in the middle-sized bowl—too cold! Then she tasted the porridge in the tiny bowl. It was just right, so she gobbled it all up. Goldilocks began to feel tired. She looked around and saw three chairs.",
+      "image": "assets/books/goldilocks/art/goldilocks_03.webp",
+      "sourcePages": [
+        29,
+        30
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 573,
+      "sourceTextEnd": 851,
+      "estimatedPlaybackSeconds": 22.01,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-003.mp3"
+    },
+    {
+      "id": "goldilocks-part-004",
+      "text": "She tried sitting in the big chair. It was too hard. Ouch! She tried sitting in the middle-sized chair. It was too soft. Plop! She sat down in the tiny chair. It was just right. But, suddenly the chair broke and Goldilocks fell to the floor! Crash!",
+      "image": "assets/books/goldilocks/art/goldilocks_04.webp",
+      "sourcePages": [
+        30,
+        31
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 852,
+      "sourceTextEnd": 1100,
+      "estimatedPlaybackSeconds": 19.64,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-004.mp3"
+    },
+    {
+      "id": "goldilocks-part-005",
+      "text": "Goldilocks went upstairs and found three beds. She was still tired, so she tried the big bed. It was too smooth. She tried the middle-sized bed. It was too lumpy. She tried the tiny bed. It was just right. Goldilocks fell fast asleep. While Goldilocks was sleeping, the Bears returned home.",
+      "image": "assets/books/goldilocks/art/goldilocks_06.webp",
+      "sourcePages": [
+        32,
+        33
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 1101,
+      "sourceTextEnd": 1391,
+      "estimatedPlaybackSeconds": 22.96,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-005.mp3"
+    },
+    {
+      "id": "goldilocks-part-006",
+      "text": "They saw that someone had been eating their porridge. They saw that someone had been sitting in their chairs. Baby Bear said, “Someone has been sitting in my chair—and has broken it all to pieces!” The Bears went upstairs and discovered that someone had been sleeping in their beds.",
+      "image": "assets/books/goldilocks/art/goldilocks_07.webp",
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1392,
+      "sourceTextEnd": 1674,
+      "estimatedPlaybackSeconds": 22.33,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-006.mp3"
+    },
+    {
+      "id": "goldilocks-part-007",
+      "text": "Baby Bear said, “Someone has been sleeping in my bed—and here she is!” Goldilocks was startled when she woke up and saw the Bears. Goldilocks ran out of the cozy cottage as fast as she could. The Three Bears never saw or heard from her again.",
+      "image": "assets/books/goldilocks/art/goldilocks_08.webp",
+      "sourcePages": [
+        34,
+        35
+      ],
+      "sourceReadingPages": [
+        7,
+        8
+      ],
+      "sourceTextStart": 1675,
+      "sourceTextEnd": 1917,
+      "estimatedPlaybackSeconds": 19.16,
+      "audio": "assets/books/goldilocks/audio/goldilocks-part-007.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who made porridge for the bear family?",
+      "hint": "The big father bear cooked the breakfast.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is Papa Bear.",
+      "feedback": "Papa Bear made the porridge.",
+      "choices": [
+        {
+          "label": "Papa Bear",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_papa.webp"
+        },
+        {
+          "label": "Goldilocks",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_goldilocks.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "goldilocks-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/goldilocks/audio/goldilocks-exact-question-001-prompt.mp3",
+        "hint": "assets/books/goldilocks/audio/goldilocks-exact-question-001-hint.mp3",
+        "guided": "assets/books/goldilocks/audio/goldilocks-exact-question-001-guided.mp3",
+        "feedback": "assets/books/goldilocks/audio/goldilocks-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "goldilocks-part-001"
+        ],
+        "quote": "One morning, Papa Bear made some steaming-hot porridge for his family."
+      }
+    },
+    {
+      "prompt": "What did hungry Goldilocks eat?",
+      "hint": "It was warm food in a bowl.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the bowl of porridge.",
+      "feedback": "Goldilocks ate the porridge.",
+      "choices": [
+        {
+          "label": "Baby Bear’s bed",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_bed.webp"
+        },
+        {
+          "label": "Bowl of porridge",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_porridge.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "goldilocks-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/goldilocks/audio/goldilocks-exact-question-002-prompt.mp3",
+        "hint": "assets/books/goldilocks/audio/goldilocks-exact-question-002-hint.mp3",
+        "guided": "assets/books/goldilocks/audio/goldilocks-exact-question-002-guided.mp3",
+        "feedback": "assets/books/goldilocks/audio/goldilocks-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "goldilocks-part-003"
+        ],
+        "quote": "Then she tasted the porridge in the tiny bowl. It was just right, so she gobbled it all up."
+      }
+    },
+    {
+      "prompt": "What broke when Goldilocks sat down?",
+      "hint": "Goldilocks was sitting on it when she fell to the floor.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the broken chair.",
+      "feedback": "The little chair broke. Crash!",
+      "choices": [
+        {
+          "label": "Broken chair",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_chair.webp"
+        },
+        {
+          "label": "Bowl of porridge",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_porridge.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "goldilocks-exact-question-003",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/goldilocks/audio/goldilocks-exact-question-003-prompt.mp3",
+        "hint": "assets/books/goldilocks/audio/goldilocks-exact-question-003-hint.mp3",
+        "guided": "assets/books/goldilocks/audio/goldilocks-exact-question-003-guided.mp3",
+        "feedback": "assets/books/goldilocks/audio/goldilocks-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "goldilocks-part-004"
+        ],
+        "quote": "But, suddenly the chair broke and Goldilocks fell to the floor! Crash!"
+      }
+    },
+    {
+      "prompt": "Where did Goldilocks fall asleep?",
+      "hint": "She lay down upstairs, on something soft.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the baby Bear’s bed.",
+      "feedback": "Goldilocks fell asleep in the tiny bed.",
+      "choices": [
+        {
+          "label": "Broken chair",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_chair.webp"
+        },
+        {
+          "label": "Baby Bear’s bed",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_bed.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "goldilocks-exact-question-004",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/goldilocks/audio/goldilocks-exact-question-004-prompt.mp3",
+        "hint": "assets/books/goldilocks/audio/goldilocks-exact-question-004-hint.mp3",
+        "guided": "assets/books/goldilocks/audio/goldilocks-exact-question-004-guided.mp3",
+        "feedback": "assets/books/goldilocks/audio/goldilocks-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "goldilocks-part-005"
+        ],
+        "quote": "She tried the tiny bed. It was just right. Goldilocks fell fast asleep."
+      }
+    },
+    {
+      "prompt": "Who ran out of the cottage?",
+      "hint": "The girl woke up and saw the three bears.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is Goldilocks.",
+      "feedback": "Goldilocks ran out of the cottage.",
+      "choices": [
+        {
+          "label": "Goldilocks",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_goldilocks.webp"
+        },
+        {
+          "label": "Baby Bear",
+          "image": "assets/books/goldilocks/art/goldilocks_answer_baby.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "goldilocks-exact-question-005",
+      "afterPage": 6,
+      "audio": {
+        "prompt": "assets/books/goldilocks/audio/goldilocks-exact-question-005-prompt.mp3",
+        "hint": "assets/books/goldilocks/audio/goldilocks-exact-question-005-hint.mp3",
+        "guided": "assets/books/goldilocks/audio/goldilocks-exact-question-005-guided.mp3",
+        "feedback": "assets/books/goldilocks/audio/goldilocks-exact-question-005-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "goldilocks-part-007"
+        ],
+        "quote": "Goldilocks ran out of the cozy cottage as fast as she could."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/goldilocks/audio/goldilocks-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "candidate": "qwen",
+    "part": 1,
+    "status": 200,
+    "assessment": "```json\n{\n  \"pronunciation_errors\": [\n    {\n      \"word\": \"Испеки\",\n      \"timestamp\": \"00:03.4\",\n      \"description\": \"Pronounced as 'Испе́ке' (Ispékye) instead of 'Испеки́' (ispekí), with incorrect stress and vowel ending.\"\n    },\n    {\n      \"word\": \"помети\",\n      \"timestamp\": \"00:09.1\",\n      \"description\": \"Pronounced with stress on the last syllable as 'помети́' instead of the standard 'помети́'/'помети́' (often regional/folklore, but here accented as 'помети́' / unnatural vowel).\"\n    }\n  ],\n  \"intonation_errors\": [\n    {\n      \"timestamp\": \"00:03.5 - 00:05.0\",\n      \"description\": \"Phrasing is disjointed; 'Испеки, старуха, колобок' lacks smooth conversational direct-speech flow.\"\n    }\n  ],\n  \"spoken_punctuation\": [],\n  \"ratings\": {\n    \"pronunciation\": 3,\n    \"storytelling_intonation\": 4\n  }\n}\n```"
+  },
+  {
+    "candidate": "qwen",
+    "part": 2,
+    "status": 200,
+    "assessment": "```json\n{\n  \"pronunciation_errors\": [\n    {\n      \"word\": \"пригоршни\",\n      \"timestamp\": \"00:05\",\n      \"issue\": \"Incorrect stress: pronounced as 'при́горшни' / 'пригоршни́' instead of standard dictionary stress 'при́горшни' or 'приго́ршни' (here stressed on the last syllable: 'пригоршне́/пригоршни́').\"\n    },\n    {\n      \"word\": \"остудить\",\n      \"timestamp\": \"00:10\",\n      \"issue\": \"Mispronounced as 'оттудить' instead of 'остудить'.\"\n    }\n  ],\n  \"intonation_errors\": [],\n  \"spoken_punctuation\": [],\n  \"stray_letters\": [\n    {\n      \"word\": \"остудить\",\n      \"timestamp\": \"00:10\",\n      \"details\": \"Substituted 'с' with 'т' ('оттудить').\"\n    }\n  ],\n  \"ratings\": {\n    \"pronunciation\": 3,\n    \"storytelling_intonation\": 4\n  }\n}\n```"
+  },
+  {
+    "candidate": "grok",
+    "part": 1,
+    "status": 200,
+    "assessment": "```json\n{\n  \"pronunciation_stress_errors\": [\n    {\n      \"word\": \"помети\",\n      \"timestamp\": \"00:08\",\n      \"description\": \"Incorrect stress on the prefix ('помéти' instead of 'помети́').\"\n    }\n  ],\n  \"intonation_issues\": [\n    {\n      \"timestamp\": \"00:00 - 00:10\",\n      \"description\": \"The delivery is flat, robotic, and lacks dynamic narrative pacing and character distinction typical of Russian fairy tale narration.\"\n    }\n  ],\n  \"spoken_punctuation\": [],\n  \"stray_letters\": [],\n  \"pronunciation_score\": 4,\n  \"storytelling_intonation_score\": 3\n}\n```"
+  },
+  {
+    "candidate": "grok",
+    "part": 2,
+    "status": 200,
+    "assessment": "```json\n{\n  \"pronunciation_stress_errors\": [\n    {\n      \"word\": \"пригоршни\",\n      \"timestamp\": \"00:04\",\n      \"description\": \"Stress placed on the first syllable ('прИгоршни'). In this context (genitive singular with numeral 'две'), the traditional literary stress is on the second or last syllable ('две пригОршни' or 'пригоршнИ'), though 'прИгоршни' is widely accepted in modern speech.\"\n    }\n  ],\n  \"intonation_observations\": [],\n  \"spoken_punctuation_or_stray_sounds\": [],\n  \"ratings\": {\n    \"pronunciation\": 5,\n    \"storytelling_intonation\": 5\n  }\n}\n```"
+  },
+  {
+    "candidate": "gemini",
+    "part": "gemini-sulafat-kolobok-01",
+    "status": 200,
+    "assessment": "```json\n{\n  \"script_adherence\": \"Fully matched script verbatim, including expressive vocalization ('Хе-хе' before 'старуха').\",\n  \"issues\": [\n    {\n      \"timestamp\": \"00:15 - 00:16\",\n      \"type\": \"pronunciation / stress\",\n      \"description\": \"Pronounced 'по коро́бу' with stress on the second syllable instead of correct traditional/normative 'по́ коробу' or 'по ко́робу'.\"\n    }\n  ],\n  \"pronunciation_rating\": 4,\n  \"storytelling_intonation_rating\": 5\n}\n```"
+  },
+  {
+    "candidate": "gemini",
+    "part": "gemini-sulafat-kolobok-02",
+    "status": 200,
+    "assessment": "```json\n{\n  \"script_adherence\": \"exact\",\n  \"errors\": [\n    {\n      \"timestamp\": \"00:05.4 - 00:06.0\",\n      \"word\": \"пригоршни\",\n      \"issue\": \"Pronounced with stress as 'при́горшни' instead of the traditional/standard literary stress 'пригоршни́' (or dual/archaic depending on standard, though 'при́горшни' is widely accepted in modern speech, 'пригоршни́' is preferred in fairy-tale narration).\"\n    }\n  ],\n  \"pronunciation_score\": 4.8,\n  \"storytelling_intonation_score\": 5.0,\n  \"summary\": \"Clear, expressive, and fairy-tale-appropriate delivery matching the exact text with no additions, omissions, or spoken punctuation.\"\n}\n```"
+  }
+]

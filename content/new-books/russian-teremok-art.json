@@ -1,0 +1,52 @@
+{
+  "book": "teremok",
+  "method": "Built-in image_gen; initial long atlas prompts timed out. Short scene prompts with a shared visual reference succeeded.",
+  "reference": "First scene was used as reference for scenes 2–6; scene 6 was used for the answer atlas.",
+  "scenes": [
+    {
+      "prompt": "A beautiful hand-painted gouache children's picture book illustration: one tiny brown mouse stands beside a cozy empty Russian wooden cottage with blue carved shutters and red roof, wildflower meadow, warm soft sun. Rounded expressive mouse, tactile paper texture, exquisite friendly storybook detail. Square composition. No text, no borders.",
+      "generatedSource": "exec-9781e385-b277-4b14-a9f6-5818c6fed3ef.png",
+      "output": "assets/books/teremok/art/teremok_01.webp"
+    },
+    {
+      "prompt": "Same gouache storybook style and same mouse and cottage as reference. A small bright green frog arrives at the open cottage door, welcomed by the little brown mouse. Both animals large and unmistakable in foreground, wildflowers, warm sun. Square, no text.",
+      "generatedSource": "exec-9929eef2-8446-4c2d-9abf-32fdfacf4dba.png",
+      "output": "assets/books/teremok/art/teremok_02.webp"
+    },
+    {
+      "prompt": "Same gouache storybook style, cottage and mouse as reference. A cute small brown hedgehog with a prickly back arrives in the flower garden. Mouse and bright green frog welcome him at the cottage door. All three animals clear and charming. Square, no text.",
+      "generatedSource": "exec-f79f61b6-5241-455c-b90c-27fc633d3279.png",
+      "output": "assets/books/teremok/art/teremok_03.webp"
+    },
+    {
+      "prompt": "Same gouache storybook style and cottage as reference. Four animal friends together in foreground: little brown mouse, bright green frog, brown spiny hedgehog, and grey rabbit with long ears. Rabbit has just arrived at their cottage. Warm gentle sunlight, clear full animals. Square, no text.",
+      "generatedSource": "exec-5bd25c25-fc5a-4762-bac1-387259053e39.png",
+      "output": "assets/books/teremok/art/teremok_04.webp"
+    },
+    {
+      "prompt": "Same gouache storybook style as reference. A gentle big brown bear stands apologetically beside collapsed wooden cottage, broken red roof resting on ground. Four small friends mouse, green frog, hedgehog and grey rabbit all safely outside together, uninjured. Warm calm scene, not frightening. Square, no text.",
+      "generatedSource": "exec-a1736026-aaa4-41ca-a80c-21cd856a54c1.png",
+      "output": "assets/books/teremok/art/teremok_05.webp"
+    },
+    {
+      "prompt": "Same gouache storybook style as reference. Newly built large beautiful wooden cottage with blue carved shutters and red roof in flower meadow. Five happy friends proudly outside: brown bear, little brown mouse, green frog, hedgehog and grey rabbit. Bear comfortably fits doorway. All five visible. Square, no text.",
+      "generatedSource": "exec-3bab730a-7f2c-4044-a4e7-c7243389e23b.png",
+      "output": "assets/books/teremok/art/teremok_06.webp"
+    }
+  ],
+  "answers": {
+    "prompt": "Six separate storybook portraits on cream, arranged exactly 3 columns and 2 rows with generous blank gutters. Match the five animals in reference: top row brown mouse, green frog, brown hedgehog; bottom row grey long-eared rabbit, brown bear, blue-shutter wooden cottage. One whole subject centered per cell, equal scale, no overlapping cells, no text. Same charming gouache texture and faces.",
+    "output": "assets/books/teremok/art/teremok-answers.webp",
+    "generatedSource": "exec-4d724c01-e141-42b6-9963-249436441685.png",
+    "processing": "Authored subject crops packed into six 512px square cells with proportional containment and cream padding; no distortion.",
+    "cells": [
+      "Мышонок",
+      "Лягушонок",
+      "Ёжик",
+      "Зайчонок",
+      "Медведь",
+      "Теремок"
+    ]
+  },
+  "inspection": "All six story scenes inspected in sequence and the answer atlas inspected after packing. Characters have consistent species, colors and facial style. Broken-house scene shows all four small animals safe; final house fits the bear."
+}

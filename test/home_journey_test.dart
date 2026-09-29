@@ -8,9 +8,11 @@ import 'package:readapp/features/reading/book.dart';
 import 'reader_screen_test.dart' show MemoryStore;
 
 void main() {
-  final books = (jsonDecode(
-    File('assets/books/catalog.json').readAsStringSync(),
-  ) as List).map((j) => Book.fromJson(j)).toList();
+  final books =
+      (jsonDecode(File('assets/books/catalog.json').readAsStringSync()) as List)
+          .map((j) => Book.fromJson(j))
+          .where((book) => book.id == 'frog' || book.id == 'kolobok')
+          .toList();
   AppController controller(MemoryStore s) => AppController(s)..books = books;
   group('Home journey', () {
     test('should fall back by locale without old preference data', () async {

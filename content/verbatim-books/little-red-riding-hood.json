@@ -1,0 +1,552 @@
+{
+  "id": "little-red-riding-hood",
+  "title": "Красная Шапочка",
+  "language": "ru",
+  "attribution": "Шарль Перро. «Красная Шапочка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+  "original": "assets/books/little-red-riding-hood/little-red-riding-hood_original.pdf",
+  "cover": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "little-red-riding-hood-part-001",
+      "text": "Жила-была в одной деревне девочка красоты невиданной: мать любила её без памяти, а бабушка и того больше. Сшила как-то раз бабушка любимой внучке шапочку красного цвета и так сильно она девочке понравилась, что и снимать не хотелось.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 233,
+      "estimatedPlaybackSeconds": 20.79,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-001.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-002",
+      "text": "Всюду ходила она в своей шапочке, потому и стали называть её Красной Шапочкой. Раз испекла мама пирожки и говорит своей дочке: — Сходи-ка ты навести бабушку, ей нездоровится. Да отнеси ей пирожки и горшочек масла. Смотри только в лесу не останавливайся и ни с кем не разговаривай.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 234,
+      "sourceTextEnd": 514,
+      "estimatedPlaybackSeconds": 24.98,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-002.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-003",
+      "text": "Красная Шапочка была послушной девочкой, она сейчас же собралась и отправилась к бабушке, которая жила в другой деревне. Идёт она по лесной тропинке и тут навстречу ей волк. Волк хотел было её съесть, да побоялся, потому что поблизости был слышен стук дровосеков.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 515,
+      "sourceTextEnd": 778,
+      "estimatedPlaybackSeconds": 23.46,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-003.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-004",
+      "text": "Вот он и спрашивает: — Куда ты идёшь, Красная Шапочка? Бедная девочка забыла, что опасно в лесу останавливаться и разговаривать с волками, и отвечает ему: — Иду к бабушке; несу ей пирожки да горшочек масла. — А далеко живёт твоя бабушка? — спрашивает волк.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_02.webp",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 779,
+      "sourceTextEnd": 1035,
+      "estimatedPlaybackSeconds": 22.84,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-004.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-005",
+      "text": "— Очень далеко! — отвечает Красная Шапочка: — вон за той мельницей, что виднеется на опушке леса; а там будет первый дом как войдёшь в деревню. — Знаешь, — говорит ей волк: — пойду-ка и я навещу твою бабушку.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 1036,
+      "sourceTextEnd": 1244,
+      "estimatedPlaybackSeconds": 18.55,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-005.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-006",
+      "text": "— Я пойду этой дорогой, а ты ступай по той: посмотрим, кто из нас быстрее дойдёт. И волк бросился изо всех сил бежать по самой короткой дороге, а девочка побрела не спеша по самой длинной. По пути она собирала букеты и напевала песенки.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_03.webp",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 1245,
+      "sourceTextEnd": 1481,
+      "estimatedPlaybackSeconds": 21.05,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-006.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-007",
+      "text": "Прибежал волк первым к бабушкину дому. Постучался: — Тук, тук. — Кто там? — Это я, внучка ваша, Красная Шапочка, — отвечал волк тоненьким голоском: — принесла вам пирожки да горшочек масла.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_03.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 1482,
+      "sourceTextEnd": 1671,
+      "estimatedPlaybackSeconds": 16.86,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-007.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-008",
+      "text": "Бабушка лежала в постели, потому что ей немного нездоровилось, и крикнула оттуда: — Дёрни за верёвочку, дверь сама и откроется. Волк дёрнул за верёвочку, дверь открылась. Он бросился на старушку и разом проглотил её, потому что уже больше трёх дней ничего не кушал.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_04.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 1672,
+      "sourceTextEnd": 1937,
+      "estimatedPlaybackSeconds": 23.64,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-008.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-009",
+      "text": "Потом он запер дверь, улегся в бабушкину постель и стал поджидать Красную Шапочку, которая через некоторое время добрела до бабушкиного домика и постучалась: — Тук, тук. — Кто там?",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 1938,
+      "sourceTextEnd": 2118,
+      "estimatedPlaybackSeconds": 16.06,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-009.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-010",
+      "text": "Услышав грубый голос, Красная Шапочка сперва было испугалась, но подумав, что видимо у бабушки голос осип из-за болезни, отвечала: — Это я, внучка ваша, Красная Шапочка, принесла вам пирожки да горшочек масла. Волк крикнул, как только мог тонким голосом: — Дёрни за верёвочку, дверь сама и откроется.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 2119,
+      "sourceTextEnd": 2419,
+      "estimatedPlaybackSeconds": 26.76,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-010.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-011",
+      "text": "Красная Шапочка дёрнула за верёвочку, дверь открылась. Когда девочка вошла, волк закутался хорошенько в одеяло, чтоб она его не узнала, и говорит: — Положи куда-нибудь пирожок да горшочек масла, и иди приляг со мною, отдохни с дороги.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 2420,
+      "sourceTextEnd": 2654,
+      "estimatedPlaybackSeconds": 20.87,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-011.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-012",
+      "text": "Красная Шапочка прилегла рядом и спрашивает: — Бабушка, бабушка, а почему у тебя такие большие руки? — Это, внучка, чтобы покрепче тебя обнимать. — Бабушка, бабушка, а почему у тебя такие большие уши?",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 2655,
+      "sourceTextEnd": 2855,
+      "estimatedPlaybackSeconds": 17.84,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-012.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-013",
+      "text": "— Это, внучка, чтобы получше тебя слышать. — Бабушка, бабушка, а почему у тебя такие большие глаза? — Это, внучка, чтобы получше тебя видеть. — Бабушка, бабушка, а почему у тебя такие большие зубы? — А это, чтобы тебя съесть!",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+      "sourcePages": [
+        8
+      ],
+      "sourceReadingPages": [
+        7
+      ],
+      "sourceTextStart": 2856,
+      "sourceTextEnd": 3081,
+      "estimatedPlaybackSeconds": 20.07,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-013.mp3"
+    },
+    {
+      "id": "little-red-riding-hood-part-014",
+      "text": "И с этими словами злой волк бросился на Красную Шапочку и проглотил её. Хорошо, что в ту пору в лесу работали дровосеки. Они услышали шум и вбежали в дом, где сразу кинулись к волку. Освободили Красную Шапочку и бабушку. Обе были целые и невредимые.",
+      "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_06.webp",
+      "sourcePages": [
+        8
+      ],
+      "sourceReadingPages": [
+        7
+      ],
+      "sourceTextStart": 3082,
+      "sourceTextEnd": 3331,
+      "estimatedPlaybackSeconds": 22.21,
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-part-014.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "little-red-riding-hood-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто сшил девочке красную шапочку?",
+      "hint": "Это добрая бабушка, которая очень любила внучку.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, бабушка сшила внучке красную шапочку!",
+      "feedback": "Да, бабушка сшила внучке красную шапочку!",
+      "choices": [
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        },
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-001"
+        ],
+        "quote": "Сшила как-то раз бабушка любимой внучке шапочку красного цвета"
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-001-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-001-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-001-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Кто отправился навестить бабушку?",
+      "hint": "Это девочка в красной шапочке. Она несёт пирожки и масло.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, Красная Шапочка пошла к бабушке!",
+      "feedback": "Верно, Красная Шапочка пошла к бабушке!",
+      "choices": [
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        },
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-003"
+        ],
+        "quote": "Красная Шапочка была послушной девочкой, она сейчас же собралась и отправилась к бабушке"
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-002-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-002-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-002-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-003",
+      "afterPage": 5,
+      "prompt": "Кто побежал по самой короткой дороге?",
+      "hint": "Это серый лесной зверь с острыми ушами.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, волк побежал по короткой дороге.",
+      "feedback": "Да, волк побежал по короткой дороге.",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        },
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-006"
+        ],
+        "quote": "И волк бросился изо всех сил бежать по самой короткой дороге"
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-003-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-003-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-003-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Кто по дороге собирал букеты и пел песенки?",
+      "hint": "Она пошла по длинной дороге и совсем не спешила.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл Красную Шапочку. Она собирала букеты и напевала.",
+      "feedback": "Ты нашёл Красную Шапочку. Она собирала букеты и напевала.",
+      "choices": [
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        },
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-006"
+        ],
+        "quote": "а девочка побрела не спеша по самой длинной. По пути она собирала букеты и напевала песенки."
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-004-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-004-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-004-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-005",
+      "afterPage": 8,
+      "prompt": "Кто первым прибежал к бабушкиному дому?",
+      "hint": "Он постучал и заговорил тоненьким голосом, словно внучка.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, волк прибежал первым и назвался Красной Шапочкой.",
+      "feedback": "Верно, волк прибежал первым и назвался Красной Шапочкой.",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        },
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-007"
+        ],
+        "quote": "Прибежал волк первым к бабушкину дому."
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-005-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-005-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-005-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-006",
+      "afterPage": 8,
+      "prompt": "Кто лежал в постели, потому что нездоровилось?",
+      "hint": "Это бабушка девочки. Она сказала дёрнуть за верёвочку.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, бабушка лежала в постели, потому что ей нездоровилось.",
+      "feedback": "Да, бабушка лежала в постели, потому что ей нездоровилось.",
+      "choices": [
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        },
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-008"
+        ],
+        "quote": "Бабушка лежала в постели, потому что ей немного нездоровилось"
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-007",
+      "afterPage": 11,
+      "prompt": "Кто дёрнул за верёвочку и вошёл в дом?",
+      "hint": "Это девочка, которая принесла пирожки и горшочек масла.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Красная Шапочка открыла дверь и вошла.",
+      "feedback": "Да, Красная Шапочка открыла дверь и вошла.",
+      "choices": [
+        {
+          "label": "Красная Шапочка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+        },
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-011"
+        ],
+        "quote": "Красная Шапочка дёрнула за верёвочку, дверь открылась."
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-007-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-007-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-007-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-007-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-008",
+      "afterPage": 11,
+      "prompt": "Кто закутался в одеяло, чтобы девочка его не узнала?",
+      "hint": "Этот серый зверь притворялся бабушкой.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл волка. Он укрылся одеялом, чтобы его не узнали.",
+      "feedback": "Ты нашёл волка. Он укрылся одеялом, чтобы его не узнали.",
+      "choices": [
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        },
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-011"
+        ],
+        "quote": "волк закутался хорошенько в одеяло, чтоб она его не узнала"
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-008-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-008-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-008-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-008-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-009",
+      "afterPage": 13,
+      "prompt": "Кто бросился на Красную Шапочку?",
+      "hint": "Это серый зверь с большими зубами.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, волк бросился на Красную Шапочку.",
+      "feedback": "Да, волк бросился на Красную Шапочку.",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        },
+        {
+          "label": "Бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-014"
+        ],
+        "quote": "И с этими словами злой волк бросился на Красную Шапочку и проглотил её."
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-009-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-009-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-009-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-009-feedback.mp3"
+      }
+    },
+    {
+      "id": "little-red-riding-hood-exact-question-010",
+      "afterPage": 13,
+      "prompt": "Кого спасли дровосеки?",
+      "hint": "Они освободили девочку и её бабушку. Обе остались невредимыми.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, дровосеки спасли Красную Шапочку и бабушку!",
+      "feedback": "Да, дровосеки спасли Красную Шапочку и бабушку!",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+        },
+        {
+          "label": "Красная Шапочка и бабушка",
+          "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_06.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "little-red-riding-hood-part-014"
+        ],
+        "quote": "Освободили Красную Шапочку и бабушку. Обе были целые и невредимые."
+      },
+      "audio": {
+        "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-010-prompt.mp3",
+        "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-010-hint.mp3",
+        "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-010-guided.mp3",
+        "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-010-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку «Красная Шапочка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+    "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0
+}

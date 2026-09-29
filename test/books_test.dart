@@ -6,17 +6,43 @@ import 'package:readapp/features/reading/book.dart';
 
 void main() {
   group('BookCatalog', () {
-    test('should bundle both complete stories with four-option quizzes covering consecutive three-page batches', () {
+    test('bundles every supplied story with consecutive reading quizzes', () {
       final books = (jsonDecode(
         File('assets/books/catalog.json').readAsStringSync(),
       ) as List).map((j) => Book.fromJson(j as Map<String, dynamic>)).toList();
       expect(books.map((b) => b.language), containsAll(['en', 'ru']));
-      expect(books.first.pages.length, 13);
-      expect(books.last.pages.length, 9);
-      expect(books.first.pages.last.text, contains('happily ever after'));
-      expect(books.last.pages.last.text, contains('скушала'));
+      expect(books.map((b) => b.id).toSet(), {
+        'frog',
+        'kolobok',
+        'aibolit',
+        'ugly-duckling',
+        'little-red-riding-hood',
+        'turnip',
+        'teremok',
+        'frog-princess',
+        'lion-and-mouse',
+        'city-and-country-mouse',
+        'goldilocks',
+        'gingerbread-man',
+        'shoemaker-and-elves',
+        'little-red-hen',
+        'thumbelina',
+        'turtle-shell',
+        'why-flies-buzz',
+        'three-little-pigs',
+      });
+      expect(books.map((b) => b.id).toSet().length, books.length);
+      final frog = books.singleWhere((b) => b.id == 'frog');
+      final kolobok = books.singleWhere((b) => b.id == 'kolobok');
+      expect(frog.pages.length, 13);
+      expect(kolobok.pages.length, 9);
+      expect(frog.pages.last.text, contains('happily ever after'));
+      expect(kolobok.pages.last.text, contains('скушала'));
       for (final book in books) {
         expect(book.attribution, isNotEmpty);
+        expect(File(book.original).existsSync(), isTrue, reason: book.id);
+        expect(File(book.cover).existsSync(), isTrue, reason: book.id);
+        expect(book.pages, isNotEmpty);
         var expectedStart = 0;
         for (final batch in book.batches) {
           expect(batch.startPage, expectedStart);
@@ -33,7 +59,8 @@ void main() {
         }
         expect(expectedStart, book.pages.length);
         for (final page in book.pages) {
-          expect(page.text.length, greaterThan(60));
+          expect(page.text.trim(), isNotEmpty);
+          expect(page.sourcePage, greaterThan(0));
           if (page.image != null) {
             expect(File(page.image!).existsSync(), isTrue);
           }

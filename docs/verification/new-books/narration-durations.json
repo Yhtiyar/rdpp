@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "frog",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "frog-part-001",
+        "playbackSeconds": 21.431,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-002",
+        "playbackSeconds": 17.111,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-003",
+        "playbackSeconds": 20.951,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-004",
+        "playbackSeconds": 18.522,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-005",
+        "playbackSeconds": 18.409,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-006",
+        "playbackSeconds": 15.586,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-007",
+        "playbackSeconds": 20.668,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-008",
+        "playbackSeconds": 26.315,
+        "inTarget": false
+      },
+      {
+        "id": "frog-part-009",
+        "playbackSeconds": 17.76,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-010",
+        "playbackSeconds": 20.386,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-011",
+        "playbackSeconds": 20.301,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-012",
+        "playbackSeconds": 13.892,
+        "inTarget": false
+      },
+      {
+        "id": "frog-part-013",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-014",
+        "playbackSeconds": 20.866,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-015",
+        "playbackSeconds": 22.193,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-016",
+        "playbackSeconds": 20.019,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-017",
+        "playbackSeconds": 18.974,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-018",
+        "playbackSeconds": 20.951,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-019",
+        "playbackSeconds": 20.104,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-020",
+        "playbackSeconds": 21.911,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-021",
+        "playbackSeconds": 20.866,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-022",
+        "playbackSeconds": 19.652,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-023",
+        "playbackSeconds": 22.645,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-024",
+        "playbackSeconds": 17.28,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-025",
+        "playbackSeconds": 23.04,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-026",
+        "playbackSeconds": 20.019,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-027",
+        "playbackSeconds": 23.746,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-028",
+        "playbackSeconds": 19.736,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-029",
+        "playbackSeconds": 18.974,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-030",
+        "playbackSeconds": 22.475,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-031",
+        "playbackSeconds": 23.774,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-032",
+        "playbackSeconds": 18.607,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-033",
+        "playbackSeconds": 17.675,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-034",
+        "playbackSeconds": 19.172,
+        "inTarget": true
+      },
+      {
+        "id": "frog-part-035",
+        "playbackSeconds": 16.151,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "kolobok",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "kolobok-part-001",
+        "playbackSeconds": 18.408,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-002",
+        "playbackSeconds": 15.888,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-003",
+        "playbackSeconds": 25.224,
+        "inTarget": false
+      },
+      {
+        "id": "kolobok-part-004",
+        "playbackSeconds": 21.264,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-005",
+        "playbackSeconds": 16.896,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-006",
+        "playbackSeconds": 28.008,
+        "inTarget": false
+      },
+      {
+        "id": "kolobok-part-007",
+        "playbackSeconds": 23.616,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-008",
+        "playbackSeconds": 12.696,
+        "inTarget": false
+      },
+      {
+        "id": "kolobok-part-009",
+        "playbackSeconds": 23.256,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-010",
+        "playbackSeconds": 17.424,
+        "inTarget": true
+      },
+      {
+        "id": "kolobok-part-011",
+        "playbackSeconds": 17.616,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "lion-and-mouse",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "lion-and-mouse-part-001",
+        "playbackSeconds": 23.322,
+        "inTarget": true
+      },
+      {
+        "id": "lion-and-mouse-part-002",
+        "playbackSeconds": 13.722,
+        "inTarget": false
+      },
+      {
+        "id": "lion-and-mouse-part-003",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "city-and-country-mouse",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "city-and-country-mouse-part-001",
+        "playbackSeconds": 21.148,
+        "inTarget": true
+      },
+      {
+        "id": "city-and-country-mouse-part-002",
+        "playbackSeconds": 23.209,
+        "inTarget": true
+      },
+      {
+        "id": "city-and-country-mouse-part-003",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "goldilocks",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "goldilocks-part-001",
+        "playbackSeconds": 23.04,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-002",
+        "playbackSeconds": 22.278,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-003",
+        "playbackSeconds": 24.904,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-004",
+        "playbackSeconds": 20.499,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-005",
+        "playbackSeconds": 24.169,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-006",
+        "playbackSeconds": 20.301,
+        "inTarget": true
+      },
+      {
+        "id": "goldilocks-part-007",
+        "playbackSeconds": 19.087,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "gingerbread-man",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "gingerbread-man-part-001",
+        "playbackSeconds": 16.151,
+        "inTarget": true
+      },
+      {
+        "id": "gingerbread-man-part-002",
+        "playbackSeconds": 18.24,
+        "inTarget": true
+      },
+      {
+        "id": "gingerbread-man-part-003",
+        "playbackSeconds": 18.409,
+        "inTarget": true
+      },
+      {
+        "id": "gingerbread-man-part-004",
+        "playbackSeconds": 21.346,
+        "inTarget": true
+      },
+      {
+        "id": "gingerbread-man-part-005",
+        "playbackSeconds": 21.346,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "shoemaker-and-elves",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "shoemaker-and-elves-part-001",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "shoemaker-and-elves-part-002",
+        "playbackSeconds": 21.628,
+        "inTarget": true
+      },
+      {
+        "id": "shoemaker-and-elves-part-003",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "shoemaker-and-elves-part-004",
+        "playbackSeconds": 22.08,
+        "inTarget": true
+      },
+      {
+        "id": "shoemaker-and-elves-part-005",
+        "playbackSeconds": 20.584,
+        "inTarget": true
+      },
+      {
+        "id": "shoemaker-and-elves-part-006",
+        "playbackSeconds": 18.805,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "little-red-hen",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "little-red-hen-part-001",
+        "playbackSeconds": 18.24,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-hen-part-002",
+        "playbackSeconds": 17.111,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-hen-part-003",
+        "playbackSeconds": 22.278,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-hen-part-004",
+        "playbackSeconds": 17.562,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "thumbelina",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "thumbelina-part-001",
+        "playbackSeconds": 19.821,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-002",
+        "playbackSeconds": 21.995,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-003",
+        "playbackSeconds": 19.539,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-004",
+        "playbackSeconds": 20.668,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-005",
+        "playbackSeconds": 18.805,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-006",
+        "playbackSeconds": 20.019,
+        "inTarget": true
+      },
+      {
+        "id": "thumbelina-part-007",
+        "playbackSeconds": 23.209,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "turtle-shell",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "turtle-shell-part-001",
+        "playbackSeconds": 18.692,
+        "inTarget": true
+      },
+      {
+        "id": "turtle-shell-part-002",
+        "playbackSeconds": 22.362,
+        "inTarget": true
+      },
+      {
+        "id": "turtle-shell-part-003",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "turtle-shell-part-004",
+        "playbackSeconds": 22.475,
+        "inTarget": true
+      },
+      {
+        "id": "turtle-shell-part-005",
+        "playbackSeconds": 20.216,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "why-flies-buzz",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "why-flies-buzz-part-001",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-002",
+        "playbackSeconds": 23.322,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-003",
+        "playbackSeconds": 24.254,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-004",
+        "playbackSeconds": 22.193,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-005",
+        "playbackSeconds": 23.605,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-006",
+        "playbackSeconds": 23.689,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-007",
+        "playbackSeconds": 20.104,
+        "inTarget": true
+      },
+      {
+        "id": "why-flies-buzz-part-008",
+        "playbackSeconds": 24.169,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "three-little-pigs",
+    "playbackRate": 0.85,
+    "parts": [
+      {
+        "id": "three-little-pigs-part-001",
+        "playbackSeconds": 23.04,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-002",
+        "playbackSeconds": 21.233,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-003",
+        "playbackSeconds": 19.454,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-004",
+        "playbackSeconds": 21.064,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-005",
+        "playbackSeconds": 20.584,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-006",
+        "playbackSeconds": 20.781,
+        "inTarget": true
+      },
+      {
+        "id": "three-little-pigs-part-007",
+        "playbackSeconds": 21.148,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "aibolit",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "aibolit-part-001",
+        "playbackSeconds": 21.504,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-002",
+        "playbackSeconds": 22.968,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-003",
+        "playbackSeconds": 22.296,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-004",
+        "playbackSeconds": 19.296,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-005",
+        "playbackSeconds": 24.048,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-006",
+        "playbackSeconds": 23.688,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-007",
+        "playbackSeconds": 21.456,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-008",
+        "playbackSeconds": 21.504,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-009",
+        "playbackSeconds": 27.264,
+        "inTarget": false
+      },
+      {
+        "id": "aibolit-part-010",
+        "playbackSeconds": 22.776,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-011",
+        "playbackSeconds": 18.024,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-012",
+        "playbackSeconds": 27.768,
+        "inTarget": false
+      },
+      {
+        "id": "aibolit-part-013",
+        "playbackSeconds": 22.944,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-014",
+        "playbackSeconds": 23.904,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-015",
+        "playbackSeconds": 17.904,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-016",
+        "playbackSeconds": 27.264,
+        "inTarget": false
+      },
+      {
+        "id": "aibolit-part-017",
+        "playbackSeconds": 26.976,
+        "inTarget": false
+      },
+      {
+        "id": "aibolit-part-018",
+        "playbackSeconds": 28.296,
+        "inTarget": false
+      },
+      {
+        "id": "aibolit-part-019",
+        "playbackSeconds": 15.816,
+        "inTarget": true
+      },
+      {
+        "id": "aibolit-part-020",
+        "playbackSeconds": 19.344,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "ugly-duckling",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "ugly-duckling-part-001",
+        "playbackSeconds": 27.168,
+        "inTarget": false
+      },
+      {
+        "id": "ugly-duckling-part-002",
+        "playbackSeconds": 21.048,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-003",
+        "playbackSeconds": 25.704,
+        "inTarget": false
+      },
+      {
+        "id": "ugly-duckling-part-004",
+        "playbackSeconds": 24.096,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-005",
+        "playbackSeconds": 22.296,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-006",
+        "playbackSeconds": 24.984,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-007",
+        "playbackSeconds": 17.928,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-008",
+        "playbackSeconds": 18.384,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-009",
+        "playbackSeconds": 21.888,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-010",
+        "playbackSeconds": 22.104,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-011",
+        "playbackSeconds": 20.496,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-012",
+        "playbackSeconds": 16.824,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-013",
+        "playbackSeconds": 17.904,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-014",
+        "playbackSeconds": 18.864,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-015",
+        "playbackSeconds": 18.456,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-016",
+        "playbackSeconds": 22.896,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-017",
+        "playbackSeconds": 21.456,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-018",
+        "playbackSeconds": 22.584,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-019",
+        "playbackSeconds": 19.728,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-020",
+        "playbackSeconds": 17.304,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-021",
+        "playbackSeconds": 18.648,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-022",
+        "playbackSeconds": 20.184,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-023",
+        "playbackSeconds": 23.904,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-024",
+        "playbackSeconds": 16.608,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-025",
+        "playbackSeconds": 20.568,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-026",
+        "playbackSeconds": 23.544,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-027",
+        "playbackSeconds": 20.184,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-028",
+        "playbackSeconds": 19.344,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-029",
+        "playbackSeconds": 20.496,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-030",
+        "playbackSeconds": 16.728,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-031",
+        "playbackSeconds": 23.448,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-032",
+        "playbackSeconds": 21.528,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-033",
+        "playbackSeconds": 23.448,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-034",
+        "playbackSeconds": 20.376,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-035",
+        "playbackSeconds": 21.768,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-036",
+        "playbackSeconds": 16.728,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-037",
+        "playbackSeconds": 19.176,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-038",
+        "playbackSeconds": 21.168,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-039",
+        "playbackSeconds": 23.544,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-040",
+        "playbackSeconds": 18.216,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-041",
+        "playbackSeconds": 17.136,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-042",
+        "playbackSeconds": 16.176,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-043",
+        "playbackSeconds": 17.208,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-044",
+        "playbackSeconds": 16.656,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-045",
+        "playbackSeconds": 17.856,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-046",
+        "playbackSeconds": 20.016,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-047",
+        "playbackSeconds": 24.888,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-048",
+        "playbackSeconds": 23.808,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-049",
+        "playbackSeconds": 20.376,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-050",
+        "playbackSeconds": 23.904,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-051",
+        "playbackSeconds": 23.568,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-052",
+        "playbackSeconds": 20.496,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-053",
+        "playbackSeconds": 18.816,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-054",
+        "playbackSeconds": 21.456,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-055",
+        "playbackSeconds": 13.824,
+        "inTarget": false
+      },
+      {
+        "id": "ugly-duckling-part-056",
+        "playbackSeconds": 19.056,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-057",
+        "playbackSeconds": 19.056,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-058",
+        "playbackSeconds": 20.976,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-059",
+        "playbackSeconds": 18.144,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-060",
+        "playbackSeconds": 18.336,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-061",
+        "playbackSeconds": 18.288,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-062",
+        "playbackSeconds": 24.768,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-063",
+        "playbackSeconds": 15.288,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-064",
+        "playbackSeconds": 15.336,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-065",
+        "playbackSeconds": 21.984,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-066",
+        "playbackSeconds": 22.776,
+        "inTarget": true
+      },
+      {
+        "id": "ugly-duckling-part-067",
+        "playbackSeconds": 19.584,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "little-red-riding-hood",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "little-red-riding-hood-part-001",
+        "playbackSeconds": 19.008,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-002",
+        "playbackSeconds": 23.256,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-003",
+        "playbackSeconds": 20.736,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-004",
+        "playbackSeconds": 21.408,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-005",
+        "playbackSeconds": 16.776,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-006",
+        "playbackSeconds": 18.144,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-007",
+        "playbackSeconds": 15.648,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-008",
+        "playbackSeconds": 22.128,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-009",
+        "playbackSeconds": 16.368,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-010",
+        "playbackSeconds": 24.984,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-011",
+        "playbackSeconds": 19.416,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-012",
+        "playbackSeconds": 17.136,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-013",
+        "playbackSeconds": 22.008,
+        "inTarget": true
+      },
+      {
+        "id": "little-red-riding-hood-part-014",
+        "playbackSeconds": 21.864,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "turnip",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "turnip-part-001",
+        "playbackSeconds": 26.088,
+        "inTarget": false
+      },
+      {
+        "id": "turnip-part-002",
+        "playbackSeconds": 23.328,
+        "inTarget": true
+      },
+      {
+        "id": "turnip-part-003",
+        "playbackSeconds": 31.056,
+        "inTarget": false
+      }
+    ]
+  },
+  {
+    "id": "teremok",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "teremok-part-001",
+        "playbackSeconds": 22.656,
+        "inTarget": true
+      },
+      {
+        "id": "teremok-part-002",
+        "playbackSeconds": 25.224,
+        "inTarget": false
+      },
+      {
+        "id": "teremok-part-003",
+        "playbackSeconds": 25.224,
+        "inTarget": false
+      },
+      {
+        "id": "teremok-part-004",
+        "playbackSeconds": 19.344,
+        "inTarget": true
+      },
+      {
+        "id": "teremok-part-005",
+        "playbackSeconds": 21.984,
+        "inTarget": true
+      },
+      {
+        "id": "teremok-part-006",
+        "playbackSeconds": 24.384,
+        "inTarget": true
+      },
+      {
+        "id": "teremok-part-007",
+        "playbackSeconds": 17.976,
+        "inTarget": true
+      },
+      {
+        "id": "teremok-part-008",
+        "playbackSeconds": 19.296,
+        "inTarget": true
+      }
+    ]
+  },
+  {
+    "id": "frog-princess",
+    "playbackRate": 1.0,
+    "parts": [
+      {
+        "id": "frog-princess-part-001",
+        "playbackSeconds": 21.456,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-002",
+        "playbackSeconds": 20.976,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-003",
+        "playbackSeconds": 21.216,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-004",
+        "playbackSeconds": 22.344,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-005",
+        "playbackSeconds": 22.728,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-006",
+        "playbackSeconds": 20.496,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-007",
+        "playbackSeconds": 17.568,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-008",
+        "playbackSeconds": 22.176,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-009",
+        "playbackSeconds": 15.648,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-010",
+        "playbackSeconds": 16.464,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-011",
+        "playbackSeconds": 18.744,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-012",
+        "playbackSeconds": 21.408,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-013",
+        "playbackSeconds": 24.336,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-014",
+        "playbackSeconds": 18.456,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-015",
+        "playbackSeconds": 16.488,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-016",
+        "playbackSeconds": 20.808,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-017",
+        "playbackSeconds": 18.216,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-018",
+        "playbackSeconds": 20.088,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-019",
+        "playbackSeconds": 19.608,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-020",
+        "playbackSeconds": 18.624,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-021",
+        "playbackSeconds": 21.024,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-022",
+        "playbackSeconds": 16.128,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-023",
+        "playbackSeconds": 21.816,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-024",
+        "playbackSeconds": 21.288,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-025",
+        "playbackSeconds": 20.784,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-026",
+        "playbackSeconds": 23.976,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-027",
+        "playbackSeconds": 22.464,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-028",
+        "playbackSeconds": 22.944,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-029",
+        "playbackSeconds": 26.976,
+        "inTarget": false
+      },
+      {
+        "id": "frog-princess-part-030",
+        "playbackSeconds": 19.704,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-031",
+        "playbackSeconds": 20.616,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-032",
+        "playbackSeconds": 24.648,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-033",
+        "playbackSeconds": 17.616,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-034",
+        "playbackSeconds": 17.208,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-035",
+        "playbackSeconds": 22.944,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-036",
+        "playbackSeconds": 16.848,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-037",
+        "playbackSeconds": 17.448,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-038",
+        "playbackSeconds": 16.368,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-039",
+        "playbackSeconds": 18.888,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-040",
+        "playbackSeconds": 25.344,
+        "inTarget": false
+      },
+      {
+        "id": "frog-princess-part-041",
+        "playbackSeconds": 19.824,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-042",
+        "playbackSeconds": 25.824,
+        "inTarget": false
+      },
+      {
+        "id": "frog-princess-part-043",
+        "playbackSeconds": 20.664,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-044",
+        "playbackSeconds": 21.816,
+        "inTarget": true
+      },
+      {
+        "id": "frog-princess-part-045",
+        "playbackSeconds": 17.904,
+        "inTarget": true
+      }
+    ]
+  }
+]

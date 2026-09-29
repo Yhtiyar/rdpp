@@ -1,0 +1,141 @@
+{
+  "id": "turnip",
+  "title": "Репка",
+  "language": "ru",
+  "attribution": "Русская народная сказка. «Репка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+  "original": "assets/books/turnip/turnip_original.pdf",
+  "cover": "assets/books/turnip/art/turnip_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "turnip-part-001",
+      "text": "Посадил дед репку. Выросла репка большая, пребольшая. Стал дед репку из земли тащить: тянет-потянет, вытащить не может. Позвал дед на помощь бабку. Бабка за дедку, дедка за репку: тянут-потянут, вытянуть не могут. Позвала бабка внучку.",
+      "image": "assets/books/turnip/art/turnip_03.webp",
+      "sourcePages": [
+        1,
+        2,
+        3
+      ],
+      "sourceReadingPages": [
+        0,
+        1,
+        2
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 235,
+      "estimatedPlaybackSeconds": 20.96,
+      "audio": "assets/books/turnip/audio/turnip-part-001.mp3"
+    },
+    {
+      "id": "turnip-part-002",
+      "text": "Внучка за бабку, бабка за дедку, дедка за репку: тянут-потянут, вытянуть не могут. Кликнула внучка Жучку. Жучка за внучку, внучка за бабку, бабка за дедку, дедка за репку: тянут-потянут, вытянуть не могут. Кликнула Жучка кошку.",
+      "image": "assets/books/turnip/art/turnip_05.webp",
+      "sourcePages": [
+        3,
+        4,
+        5
+      ],
+      "sourceReadingPages": [
+        2,
+        3,
+        4
+      ],
+      "sourceTextStart": 236,
+      "sourceTextEnd": 463,
+      "estimatedPlaybackSeconds": 20.25,
+      "audio": "assets/books/turnip/audio/turnip-part-002.mp3"
+    },
+    {
+      "id": "turnip-part-003",
+      "text": "Кошка за Жучку, Жучка за внучку, внучка за бабку, бабка за дедку, дедка за репку: тянут-потянут, вытянуть не могут. Кликнула кошка мышку. Мышка за кошку, кошка за Жучку, Жучка за внучку, внучка за бабку, бабка за дедку, дедка за репку тянут-потянут — вытащили репку!",
+      "image": "assets/books/turnip/art/turnip_07.webp",
+      "sourcePages": [
+        5,
+        6,
+        7
+      ],
+      "sourceReadingPages": [
+        4,
+        5,
+        6
+      ],
+      "sourceTextStart": 464,
+      "sourceTextEnd": 730,
+      "estimatedPlaybackSeconds": 23.73,
+      "audio": "assets/books/turnip/audio/turnip-part-003.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "turnip-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто посадил репку?",
+      "hint": "Это дедушка с белой бородой. Он первым стал тянуть репку.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, дед посадил репку!",
+      "feedback": "Да, дед посадил репку!",
+      "choices": [
+        {
+          "label": "Дед",
+          "image": "assets/books/turnip/art/turnip-grandpa.webp"
+        },
+        {
+          "label": "Внучка",
+          "image": "assets/books/turnip/art/turnip-girl.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "turnip-part-001"
+        ],
+        "quote": "Посадил дед репку."
+      },
+      "audio": {
+        "prompt": "assets/books/turnip/audio/turnip-exact-question-001-prompt.mp3",
+        "hint": "assets/books/turnip/audio/turnip-exact-question-001-hint.mp3",
+        "guided": "assets/books/turnip/audio/turnip-exact-question-001-guided.mp3",
+        "feedback": "assets/books/turnip/audio/turnip-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "turnip-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Кого кошка позвала помогать последним?",
+      "hint": "Это самый маленький помощник, с длинным тонким хвостиком.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл мышку! Все вместе потянули и вытащили репку.",
+      "feedback": "Ты нашёл мышку! Все вместе потянули и вытащили репку.",
+      "choices": [
+        {
+          "label": "Жучка",
+          "image": "assets/books/turnip/art/turnip-dog.webp"
+        },
+        {
+          "label": "Мышка",
+          "image": "assets/books/turnip/art/turnip-mouse.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "turnip-part-003"
+        ],
+        "quote": "Кликнула кошка мышку."
+      },
+      "audio": {
+        "prompt": "assets/books/turnip/audio/turnip-exact-question-002-prompt.mp3",
+        "hint": "assets/books/turnip/audio/turnip-exact-question-002-hint.mp3",
+        "guided": "assets/books/turnip/audio/turnip-exact-question-002-guided.mp3",
+        "feedback": "assets/books/turnip/audio/turnip-exact-question-002-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку «Репка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+    "audio": "assets/books/turnip/audio/turnip-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0
+}

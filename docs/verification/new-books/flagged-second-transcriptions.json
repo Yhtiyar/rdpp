@@ -1,0 +1,119 @@
+[
+  {
+    "file": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-prompt.mp3",
+    "script": "Кто лежал в постели, потому что нездоровилось?",
+    "sha256": "9760f31c4e3244477ba6c159acc709b9cdca1be6e5b359316c06c3c0660cb9be",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Кто лежал в постели, потому что не здоровоилось?",
+    "similarity": 0.9778
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-004-hint.mp3",
+    "script": "Это одежда с рукавами. Её шьют.",
+    "sha256": "a8cfb001da7d869e6f3ec27b8495d3704ba28879bb98bf8ce1b209d694123200",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Это одежда с рукавами. Ее шьют.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/aibolit/audio/aibolit-exact-question-009-hint.mp3",
+    "script": "Это маленькие бегемоты. Они держатся за свои животики.",
+    "sha256": "d901395d73f59f500810e7f482408b37eafccd68340b40e5eb5d8e32f22f3207",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Это маленькие бегемоты. Они держатся за свои животики.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-part-006.mp3",
+    "script": "Вот царь позвал сыновей: — Хочу посмотреть, которая из ваших жен лучшая рукодельница. Пускай сошьют мне до завтра по рубашке. Сыновья поклонились отцу и пошли. Иван-царевич приходит домой, сел и голову повесил.",
+    "sha256": "33d9c10324cc7c980bffd6c0d03ad77f9d0994a25ac07cb8d209b38a07a8304f",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Вот царь позвал сыновей. Хочу посмотреть, которая из ваших жон лучшая рукодельница. Пускай сошьет мне до завтра парубашки. Сыновья поклонились отцу и пошли. Иван царевич приходит домой, сел и голову повесил.",
+    "similarity": 0.9776
+  },
+  {
+    "file": "assets/books/aibolit/audio/aibolit-part-014.mp3",
+    "script": "Они лежат и бредят: «Ну что же он не едет, ну что же он не едет, Доктор Айболит?» А рядом прикорнула Зубастая акула, Зубастая акула На солнышке лежит. Ах, у её малюток, У бедных акулят, Уже двенадцать суток Зубки болят!",
+    "sha256": "b059edb3b5763eb1de5ef88c9dcadfda0e4d3f6e3d92e9253ff94564ccb45f41",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Они лежат и бредят. Ну что же он не едет? Ну что же он не едет? Доктора и болит. А рядом прикорнула зубастая акула. Зубастая акула на солнышке лежит. Ах, уйо малюток, у бедных акулят уже двенадцать суток зубки болят.",
+    "similarity": 0.9758
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-021-prompt.mp3",
+    "script": "Что катилось и показывало Ивану дорогу?",
+    "sha256": "df2bd77dfbe012efef20122e5206fe3b5c7222dd9792db11b43ef96a04f09bc4",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Что катилось и показывало Ивану дорогу?",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-024-hint.mp3",
+    "script": "У этого зверька длинные уши.",
+    "sha256": "4f3d3fd9e04065868a1541314b4e9db374e914bc1a0dee89a20893958690dfa4",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "У этого зверька длинные уши.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-027-prompt.mp3",
+    "script": "В чём была спрятана Кощеева игла?",
+    "sha256": "0506b6610426f16fe2408f58b224773c4b04ed17de1d2aae1aa8f4340b1007f8",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "В чем была спрятана косеевая игла?",
+    "similarity": 0.9538
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-027-guided.mp3",
+    "script": "Давай вместе. Нажми на картинку с зелёной рамкой. Об яйцах утёнка спрашивала курица.",
+    "sha256": "7e1527c0b045cfeaeb9e7876d416ea8c25817e8525318ef1e52a37dac99be1d0",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Давай вместе. Нажми на картинку с зеленой рамкой. Объяется хутенка, спрашивала курица.",
+    "similarity": 0.9325
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-009-feedback.mp3",
+    "script": "Угриная головка досталась кошке.",
+    "sha256": "394de012fd3f763170324da190b6c6c765ee6d8614965f34e80039398f4fc48a",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Угриная головка досталась кошке.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-002-guided.mp3",
+    "script": "Давай вместе. Нажми на картинку с зелёной рамкой. Утка сидела на яйцах среди больших листьев.",
+    "sha256": "66cf2806050dfb3e00ae09ab62b8bb1b5e77723a6658436f00321fa41dc0d8db",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Давай вместе. Нажми на картинку с зеленой рамкой. Утка сидела на яйцах среди больших листьев.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-020-guided.mp3",
+    "script": "Давай вместе. Нажми на картинку с зелёной рамкой. Он хотел посидеть в камышах у болотной воды.",
+    "sha256": "7922be8798c427bb414a323f73de8f1980b3ad7960d6825c95e779b5d430f776",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "Давай вместе. Нажми на картинку с зеленой рамкой. Он хотел посидеть в камышах у болотной воды.",
+    "similarity": 1.0
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-030-prompt.mp3",
+    "script": "У какого домашнего зверя курица предлагала спросить о плавании?",
+    "sha256": "001960b9f1c8896ed50b28e1b38ef5e766cd81a4eaea0fbcc346be46b8df68aa",
+    "model": "qwen/qwen3-asr-1.7b",
+    "status": 200,
+    "transcript": "У какого домашнего зверя курица предлагала спросить о плаванье?",
+    "similarity": 0.9677
+  }
+]

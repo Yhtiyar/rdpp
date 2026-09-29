@@ -1,0 +1,132 @@
+[
+  {
+    "questionId": "little-red-hen-question-01",
+    "sceneId": "little-red-hen-page-01",
+    "sentence": "Her friends would not help, so the hen planted the little grains herself."
+  },
+  {
+    "questionId": "little-red-hen-question-02",
+    "sceneId": "little-red-hen-page-02",
+    "sentence": "The wheat grew tall. In summer, it was golden and ready to gather."
+  },
+  {
+    "questionId": "little-red-hen-question-03",
+    "sceneId": "little-red-hen-page-04",
+    "sentence": "The little red hen mixed her flour into bread dough. She pushed and folded the dough."
+  },
+  {
+    "questionId": "little-red-hen-question-04",
+    "sceneId": "little-red-hen-page-05",
+    "sentence": "The hen baked her bread."
+  },
+  {
+    "questionId": "thumbelina-question-01",
+    "sceneId": "thumbelina-page-01",
+    "sentence": "When she kissed the petals, the flower opened. A tiny girl was sitting inside!"
+  },
+  {
+    "questionId": "thumbelina-question-02",
+    "sceneId": "thumbelina-page-03",
+    "sentence": "One night, a mother toad carried Thumbelina away."
+  },
+  {
+    "questionId": "thumbelina-question-03",
+    "sceneId": "thumbelina-page-04",
+    "sentence": "A fish heard Thumbelina crying. It nibbled the stem under her lily leaf."
+  },
+  {
+    "questionId": "thumbelina-question-04",
+    "sceneId": "thumbelina-page-05",
+    "sentence": "A kind field mouse invited her inside."
+  },
+  {
+    "questionId": "thumbelina-question-05",
+    "sceneId": "thumbelina-page-08",
+    "sentence": "Then the swallow returned to help her escape. Thumbelina climbed onto his back. Together, they flew south to warmer lands."
+  },
+  {
+    "questionId": "thumbelina-question-06",
+    "sceneId": "thumbelina-page-09",
+    "sentence": "There she met a king who was tiny, just like her."
+  },
+  {
+    "questionId": "turtle-shell-question-01",
+    "sceneId": "turtle-shell-page-01",
+    "sentence": "The birds were getting ready to fly south, where it was warm."
+  },
+  {
+    "questionId": "turtle-shell-question-02",
+    "sceneId": "turtle-shell-page-02",
+    "sentence": "Turtle held the middle tightly in his mouth."
+  },
+  {
+    "questionId": "turtle-shell-question-03",
+    "sceneId": "turtle-shell-page-05",
+    "sentence": "He crawled into a pond and swam to the bottom. There he dug a hole in the mud and slept all winter."
+  },
+  {
+    "questionId": "turtle-shell-question-04",
+    "sceneId": "turtle-shell-page-06",
+    "sentence": "Spring came, and Turtle woke up. Now he saw the cracks on his shell, and he felt proud of them."
+  },
+  {
+    "questionId": "why-flies-buzz-question-01",
+    "sceneId": "why-flies-buzz-page-02",
+    "sentence": "A black fly buzzed around the man’s face."
+  },
+  {
+    "questionId": "why-flies-buzz-question-02",
+    "sceneId": "why-flies-buzz-page-03",
+    "sentence": "As she jumped, she kicked a sleeping crocodile under the tree."
+  },
+  {
+    "questionId": "why-flies-buzz-question-03",
+    "sceneId": "why-flies-buzz-page-04",
+    "sentence": "The startled monkey dropped his fruit."
+  },
+  {
+    "questionId": "why-flies-buzz-question-04",
+    "sceneId": "why-flies-buzz-page-06",
+    "sentence": "The bushfowl stayed beside her broken eggs and cried."
+  },
+  {
+    "questionId": "why-flies-buzz-question-05",
+    "sceneId": "why-flies-buzz-page-07",
+    "sentence": "The lion gathered everyone to hear what had happened."
+  },
+  {
+    "questionId": "why-flies-buzz-question-06",
+    "sceneId": "why-flies-buzz-page-09",
+    "sentence": "The bushfowl heard that the fly had been punished. She agreed to call the sun again."
+  },
+  {
+    "questionId": "three-little-pigs-question-01",
+    "sceneId": "three-little-pigs-page-01",
+    "sentence": "Three little pigs lived with Mama Pig. One day, she told them they were grown and ready to live on their own."
+  },
+  {
+    "questionId": "three-little-pigs-question-02",
+    "sceneId": "three-little-pigs-page-02",
+    "sentence": "The first little pig built a house from straw."
+  },
+  {
+    "questionId": "three-little-pigs-question-03",
+    "sceneId": "three-little-pigs-page-04",
+    "sentence": "The third little pig chose bricks for his house."
+  },
+  {
+    "questionId": "three-little-pigs-question-04",
+    "sceneId": "three-little-pigs-page-06",
+    "sentence": "“Then I’ll huff, and I’ll puff!” said the wolf. He blew the straw house down."
+  },
+  {
+    "questionId": "three-little-pigs-question-05",
+    "sceneId": "three-little-pigs-page-07",
+    "sentence": "The two little pigs ran to their brother’s brick house."
+  },
+  {
+    "questionId": "three-little-pigs-question-06",
+    "sceneId": "three-little-pigs-page-09",
+    "sentence": "Down the chimney fell the wolf, right into a pot of hot water! He jumped straight out and ran away."
+  }
+]

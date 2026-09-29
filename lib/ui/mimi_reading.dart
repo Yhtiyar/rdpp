@@ -1,41 +1,27 @@
-import 'dart:ui' as ui;
+import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:video_player/video_player.dart';
 
-import 'mimi_reading_painter.dart';
 import 'motion_spec.dart';
 
-/// One coordinated reading loop, using the welcome kitten's original artwork.
+/// The welcome kitten reading in one silent, five-second character animation.
 class MiMiReading extends StatefulWidget {
   const MiMiReading({super.key, this.progress});
 
-  /// A fixed pose for the animation scrubber and visual regression checks.
-  /// Home leaves this null and plays the five-second loop.
+  /// A fixed frame for the visual inspection workbench. Home plays the loop.
   final double? progress;
 
   @override
   State<MiMiReading> createState() => _MiMiReadingState();
 }
 
-class _MiMiReadingState extends State<MiMiReading>
-    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
-  late final AnimationController _cycle = AnimationController(
-    vsync: this,
-    duration: const Duration(seconds: 5),
-  );
-  ImageStream? _stream, _blinkStream;
-  late final ImageStreamListener _listener = ImageStreamListener(_onImage);
-  ui.Image? _artwork, _blinkArtwork;
-  late final ImageStreamListener _blinkListener = ImageStreamListener((
-    info,
-    synchronous,
-  ) {
-    _blinkArtwork?.dispose();
-    _blinkArtwork = info.image.clone();
-    info.dispose();
-    if (!synchronous && mounted) setState(() {});
-  });
+class _MiMiReadingState extends State<MiMiReading> with WidgetsBindingObserver {
+  VideoPlayerController? _video;
+  bool _ready = false;
+  bool _failed = false;
   bool _visible = true;
+  bool _active = false;
 
   @override
   void initState() {
@@ -45,24 +31,9 @@ class _MiMiReadingState extends State<MiMiReading>
     WidgetsBinding.instance.addObserver(this);
   }
 
-  void _onImage(ImageInfo info, bool synchronous) {
-    _artwork?.dispose();
-    _artwork = info.image.clone();
-    info.dispose();
-    if (!synchronous && mounted) setState(() {});
-  }
-
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    if (_stream == null) {
-      _stream = const AssetImage('assets/art/mimi_reading.webp')
-          .resolve(createLocalImageConfiguration(context));
-      _stream!.addListener(_listener);
-      _blinkStream = const AssetImage('assets/art/mimi/ready_blink.webp')
-          .resolve(createLocalImageConfiguration(context));
-      _blinkStream!.addListener(_blinkListener);
-    }
     _syncActivity();
   }
 
@@ -73,35 +44,94 @@ class _MiMiReadingState extends State<MiMiReading>
   }
 
   void _syncActivity() {
-    final active =
-        widget.progress == null &&
+    _active =
         _visible &&
         !MotionSpec.of(context).reduceMotion &&
         TickerMode.valuesOf(context).enabled &&
         (ModalRoute.of(context)?.isCurrent ?? true);
-    if (!active) {
-      _cycle.stop();
-      // Always use the original relaxed pose when motion is disabled.
-      _cycle.value = 0;
-    } else if (!_cycle.isAnimating) {
-      _cycle.repeat();
+    if (_active && _video == null && !_failed) {
+      unawaited(_initialize());
+    } else {
+      unawaited(_syncPlayback());
+    }
+  }
+
+  Future<void> _initialize() async {
+    final video = VideoPlayerController.asset(
+      'assets/art/mimi/reading/reading.mp4',
+      videoPlayerOptions: VideoPlayerOptions(
+        mixWithOthers: true,
+        // This widget owns lifecycle changes, including reduced motion.
+        allowBackgroundPlayback: true,
+      ),
+    );
+    _video = video;
+    video.addListener(_checkError);
+    try {
+      await video.initialize();
+      if (!mounted) return;
+      await video.setVolume(0);
+      await video.setLooping(true);
+      if (!mounted) return;
+      setState(() => _ready = true);
+      await _syncPlayback();
+    } catch (_) {
+      _showStill();
+    }
+  }
+
+  void _checkError() {
+    if (_video?.value.hasError ?? false) _showStill();
+  }
+
+  void _showStill() {
+    if (!mounted || _failed) return;
+    setState(() {
+      _failed = true;
+      _ready = false;
+    });
+  }
+
+  Future<void> _syncPlayback() async {
+    final video = _video;
+    if (!_ready || video == null || _failed) return;
+    try {
+      final progress = widget.progress;
+      if (!_active || progress != null) {
+        await video.pause();
+        if (mounted &&
+            _active &&
+            progress != null &&
+            progress == widget.progress) {
+          await video.seekTo(
+            Duration(
+              microseconds:
+                  (video.value.duration.inMicroseconds *
+                          progress.clamp(0.0, .999))
+                      .round(),
+            ),
+          );
+        }
+      } else if (!video.value.isPlaying) {
+        await video.play();
+      }
+    } catch (_) {
+      _showStill();
     }
   }
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    _visible = state == AppLifecycleState.resumed;
+    if (!mounted) return;
+    setState(() => _visible = state == AppLifecycleState.resumed);
     _syncActivity();
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
-    _stream?.removeListener(_listener);
-    _artwork?.dispose();
-    _blinkStream?.removeListener(_blinkListener);
-    _blinkArtwork?.dispose();
-    _cycle.dispose();
+    _video?.removeListener(_checkError);
+    unawaited(_video?.dispose());
     super.dispose();
   }
 
@@ -112,18 +142,21 @@ class _MiMiReadingState extends State<MiMiReading>
       child: ClipRRect(
         borderRadius: BorderRadius.circular(28),
         child: RepaintBoundary(
-          child: AnimatedBuilder(
-            key: const ValueKey('reading-cycle'),
-            animation: _cycle,
-            builder: (context, _) => _artwork == null
-                ? Image.asset('assets/art/mimi_reading.webp', fit: BoxFit.fill)
-                : CustomPaint(
-                    painter: ReadingKittenPainter(
-                      _artwork!,
-                      widget.progress ?? _cycle.value,
-                      blinkArtwork: _blinkArtwork,
-                    ),
+          // Keep the surface attached while paused. Removing and recreating a
+          // web video element interrupts playback when motion is re-enabled.
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              if (_ready && !_failed)
+                IgnorePointer(
+                  child: VideoPlayer(
+                    _video!,
+                    key: const ValueKey('reading-video'),
                   ),
+                ),
+              if (!_ready || !_active || _failed)
+                Image.asset('assets/art/mimi_reading.webp', fit: BoxFit.fill),
+            ],
           ),
         ),
       ),

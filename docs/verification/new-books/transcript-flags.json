@@ -1,0 +1,79 @@
+[
+  {
+    "file": "assets/books/aibolit/audio/aibolit-part-014.mp3",
+    "whisperSimilarity": 0.9447,
+    "secondAsrSimilarity": 0.9758,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": true
+  },
+  {
+    "file": "assets/books/aibolit/audio/aibolit-exact-question-009-hint.mp3",
+    "whisperSimilarity": 0.9333,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-part-006.mp3",
+    "whisperSimilarity": 0.9526,
+    "secondAsrSimilarity": 0.9776,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": true
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-004-hint.mp3",
+    "whisperSimilarity": 0.9667,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-exact-question-006-prompt.mp3",
+    "whisperSimilarity": 0.9663,
+    "secondAsrSimilarity": 0.9778,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-021-prompt.mp3",
+    "whisperSimilarity": 0.9474,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/frog-princess/audio/frog-princess-exact-question-024-hint.mp3",
+    "whisperSimilarity": 0.963,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-002-guided.mp3",
+    "whisperSimilarity": 0.9,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": true
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-009-feedback.mp3",
+    "whisperSimilarity": 0.9677,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-020-guided.mp3",
+    "whisperSimilarity": 0.901,
+    "secondAsrSimilarity": 1.0,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": true
+  },
+  {
+    "file": "assets/books/ugly-duckling/audio/ugly-duckling-exact-question-030-prompt.mp3",
+    "whisperSimilarity": 0.9677,
+    "secondAsrSimilarity": 0.9677,
+    "review": "Independent ASR comparison; differences are recognition/orthography candidates, not certified pronunciation judgments.",
+    "extraSignoffOnlyInWhisper": false
+  }
+]

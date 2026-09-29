@@ -1,0 +1,231 @@
+{
+  "id": "turtle-shell",
+  "title": "How Turtle Cracked His Shell",
+  "language": "en",
+  "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh and Barbara L. Gibson. Adapted by Rosie McCormick from How the Turtle Flew South for the Winter by Joseph Bruchac, courtesy of Fulcrum Publishing, Inc. ",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/turtle-shell/art/turtle-shell_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "turtle-shell-part-001",
+      "text": "One autumn day, Turtle was talking with the birds. They said, “Winter is coming. Soon it’s going to be very cold here. We’re getting ready to fly south where it is warm.” “Can I come with you?” asked Turtle. At first, the birds said, “No!”",
+      "image": "assets/books/turtle-shell/art/turtle-shell_01.webp",
+      "sourcePages": [
+        93,
+        94
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 239,
+      "estimatedPlaybackSeconds": 18.92,
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-part-001.mp3"
+    },
+    {
+      "id": "turtle-shell-part-002",
+      "text": "Turtle pleaded, “There must be some way I can go with you!” Finally, the birds agreed. “Use your mouth to hold on tightly to this stick,” the birds explained. Turtle did just that. Then the two big birds grabbed the ends of the stick. Soon they were all high in the sky—including Turtle.",
+      "image": "assets/books/turtle-shell/art/turtle-shell_03.webp",
+      "sourcePages": [
+        94,
+        95
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 240,
+      "sourceTextEnd": 527,
+      "estimatedPlaybackSeconds": 22.72,
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-part-002.mp3"
+    },
+    {
+      "id": "turtle-shell-part-003",
+      "text": "Turtle had never been so high off the ground before. He could look down and see how small everything looked. He wondered how far they had come, and how far they had to go. Turtle tried to get the birds’ attention. He rolled his eyes at them, but they did not notice.",
+      "image": "assets/books/turtle-shell/art/turtle-shell_04.webp",
+      "sourcePages": [
+        96,
+        97
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 528,
+      "sourceTextEnd": 794,
+      "estimatedPlaybackSeconds": 21.06,
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-part-003.mp3"
+    },
+    {
+      "id": "turtle-shell-part-004",
+      "text": "He waved his legs too. Frustrated, Turtle opened his mouth to speak. At that moment he let go of the stick and began to fall! He fell down from the sky and hit the ground hard. Turtle’s body ached. He ached so much he did not notice that his shell had cracked all over.",
+      "image": "assets/books/turtle-shell/art/turtle-shell_05.webp",
+      "sourcePages": [
+        97,
+        98
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 795,
+      "sourceTextEnd": 1064,
+      "estimatedPlaybackSeconds": 21.3,
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-part-004.mp3"
+    },
+    {
+      "id": "turtle-shell-part-005",
+      "text": "He crawled into a pond and swam down to the bottom. There he dug a hole in the mud and slept all winter long. In the spring, Turtle woke up. He was very proud of the cracks on his shell. Ever since then, every turtle’s shell looks like it has cracks all over it.",
+      "image": "assets/books/turtle-shell/art/turtle-shell_06.webp",
+      "sourcePages": [
+        98,
+        99
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 1065,
+      "sourceTextEnd": 1327,
+      "estimatedPlaybackSeconds": 20.74,
+      "audio": "assets/books/turtle-shell/audio/turtle-shell-part-005.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who was getting ready to fly south?",
+      "hint": "They had wings and wanted to find warm weather.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the bird.",
+      "feedback": "The birds were getting ready to fly south!",
+      "choices": [
+        {
+          "label": "Bird",
+          "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+        },
+        {
+          "label": "Turtle",
+          "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "turtle-shell-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/turtle-shell/audio/turtle-shell-exact-question-001-prompt.mp3",
+        "hint": "assets/books/turtle-shell/audio/turtle-shell-exact-question-001-hint.mp3",
+        "guided": "assets/books/turtle-shell/audio/turtle-shell-exact-question-001-guided.mp3",
+        "feedback": "assets/books/turtle-shell/audio/turtle-shell-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "turtle-shell-part-001"
+        ],
+        "quote": "One autumn day, Turtle was talking with the birds. They said, “Winter is coming. Soon it’s going to be very cold here. We’re getting ready to fly south where it is warm.”"
+      }
+    },
+    {
+      "prompt": "Who held the stick in his mouth?",
+      "hint": "He had a shell and wanted to fly with the birds.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the turtle.",
+      "feedback": "Turtle held the stick in his mouth!",
+      "choices": [
+        {
+          "label": "Bird",
+          "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+        },
+        {
+          "label": "Turtle",
+          "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "turtle-shell-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/turtle-shell/audio/turtle-shell-exact-question-002-prompt.mp3",
+        "hint": "assets/books/turtle-shell/audio/turtle-shell-exact-question-002-hint.mp3",
+        "guided": "assets/books/turtle-shell/audio/turtle-shell-exact-question-002-guided.mp3",
+        "feedback": "assets/books/turtle-shell/audio/turtle-shell-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "turtle-shell-part-002"
+        ],
+        "quote": "“Use your mouth to hold on tightly to this stick,” the birds explained. Turtle did just that."
+      }
+    },
+    {
+      "prompt": "Where did Turtle sleep through winter?",
+      "hint": "He swam down and dug a hole in the mud.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the turtle under the pond water.",
+      "feedback": "Turtle slept at the bottom of the pond.",
+      "choices": [
+        {
+          "label": "Turtle under the pond water",
+          "image": "assets/books/turtle-shell/art/turtle-shell-pond.webp"
+        },
+        {
+          "label": "Turtle flying in the sky",
+          "image": "assets/books/turtle-shell/art/turtle-shell-sky.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "turtle-shell-exact-question-003",
+      "afterPage": 4,
+      "audio": {
+        "prompt": "assets/books/turtle-shell/audio/turtle-shell-exact-question-003-prompt.mp3",
+        "hint": "assets/books/turtle-shell/audio/turtle-shell-exact-question-003-hint.mp3",
+        "guided": "assets/books/turtle-shell/audio/turtle-shell-exact-question-003-guided.mp3",
+        "feedback": "assets/books/turtle-shell/audio/turtle-shell-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "turtle-shell-part-005"
+        ],
+        "quote": "He crawled into a pond and swam down to the bottom. There he dug a hole in the mud and slept all winter long."
+      }
+    },
+    {
+      "prompt": "Who woke up with cracks on his shell?",
+      "hint": "He had slept in the pond until spring.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the turtle.",
+      "feedback": "Turtle woke up in spring, proud of the cracks on his shell.",
+      "choices": [
+        {
+          "label": "Bird",
+          "image": "assets/books/turtle-shell/art/turtle-shell-bird.webp"
+        },
+        {
+          "label": "Turtle",
+          "image": "assets/books/turtle-shell/art/turtle-shell-turtle.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "turtle-shell-exact-question-004",
+      "afterPage": 4,
+      "audio": {
+        "prompt": "assets/books/turtle-shell/audio/turtle-shell-exact-question-004-prompt.mp3",
+        "hint": "assets/books/turtle-shell/audio/turtle-shell-exact-question-004-hint.mp3",
+        "guided": "assets/books/turtle-shell/audio/turtle-shell-exact-question-004-guided.mp3",
+        "feedback": "assets/books/turtle-shell/audio/turtle-shell-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "turtle-shell-part-005"
+        ],
+        "quote": "In the spring, Turtle woke up. He was very proud of the cracks on his shell."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to How Turtle Cracked His Shell and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/turtle-shell/audio/turtle-shell-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

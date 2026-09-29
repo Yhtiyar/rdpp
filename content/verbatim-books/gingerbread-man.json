@@ -1,0 +1,237 @@
+{
+  "id": "gingerbread-man",
+  "title": "The Gingerbread Man",
+  "language": "en",
+  "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/gingerbread-man/art/gingerbread-man_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "gingerbread-man-part-001",
+      "text": "One day, a little old woman decided to make a delicious gingerbread man cookie. She put the cookie dough on a cookie sheet and baked it in the oven. To her surprise, when she opened the oven, the Gingerbread Man jumped out!",
+      "image": "assets/books/gingerbread-man/art/gingerbread-man_02.webp",
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 223,
+      "estimatedPlaybackSeconds": 17.66,
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-part-001.mp3"
+    },
+    {
+      "id": "gingerbread-man-part-002",
+      "text": "The Gingerbread Man ran out of the house. The little old woman and her husband ran as fast as they could, but they could not catch the Gingerbread Man. A cow grazing in a field sniffed the air. The smell of ginger made the cow want to eat the Gingerbread Man.",
+      "image": "assets/books/gingerbread-man/art/gingerbread-man_03.webp",
+      "sourcePages": [
+        41,
+        42
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 224,
+      "sourceTextEnd": 483,
+      "estimatedPlaybackSeconds": 20.51,
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-part-002.mp3"
+    },
+    {
+      "id": "gingerbread-man-part-003",
+      "text": "The cow could not catch the Gingerbread Man either. A cat sleeping in the warm sunshine thought that the Gingerbread Man would make a tasty treat. Not even the cat could catch the Gingerbread Man. Then the Gingerbread Man met a clever fox.",
+      "image": "assets/books/gingerbread-man/art/gingerbread-man_05.webp",
+      "sourcePages": [
+        42,
+        43,
+        44
+      ],
+      "sourceReadingPages": [
+        3,
+        4,
+        5
+      ],
+      "sourceTextStart": 484,
+      "sourceTextEnd": 723,
+      "estimatedPlaybackSeconds": 18.92,
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-part-003.mp3"
+    },
+    {
+      "id": "gingerbread-man-part-004",
+      "text": "The fox pretended that he was not hungry and therefore did not want to catch the Gingerbread Man. The clever fox said that he would be happy to help the Gingerbread Man cross the river. As they were crossing the river, the fox said, “The water is getting deeper. You should ride on my head.”",
+      "image": "assets/books/gingerbread-man/art/gingerbread-man_06.webp",
+      "sourcePages": [
+        44,
+        45,
+        46
+      ],
+      "sourceReadingPages": [
+        5,
+        6,
+        7
+      ],
+      "sourceTextStart": 724,
+      "sourceTextEnd": 1015,
+      "estimatedPlaybackSeconds": 23.04,
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-part-004.mp3"
+    },
+    {
+      "id": "gingerbread-man-part-005",
+      "text": "Moments later the fox said, “Now you should ride on my nose.” Before the Gingerbread Man could even say, “Thank you for your kindness,” the fox ate him— every last bite. Chomp! Smack! The clever fox licked his lips as he crossed to the other side of the river.",
+      "image": "assets/books/gingerbread-man/art/gingerbread-man_08.webp",
+      "sourcePages": [
+        46,
+        47,
+        48
+      ],
+      "sourceReadingPages": [
+        7,
+        8,
+        9
+      ],
+      "sourceTextStart": 1016,
+      "sourceTextEnd": 1276,
+      "estimatedPlaybackSeconds": 20.59,
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-part-005.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who baked the gingerbread cookie?",
+      "hint": "She put the cookie dough on a sheet and put it into the oven.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the little old woman.",
+      "feedback": "The little old woman baked the cookie.",
+      "choices": [
+        {
+          "label": "Little old woman",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_woman.webp"
+        },
+        {
+          "label": "Cow",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cow.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "gingerbread-man-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-001-prompt.mp3",
+        "hint": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-001-hint.mp3",
+        "guided": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-001-guided.mp3",
+        "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "gingerbread-man-part-001"
+        ],
+        "quote": "One day, a little old woman decided to make a delicious gingerbread man cookie. She put the cookie dough on a cookie sheet and baked it in the oven."
+      }
+    },
+    {
+      "prompt": "Who jumped out of the oven?",
+      "hint": "The little cookie suddenly came alive!",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the gingerbread Man.",
+      "feedback": "The Gingerbread Man jumped out of the oven!",
+      "choices": [
+        {
+          "label": "Cat",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+        },
+        {
+          "label": "Gingerbread Man",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_gingerbread.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "gingerbread-man-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-002-prompt.mp3",
+        "hint": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-002-hint.mp3",
+        "guided": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-002-guided.mp3",
+        "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "gingerbread-man-part-001"
+        ],
+        "quote": "To her surprise, when she opened the oven, the Gingerbread Man jumped out!"
+      }
+    },
+    {
+      "prompt": "Who ate the Gingerbread Man?",
+      "hint": "The animal who carried him across the river ate him.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the fox.",
+      "feedback": "The fox ate the Gingerbread Man.",
+      "choices": [
+        {
+          "label": "Fox",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_fox.webp"
+        },
+        {
+          "label": "Cat",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "gingerbread-man-exact-question-003",
+      "afterPage": 4,
+      "audio": {
+        "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-003-prompt.mp3",
+        "hint": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-003-hint.mp3",
+        "guided": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-003-guided.mp3",
+        "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "gingerbread-man-part-005"
+        ],
+        "quote": "Before the Gingerbread Man could even say, “Thank you for your kindness,” the fox ate him— every last bite."
+      }
+    },
+    {
+      "prompt": "Who did the fox eat?",
+      "hint": "It was the little cookie that the fox carried across the river.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the gingerbread Man.",
+      "feedback": "The fox ate the Gingerbread Man, every last bite.",
+      "choices": [
+        {
+          "label": "Little old woman",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_woman.webp"
+        },
+        {
+          "label": "Gingerbread Man",
+          "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_gingerbread.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "gingerbread-man-exact-question-004",
+      "afterPage": 4,
+      "audio": {
+        "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-004-prompt.mp3",
+        "hint": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-004-hint.mp3",
+        "guided": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-004-guided.mp3",
+        "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "gingerbread-man-part-005"
+        ],
+        "quote": "Before the Gingerbread Man could even say, “Thank you for your kindness,” the fox ate him— every last bite."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/gingerbread-man/audio/gingerbread-man-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

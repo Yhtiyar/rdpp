@@ -1,0 +1,17 @@
+{
+  "tool": "built-in imagegen",
+  "review": "Six cells visually inspected, complete recognizable subjects with separate ivory backgrounds.",
+  "atlasOrder": [
+    "golden plate",
+    "silver cup",
+    "white pillow",
+    "prince",
+    "wooden table",
+    "royal bed"
+  ],
+  "path": "assets/books/frog/art/frog-exact-answers.webp",
+  "generatedSource": "/home/yhtiyar/.codex/generated_images/01a0e4c8-b5a5-7853-bdfa-f3df4ef01a67/exec-01629042-ee36-4a87-825e-77daefc07696.png",
+  "reference": "assets/books/frog/art/frog-answers.png",
+  "prompt": "Match this painted children's storybook style. Picture-choice atlas, exactly 3 columns and 2 rows: golden dinner plate, silver cup, white pillow; prince in blue tunic with crown, wooden table, royal bed. Cream background, no letters.",
+  "sha256": "5413560ccdf166c6d8a940ca664e014c1e5f4b8eda5e760ea42211a4febdabf2"
+}

@@ -1,0 +1,16 @@
+{
+  "flutterTests": 86,
+  "pythonTests": 23,
+  "flutterAnalyze": "no issues",
+  "releaseWebBuild": "passed",
+  "listeningJourneys": 18,
+  "narrationParts": 258,
+  "pictureQuestions": 179,
+  "realAudioEndEvents": 652,
+  "decodedClips": 992,
+  "maxClippedFraction": 5.04517726918314e-05,
+  "orphanedOrObsoleteMp3s": 0,
+  "russianGeminiClips": 635,
+  "englishQwenClips": 357,
+  "secretAbsentFromBuild": true
+}

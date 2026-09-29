@@ -1,0 +1,1365 @@
+{
+  "id": "frog",
+  "title": "The Frog Prince",
+  "language": "en",
+  "attribution": "Based on an original work of the Core Knowledge® Foundation, remixed and published by Free Kids Books (freekidsbooks.org). Source PDF contains CC BY-NC-SA 3.0 and CC BY-NC notices. Non-commercial use; attribution and original license notices retained. Core Knowledge does not endorse this app.",
+  "original": "assets/books/frog/frog_original.pdf",
+  "cover": "assets/books/frog/art/frog_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "frog-part-001",
+      "text": "Once upon a time, a mighty king lived in a palace in the shadow of a dark, mysterious forest. He had only one child, a beautiful little girl with long, flowing hair, and her favorite plaything was a bright golden ball that looked just like the sun in the sky.",
+      "image": "assets/books/frog/art/frog_01.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 259,
+      "estimatedPlaybackSeconds": 20.51,
+      "audio": "assets/books/frog/audio/frog-part-001.mp3"
+    },
+    {
+      "id": "frog-part-002",
+      "text": "Day after day, she would run and skip under the shadow of the huge forest trees, tossing and bouncing her ball to amuse herself. She liked to pretend that her ball was indeed the sun and that the whole wide world was hers to play with.",
+      "image": "assets/books/frog/art/frog_01.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 260,
+      "sourceTextEnd": 495,
+      "estimatedPlaybackSeconds": 18.61,
+      "audio": "assets/books/frog/audio/frog-part-002.mp3"
+    },
+    {
+      "id": "frog-part-003",
+      "text": "One day, however, as she spun the ball in her little hands, it slipped from her fingers, rolled over the leafy ground, and fell— splash!—into a deep well. She ran quickly to the edge of the well and peered in, but her beautiful golden toy had vanished into darkness.",
+      "image": "assets/books/frog/art/frog_01.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 496,
+      "sourceTextEnd": 762,
+      "estimatedPlaybackSeconds": 21.06,
+      "audio": "assets/books/frog/audio/frog-part-003.mp3"
+    },
+    {
+      "id": "frog-part-004",
+      "text": "She began to cry loudly, because she was not used to disappointment, when she suddenly heard a timid, scratchy voice behind her say, “What is the matter, princess?” Spinning around, she realized that the speaker was the ickiest frog she had ever seen.",
+      "image": "assets/books/frog/art/frog_02.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 763,
+      "sourceTextEnd": 1014,
+      "estimatedPlaybackSeconds": 19.87,
+      "audio": "assets/books/frog/audio/frog-part-004.mp3"
+    },
+    {
+      "id": "frog-part-005",
+      "text": "“I have dropped my ball into the well, and it is lost forever!” she wailed. The frog looked at her and blinked. “I could get it for you, if . . .” “Oh, froggy! I’d give you anything you want if you could get my lovely ball back! You could have my crown!”",
+      "image": "assets/books/frog/art/frog_02.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1015,
+      "sourceTextEnd": 1269,
+      "estimatedPlaybackSeconds": 20.11,
+      "audio": "assets/books/frog/audio/frog-part-005.mp3"
+    },
+    {
+      "id": "frog-part-006",
+      "text": "“I do not want a crown,” the frog said. “Or all my jewels!” she offered. “What would a frog do with jewels?” he wondered. “I do not care!” the princess snapped. “Just get my ball!”",
+      "image": "assets/books/frog/art/frog_02.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1270,
+      "sourceTextEnd": 1450,
+      "estimatedPlaybackSeconds": 14.25,
+      "audio": "assets/books/frog/audio/frog-part-006.mp3"
+    },
+    {
+      "id": "frog-part-007",
+      "text": "“Well,” the frog said, “I do not want jewels, but I do want a friend. It is a lonely life being an icky frog. If I fetch your ball from the dark, chilly well for you, will you agree to be my friend forever afterward, and love me, and share everything that you have with me?”",
+      "image": "assets/books/frog/art/frog_03.webp",
+      "sourcePages": [
+        9
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 1451,
+      "sourceTextEnd": 1725,
+      "estimatedPlaybackSeconds": 21.69,
+      "audio": "assets/books/frog/audio/frog-part-007.mp3"
+    },
+    {
+      "id": "frog-part-008",
+      "text": "“Of course!” the princess promised. But in her heart, she thought, “Who cares what that old frog wants? He’ll never leave this well anyway.” The frog did not know her thoughts, however, and he dived eagerly down into the well. A few seconds later, he emerged from the water holding the precious golden ball between two slimy webbed hands.",
+      "image": "assets/books/frog/art/frog_03.webp",
+      "sourcePages": [
+        9
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 1726,
+      "sourceTextEnd": 2064,
+      "estimatedPlaybackSeconds": 26.76,
+      "audio": "assets/books/frog/audio/frog-part-008.mp3"
+    },
+    {
+      "id": "frog-part-009",
+      "text": "“It was very cold down there,” the frog remarked, but the princess was not listening. “Hurray!” she cried, and seizing the ball, she immediately ran back to the palace. The frog croaked after her, “Wait! I cannot run as fast as you!”",
+      "image": "assets/books/frog/art/frog_04.webp",
+      "sourcePages": [
+        9,
+        11
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 2065,
+      "sourceTextEnd": 2298,
+      "estimatedPlaybackSeconds": 18.45,
+      "audio": "assets/books/frog/audio/frog-part-009.mp3"
+    },
+    {
+      "id": "frog-part-010",
+      "text": "She ignored him, however, and considered the matter settled. That night, however, while the court feasted, a loud knock sounded on the door. The princess loved visitors, so she ran to open the door, but who should stand on the palace stairs but the icky, warty frog!",
+      "image": "assets/books/frog/art/frog_04.webp",
+      "sourcePages": [
+        11
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 2299,
+      "sourceTextEnd": 2565,
+      "estimatedPlaybackSeconds": 21.06,
+      "audio": "assets/books/frog/audio/frog-part-010.mp3"
+    },
+    {
+      "id": "frog-part-011",
+      "text": "She slammed the door in his face and ran back to her delicious dinner on her golden plate. Behind the heavy wood door, though, she could hear him croaking: “O careful, careful, princess fair! Promises are more than air!” “Who was at the door, my daughter?” asked the king.",
+      "image": "assets/books/frog/art/frog_04.webp",
+      "sourcePages": [
+        11,
+        13
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 2566,
+      "sourceTextEnd": 2838,
+      "estimatedPlaybackSeconds": 21.54,
+      "audio": "assets/books/frog/audio/frog-part-011.mp3"
+    },
+    {
+      "id": "frog-part-012",
+      "text": "“Nobody! Just an old frog,” she said, and she told him how the frog had retrieved her ball from the well on the condition that she would be its friend and share everything she had with it forever afterward.",
+      "image": "assets/books/frog/art/frog_05.webp",
+      "sourcePages": [
+        13
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 2839,
+      "sourceTextEnd": 3045,
+      "estimatedPlaybackSeconds": 16.31,
+      "audio": "assets/books/frog/audio/frog-part-012.mp3"
+    },
+    {
+      "id": "frog-part-013",
+      "text": "She thought her father would be pleased with how she had escaped the frog’s demands, but, to her surprise, he frowned. The princess was shocked and wanted to refuse, but she could see from her father’s stern looks that she had to obey. Unwillingly, she got up and opened the door.",
+      "image": "assets/books/frog/art/frog_05.webp",
+      "sourcePages": [
+        13
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 3046,
+      "sourceTextEnd": 3326,
+      "estimatedPlaybackSeconds": 22.17,
+      "audio": "assets/books/frog/audio/frog-part-013.mp3"
+    },
+    {
+      "id": "frog-part-014",
+      "text": "The frog was still sitting patiently on the steps of the palace. When he saw the princess, he smiled happily—a smiling frog is quite a sight to behold—and bounced up and down with froggy glee. Unwillingly, the princess allowed the frog into the magnificent palace.",
+      "image": "assets/books/frog/art/frog_05.webp",
+      "sourcePages": [
+        13,
+        15
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 3327,
+      "sourceTextEnd": 3591,
+      "estimatedPlaybackSeconds": 20.9,
+      "audio": "assets/books/frog/audio/frog-part-014.mp3"
+    },
+    {
+      "id": "frog-part-015",
+      "text": "He bounced up and down, as frogs will when they are very happy, but she only glared at him dreadfully. She thought to herself, “Why should I have to keep my promise to this old croaker just because he fetched my ball from the well?” Her father insisted, however, that she should be his friend just as she said she would.",
+      "image": "assets/books/frog/art/frog_06.webp",
+      "sourcePages": [
+        15
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 3592,
+      "sourceTextEnd": 3912,
+      "estimatedPlaybackSeconds": 25.34,
+      "audio": "assets/books/frog/audio/frog-part-015.mp3"
+    },
+    {
+      "id": "frog-part-016",
+      "text": "The frog hopped after her into the great dining hall—boing! boing!—and immediately jumped onto the table. “So, princess,” he said, “we shall be the best of friends now.” With a contented croak, he began to eat from her shining gold plate and sparkling silver bowl.",
+      "image": "assets/books/frog/art/frog_06.webp",
+      "sourcePages": [
+        15
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 3913,
+      "sourceTextEnd": 4177,
+      "estimatedPlaybackSeconds": 20.9,
+      "audio": "assets/books/frog/audio/frog-part-016.mp3"
+    },
+    {
+      "id": "frog-part-017",
+      "text": "Frogs do not eat very neatly, I’m afraid, and the princess, noticing how he smeared the food all over his face, turned away in disgust. She refused to look at the frog or speak to him, but she still felt sick just thinking of such an ugly creature eating with her.",
+      "image": "assets/books/frog/art/frog_06.webp",
+      "sourcePages": [
+        15
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 4178,
+      "sourceTextEnd": 4442,
+      "estimatedPlaybackSeconds": 20.9,
+      "audio": "assets/books/frog/audio/frog-part-017.mp3"
+    },
+    {
+      "id": "frog-part-018",
+      "text": "“What a lovely golden plate,” the frog remarked. “It reminds me of your ball. You have such beautiful possessions, princess. It must be nice to be a princess and have everything you want.” “If I had everything I wanted,” the princess retorted, “you would not be eating with me.”",
+      "image": "assets/books/frog/art/frog_07.webp",
+      "sourcePages": [
+        17
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 4443,
+      "sourceTextEnd": 4721,
+      "estimatedPlaybackSeconds": 22.01,
+      "audio": "assets/books/frog/audio/frog-part-018.mp3"
+    },
+    {
+      "id": "frog-part-019",
+      "text": "The frog ignored her rudeness. “May I have a drink from your cup?” he asked politely. The princess was about to refuse, but her father caught her eye, and so she nodded. The frog drank thirstily. Perhaps it was because of that long hop from the well to the palace doors!",
+      "image": "assets/books/frog/art/frog_07.webp",
+      "sourcePages": [
+        17
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 4722,
+      "sourceTextEnd": 4992,
+      "estimatedPlaybackSeconds": 21.38,
+      "audio": "assets/books/frog/audio/frog-part-019.mp3"
+    },
+    {
+      "id": "frog-part-020",
+      "text": "“Would you like to drink now, princess?” he asked, nudging the cup back in her direction. “You must be joking!” she snapped. “Princesses do not drink after yucky frogs.” The frog sighed and continued eating, but soon he began to look sleepy. “I’m tired, princess,” he said.",
+      "image": "assets/books/frog/art/frog_07.webp",
+      "sourcePages": [
+        17,
+        19
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 4993,
+      "sourceTextEnd": 5266,
+      "estimatedPlaybackSeconds": 21.62,
+      "audio": "assets/books/frog/audio/frog-part-020.mp3"
+    },
+    {
+      "id": "frog-part-021",
+      "text": "“Will you take me up to bed?” “I could never have such a slimy frog in my bed!” the princess burst out. Her father was about to scold her, but the frog beat him to it: “O careful, careful, princess fair! Promises are more than air.” What could the princess do?",
+      "image": "assets/books/frog/art/frog_08.webp",
+      "sourcePages": [
+        19
+      ],
+      "sourceReadingPages": [
+        7
+      ],
+      "sourceTextStart": 5267,
+      "sourceTextEnd": 5527,
+      "estimatedPlaybackSeconds": 20.59,
+      "audio": "assets/books/frog/audio/frog-part-021.mp3"
+    },
+    {
+      "id": "frog-part-022",
+      "text": "She had promised. So she ran up the stairs to her bedroom, and all the way up she could hear the frog hopping behind her—boing! boing!—and leaving little muddy footprints—splish! splash!—on the castle floor. She opened the door to her bedroom.",
+      "image": "assets/books/frog/art/frog_08.webp",
+      "sourcePages": [
+        19,
+        21
+      ],
+      "sourceReadingPages": [
+        7,
+        8
+      ],
+      "sourceTextStart": 5528,
+      "sourceTextEnd": 5771,
+      "estimatedPlaybackSeconds": 19.24,
+      "audio": "assets/books/frog/audio/frog-part-022.mp3"
+    },
+    {
+      "id": "frog-part-023",
+      "text": "The beautiful princess and the ugly frog stood in the doorway looking at the princess’s lovely room, hung with silk curtains, beautiful paintings, and jeweled lamps. A thick, soft goosefeather quilt lay across her cozy bed, and a full, plump pillow waited to support the princess’s pretty head.",
+      "image": "assets/books/frog/art/frog_09.webp",
+      "sourcePages": [
+        21
+      ],
+      "sourceReadingPages": [
+        8
+      ],
+      "sourceTextStart": 5772,
+      "sourceTextEnd": 6066,
+      "estimatedPlaybackSeconds": 23.28,
+      "audio": "assets/books/frog/audio/frog-part-023.mp3"
+    },
+    {
+      "id": "frog-part-024",
+      "text": "The princess left the frog at the door and climbed into her beautiful bed. She wished the frog would go away, but he sat on the floor looking up at her. “I want to sleep on your pillow,” the frog said decidedly. The princess shook her head.",
+      "image": "assets/books/frog/art/frog_09.webp",
+      "sourcePages": [
+        21,
+        23
+      ],
+      "sourceReadingPages": [
+        8,
+        9
+      ],
+      "sourceTextStart": 6067,
+      "sourceTextEnd": 6307,
+      "estimatedPlaybackSeconds": 19.0,
+      "audio": "assets/books/frog/audio/frog-part-024.mp3"
+    },
+    {
+      "id": "frog-part-025",
+      "text": "“No! Please! You can sleep anywhere you want, just not on my bed. Please! You are just too disgusting, and you will leave slime on the pillow.” “I want the pillow,” the frog insisted. “You promised you would share everything with me!” The princess pleaded and cried, but nothing could change the frog’s mind.",
+      "image": "assets/books/frog/art/frog_10.webp",
+      "sourcePages": [
+        23
+      ],
+      "sourceReadingPages": [
+        9
+      ],
+      "sourceTextStart": 6308,
+      "sourceTextEnd": 6616,
+      "estimatedPlaybackSeconds": 24.39,
+      "audio": "assets/books/frog/audio/frog-part-025.mp3"
+    },
+    {
+      "id": "frog-part-026",
+      "text": "“You promised,” he said, “and promises are more than air.” Finally, she had to give in. Frustrated, she climbed down and tossed the frog roughly onto the pillow, and then climbed back into bed herself. She tried to keep as far away from her new friend as possible.",
+      "image": "assets/books/frog/art/frog_10.webp",
+      "sourcePages": [
+        23,
+        24
+      ],
+      "sourceReadingPages": [
+        9,
+        10
+      ],
+      "sourceTextStart": 6617,
+      "sourceTextEnd": 6881,
+      "estimatedPlaybackSeconds": 20.9,
+      "audio": "assets/books/frog/audio/frog-part-026.mp3"
+    },
+    {
+      "id": "frog-part-027",
+      "text": "“I wish you’d just go away,” she hissed into the darkness. The frog was silent for a long minute, and then he whispered, “Princess? There’s one more thing.” The princess groaned. The princess groaned. “Could I have a good-night kiss? I have been a very lonely frog. And you did promise you would love me.”",
+      "image": "assets/books/frog/art/frog_11.webp",
+      "sourcePages": [
+        24
+      ],
+      "sourceReadingPages": [
+        10
+      ],
+      "sourceTextStart": 6882,
+      "sourceTextEnd": 7187,
+      "estimatedPlaybackSeconds": 24.15,
+      "audio": "assets/books/frog/audio/frog-part-027.mp3"
+    },
+    {
+      "id": "frog-part-028",
+      "text": "The princess was so exhausted that she did not even bother to argue. In the dark, she rolled over and planted one kiss on the top of the frog’s cold, wet head. “Now, please go to sleep,” she begged. “Good night,” croaked the frog.",
+      "image": "assets/books/frog/art/frog_11.webp",
+      "sourcePages": [
+        24
+      ],
+      "sourceReadingPages": [
+        10
+      ],
+      "sourceTextStart": 7188,
+      "sourceTextEnd": 7418,
+      "estimatedPlaybackSeconds": 18.21,
+      "audio": "assets/books/frog/audio/frog-part-028.mp3"
+    },
+    {
+      "id": "frog-part-029",
+      "text": "The next morning, the princess woke to find the frog still snoring on the pillow. The princess watched him sleeping for some time. She began to feel impatient for him to wake up, for she found that, gross as he was, she preferred arguing with the frog to playing by herself.",
+      "image": "assets/books/frog/art/frog_12.webp",
+      "sourcePages": [
+        24,
+        26
+      ],
+      "sourceReadingPages": [
+        10,
+        11
+      ],
+      "sourceTextStart": 7419,
+      "sourceTextEnd": 7693,
+      "estimatedPlaybackSeconds": 21.69,
+      "audio": "assets/books/frog/audio/frog-part-029.mp3"
+    },
+    {
+      "id": "frog-part-030",
+      "text": "It was so quiet without him croaking away. Finally, she poked him hard with her finger. “Get up, you lazy toad!” she said. The frog did not stir, so with the palm of her hand, she gave him a rough shove that sent him sliding off the pillow and onto the cold, stone floor of her bedroom.",
+      "image": "assets/books/frog/art/frog_12.webp",
+      "sourcePages": [
+        26
+      ],
+      "sourceReadingPages": [
+        11
+      ],
+      "sourceTextStart": 7694,
+      "sourceTextEnd": 7980,
+      "estimatedPlaybackSeconds": 22.64,
+      "audio": "assets/books/frog/audio/frog-part-030.mp3"
+    },
+    {
+      "id": "frog-part-031",
+      "text": "The moment his little webbed feet touched the ground, however, the warty frog disappeared, and in his place sat a little prince, rubbing his eyes sleepily and smiling up at the princess. “Hello, princess! Thank you so much for keeping your promise.” “Who are you?” she asked, very much surprised.",
+      "image": "assets/books/frog/art/frog_12.webp",
+      "sourcePages": [
+        26
+      ],
+      "sourceReadingPages": [
+        11
+      ],
+      "sourceTextStart": 7981,
+      "sourceTextEnd": 8277,
+      "estimatedPlaybackSeconds": 23.44,
+      "audio": "assets/books/frog/audio/frog-part-031.mp3"
+    },
+    {
+      "id": "frog-part-032",
+      "text": "“Why, I’m the frog,” he responded. “A wicked witch living in the forest turned me into an ugly frog, and only you could save me. I knew that your heart was just as golden as your plate and your ball—and I was right! Now I am free of her spell!”",
+      "image": "assets/books/frog/art/frog_12.webp",
+      "sourcePages": [
+        26,
+        28
+      ],
+      "sourceReadingPages": [
+        11,
+        12
+      ],
+      "sourceTextStart": 8278,
+      "sourceTextEnd": 8522,
+      "estimatedPlaybackSeconds": 19.32,
+      "audio": "assets/books/frog/audio/frog-part-032.mp3"
+    },
+    {
+      "id": "frog-part-033",
+      "text": "He looked at her. “Thank you, princess. Now I will leave you alone and go back to my home on the other side of the forest.” “Wait!” said the princess. “I thought we were supposed to be friends forever after. And promises are more than air, you know.”",
+      "image": "assets/books/frog/art/frog_13.webp",
+      "sourcePages": [
+        28
+      ],
+      "sourceReadingPages": [
+        12
+      ],
+      "sourceTextStart": 8523,
+      "sourceTextEnd": 8773,
+      "estimatedPlaybackSeconds": 19.79,
+      "audio": "assets/books/frog/audio/frog-part-033.mp3"
+    },
+    {
+      "id": "frog-part-034",
+      "text": "The prince laughed. “So they are. Shall we go play with your ball?” And together they ran down the stairs and out into the bright golden sunshine. They were friends forever afterward, and when they were quite grown up, they were married with great celebration and joy.",
+      "image": "assets/books/frog/art/frog_13.webp",
+      "sourcePages": [
+        28
+      ],
+      "sourceReadingPages": [
+        12
+      ],
+      "sourceTextStart": 8774,
+      "sourceTextEnd": 9042,
+      "estimatedPlaybackSeconds": 21.22,
+      "audio": "assets/books/frog/audio/frog-part-034.mp3"
+    },
+    {
+      "id": "frog-part-035",
+      "text": "They invited the entire kingdom to their wedding, not to mention a number of frogs that the prince had met during his long enchantment. They lived happily ever after, of course, and the princess was always glad that she had kept her promise.",
+      "image": "assets/books/frog/art/frog_13.webp",
+      "sourcePages": [
+        28
+      ],
+      "sourceReadingPages": [
+        12
+      ],
+      "sourceTextStart": 9043,
+      "sourceTextEnd": 9284,
+      "estimatedPlaybackSeconds": 19.08,
+      "audio": "assets/books/frog/audio/frog-part-035.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "frog-exact-question-001",
+      "afterPage": 2,
+      "prompt": "What was the princess’s favorite toy?",
+      "hint": "She tossed and bounced her round, golden toy.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. Yes, the golden ball was her favorite toy!",
+      "feedback": "Yes, the golden ball was her favorite toy!",
+      "choices": [
+        {
+          "label": "Golden ball",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 2
+        },
+        {
+          "label": "Silver cup",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 1
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-001"
+        ],
+        "quote": "her favorite plaything was a bright golden ball"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-001-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-001-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-001-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Where did the golden ball fall?",
+      "hint": "It fell into a deep, dark place with water.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The ball fell into the deep well.",
+      "feedback": "The ball fell into the deep well.",
+      "choices": [
+        {
+          "label": "Palace",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 5
+        },
+        {
+          "label": "Well",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 3
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-003"
+        ],
+        "quote": "fell— splash!—into a deep well."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-002-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-002-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-002-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-003",
+      "afterPage": 5,
+      "prompt": "Who offered to fetch the lost ball?",
+      "hint": "The small creature beside the well could dive into the water.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog offered to get the ball.",
+      "feedback": "The frog offered to get the ball.",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-005"
+        ],
+        "quote": "The frog looked at her and blinked. “I could get it for you,"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-003-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-003-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-003-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Who cried because the ball was lost?",
+      "hint": "It was the girl whose favorite toy had fallen into the well.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The princess cried about her lost ball.",
+      "feedback": "The princess cried about her lost ball.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Princess",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-005"
+        ],
+        "quote": "“I have dropped my ball into the well, and it is lost forever!” she wailed."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-004-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-004-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-004-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-005",
+      "afterPage": 8,
+      "prompt": "Who brought the golden ball out of the water?",
+      "hint": "He held it in his little webbed hands.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog brought the ball out of the well!",
+      "feedback": "The frog brought the ball out of the well!",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-008"
+        ],
+        "quote": "he emerged from the water holding the precious golden ball between two slimy webbed hands."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-005-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-005-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-005-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-006",
+      "afterPage": 8,
+      "prompt": "Where did the princess run with her ball?",
+      "hint": "She ran back to her grand home.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. She ran back to the palace with the ball.",
+      "feedback": "She ran back to the palace with the ball.",
+      "choices": [
+        {
+          "label": "Well",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 3
+        },
+        {
+          "label": "Palace",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 5
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-009"
+        ],
+        "quote": "seizing the ball, she immediately ran back to the palace."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-006-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-006-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-006-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-006-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-007",
+      "afterPage": 11,
+      "prompt": "Who came to the palace door that night?",
+      "hint": "The visitor was small, green, and warty.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog came to the palace door.",
+      "feedback": "The frog came to the palace door.",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-010"
+        ],
+        "quote": "who should stand on the palace stairs but the icky, warty frog!"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-007-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-007-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-007-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-007-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-008",
+      "afterPage": 11,
+      "prompt": "Who asked his daughter about the visitor?",
+      "hint": "The princess’s father wanted to know who was at the door.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The king asked his daughter about the visitor.",
+      "feedback": "The king asked his daughter about the visitor.",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-011"
+        ],
+        "quote": "“Who was at the door, my daughter?” asked the king."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-008-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-008-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-008-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-008-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-009",
+      "afterPage": 14,
+      "prompt": "Who smiled and bounced on the palace steps?",
+      "hint": "He was so happy to see the princess open the door.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The happy frog smiled and bounced!",
+      "feedback": "The happy frog smiled and bounced!",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "Princess",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 1
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-014"
+        ],
+        "quote": "he smiled happily—a smiling frog is quite a sight to behold—and bounced up and down with froggy glee."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-009-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-009-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-009-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-009-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-010",
+      "afterPage": 14,
+      "prompt": "Who told the princess to keep her promise?",
+      "hint": "Her father wanted her to be the frog’s friend.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. Her father, the king, insisted that she keep her promise.",
+      "feedback": "Her father, the king, insisted that she keep her promise.",
+      "choices": [
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-015"
+        ],
+        "quote": "Her father insisted, however, that she should be his friend just as she said she would."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-010-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-010-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-010-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-010-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-011",
+      "afterPage": 17,
+      "prompt": "What did the frog eat from?",
+      "hint": "It was a shining dish on the dinner table.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog ate from the princess’s golden plate.",
+      "feedback": "The frog ate from the princess’s golden plate.",
+      "choices": [
+        {
+          "label": "Golden plate",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 0
+        },
+        {
+          "label": "Golden ball",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 2
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-016"
+        ],
+        "quote": "he began to eat from her shining gold plate"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-011-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-011-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-011-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-011-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-012",
+      "afterPage": 17,
+      "prompt": "Who turned away while the frog was eating?",
+      "hint": "The girl did not like seeing food on the frog’s face.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The princess turned away from the messy frog.",
+      "feedback": "The princess turned away from the messy frog.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Princess",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-017"
+        ],
+        "quote": "the princess, noticing how he smeared the food all over his face, turned away in disgust."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-012-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-012-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-012-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-012-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-013",
+      "afterPage": 20,
+      "prompt": "What did the frog ask to drink from?",
+      "hint": "He asked to share the princess’s drinking cup.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog asked to drink from her cup.",
+      "feedback": "The frog asked to drink from her cup.",
+      "choices": [
+        {
+          "label": "Silver cup",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 1
+        },
+        {
+          "label": "Golden plate",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-019"
+        ],
+        "quote": "“May I have a drink from your cup?”"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-013-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-013-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-013-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-013-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-014",
+      "afterPage": 20,
+      "prompt": "Who became sleepy after dinner?",
+      "hint": "He said he was tired and asked to be taken up to bed.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog was tired and wanted to go to bed.",
+      "feedback": "The frog was tired and wanted to go to bed.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-020"
+        ],
+        "quote": "The frog sighed and continued eating, but soon he began to look sleepy."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-014-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-014-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-014-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-014-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-015",
+      "afterPage": 23,
+      "prompt": "Where did the princess climb when she reached her room?",
+      "hint": "Her room had a cozy place with a quilt and a pillow.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. She climbed into her beautiful bed.",
+      "feedback": "She climbed into her beautiful bed.",
+      "choices": [
+        {
+          "label": "Bed",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 5
+        },
+        {
+          "label": "Table",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 4
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-024"
+        ],
+        "quote": "The princess left the frog at the door and climbed into her beautiful bed."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-015-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-015-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-015-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-015-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-016",
+      "afterPage": 23,
+      "prompt": "Who left muddy footprints on the castle floor?",
+      "hint": "He hopped up the stairs behind the princess. Splish, splash!",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The hopping frog left the muddy footprints.",
+      "feedback": "The hopping frog left the muddy footprints.",
+      "choices": [
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-022"
+        ],
+        "quote": "she could hear the frog hopping behind her—boing! boing!—and leaving little muddy footprints"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-016-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-016-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-016-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-016-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-017",
+      "afterPage": 26,
+      "prompt": "Where did the princess finally put the frog?",
+      "hint": "He wanted the soft place where her head would rest.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. She put the frog on the pillow.",
+      "feedback": "She put the frog on the pillow.",
+      "choices": [
+        {
+          "label": "Pillow",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 2
+        },
+        {
+          "label": "Golden plate",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-026"
+        ],
+        "quote": "she climbed down and tossed the frog roughly onto the pillow"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-017-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-017-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-017-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-017-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-018",
+      "afterPage": 26,
+      "prompt": "Who asked for a good-night kiss?",
+      "hint": "He said that he had been a very lonely frog.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog asked the princess for a good-night kiss.",
+      "feedback": "The frog asked the princess for a good-night kiss.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-027"
+        ],
+        "quote": "“Could I have a good-night kiss? I have been a very lonely frog."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-018-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-018-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-018-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-018-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-019",
+      "afterPage": 29,
+      "prompt": "Who was snoring on the pillow in the morning?",
+      "hint": "He was still a small, green creature when she woke up.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The frog was snoring on the pillow.",
+      "feedback": "The frog was snoring on the pillow.",
+      "choices": [
+        {
+          "label": "Frog",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 0
+        },
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-029"
+        ],
+        "quote": "the princess woke to find the frog still snoring on the pillow."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-019-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-019-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-019-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-019-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-020",
+      "afterPage": 29,
+      "prompt": "Who tried to wake the sleepy frog?",
+      "hint": "The girl poked him with her finger and told him to get up.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The princess tried to wake the frog.",
+      "feedback": "The princess tried to wake the frog.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Princess",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-030"
+        ],
+        "quote": "Finally, she poked him hard with her finger. “Get up, you lazy toad!”"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-020-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-020-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-020-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-020-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-021",
+      "afterPage": 32,
+      "prompt": "Who appeared when the frog touched the floor?",
+      "hint": "The little frog changed into a smiling boy.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. A little prince appeared where the frog had been!",
+      "feedback": "A little prince appeared where the frog had been!",
+      "choices": [
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-031"
+        ],
+        "quote": "the warty frog disappeared, and in his place sat a little prince"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-021-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-021-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-021-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-021-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-022",
+      "afterPage": 32,
+      "prompt": "Who reminded the prince that they should stay friends?",
+      "hint": "She stopped him when he said he would go home.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The princess wanted them to stay friends forever.",
+      "feedback": "The princess wanted them to stay friends forever.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Princess",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-033"
+        ],
+        "quote": "“Wait!” said the princess. “I thought we were supposed to be friends forever after."
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-022-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-022-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-022-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-022-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-023",
+      "afterPage": 34,
+      "prompt": "What did the prince ask to play with?",
+      "hint": "It was the round toy that had fallen into the well.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. He asked to play with the princess’s ball.",
+      "feedback": "He asked to play with the princess’s ball.",
+      "choices": [
+        {
+          "label": "Golden ball",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 2
+        },
+        {
+          "label": "Silver cup",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 1
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-part-034"
+        ],
+        "quote": "“So they are. Shall we go play with your ball?”"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-023-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-023-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-023-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-023-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-exact-question-024",
+      "afterPage": 34,
+      "prompt": "Who married the princess when they were grown up?",
+      "hint": "He had once been the frog who became her friend.",
+      "guided": "Let’s find it together. Tap the picture with the green frame. The prince and the princess married when they were grown up.",
+      "feedback": "The prince and the princess married when they were grown up.",
+      "choices": [
+        {
+          "label": "King",
+          "image": "assets/books/frog/art/frog-answers.png",
+          "cell": 4
+        },
+        {
+          "label": "Prince",
+          "image": "assets/books/frog/art/frog-exact-answers.webp",
+          "cell": 3
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-part-034"
+        ],
+        "quote": "They were friends forever afterward, and when they were quite grown up, they were married"
+      },
+      "audio": {
+        "prompt": "assets/books/frog/audio/frog-exact-question-024-prompt.mp3",
+        "hint": "assets/books/frog/audio/frog-exact-question-024-hint.mp3",
+        "guided": "assets/books/frog/audio/frog-exact-question-024-guided.mp3",
+        "feedback": "assets/books/frog/audio/frog-exact-question-024-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/frog/audio/frog-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85,
+  "speechOverrides": {
+    "assets/books/frog/audio/frog-part-027.mp3": {
+      "segments": [
+        "“I wish you’d just go away,” she hissed into the darkness. The frog was silent for a long minute, and then he whispered, “Princess? There’s one more thing.” The princess groaned.",
+        "The princess groaned. “Could I have a good-night kiss? I have been a very lonely frog. And you did promise you would love me.”"
+      ]
+    }
+  }
+}

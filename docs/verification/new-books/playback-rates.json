@@ -1,0 +1,17 @@
+{
+  "method": "Observed HTMLMediaElement playbackRate after real play(); background MiMi video excluded.",
+  "checks": [
+    {
+      "id": "frog",
+      "expected": 0.85,
+      "actualPlaybackRate": 0.85,
+      "source": "assets/books/frog/audio/frog-part-001.mp3"
+    },
+    {
+      "id": "kolobok",
+      "expected": 1.0,
+      "actualPlaybackRate": 1.0,
+      "source": "assets/books/kolobok/audio/kolobok-part-001.mp3"
+    }
+  ]
+}

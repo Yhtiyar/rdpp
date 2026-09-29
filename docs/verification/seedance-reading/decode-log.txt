@@ -1,0 +1,32 @@
+-vsync is deprecated. Use -fps_mode
+Passing a number to -vsync is deprecated, use a string argument as described in the manual.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'docs/verification/seedance-reading/seedance-reading.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.76.100
+  Duration: 00:00:05.04, start: 0.000000, bitrate: 5071 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1112x834, 5033 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'docs/verification/seedance-reading/frames/decoded-%03d.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.1.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 1112x834, q=2-31, 200 kb/s, 24 fps, 24 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.3.100 png
+frame=   12 fps=0.0 q=-0.0 size=N/A time=00:00:00.50 bitrate=N/A speed=0.995x    
+frame=   61 fps= 61 q=-0.0 size=N/A time=00:00:02.58 bitrate=N/A speed=2.58x    
+frame=  102 fps= 68 q=-0.0 size=N/A time=00:00:04.25 bitrate=N/A speed=2.83x    
+[out#0/image2 @ 0x116c57c0] video:126011KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  121 fps= 73 q=-0.0 Lsize=N/A time=00:00:05.04 bitrate=N/A speed=3.04x    

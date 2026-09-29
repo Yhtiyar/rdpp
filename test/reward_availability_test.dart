@@ -15,9 +15,12 @@ import 'purchase_test.dart' show FakeProtection;
 import 'reader_screen_test.dart' show MemoryStore;
 
 void main() {
-  final books = (jsonDecode(
-    File('assets/books/catalog.json').readAsStringSync(),
-  ) as List).map((j) => Book.fromJson(j)).toList();
+  final books =
+      (jsonDecode(File('assets/books/catalog.json').readAsStringSync()) as List)
+          .map((j) => Book.fromJson(j))
+          // A fixed 22-page fixture keeps the earning-boundary scenarios stable.
+          .where((book) => book.id == 'frog' || book.id == 'kolobok')
+          .toList();
   AppController earned(int pages, {int spent = 0}) {
     final c = AppController(MemoryStore())
       ..books = books

@@ -29,6 +29,13 @@ class _PreviewState extends State<_Preview> {
                   ? 'Playing · 5 seconds'
                   : 'Pose ${phase!.toStringAsFixed(3)}',
             ),
+            TextField(
+              decoration: const InputDecoration(labelText: 'Exact phase'),
+              onChanged: (value) {
+                final parsed = double.tryParse(value);
+                if (parsed != null) setState(() => phase = parsed.clamp(0, 1));
+              },
+            ),
             Slider(
               value: phase ?? 0,
               onChanged: (v) => setState(() => phase = v),

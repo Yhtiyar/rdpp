@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "pause and reopen preserves position without autoplay",
+    "two incorrect picture taps lead to spoken hint then guided answer",
+    "frog: all pages heard, every picture question answered, star persisted",
+    "kolobok: all pages heard, every picture question answered, star persisted",
+    "listening leaves reading progress and coins unchanged",
+    "all 79 MP3s decode with non-silent audio and no material clipping"
+  ],
+  "actualAudioEndEvents": 52,
+  "playbackRate": 8,
+  "errors": [],
+  "external": []
+}

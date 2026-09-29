@@ -13,239 +13,319 @@
   "samples": [
     {
       "filename": "frame-000.png",
-      "ms": 303,
-      "head": 2.6815344672283152,
-      "paw": 1.4240344024933915,
-      "eyes": 3.110236949278045,
+      "ms": 277,
+      "head": 2.253981878874583,
+      "paw": 1.1111374127115636,
+      "eyes": 1.9988584474885844,
       "ui": 0,
-      "pagePixels": 1645,
-      "eyeDarkPixels": 2106
-    },
-    {
-      "filename": "frame-001.png",
-      "ms": 692,
-      "head": 6.547787845069677,
-      "paw": 3.475046356570797,
-      "eyes": 8.20091324200913,
-      "ui": 0,
-      "pagePixels": 1592,
-      "eyeDarkPixels": 2098
-    },
-    {
-      "filename": "frame-002.png",
-      "ms": 1504,
-      "head": 8.761691305038944,
-      "paw": 4.812995620783524,
-      "eyes": 12.019961742564481,
-      "ui": 0,
-      "pagePixels": 1589,
-      "eyeDarkPixels": 2091
-    },
-    {
-      "filename": "frame-003.png",
-      "ms": 2600,
-      "head": 34.24414772426218,
-      "paw": 26.276206257150747,
-      "eyes": 59.844471183512276,
-      "ui": 0,
-      "pagePixels": 1201,
-      "eyeDarkPixels": 2123
-    },
-    {
-      "filename": "frame-004.png",
-      "ms": 3129,
-      "head": 34.9175011921793,
-      "paw": 17.524638024223773,
-      "eyes": 59.81639516228557,
-      "ui": 0,
-      "pagePixels": 1199,
-      "eyeDarkPixels": 2106
-    },
-    {
-      "filename": "frame-005.png",
-      "ms": 3616,
-      "head": 35.09199385365337,
-      "paw": 24.843886850514853,
-      "eyes": 59.61455633715908,
-      "ui": 0,
-      "pagePixels": 1491,
-      "eyeDarkPixels": 2113
-    },
-    {
-      "filename": "frame-006.png",
-      "ms": 4079,
-      "head": 27.25274201239866,
-      "paw": 11.195092121355584,
-      "eyes": 46.89025669505122,
-      "ui": 0,
-      "pagePixels": 1371,
-      "eyeDarkPixels": 2130
-    },
-    {
-      "filename": "frame-007.png",
-      "ms": 4504,
-      "head": 7.328607004715732,
-      "paw": 3.5168264488894145,
-      "eyes": 8.809206466740713,
-      "ui": 0,
-      "pagePixels": 1609,
-      "eyeDarkPixels": 2095
-    },
-    {
-      "filename": "frame-008.png",
-      "ms": 4928,
-      "head": 2.6295766438827957,
-      "paw": 1.3611472758117333,
-      "eyes": 3.04106503764038,
-      "ui": 0,
-      "pagePixels": 1648,
-      "eyeDarkPixels": 2092
-    },
-    {
-      "filename": "frame-009.png",
-      "ms": 5366,
-      "head": 3.5611508504212366,
-      "paw": 1.9496981891348089,
-      "eyes": 4.15093175367148,
-      "ui": 0,
-      "pagePixels": 1630,
-      "eyeDarkPixels": 2100
-    },
-    {
-      "filename": "frame-010.png",
-      "ms": 5775,
-      "head": 7.212483441954114,
-      "paw": 3.878802225115398,
-      "eyes": 9.249969147229422,
-      "ui": 0,
-      "pagePixels": 1589,
-      "eyeDarkPixels": 2106
-    },
-    {
-      "filename": "frame-011.png",
-      "ms": 6227,
-      "head": 8.711301859799713,
-      "paw": 4.774568982522586,
-      "eyes": 11.916481550043194,
-      "ui": 0,
-      "pagePixels": 1590,
+      "pagePixels": 1651,
       "eyeDarkPixels": 2093
     },
     {
-      "filename": "frame-012.png",
-      "ms": 6663,
-      "head": 11.256938483547927,
-      "paw": 4.349390460409516,
-      "eyes": 18.691749969147228,
+      "filename": "frame-001.png",
+      "ms": 589,
+      "head": 5.595008742648228,
+      "paw": 2.9395589221604137,
+      "eyes": 5.451592002961866,
       "ui": 0,
-      "pagePixels": 1542,
-      "eyeDarkPixels": 2091
+      "pagePixels": 1642,
+      "eyeDarkPixels": 2077
+    },
+    {
+      "filename": "frame-002.png",
+      "ms": 911,
+      "head": 20.753139405499923,
+      "paw": 8.850554306229535,
+      "eyes": 42.96393311119339,
+      "ui": 0,
+      "pagePixels": 1666,
+      "eyeDarkPixels": 278
+    },
+    {
+      "filename": "frame-003.png",
+      "ms": 1229,
+      "head": 8.05965135378583,
+      "paw": 4.282124117252535,
+      "eyes": 8.436720967542884,
+      "ui": 0,
+      "pagePixels": 1619,
+      "eyeDarkPixels": 2063
+    },
+    {
+      "filename": "frame-004.png",
+      "ms": 1586,
+      "head": 8.121782440523498,
+      "paw": 4.250680553911706,
+      "eyes": 9.1447920523263,
+      "ui": 0,
+      "pagePixels": 1614,
+      "eyeDarkPixels": 2060
+    },
+    {
+      "filename": "frame-005.png",
+      "ms": 1914,
+      "head": 15.392168706617918,
+      "paw": 17.568785260583105,
+      "eyes": 24.152135011724052,
+      "ui": 0,
+      "pagePixels": 1586,
+      "eyeDarkPixels": 2088
+    },
+    {
+      "filename": "frame-006.png",
+      "ms": 2228,
+      "head": 22.34200180151539,
+      "paw": 22.437606028326826,
+      "eyes": 34.90460323337035,
+      "ui": 0,
+      "pagePixels": 1579,
+      "eyeDarkPixels": 2100
+    },
+    {
+      "filename": "frame-007.png",
+      "ms": 2950,
+      "head": 23.90388385524294,
+      "paw": 24.45157217816704,
+      "eyes": 35.79504504504504,
+      "ui": 0,
+      "pagePixels": 1409,
+      "eyeDarkPixels": 2133
+    },
+    {
+      "filename": "frame-008.png",
+      "ms": 3309,
+      "head": 24.06789593599322,
+      "paw": 23.306505700871895,
+      "eyes": 35.54319387881032,
+      "ui": 0,
+      "pagePixels": 1545,
+      "eyeDarkPixels": 2154
+    },
+    {
+      "filename": "frame-009.png",
+      "ms": 3658,
+      "head": 24.011127006835164,
+      "paw": 18.821832958535527,
+      "eyes": 35.13217326915957,
+      "ui": 0,
+      "pagePixels": 1586,
+      "eyeDarkPixels": 2160
+    },
+    {
+      "filename": "frame-010.png",
+      "ms": 4009,
+      "head": 18.967551528638797,
+      "paw": 6.24389474099499,
+      "eyes": 26.422343576453162,
+      "ui": 0,
+      "pagePixels": 1596,
+      "eyeDarkPixels": 2167
+    },
+    {
+      "filename": "frame-011.png",
+      "ms": 4336,
+      "head": 10.512223811794627,
+      "paw": 3.5268473586617746,
+      "eyes": 11.645193138343823,
+      "ui": 0,
+      "pagePixels": 1632,
+      "eyeDarkPixels": 2138
+    },
+    {
+      "filename": "frame-012.png",
+      "ms": 4682,
+      "head": 4.862427806919938,
+      "paw": 2.4808458594705485,
+      "eyes": 4.565222757003578,
+      "ui": 0,
+      "pagePixels": 1642,
+      "eyeDarkPixels": 2114
     },
     {
       "filename": "frame-013.png",
-      "ms": 7118,
-      "head": 29.49804482594182,
-      "paw": 26.080561802185667,
-      "eyes": 53.514871035418984,
+      "ms": 5049,
+      "head": 0.6959359932178244,
+      "paw": 0.33274154732315464,
+      "eyes": 0.6812291743798594,
       "ui": 0,
-      "pagePixels": 1282,
-      "eyeDarkPixels": 2122
+      "pagePixels": 1638,
+      "eyeDarkPixels": 2100
     },
     {
       "filename": "frame-014.png",
-      "ms": 7576,
-      "head": 34.596863243787425,
-      "paw": 25.194066358937942,
-      "eyes": 60.06846229791435,
+      "ms": 5431,
+      "head": 3.90831346367827,
+      "paw": 2.013808340237503,
+      "eyes": 3.5812970504751327,
       "ui": 0,
-      "pagePixels": 1876,
-      "eyeDarkPixels": 2121
+      "pagePixels": 1648,
+      "eyeDarkPixels": 2080
     },
     {
       "filename": "frame-015.png",
-      "ms": 8053,
-      "head": 34.8573941609707,
-      "paw": 17.517023710892804,
-      "eyes": 59.809792669381714,
+      "ms": 5783,
+      "head": 6.727557886928416,
+      "paw": 3.537183887639563,
+      "eyes": 6.726058250030853,
       "ui": 0,
-      "pagePixels": 1096,
-      "eyeDarkPixels": 2108
+      "pagePixels": 1626,
+      "eyeDarkPixels": 2075
     },
     {
       "filename": "frame-016.png",
-      "ms": 8502,
-      "head": 35.07722142743602,
-      "paw": 22.782814534264407,
-      "eyes": 59.66515488090831,
+      "ms": 6084,
+      "head": 7.850315265193662,
+      "paw": 4.19020002367144,
+      "eyes": 8.137479945699125,
       "ui": 0,
-      "pagePixels": 1688,
-      "eyeDarkPixels": 2113
+      "pagePixels": 1612,
+      "eyeDarkPixels": 2065
     },
     {
       "filename": "frame-017.png",
-      "ms": 8924,
-      "head": 31.07538812059556,
-      "paw": 16.517418234899594,
-      "eyes": 53.24133037146735,
+      "ms": 6397,
+      "head": 8.188724633073704,
+      "paw": 4.32035349351008,
+      "eyes": 8.631278538812785,
       "ui": 0,
-      "pagePixels": 1295,
-      "eyeDarkPixels": 2118
+      "pagePixels": 1620,
+      "eyeDarkPixels": 2066
     },
     {
       "filename": "frame-018.png",
-      "ms": 9385,
-      "head": 11.359879192497218,
-      "paw": 3.4202075196275694,
-      "eyes": 16.648772059730963,
+      "ms": 6721,
+      "head": 10.084544057648493,
+      "paw": 8.902907641930012,
+      "eyes": 14.198660989756881,
       "ui": 0,
-      "pagePixels": 1575,
-      "eyeDarkPixels": 2121
+      "pagePixels": 1609,
+      "eyeDarkPixels": 2074
     },
     {
       "filename": "frame-019.png",
-      "ms": 9804,
-      "head": 4.272876596195624,
-      "paw": 2.2020751962756933,
-      "eyes": 4.9585030235715175,
+      "ms": 7068,
+      "head": 18.780395273671385,
+      "paw": 21.085493352270486,
+      "eyes": 29.47988399358262,
       "ui": 0,
-      "pagePixels": 1659,
-      "eyeDarkPixels": 2099
+      "pagePixels": 1568,
+      "eyeDarkPixels": 2090
     },
     {
       "filename": "frame-020.png",
-      "ms": 10219,
-      "head": 1.5029513060986595,
-      "paw": 0.7905866571980905,
-      "eyes": 1.728619029988893,
+      "ms": 7427,
+      "head": 23.62119429873364,
+      "paw": 22.29494614747307,
+      "eyes": 36.61606812291744,
       "ui": 0,
-      "pagePixels": 1659,
-      "eyeDarkPixels": 2098
+      "pagePixels": 1572,
+      "eyeDarkPixels": 2101
     },
     {
       "filename": "frame-021.png",
-      "ms": 10659,
-      "head": 6.173570709479151,
-      "paw": 3.2415670493549533,
-      "eyes": 7.629118844872269,
+      "ms": 7798,
+      "head": 23.930461505854925,
+      "paw": 24.881958417169685,
+      "eyes": 36.055905220288786,
       "ui": 0,
-      "pagePixels": 1595,
-      "eyeDarkPixels": 2099
+      "pagePixels": 1337,
+      "eyeDarkPixels": 2140
     },
     {
       "filename": "frame-022.png",
-      "ms": 11068,
-      "head": 14.783129338208022,
-      "paw": 4.6305282676450865,
-      "eyes": 29.892601505615204,
+      "ms": 8172,
+      "head": 24.076469029830974,
+      "paw": 23.475795952183688,
+      "eyes": 35.65836727138097,
       "ui": 0,
-      "pagePixels": 1679,
-      "eyeDarkPixels": 407
+      "pagePixels": 1347,
+      "eyeDarkPixels": 2149
+    },
+    {
+      "filename": "frame-023.png",
+      "ms": 8553,
+      "head": 24.138515339373708,
+      "paw": 24.589971199747506,
+      "eyes": 35.41638899173146,
+      "ui": 0,
+      "pagePixels": 1588,
+      "eyeDarkPixels": 2158
+    },
+    {
+      "filename": "frame-024.png",
+      "ms": 8884,
+      "head": 21.414486303184447,
+      "paw": 10.364066753461948,
+      "eyes": 30.54754411946193,
+      "ui": 0,
+      "pagePixels": 1597,
+      "eyeDarkPixels": 2156
+    },
+    {
+      "filename": "frame-025.png",
+      "ms": 9223,
+      "head": 19.139278334128118,
+      "paw": 5.914033218921371,
+      "eyes": 32.68005676909786,
+      "ui": 0,
+      "pagePixels": 1715,
+      "eyeDarkPixels": 1308
+    },
+    {
+      "filename": "frame-026.png",
+      "ms": 9571,
+      "head": 5.830021724156201,
+      "paw": 2.9605475993214188,
+      "eyes": 5.538349993829446,
+      "ui": 0,
+      "pagePixels": 1646,
+      "eyeDarkPixels": 2123
+    },
+    {
+      "filename": "frame-027.png",
+      "ms": 9911,
+      "head": 2.498945583638001,
+      "paw": 1.1996291474336214,
+      "eyes": 2.2899543378995433,
+      "ui": 0,
+      "pagePixels": 1641,
+      "eyeDarkPixels": 2106
+    },
+    {
+      "filename": "frame-028.png",
+      "ms": 10210,
+      "head": 1.8261431674879456,
+      "paw": 0.887481753264686,
+      "eyes": 1.6147106010119707,
+      "ui": 0,
+      "pagePixels": 1644,
+      "eyeDarkPixels": 2093
+    },
+    {
+      "filename": "frame-029.png",
+      "ms": 10541,
+      "head": 5.103947438139141,
+      "paw": 2.611038781709867,
+      "eyes": 4.916975194372454,
+      "ui": 0,
+      "pagePixels": 1638,
+      "eyeDarkPixels": 2078
+    },
+    {
+      "filename": "frame-030.png",
+      "ms": 10893,
+      "head": 14.973623695225983,
+      "paw": 3.925316605515446,
+      "eyes": 29.251480932987786,
+      "ui": 0,
+      "pagePixels": 1712,
+      "eyeDarkPixels": 1240
     }
   ],
   "maximumMeanPixelDifference": {
-    "head": 35.09199385365337,
-    "paw": 26.276206257150747,
-    "eyes": 60.06846229791435,
+    "head": 24.138515339373708,
+    "paw": 24.881958417169685,
+    "eyes": 42.96393311119339,
     "ui": 0
   },
   "errors": []

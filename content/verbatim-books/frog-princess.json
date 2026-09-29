@@ -1,0 +1,1662 @@
+{
+  "id": "frog-princess",
+  "title": "Царевна-лягушка",
+  "language": "ru",
+  "attribution": "Русская народная сказка. «Царевна-лягушка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Исходный PDF не содержит иллюстраций; рисунки созданы для этого приложения.",
+  "original": "assets/books/frog-princess/frog-princess_original.pdf",
+  "cover": "assets/books/frog-princess/art/frog-princess_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "frog-princess-part-001",
+      "text": "В старые годы у одного царя было три сына. Вот когда сыновья подросли, царь собрал их и говорит: — Сынки мои любезные, пока я еще не стар, мне охота бы вас женить, посмотреть на ваших деточек, на моих внучат. Сыновья отцу отвечают: — Так что ж, батюшка, благослови.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 265,
+      "estimatedPlaybackSeconds": 23.64,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-001.mp3"
+    },
+    {
+      "id": "frog-princess-part-002",
+      "text": "На ком же нам жениться? — Вот что, сынки, возьмите по стреле, выходите в чистое поле и стреляйте: куда стрелы упадут, там и судьба ваша. Сыновья поклонились отцу, взяли по стреле, вышли в чистое поле, натянули луки и выстрелили.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 266,
+      "sourceTextEnd": 494,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-002.mp3"
+    },
+    {
+      "id": "frog-princess-part-003",
+      "text": "У старшего сына стрела упала на боярский двор, подняла стрелу боярская дочь. У среднего сына упала стрела на широкий купеческий двор, подняла ее купеческая дочь. А у младшего сына, Ивана-царевича, стрела поднялась и улетела, сам не знает куда.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 495,
+      "sourceTextEnd": 738,
+      "estimatedPlaybackSeconds": 21.68,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-003.mp3"
+    },
+    {
+      "id": "frog-princess-part-004",
+      "text": "Вот он шел, шел, дошел до болота, видит — сидит лягушка, подхватила его стрелу. Иван-царевич говорит ей: — Лягушка, лягушка, отдай мою стрелу. А лягушка ему отвечает: — Возьми меня замуж! — Что ты, как я возьму себе в жены лягушку?",
+      "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 739,
+      "sourceTextEnd": 970,
+      "estimatedPlaybackSeconds": 20.61,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-004.mp3"
+    },
+    {
+      "id": "frog-princess-part-005",
+      "text": "— Бери, знать судьба твоя такая. Закручинился Иван-царевич. Делать нечего, взял лягушку, принес домой. Царь сыграл три свадьбы: старшего сына женил на боярской дочери, среднего — на купеческой, а несчастного Ивана-царевича — на лягушке.",
+      "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 971,
+      "sourceTextEnd": 1207,
+      "estimatedPlaybackSeconds": 21.05,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-005.mp3"
+    },
+    {
+      "id": "frog-princess-part-006",
+      "text": "Вот царь позвал сыновей: — Хочу посмотреть, которая из ваших жен лучшая рукодельница. Пускай сошьют мне до завтра по рубашке. Сыновья поклонились отцу и пошли. Иван-царевич приходит домой, сел и голову повесил.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 1208,
+      "sourceTextEnd": 1418,
+      "estimatedPlaybackSeconds": 18.73,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-006.mp3"
+    },
+    {
+      "id": "frog-princess-part-007",
+      "text": "Лягушка по полу скачет, спрашивает его: — Что, Иван-царевич, голову повесил? Или горе какое? — Батюшка велел тебе до завтра рубашку ему сшить. Лягушка отвечает: — Не тужи, Иван-царевич, ложись лучше спать, утро вечера мудренее.",
+      "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1419,
+      "sourceTextEnd": 1646,
+      "estimatedPlaybackSeconds": 20.25,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-007.mp3"
+    },
+    {
+      "id": "frog-princess-part-008",
+      "text": "Иван-царевич лег спать, а лягушка прыгнула на крыльцо, сбросила с себя лягушечью кожу и обернулась Василисой Премудрой, такой красавицей, что и в сказке не расскажешь. Василиса Премудрая ударила в ладоши и крикнула: — Мамки, няньки, собирайтесь, снаряжайтесь!",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1647,
+      "sourceTextEnd": 1906,
+      "estimatedPlaybackSeconds": 23.1,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-008.mp3"
+    },
+    {
+      "id": "frog-princess-part-009",
+      "text": "Сшейте мне к утру такую рубашку, какую видела я у моего родного батюшки. Иван-царевич утром проснулся, лягушка опять по полу скачет, а уж рубашка лежит на столе, завернута в полотенце.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1907,
+      "sourceTextEnd": 2091,
+      "estimatedPlaybackSeconds": 16.41,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-009.mp3"
+    },
+    {
+      "id": "frog-princess-part-010",
+      "text": "Обрадовался Иван-царевич, взял рубашку, понес к отцу. Царь в это время принимал дары от старших сыновей. Старший сын развернул рубашку, царь принял ее и сказал: — Эту рубашку в черной избе носить.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 2092,
+      "sourceTextEnd": 2288,
+      "estimatedPlaybackSeconds": 17.48,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-010.mp3"
+    },
+    {
+      "id": "frog-princess-part-011",
+      "text": "Средний сын развернул рубашку, царь сказал: — В ней только в баню ходить. Иван-царевич развернул рубашку, изукрашенную златом-серебром, хитрыми узорами. Царь только взглянул: — Ну, вот это рубашка — в праздник ее надевать.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 2289,
+      "sourceTextEnd": 2511,
+      "estimatedPlaybackSeconds": 19.8,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-011.mp3"
+    },
+    {
+      "id": "frog-princess-part-012",
+      "text": "Пошли братья по домам — те двое — и судят между собой: — Нет, видно, мы напрасно смеялись над женой Ивана-царевича: она не лягушка, а какая-нибудь волшебница. Царь опять позвал сыновей: — Пускай ваши жены испекут мне до завтра хлеб.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 2512,
+      "sourceTextEnd": 2744,
+      "estimatedPlaybackSeconds": 20.7,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-012.mp3"
+    },
+    {
+      "id": "frog-princess-part-013",
+      "text": "Хочу узнать, которая лучше стряпает. Иван-царевич голову повесил, пришел домой. Лягушка его спрашивает: — Что закручинился? Он отвечает: — Надо до завтра испечь царю хлеб. — Не тужи, Иван-царевич, лучше ложись спать, утро вечера мудренее.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 2745,
+      "sourceTextEnd": 2983,
+      "estimatedPlaybackSeconds": 21.23,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-013.mp3"
+    },
+    {
+      "id": "frog-princess-part-014",
+      "text": "А те невестки сперва-то смеялись над лягушкой, а теперь послали одну бабушку-служанку посмотреть, как лягушка будет печь хлеб. Лягушка хитра, она это смекнула. Замесила тесто, печь сверху разломала да прямо туда, в дыру, всё его и вылила.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 2984,
+      "sourceTextEnd": 3222,
+      "estimatedPlaybackSeconds": 21.23,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-014.mp3"
+    },
+    {
+      "id": "frog-princess-part-015",
+      "text": "Бабушка-служанка прибежала к царским невесткам, все рассказала, и те так же стали делать. А лягушка прыгнула на крыльцо, обернулась Василисой Премудрой, ударила в ладоши: — Мамки, няньки, собирайтесь, снаряжайтесь!",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 3223,
+      "sourceTextEnd": 3437,
+      "estimatedPlaybackSeconds": 19.09,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-015.mp3"
+    },
+    {
+      "id": "frog-princess-part-016",
+      "text": "Испеките мне к утру мягкий белый хлеб, какой я у моего родного батюшки ела. Иван-царевич утром проснулся, а уж на столе лежит хлеб: по бокам узоры печатные, сверху города с заставами. Иван-царевич обрадовался, понес хлеб к отцу.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 3438,
+      "sourceTextEnd": 3666,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-016.mp3"
+    },
+    {
+      "id": "frog-princess-part-017",
+      "text": "А царь в то время принимал хлебы от старших сыновей. У их жен-то получилась одна горелая грязь. Царь их хлеба отдал слугам. А как подал Иван-царевич, царь сказал: — Вот это хлеб, только в праздник его есть.",
+      "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+      "sourcePages": [
+        3
+      ],
+      "sourceReadingPages": [
+        2
+      ],
+      "sourceTextStart": 3667,
+      "sourceTextEnd": 3873,
+      "estimatedPlaybackSeconds": 18.38,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-017.mp3"
+    },
+    {
+      "id": "frog-princess-part-018",
+      "text": "И приказал царь трем своим сыновьям, чтобы завтра явились к нему на пир вместе с женами. Опять воротился Иван-царевич домой не весел, ниже плеч голову повесил. Лягушка по полу скачет: — Ква, ква, Иван-царевич, что закручинился?",
+      "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 3874,
+      "sourceTextEnd": 4101,
+      "estimatedPlaybackSeconds": 20.25,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-018.mp3"
+    },
+    {
+      "id": "frog-princess-part-019",
+      "text": "Или услыхал от батюшки слово неприветливое? — Лягушка, лягушка, как мне не горевать? Батюшка наказал, чтобы я пришел с тобой на пир, а как я тебя людям покажу? Лягушка отвечает: — Не тужи, Иван-царевич, иди на пир один, а я вслед за тобой буду.",
+      "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 4102,
+      "sourceTextEnd": 4346,
+      "estimatedPlaybackSeconds": 21.77,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-019.mp3"
+    },
+    {
+      "id": "frog-princess-part-020",
+      "text": "Как услышишь стук да гром, не пугайся. Спросят тебя, скажи: «Это моя лягушонка в коробчонке едет». Иван-царевич и пошел один. Вот старшие братья приехали с женами, разодетыми, разубранными, нарумяненными.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 4347,
+      "sourceTextEnd": 4551,
+      "estimatedPlaybackSeconds": 18.2,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-020.mp3"
+    },
+    {
+      "id": "frog-princess-part-021",
+      "text": "Стоят да над Иваном-царевичем смеются: — Что же ты без жены пришел? Хоть бы в платочке ее принес. Где ты такую красавицу выискал? Чай, все болота исходил. Царь с сыновьями, с невестками, с гостями сели за столы дубовые, за скатерти браные — пировать.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 4552,
+      "sourceTextEnd": 4802,
+      "estimatedPlaybackSeconds": 22.3,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-021.mp3"
+    },
+    {
+      "id": "frog-princess-part-022",
+      "text": "Вдруг поднялся стук да гром, весь дворец затрясся. Гости напугались, повскакивали с мест, а Иван-царевич говорит: — Не бойтесь, честные гости: это моя лягушонка в коробчонке приехала.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-opening.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 4803,
+      "sourceTextEnd": 4986,
+      "estimatedPlaybackSeconds": 16.32,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-022.mp3"
+    },
+    {
+      "id": "frog-princess-part-023",
+      "text": "Подлетела к царскому крыльцу золоченая карета о шести белых лошадях, и выходит оттуда Василиса Премудрая: на лазурном платье — звезды, на голове — месяц ясный, такая красавица — ни вздумать, ни взгадать, только в сказке сказать.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-gala.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 4987,
+      "sourceTextEnd": 5215,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-023.mp3"
+    },
+    {
+      "id": "frog-princess-part-024",
+      "text": "Берет она Ивана-царевича за руки и ведет за столы дубовые, за скатерти браные. Стали гости есть, пить, веселиться. Василиса Премудрая испила из стакана да остатки себе за левый рукав вылила. Поела, а косточки за правый рукав отложила.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-gala.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 5216,
+      "sourceTextEnd": 5450,
+      "estimatedPlaybackSeconds": 20.87,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-024.mp3"
+    },
+    {
+      "id": "frog-princess-part-025",
+      "text": "Жены старших царевичей увидели ее хитрости и давай то же делать. Попили, поели, настал черед плясать. Василиса Премудрая подхватила Ивана-царевича и пошла. Уж она плясала, плясала, вертелась, вертелась — всем на диво.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-gala.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 5451,
+      "sourceTextEnd": 5668,
+      "estimatedPlaybackSeconds": 19.36,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-025.mp3"
+    },
+    {
+      "id": "frog-princess-part-026",
+      "text": "Махнула левым рукавом — вдруг сделалось озеро, махнула правым рукавом — поплыли по озеру белые лебеди. Царь и гости диву дались. А старшие невестки пошли плясать: махнули рукавом — только гостей забрызгали, махнули другим — только кости разлетелись, одна кость царю в глаз попала.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-gala.webp",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 5669,
+      "sourceTextEnd": 5949,
+      "estimatedPlaybackSeconds": 24.98,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-026.mp3"
+    },
+    {
+      "id": "frog-princess-part-027",
+      "text": "Царь рассердился и прогнал обеих невесток. В ту пору Иван-царевич отлучился потихоньку, побежал домой, нашел там лягушечью кожу и бросил ее в печь, сжег на огне. Василиса Премудрая возвращается домой, хватилась — нет лягушечьей кожи.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-gala.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 5950,
+      "sourceTextEnd": 6183,
+      "estimatedPlaybackSeconds": 20.79,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-027.mp3"
+    },
+    {
+      "id": "frog-princess-part-028",
+      "text": "Села на лавку, запечалилась, приуныла и говорит Ивану-царевичу: — Ах, Иван-царевич, что же ты наделал! Если бы ты еще только три дня подождал, я бы вечно твоей была. А теперь прощай. Ищи меня за тридевять земель, в тридесятом царстве, у Кощея Бессмертного…",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-cuckoo.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 6184,
+      "sourceTextEnd": 6440,
+      "estimatedPlaybackSeconds": 22.84,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-028.mp3"
+    },
+    {
+      "id": "frog-princess-part-029",
+      "text": "Обернулась Василиса Премудрая серой кукушкой и улетела в окно. Иван-царевич поплакал, поплакал, поклонился на четыре стороны и пошел куда глаза глядят — искать жену, Василису Премудрую. Шел он близко ли, далеко ли, долго ли, коротко ли, сапоги износил, кафтан истер.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-cuckoo.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 6441,
+      "sourceTextEnd": 6707,
+      "estimatedPlaybackSeconds": 23.73,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-029.mp3"
+    },
+    {
+      "id": "frog-princess-part-030",
+      "text": "Попадается ему навстречу старый старичок. — Здравствуй, добрый молодец! Что ищешь, куда путь держишь? Иван-царевич рассказал ему про свое несчастье. Старый старичок говорит ему: — Эх, Иван-царевич, зачем ты лягушечью кожу спалил?",
+      "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 6708,
+      "sourceTextEnd": 6937,
+      "estimatedPlaybackSeconds": 20.43,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-030.mp3"
+    },
+    {
+      "id": "frog-princess-part-031",
+      "text": "Не ты ее надел, не тебе ее было снимать. Василиса Премудрая хитрей, мудрей своего отца родилась. Он за то осерчал на нее и велел ей три года быть лягушкой. Ну, делать нечего, вот тебе клубок: куда он покатится, туда и ты ступай за ним смело.",
+      "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 6938,
+      "sourceTextEnd": 7179,
+      "estimatedPlaybackSeconds": 21.5,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-031.mp3"
+    },
+    {
+      "id": "frog-princess-part-032",
+      "text": "Иван-царевич поблагодарил старого старичка и пошел за клубочком. Клубок катится, он за ним идет. В чистом поле попадается ему медведь. Иван-царевич нацелился, хочет убить зверя. А медведь говорит ему человеческим голосом: — Не бей меня, Иван-царевич, когда-нибудь тебе пригожусь.",
+      "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 7180,
+      "sourceTextEnd": 7459,
+      "estimatedPlaybackSeconds": 24.89,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-032.mp3"
+    },
+    {
+      "id": "frog-princess-part-033",
+      "text": "Иван-царевич пожалел медведя, не стал его стрелять, пошел дальше. Глядь, летит над ним селезень. Он нацелился, а селезень говорит ему человеческим голосом: — Не бей меня, Иван-царевич, я тебе пригожусь.",
+      "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "sourcePages": [
+        5
+      ],
+      "sourceReadingPages": [
+        4
+      ],
+      "sourceTextStart": 7460,
+      "sourceTextEnd": 7662,
+      "estimatedPlaybackSeconds": 18.02,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-033.mp3"
+    },
+    {
+      "id": "frog-princess-part-034",
+      "text": "Он пожалел селезня и пошел дальше. Бежит косой заяц. Иван-царевич опять спохватился, хочет в него стрелять, а заяц говорит человеческим голосом: — Не убивай меня, Иван-царевич, я тебе пригожусь.",
+      "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 7663,
+      "sourceTextEnd": 7857,
+      "estimatedPlaybackSeconds": 17.31,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-034.mp3"
+    },
+    {
+      "id": "frog-princess-part-035",
+      "text": "Пожалел он зайца, пошел дальше. Подходит к синему морю и видит-на берегу, на песке, лежит щука, едва дышит и говорит ему: — Ах, Иван-царевич, пожалей меня, брось в синее море! Он бросил щуку в море, пошел дальше берегом.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-pike-scene.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 7858,
+      "sourceTextEnd": 8078,
+      "estimatedPlaybackSeconds": 19.63,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-035.mp3"
+    },
+    {
+      "id": "frog-princess-part-036",
+      "text": "Долго ли, коротко ли, прикатился клубочек к лесу. Там стоит избушка на курьих ножках, кругом себя поворачивается. — Избушка, избушка, стань по-старому, как мать поставила: к лесу задом, ко мне передом.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-hut.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 8079,
+      "sourceTextEnd": 8280,
+      "estimatedPlaybackSeconds": 17.93,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-036.mp3"
+    },
+    {
+      "id": "frog-princess-part-037",
+      "text": "Избушка повернулась к нему передом, к лесу задом. Иван-царевич взошел в нее и видит: на печи, на девятом кирпиче, лежит баба-яга, костяная нога, зубы — на полке, а нос в потолок врос.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-hut.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 8281,
+      "sourceTextEnd": 8464,
+      "estimatedPlaybackSeconds": 16.32,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-037.mp3"
+    },
+    {
+      "id": "frog-princess-part-038",
+      "text": "— Зачем, добрый молодец, ко мне пожаловал? — говорит ему баба-яга. Иван-царевич ей отвечает: — Ах ты, старая, ты бы меня прежде напоила, накормила, в бане выпарила, тогда бы и спрашивала.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-hut.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 8465,
+      "sourceTextEnd": 8652,
+      "estimatedPlaybackSeconds": 16.68,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-038.mp3"
+    },
+    {
+      "id": "frog-princess-part-039",
+      "text": "Баба-яга его в бане выпарила, напоила, накормила, в постель уложила, и Иван-царевич рассказал ей, что ищет свою жену, Василису Премудрую. — Знаю, знаю, — говорит ему баба-яга, — твоя жена теперь у Кощея Бессмертного.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-hut.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 8653,
+      "sourceTextEnd": 8869,
+      "estimatedPlaybackSeconds": 19.27,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-039.mp3"
+    },
+    {
+      "id": "frog-princess-part-040",
+      "text": "Трудно ее будет достать, нелегко с Кощеем сладить: его смерть на конце иглы, та игла в яйце, яйцо в утке, утка в зайце, тот заяц сидит в каменном сундуке, а сундук стоит на высоком дубу, и тот дуб Кощей Бессмертный, как свой глаз, бережет.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-hut.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 8870,
+      "sourceTextEnd": 9109,
+      "estimatedPlaybackSeconds": 21.32,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-040.mp3"
+    },
+    {
+      "id": "frog-princess-part-041",
+      "text": "Иван-царевич у бабы-яги переночевал, и наутро она ему указала, где растет высокий дуб. Долго ли, коротко ли, дошел туда Иван-царевич, видит — стоит, шумит высокий дуб, на нем каменный сундук, а достать его трудно.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 9110,
+      "sourceTextEnd": 9323,
+      "estimatedPlaybackSeconds": 19.0,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-041.mp3"
+    },
+    {
+      "id": "frog-princess-part-042",
+      "text": "Вдруг, откуда ни взялся, прибежал медведь, и выворотил дуб с корнем. Сундук упал и разбился. Из сундука выскочил заяц — и наутек во всю прыть. А за ним другой заяц гонится, нагнал и в клочки разорвал. А из зайца вылетела утка, поднялась высоко, под самое небо.",
+      "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 9324,
+      "sourceTextEnd": 9584,
+      "estimatedPlaybackSeconds": 23.19,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-042.mp3"
+    },
+    {
+      "id": "frog-princess-part-043",
+      "text": "Глядь, на нее селезень кинулся, как ударит ее — утка яйцо выронила, упало яйцо в синее море… Тут Иван-царевич залился горькими слезами — где же в море яйцо найти! Вдруг подплывает к берегу щука и держит яйцо в зубах.",
+      "image": "assets/books/frog-princess/art/frog-princess_05.webp",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 9585,
+      "sourceTextEnd": 9801,
+      "estimatedPlaybackSeconds": 19.27,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-043.mp3"
+    },
+    {
+      "id": "frog-princess-part-044",
+      "text": "Иван-царевич разбил яйцо, достал иголку и давай у нее конец ломать. Он ломает, а Кощей Бессмертный бьется, мечется. Сколько ни бился, ни метался Кощей, сломал Иван-царевич у иглы конец, пришлось Кощею помереть.",
+      "image": "assets/books/frog-princess/art/frog-princess_05.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 9802,
+      "sourceTextEnd": 10012,
+      "estimatedPlaybackSeconds": 18.73,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-044.mp3"
+    },
+    {
+      "id": "frog-princess-part-045",
+      "text": "Иван-царевич пошел в Кощеевы палаты белокаменные. Выбежала к нему Василиса Премудрая, поцеловала его в сахарные уста. Иван-царевич с Василисой Премудрой воротились домой и жили долго и счастливо до глубокой старости.",
+      "image": "assets/books/frog-princess/art/frog-princess_06.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 10013,
+      "sourceTextEnd": 10229,
+      "estimatedPlaybackSeconds": 19.27,
+      "audio": "assets/books/frog-princess/audio/frog-princess-part-045.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "frog-princess-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто собрал своих трёх сыновей?",
+      "hint": "Это их отец. Он хотел женить сыновей.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Царь собрал трёх сыновей и заговорил о свадьбах.",
+      "feedback": "Царь собрал трёх сыновей и заговорил о свадьбах.",
+      "choices": [
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        },
+        {
+          "label": "Иван-царевич",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-ivan.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-001"
+        ],
+        "quote": "В старые годы у одного царя было три сына."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-001-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-001-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-001-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Что сыновья пустили из луков?",
+      "hint": "Этот предмет летит, когда стреляют из лука.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Сыновья пустили стрелы в чистом поле.",
+      "feedback": "Сыновья пустили стрелы в чистом поле.",
+      "choices": [
+        {
+          "label": "Клубок ниток",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Стрела",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-arrow.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-002"
+        ],
+        "quote": "взяли по стреле, вышли в чистое поле, натянули луки и выстрелили."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-002-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-002-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-002-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-003",
+      "afterPage": 5,
+      "prompt": "Кто держал стрелу Ивана на болоте?",
+      "hint": "Она сидела на болоте и заговорила с Иваном.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Лягушка подхватила Иванову стрелу.",
+      "feedback": "Лягушка подхватила Иванову стрелу.",
+      "choices": [
+        {
+          "label": "Лягушка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 0
+        },
+        {
+          "label": "Белый лебедь",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 5
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-004"
+        ],
+        "quote": "видит — сидит лягушка, подхватила его стрелу."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-003-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-003-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-003-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Что царь велел сшить жёнам сыновей?",
+      "hint": "Это одежда с рукавами. Её шьют.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Царь велел сшить ему рубашки.",
+      "feedback": "Царь велел сшить ему рубашки.",
+      "choices": [
+        {
+          "label": "Праздничный хлеб",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 2
+        },
+        {
+          "label": "Нарядная рубашка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-006"
+        ],
+        "quote": "Пускай сошьют мне до завтра по рубашке."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-004-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-004-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-004-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-005",
+      "afterPage": 8,
+      "prompt": "В кого превратилась лягушка ночью?",
+      "hint": "Она стала прекрасной и мудрой девушкой.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Лягушка обернулась Василисой Премудрой.",
+      "feedback": "Лягушка обернулась Василисой Премудрой.",
+      "choices": [
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        },
+        {
+          "label": "Баба-яга",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-baba-yaga.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-008"
+        ],
+        "quote": "обернулась Василисой Премудрой"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-005-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-005-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-005-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-006",
+      "afterPage": 8,
+      "prompt": "Что утром лежало на столе в полотенце?",
+      "hint": "За ночь помощницы сшили царю одежду.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. На столе лежала готовая рубашка.",
+      "feedback": "На столе лежала готовая рубашка.",
+      "choices": [
+        {
+          "label": "Клубок ниток",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Нарядная рубашка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 1
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-009"
+        ],
+        "quote": "а уж рубашка лежит на столе, завернута в полотенце."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-006-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-006-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-006-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-006-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-007",
+      "afterPage": 11,
+      "prompt": "Какой подарок Иван принёс царю в этот раз?",
+      "hint": "Этот подарок был украшен красивыми узорами.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван принёс нарядную рубашку. Царь велел надевать её в праздник.",
+      "feedback": "Иван принёс нарядную рубашку. Царь велел надевать её в праздник.",
+      "choices": [
+        {
+          "label": "Нарядная рубашка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 1
+        },
+        {
+          "label": "Яйцо",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-egg.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-011"
+        ],
+        "quote": "Ну, вот это рубашка — в праздник ее надевать."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-007-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-007-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-007-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-007-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-008",
+      "afterPage": 11,
+      "prompt": "Что царь теперь попросил испечь?",
+      "hint": "Этот подарок готовят из теста.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Теперь царь попросил испечь хлеб.",
+      "feedback": "Теперь царь попросил испечь хлеб.",
+      "choices": [
+        {
+          "label": "Нарядная рубашка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 1
+        },
+        {
+          "label": "Праздничный хлеб",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 2
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-012"
+        ],
+        "quote": "Пускай ваши жены испекут мне до завтра хлеб."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-008-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-008-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-008-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-008-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-009",
+      "afterPage": 14,
+      "prompt": "Что нужно было приготовить царю к утру?",
+      "hint": "Иван рассказал лягушке о новом задании: надо печь.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Нужно было испечь хлеб для царя.",
+      "feedback": "Нужно было испечь хлеб для царя.",
+      "choices": [
+        {
+          "label": "Праздничный хлеб",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 2
+        },
+        {
+          "label": "Клубок ниток",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 3
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-013"
+        ],
+        "quote": "Надо до завтра испечь царю хлеб."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-009-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-009-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-009-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-009-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-010",
+      "afterPage": 14,
+      "prompt": "Кто позвал мамок и нянек на помощь?",
+      "hint": "Лягушка снова стала мудрой девушкой.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Василиса Премудрая позвала помощниц.",
+      "feedback": "Василиса Премудрая позвала помощниц.",
+      "choices": [
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        },
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-015"
+        ],
+        "quote": "обернулась Василисой Премудрой, ударила в ладоши: — Мамки, няньки, собирайтесь, снаряжайтесь!"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-010-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-010-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-010-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-010-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-011",
+      "afterPage": 17,
+      "prompt": "Какой подарок царь решил есть только в праздник?",
+      "hint": "Иван принёс мягкое угощение с узорами.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Царю понравился праздничный хлеб.",
+      "feedback": "Царю понравился праздничный хлеб.",
+      "choices": [
+        {
+          "label": "Праздничный хлеб",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 2
+        },
+        {
+          "label": "Яйцо",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-egg.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-017"
+        ],
+        "quote": "Вот это хлеб, только в праздник его есть."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-011-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-011-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-011-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-011-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-012",
+      "afterPage": 17,
+      "prompt": "Кто скакал по полу и спрашивал, почему Иван грустит?",
+      "hint": "Она говорила: «Ква, ква».",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Лягушка спрашивала Ивана, что его огорчило.",
+      "feedback": "Лягушка спрашивала Ивана, что его огорчило.",
+      "choices": [
+        {
+          "label": "Заяц",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-hare.webp"
+        },
+        {
+          "label": "Лягушка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-018"
+        ],
+        "quote": "Лягушка по полу скачет: — Ква, ква, Иван-царевич, что закручинился?"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-012-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-012-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-012-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-012-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-013",
+      "afterPage": 20,
+      "prompt": "Кто отправился на пир один?",
+      "hint": "Лягушка велела ему идти, а сама обещала приехать позже.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван-царевич пошёл на пир один.",
+      "feedback": "Иван-царевич пошёл на пир один.",
+      "choices": [
+        {
+          "label": "Иван-царевич",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-ivan.webp"
+        },
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-020"
+        ],
+        "quote": "Иван-царевич и пошел один."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-013-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-013-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-013-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-013-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-014",
+      "afterPage": 20,
+      "prompt": "Кто обещал приехать следом за Иваном?",
+      "hint": "Жена Ивана пока ещё была маленькой зелёной гостьей.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Лягушка обещала приехать следом.",
+      "feedback": "Лягушка обещала приехать следом.",
+      "choices": [
+        {
+          "label": "Щука",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 4
+        },
+        {
+          "label": "Лягушка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-019"
+        ],
+        "quote": "Лягушка отвечает: — Не тужи, Иван-царевич, иди на пир один, а я вслед за тобой буду."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-014-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-014-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-014-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-014-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-015",
+      "afterPage": 23,
+      "prompt": "Кто вышел из золочёной кареты?",
+      "hint": "Это мудрая красавица, жена Ивана.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Из кареты вышла Василиса Премудрая.",
+      "feedback": "Из кареты вышла Василиса Премудрая.",
+      "choices": [
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        },
+        {
+          "label": "Баба-яга",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-baba-yaga.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-023"
+        ],
+        "quote": "и выходит оттуда Василиса Премудрая"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-015-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-015-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-015-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-015-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-016",
+      "afterPage": 23,
+      "prompt": "Какие животные везли карету Василисы?",
+      "hint": "У кареты было шесть белых помощников с копытами.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Карету везли шесть белых лошадей.",
+      "feedback": "Карету везли шесть белых лошадей.",
+      "choices": [
+        {
+          "label": "Медведь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp"
+        },
+        {
+          "label": "Белая лошадь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-horse.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-023"
+        ],
+        "quote": "золоченая карета о шести белых лошадях"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-016-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-016-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-016-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-016-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-017",
+      "afterPage": 26,
+      "prompt": "Какие птицы поплыли по волшебному озеру?",
+      "hint": "Василиса махнула рукавом, и появились белые птицы с длинными шеями.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. По озеру поплыли белые лебеди.",
+      "feedback": "По озеру поплыли белые лебеди.",
+      "choices": [
+        {
+          "label": "Белый лебедь",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 5
+        },
+        {
+          "label": "Серая кукушка",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-cuckoo.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-026"
+        ],
+        "quote": "поплыли по озеру белые лебеди."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-017-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-017-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-017-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-017-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-018",
+      "afterPage": 26,
+      "prompt": "Кто во время пира побежал домой?",
+      "hint": "Это муж Василисы. Дома он нашёл лягушечью кожу.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван-царевич потихоньку побежал домой.",
+      "feedback": "Иван-царевич потихоньку побежал домой.",
+      "choices": [
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        },
+        {
+          "label": "Иван-царевич",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-ivan.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-027"
+        ],
+        "quote": "Иван-царевич отлучился потихоньку, побежал домой"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-018-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-018-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-018-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-018-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-019",
+      "afterPage": 29,
+      "prompt": "Какой птицей стала Василиса, когда улетела?",
+      "hint": "Она стала серой птицей, которая кукует.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Василиса обернулась серой кукушкой.",
+      "feedback": "Василиса обернулась серой кукушкой.",
+      "choices": [
+        {
+          "label": "Серая кукушка",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-cuckoo.webp"
+        },
+        {
+          "label": "Белый лебедь",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 5
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-029"
+        ],
+        "quote": "Обернулась Василиса Премудрая серой кукушкой и улетела в окно."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-019-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-019-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-019-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-019-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-020",
+      "afterPage": 29,
+      "prompt": "Кто отправился искать Василису?",
+      "hint": "Он очень жалел о своём поступке и хотел вернуть жену.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван-царевич отправился искать Василису.",
+      "feedback": "Иван-царевич отправился искать Василису.",
+      "choices": [
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        },
+        {
+          "label": "Иван-царевич",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-ivan.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-029"
+        ],
+        "quote": "Иван-царевич поплакал, поплакал, поклонился на четыре стороны и пошел куда глаза глядят — искать жену, Василису Премудрую."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-020-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-020-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-020-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-020-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-021",
+      "afterPage": 32,
+      "prompt": "Что катилось и показывало Ивану дорогу?",
+      "hint": "Старичок дал Ивану круглый клубочек ниток.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Волшебный клубок показывал дорогу.",
+      "feedback": "Волшебный клубок показывал дорогу.",
+      "choices": [
+        {
+          "label": "Клубок ниток",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Стрела",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-arrow.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-032"
+        ],
+        "quote": "Клубок катится, он за ним идет."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-021-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-021-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-021-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-021-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-022",
+      "afterPage": 32,
+      "prompt": "Какого большого зверя Иван встретил в поле?",
+      "hint": "Этот зверь попросил не стрелять в него.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. В поле Иван встретил медведя и пожалел его.",
+      "feedback": "В поле Иван встретил медведя и пожалел его.",
+      "choices": [
+        {
+          "label": "Заяц",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-hare.webp"
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-032"
+        ],
+        "quote": "В чистом поле попадается ему медведь."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-022-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-022-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-022-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-022-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-023",
+      "afterPage": 35,
+      "prompt": "Кого Иван спас, вернув в море?",
+      "hint": "Эта рыба лежала на песке и едва дышала.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван вернул щуку в море.",
+      "feedback": "Иван вернул щуку в море.",
+      "choices": [
+        {
+          "label": "Щука",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 4
+        },
+        {
+          "label": "Лягушка",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-035"
+        ],
+        "quote": "Он бросил щуку в море"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-023-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-023-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-023-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-023-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-024",
+      "afterPage": 35,
+      "prompt": "Какой зверёк бежал навстречу Ивану и просил его пощадить?",
+      "hint": "У этого зверька длинные уши.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Заяц попросил пощадить его, и Иван пошёл дальше.",
+      "feedback": "Заяц попросил пощадить его, и Иван пошёл дальше.",
+      "choices": [
+        {
+          "label": "Медведь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp"
+        },
+        {
+          "label": "Заяц",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-hare.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-034"
+        ],
+        "quote": "Бежит косой заяц."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-024-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-024-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-024-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-024-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-025",
+      "afterPage": 38,
+      "prompt": "Кто жил в избушке на курьих ножках?",
+      "hint": "В избушке Иван увидел старую сказочную хозяйку.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. В избушке жила Баба-яга.",
+      "feedback": "В избушке жила Баба-яга.",
+      "choices": [
+        {
+          "label": "Баба-яга",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-baba-yaga.webp"
+        },
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-037"
+        ],
+        "quote": "лежит баба-яга"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-025-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-025-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-025-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-025-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-026",
+      "afterPage": 38,
+      "prompt": "Кого Иван искал, когда пришёл к Бабе-яге?",
+      "hint": "Он рассказал хозяйке, что ищет свою жену.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Иван искал Василису Премудрую.",
+      "feedback": "Иван искал Василису Премудрую.",
+      "choices": [
+        {
+          "label": "Царь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-tsar.webp"
+        },
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-039"
+        ],
+        "quote": "ищет свою жену, Василису Премудрую."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-026-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-026-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-026-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-026-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-027",
+      "afterPage": 41,
+      "prompt": "В чём была спрятана игла Кощея?",
+      "hint": "Этот маленький предмет с хрупкой скорлупой находился в утке.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Игла была спрятана в яйце.",
+      "feedback": "Игла была спрятана в яйце.",
+      "choices": [
+        {
+          "label": "Яйцо",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-egg.webp"
+        },
+        {
+          "label": "Праздничный хлеб",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 2
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-040"
+        ],
+        "quote": "та игла в яйце"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-027-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-027-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-027-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-027-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-028",
+      "afterPage": 41,
+      "prompt": "Кто выворотил дуб и помог достать сундук?",
+      "hint": "Это большой сильный зверь, которого Иван пощадил.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Медведь выворотил дуб с корнем.",
+      "feedback": "Медведь выворотил дуб с корнем.",
+      "choices": [
+        {
+          "label": "Заяц",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-hare.webp"
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-042"
+        ],
+        "quote": "прибежал медведь, и выворотил дуб с корнем."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-028-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-028-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-028-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-028-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-029",
+      "afterPage": 44,
+      "prompt": "Кто достал яйцо из моря?",
+      "hint": "Это рыба, которой Иван раньше помог.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Щука принесла яйцо к берегу.",
+      "feedback": "Щука принесла яйцо к берегу.",
+      "choices": [
+        {
+          "label": "Щука",
+          "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+          "cell": 4
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-bear.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-043"
+        ],
+        "quote": "подплывает к берегу щука и держит яйцо в зубах."
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-029-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-029-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-029-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-029-feedback.mp3"
+      }
+    },
+    {
+      "id": "frog-princess-exact-question-030",
+      "afterPage": 44,
+      "prompt": "Кто выбежал навстречу Ивану из Кощеевых палат?",
+      "hint": "Иван наконец нашёл свою жену.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Навстречу Ивану выбежала Василиса Премудрая. Они вернулись домой.",
+      "feedback": "Навстречу Ивану выбежала Василиса Премудрая. Они вернулись домой.",
+      "choices": [
+        {
+          "label": "Баба-яга",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-baba-yaga.webp"
+        },
+        {
+          "label": "Василиса Премудрая",
+          "image": "assets/books/frog-princess/art/frog-princess-exact-vasilisa.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "frog-princess-part-045"
+        ],
+        "quote": "Выбежала к нему Василиса Премудрая"
+      },
+      "audio": {
+        "prompt": "assets/books/frog-princess/audio/frog-princess-exact-question-030-prompt.mp3",
+        "hint": "assets/books/frog-princess/audio/frog-princess-exact-question-030-hint.mp3",
+        "guided": "assets/books/frog-princess/audio/frog-princess-exact-question-030-guided.mp3",
+        "feedback": "assets/books/frog-princess/audio/frog-princess-exact-question-030-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку «Царевна-лягушка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+    "audio": "assets/books/frog-princess/audio/frog-princess-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0
+}

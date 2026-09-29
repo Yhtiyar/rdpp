@@ -1,0 +1,634 @@
+[
+  {
+    "file": "assets/books/frog/audio/frog-page-01.mp3",
+    "seconds": 11.975986394557824,
+    "sampleRate": 44100,
+    "peak": 0.4904293715953827,
+    "rms": 0.06708459611249942,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-03.mp3",
+    "seconds": 9.095986394557823,
+    "sampleRate": 44100,
+    "peak": 0.4636088013648987,
+    "rms": 0.06429003352085005,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-02.mp3",
+    "seconds": 10.367981859410431,
+    "sampleRate": 44100,
+    "peak": 0.6571004390716553,
+    "rms": 0.06396903565226264,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-04.mp3",
+    "seconds": 9.743990929705216,
+    "sampleRate": 44100,
+    "peak": 0.3250795304775238,
+    "rms": 0.058100312905269604,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-05.mp3",
+    "seconds": 9.503990929705216,
+    "sampleRate": 44100,
+    "peak": 0.4405304491519928,
+    "rms": 0.06510912702843467,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-06.mp3",
+    "seconds": 10.703990929705215,
+    "sampleRate": 44100,
+    "peak": 0.4853397607803345,
+    "rms": 0.06335335299443108,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-07.mp3",
+    "seconds": 9.023990929705215,
+    "sampleRate": 44100,
+    "peak": 0.43268275260925293,
+    "rms": 0.06369223846831565,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-08.mp3",
+    "seconds": 9.88798185941043,
+    "sampleRate": 44100,
+    "peak": 0.37680599093437195,
+    "rms": 0.06260844025431096,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-09.mp3",
+    "seconds": 9.815986394557823,
+    "sampleRate": 44100,
+    "peak": 0.4292038083076477,
+    "rms": 0.06252250730959347,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-10.mp3",
+    "seconds": 10.127981859410431,
+    "sampleRate": 44100,
+    "peak": 0.37062376737594604,
+    "rms": 0.06133527568232379,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-11.mp3",
+    "seconds": 10.847981859410432,
+    "sampleRate": 44100,
+    "peak": 0.35783177614212036,
+    "rms": 0.05981329051339846,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-12.mp3",
+    "seconds": 11.903990929705216,
+    "sampleRate": 44100,
+    "peak": 0.3620613217353821,
+    "rms": 0.05908998457991412,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-01-prompt.mp3",
+    "seconds": 3.647981859410431,
+    "sampleRate": 44100,
+    "peak": 0.3004339039325714,
+    "rms": 0.047020658571888696,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-01-guided.mp3",
+    "seconds": 5.087981859410431,
+    "sampleRate": 44100,
+    "peak": 0.342448353767395,
+    "rms": 0.062140835759977496,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-01-hint.mp3",
+    "seconds": 3.9839909297052154,
+    "sampleRate": 44100,
+    "peak": 0.3955651521682739,
+    "rms": 0.07460075962363137,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-01-feedback.mp3",
+    "seconds": 4.223990929705216,
+    "sampleRate": 44100,
+    "peak": 0.5278926491737366,
+    "rms": 0.07855784262416168,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-02-prompt.mp3",
+    "seconds": 2.7839909297052152,
+    "sampleRate": 44100,
+    "peak": 0.3972851037979126,
+    "rms": 0.0645328310086997,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-02-hint.mp3",
+    "seconds": 3.7439909297052156,
+    "sampleRate": 44100,
+    "peak": 0.37493976950645447,
+    "rms": 0.06787989719160765,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-02-guided.mp3",
+    "seconds": 5.255986394557823,
+    "sampleRate": 44100,
+    "peak": 0.3836542069911957,
+    "rms": 0.05961963888804062,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-03-prompt.mp3",
+    "seconds": 1.8239909297052155,
+    "sampleRate": 44100,
+    "peak": 0.25084230303764343,
+    "rms": 0.05766122203378707,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-02-feedback.mp3",
+    "seconds": 3.095986394557823,
+    "sampleRate": 44100,
+    "peak": 0.343549907207489,
+    "rms": 0.060338819813826695,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-03-hint.mp3",
+    "seconds": 2.687981859410431,
+    "sampleRate": 44100,
+    "peak": 0.34925079345703125,
+    "rms": 0.06811179476635924,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-03-feedback.mp3",
+    "seconds": 2.5439909297052155,
+    "sampleRate": 44100,
+    "peak": 0.3869943916797638,
+    "rms": 0.062460318393660945,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-03-guided.mp3",
+    "seconds": 5.255986394557823,
+    "sampleRate": 44100,
+    "peak": 0.3094656467437744,
+    "rms": 0.059287447243401306,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-04-prompt.mp3",
+    "seconds": 2.7839909297052152,
+    "sampleRate": 44100,
+    "peak": 0.23439155519008636,
+    "rms": 0.05395115408674969,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-04-hint.mp3",
+    "seconds": 3.0239909297052154,
+    "sampleRate": 44100,
+    "peak": 0.3308604657649994,
+    "rms": 0.06219309740746606,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-04-guided.mp3",
+    "seconds": 5.087981859410431,
+    "sampleRate": 44100,
+    "peak": 0.37222540378570557,
+    "rms": 0.058879925286052036,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-04-feedback.mp3",
+    "seconds": 4.127981859410431,
+    "sampleRate": 44100,
+    "peak": 0.4612639844417572,
+    "rms": 0.06250134298412165,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-05-prompt.mp3",
+    "seconds": 2.447981859410431,
+    "sampleRate": 44100,
+    "peak": 0.2978559136390686,
+    "rms": 0.05909836177366861,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-05-guided.mp3",
+    "seconds": 5.255986394557823,
+    "sampleRate": 44100,
+    "peak": 0.3836542069911957,
+    "rms": 0.05961963888804062,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-05-hint.mp3",
+    "seconds": 4.223990929705216,
+    "sampleRate": 44100,
+    "peak": 0.3513818681240082,
+    "rms": 0.06823904476900401,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-05-feedback.mp3",
+    "seconds": 2.0639909297052155,
+    "sampleRate": 44100,
+    "peak": 0.26424315571784973,
+    "rms": 0.059759869820340025,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-06-prompt.mp3",
+    "seconds": 2.375986394557823,
+    "sampleRate": 44100,
+    "peak": 0.40377992391586304,
+    "rms": 0.07255413008373837,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-06-guided.mp3",
+    "seconds": 5.183990929705216,
+    "sampleRate": 44100,
+    "peak": 0.3121814429759979,
+    "rms": 0.05377810637659312,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-06-hint.mp3",
+    "seconds": 4.295986394557823,
+    "sampleRate": 44100,
+    "peak": 0.40584641695022583,
+    "rms": 0.07360566760815107,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-06-feedback.mp3",
+    "seconds": 1.4879818594104308,
+    "sampleRate": 44100,
+    "peak": 0.2529664635658264,
+    "rms": 0.05511302877350097,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-07-prompt.mp3",
+    "seconds": 1.9679818594104308,
+    "sampleRate": 44100,
+    "peak": 0.3725222051143646,
+    "rms": 0.06228012987732083,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-07-hint.mp3",
+    "seconds": 2.6159863945578232,
+    "sampleRate": 44100,
+    "peak": 0.3507249355316162,
+    "rms": 0.06327013598955528,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-07-guided.mp3",
+    "seconds": 5.255986394557823,
+    "sampleRate": 44100,
+    "peak": 0.3836542069911957,
+    "rms": 0.05961963888804062,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-07-feedback.mp3",
+    "seconds": 2.855986394557823,
+    "sampleRate": 44100,
+    "peak": 0.2995086908340454,
+    "rms": 0.06124718692592777,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-08-prompt.mp3",
+    "seconds": 1.9679818594104308,
+    "sampleRate": 44100,
+    "peak": 0.25171834230422974,
+    "rms": 0.05412074055794984,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-08-hint.mp3",
+    "seconds": 2.687981859410431,
+    "sampleRate": 44100,
+    "peak": 0.30822277069091797,
+    "rms": 0.06135189891649563,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-08-guided.mp3",
+    "seconds": 5.495986394557823,
+    "sampleRate": 44100,
+    "peak": 0.30740854144096375,
+    "rms": 0.0510897032364312,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-08-feedback.mp3",
+    "seconds": 4.775986394557823,
+    "sampleRate": 44100,
+    "peak": 0.4262397885322571,
+    "rms": 0.060345978864225706,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/frog/audio/frog-complete.mp3",
+    "seconds": 7.1039909297052155,
+    "sampleRate": 44100,
+    "peak": 0.32911553978919983,
+    "rms": 0.05781182537780519,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-01.mp3",
+    "seconds": 11.015986394557823,
+    "sampleRate": 44100,
+    "peak": 0.5518290996551514,
+    "rms": 0.08513980095765616,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-02.mp3",
+    "seconds": 11.183990929705216,
+    "sampleRate": 44100,
+    "peak": 0.5235400199890137,
+    "rms": 0.07853204377800112,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-03.mp3",
+    "seconds": 12.383990929705215,
+    "sampleRate": 44100,
+    "peak": 0.6386412382125854,
+    "rms": 0.08123708508314353,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-04.mp3",
+    "seconds": 11.015986394557823,
+    "sampleRate": 44100,
+    "peak": 0.5440948009490967,
+    "rms": 0.0817529785376807,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-05.mp3",
+    "seconds": 11.903990929705216,
+    "sampleRate": 44100,
+    "peak": 0.6603890061378479,
+    "rms": 0.08340305082875013,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-06.mp3",
+    "seconds": 13.72798185941043,
+    "sampleRate": 44100,
+    "peak": 0.6151829361915588,
+    "rms": 0.07846724696493355,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-08.mp3",
+    "seconds": 11.08798185941043,
+    "sampleRate": 44100,
+    "peak": 0.5211833119392395,
+    "rms": 0.08281904766411335,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-07.mp3",
+    "seconds": 13.583990929705216,
+    "sampleRate": 44100,
+    "peak": 0.5947480201721191,
+    "rms": 0.0841822932318129,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-01-prompt.mp3",
+    "seconds": 3.9839909297052154,
+    "sampleRate": 44100,
+    "peak": 0.3281090557575226,
+    "rms": 0.07114144740446787,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-01-hint.mp3",
+    "seconds": 2.855986394557823,
+    "sampleRate": 44100,
+    "peak": 0.49115487933158875,
+    "rms": 0.09183177258026724,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-09.mp3",
+    "seconds": 11.423990929705216,
+    "sampleRate": 44100,
+    "peak": 0.5543724298477173,
+    "rms": 0.07909241762796455,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-01-guided.mp3",
+    "seconds": 4.535986394557823,
+    "sampleRate": 44100,
+    "peak": 0.44185343384742737,
+    "rms": 0.07148691632880814,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-01-feedback.mp3",
+    "seconds": 4.463990929705216,
+    "sampleRate": 44100,
+    "peak": 0.6562280058860779,
+    "rms": 0.09615212773162345,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-02-prompt.mp3",
+    "seconds": 3.0239909297052154,
+    "sampleRate": 44100,
+    "peak": 0.5509724617004395,
+    "rms": 0.0915404350453945,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-02-hint.mp3",
+    "seconds": 2.375986394557823,
+    "sampleRate": 44100,
+    "peak": 0.4753000736236572,
+    "rms": 0.10532760439962266,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-02-feedback.mp3",
+    "seconds": 3.5039909297052154,
+    "sampleRate": 44100,
+    "peak": 0.47313550114631653,
+    "rms": 0.07450333974962577,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-02-guided.mp3",
+    "seconds": 4.223990929705216,
+    "sampleRate": 44100,
+    "peak": 0.5115521550178528,
+    "rms": 0.07469115425707142,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-03-prompt.mp3",
+    "seconds": 2.5439909297052155,
+    "sampleRate": 44100,
+    "peak": 0.501589298248291,
+    "rms": 0.0839651502784853,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-03-feedback.mp3",
+    "seconds": 4.775986394557823,
+    "sampleRate": 44100,
+    "peak": 0.425820916891098,
+    "rms": 0.07646505710361534,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-03-guided.mp3",
+    "seconds": 4.535986394557823,
+    "sampleRate": 44100,
+    "peak": 0.40134671330451965,
+    "rms": 0.07108857323580323,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-03-hint.mp3",
+    "seconds": 4.295986394557823,
+    "sampleRate": 44100,
+    "peak": 0.5654481649398804,
+    "rms": 0.08775782732518125,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-04-prompt.mp3",
+    "seconds": 2.375986394557823,
+    "sampleRate": 44100,
+    "peak": 0.3853079378604889,
+    "rms": 0.08477221335970597,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-04-guided.mp3",
+    "seconds": 4.463990929705216,
+    "sampleRate": 44100,
+    "peak": 0.4633156657218933,
+    "rms": 0.08596279850598154,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-04-hint.mp3",
+    "seconds": 4.847981859410431,
+    "sampleRate": 44100,
+    "peak": 0.4679335951805115,
+    "rms": 0.10002877426460886,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-04-feedback.mp3",
+    "seconds": 3.7439909297052156,
+    "sampleRate": 44100,
+    "peak": 0.4994797110557556,
+    "rms": 0.08104612958908275,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-05-prompt.mp3",
+    "seconds": 2.5439909297052155,
+    "sampleRate": 44100,
+    "peak": 0.39402276277542114,
+    "rms": 0.07068004401814262,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-05-hint.mp3",
+    "seconds": 3.335986394557823,
+    "sampleRate": 44100,
+    "peak": 0.5012481212615967,
+    "rms": 0.09469242429661999,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-05-guided.mp3",
+    "seconds": 4.775986394557823,
+    "sampleRate": 44100,
+    "peak": 0.47797825932502747,
+    "rms": 0.07587308479533736,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-06-prompt.mp3",
+    "seconds": 2.3039909297052152,
+    "sampleRate": 44100,
+    "peak": 0.5043944716453552,
+    "rms": 0.08926277001141784,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-05-feedback.mp3",
+    "seconds": 3.167981859410431,
+    "sampleRate": 44100,
+    "peak": 0.4692191779613495,
+    "rms": 0.08057017520830899,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-06-hint.mp3",
+    "seconds": 2.5439909297052155,
+    "sampleRate": 44100,
+    "peak": 0.49197354912757874,
+    "rms": 0.09419097681507166,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-06-guided.mp3",
+    "seconds": 4.535986394557823,
+    "sampleRate": 44100,
+    "peak": 0.4273292124271393,
+    "rms": 0.07370545061950673,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-06-feedback.mp3",
+    "seconds": 3.575986394557823,
+    "sampleRate": 44100,
+    "peak": 0.43850091099739075,
+    "rms": 0.07829626894188162,
+    "clippedFraction": 0
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-complete.mp3",
+    "seconds": 6.863990929705215,
+    "sampleRate": 44100,
+    "peak": 0.42759811878204346,
+    "rms": 0.07115100853416242,
+    "clippedFraction": 0
+  }
+]

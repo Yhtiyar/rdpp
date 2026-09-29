@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "lion-and-mouse",
+    "title": "The Lion and the Mouse",
+    "language": "en",
+    "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening adaptation of this supplied edition, using its original illustrations and cropped picture choices. The complete source reading text is preserved separately.",
+    "pages": [
+      {
+        "id": "lion-and-mouse-page-01",
+        "text": "A little mouse scampered through the forest. A big lion was sleeping nearby. Oops! The mouse ran right across the sleeping lion’s paw.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp",
+        "sourcePages": [
+          9
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-01.mp3"
+      },
+      {
+        "id": "lion-and-mouse-page-02",
+        "text": "The lion woke up. He was angry! He caught the little mouse in his big, furry paws. The mouse was very small beside the great lion.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_02.webp",
+        "sourcePages": [
+          10,
+          11
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-02.mp3"
+      },
+      {
+        "id": "lion-and-mouse-page-03",
+        "text": "“Please let me go,” said the mouse. “One day I will help you.” The lion listened to the tiny mouse. Then he opened his paws and let the mouse go free.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_03.webp",
+        "sourcePages": [
+          11
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-03.mp3"
+      },
+      {
+        "id": "lion-and-mouse-page-04",
+        "text": "Later, the mouse heard a loud roar. He followed the sound. There was the lion, trapped in a net of ropes! The mouse was frightened, but he wanted to help.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_04.webp",
+        "sourcePages": [
+          12
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-04.mp3"
+      },
+      {
+        "id": "lion-and-mouse-page-05",
+        "text": "The mouse bit the ropes with his sharp little teeth. Bite, bite, bite! He made a hole in the net. Now the big lion could get out.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_05.webp",
+        "sourcePages": [
+          13
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-05.mp3"
+      },
+      {
+        "id": "lion-and-mouse-page-06",
+        "text": "The lion was free again, thanks to the little mouse. The mouse had kept his promise. A small friend can be a great friend, too!",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_05.webp",
+        "sourcePages": [
+          13
+        ],
+        "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "lion-and-mouse-question-01",
+        "afterPage": 2,
+        "prompt": "Who was sleeping when the mouse ran by?",
+        "hint": "The sleeping animal had big paws and a thick mane.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the lion.",
+        "feedback": "Yes, the lion was sleeping!",
+        "choices": [
+          {
+            "label": "Lion",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+          },
+          {
+            "label": "Mouse",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-01-prompt.mp3",
+          "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-01-hint.mp3",
+          "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-01-guided.mp3",
+          "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-01-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "lion-and-mouse-page-01"
+        ],
+        "evidenceSentence": "A big lion was sleeping nearby."
+      },
+      {
+        "id": "lion-and-mouse-question-02",
+        "afterPage": 2,
+        "prompt": "Who asked the lion to let him go?",
+        "hint": "The little animal was caught in the lion’s paws.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the mouse.",
+        "feedback": "The little mouse asked to go free.",
+        "choices": [
+          {
+            "label": "Lion",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+          },
+          {
+            "label": "Mouse",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-02-prompt.mp3",
+          "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-02-hint.mp3",
+          "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-02-guided.mp3",
+          "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-02-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "lion-and-mouse-page-03"
+        ],
+        "evidenceSentence": "“Please let me go,” said the mouse."
+      },
+      {
+        "id": "lion-and-mouse-question-03",
+        "afterPage": 5,
+        "prompt": "Who was trapped in the net?",
+        "hint": "The big animal roared because he could not get out.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the lion.",
+        "feedback": "The lion was trapped in the net.",
+        "choices": [
+          {
+            "label": "Lion",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+          },
+          {
+            "label": "Mouse",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-03-prompt.mp3",
+          "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-03-hint.mp3",
+          "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-03-guided.mp3",
+          "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-03-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "lion-and-mouse-page-04"
+        ],
+        "evidenceSentence": "There was the lion, trapped in a net of ropes!"
+      },
+      {
+        "id": "lion-and-mouse-question-04",
+        "afterPage": 5,
+        "prompt": "Who bit the ropes and helped his friend?",
+        "hint": "The helper was little and had sharp teeth.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the mouse.",
+        "feedback": "The mouse helped the lion get free!",
+        "choices": [
+          {
+            "label": "Lion",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+          },
+          {
+            "label": "Mouse",
+            "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-04-prompt.mp3",
+          "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-04-hint.mp3",
+          "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-04-guided.mp3",
+          "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-question-04-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "lion-and-mouse-page-05"
+        ],
+        "evidenceSentence": "The mouse bit the ropes with his sharp little teeth."
+      }
+    ],
+    "completion": {
+      "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-complete.mp3"
+    }
+  },
+  {
+    "id": "city-and-country-mouse",
+    "title": "The City Mouse and the Country Mouse",
+    "language": "en",
+    "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/city-and-country-mouse/art/city-and-country-mouse_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening adaptation of this supplied edition, using its original illustrations and cropped picture choices. The complete source reading text is preserved separately.",
+    "pages": [
+      {
+        "id": "city-and-country-mouse-page-01",
+        "text": "One sunny summer day, City Mouse came to visit his cousin, Country Mouse. City Mouse wore a green coat. Country Mouse wore blue overalls and welcomed his cousin to the country.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_01.webp",
+        "sourcePages": [
+          17
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-01.mp3"
+      },
+      {
+        "id": "city-and-country-mouse-page-02",
+        "text": "Country Mouse lived in a simple little home. He ate corn and peas. He shared his plain food with his cousin, but City Mouse was not impressed.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_02.webp",
+        "sourcePages": [
+          18
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-02.mp3"
+      },
+      {
+        "id": "city-and-country-mouse-page-03",
+        "text": "“Come with me to the city!” said City Mouse. The two cousins set off together. When Country Mouse saw City Mouse’s grand home, he said, “Oh my!”",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_03.webp",
+        "sourcePages": [
+          19
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-03.mp3"
+      },
+      {
+        "id": "city-and-country-mouse-page-04",
+        "text": "Inside the city home, the mice found a feast. There was ham and chocolate cake! The two cousins secretly began to eat the wonderful food.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_04.webp",
+        "sourcePages": [
+          20
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-04.mp3"
+      },
+      {
+        "id": "city-and-country-mouse-page-05",
+        "text": "Suddenly, the mice heard a noise. A cat with sharp claws appeared! Quick, quick! The two cousins escaped into a small hole in the wall, just in time.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_05.webp",
+        "sourcePages": [
+          21
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-05.mp3"
+      },
+      {
+        "id": "city-and-country-mouse-page-06",
+        "text": "Country Mouse decided to go home. The city was not for him. He went back to his simple country home, where he was safe and happy. There was no place like home!",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_06.webp",
+        "sourcePages": [
+          22,
+          23
+        ],
+        "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "city-and-country-mouse-question-01",
+        "afterPage": 2,
+        "prompt": "Who came to visit his cousin in the country?",
+        "hint": "The visitor wore a green coat.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is City Mouse in a green coat.",
+        "feedback": "City Mouse came to visit his cousin.",
+        "choices": [
+          {
+            "label": "City Mouse in a green coat",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_city-mouse.webp"
+          },
+          {
+            "label": "Country Mouse in blue overalls",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-01-prompt.mp3",
+          "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-01-hint.mp3",
+          "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-01-guided.mp3",
+          "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-01-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "city-and-country-mouse-page-01"
+        ],
+        "evidenceSentence": "One sunny summer day, City Mouse came to visit his cousin, Country Mouse."
+      },
+      {
+        "id": "city-and-country-mouse-question-02",
+        "afterPage": 2,
+        "prompt": "Who lived in a simple country home?",
+        "hint": "This mouse wore blue overalls and shared corn and peas.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is Country Mouse in blue overalls.",
+        "feedback": "Country Mouse lived in the simple country home.",
+        "choices": [
+          {
+            "label": "City Mouse in a green coat",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_city-mouse.webp"
+          },
+          {
+            "label": "Country Mouse in blue overalls",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-02-prompt.mp3",
+          "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-02-hint.mp3",
+          "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-02-guided.mp3",
+          "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-02-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "city-and-country-mouse-page-02"
+        ],
+        "evidenceSentence": "Country Mouse lived in a simple little home."
+      },
+      {
+        "id": "city-and-country-mouse-question-03",
+        "afterPage": 5,
+        "prompt": "Who appeared while the mice were eating?",
+        "hint": "This animal had sharp claws. The mice hurried away.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the cat.",
+        "feedback": "The cat appeared while the mice were eating.",
+        "choices": [
+          {
+            "label": "Cat",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_cat.webp"
+          },
+          {
+            "label": "Country Mouse in blue overalls",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-03-prompt.mp3",
+          "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-03-hint.mp3",
+          "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-03-guided.mp3",
+          "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-03-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "city-and-country-mouse-page-05"
+        ],
+        "evidenceSentence": "A cat with sharp claws appeared!"
+      },
+      {
+        "id": "city-and-country-mouse-question-04",
+        "afterPage": 5,
+        "prompt": "Who went back to his country home?",
+        "hint": "The mouse in blue overalls wanted to feel safe at home.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is Country Mouse in blue overalls.",
+        "feedback": "Country Mouse went home and felt safe and happy.",
+        "choices": [
+          {
+            "label": "Cat",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_cat.webp"
+          },
+          {
+            "label": "Country Mouse in blue overalls",
+            "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-04-prompt.mp3",
+          "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-04-hint.mp3",
+          "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-04-guided.mp3",
+          "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-question-04-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "city-and-country-mouse-page-06"
+        ],
+        "evidenceSentence": "Country Mouse decided to go home."
+      }
+    ],
+    "completion": {
+      "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-complete.mp3"
+    }
+  },
+  {
+    "id": "goldilocks",
+    "title": "Goldilocks and the Three Bears",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/goldilocks/art/goldilocks_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening adaptation of this supplied edition, using its original illustrations and cropped picture choices. The complete source reading text is preserved separately. Preserves the ending: Goldilocks runs away and the bears never hear from her again.",
+    "pages": [
+      {
+        "id": "goldilocks-page-01",
+        "text": "Papa Bear made porridge for Mama Bear, Baby Bear, and himself. He filled a big bowl, a middle-sized bowl, and a tiny bowl. The porridge was hot, so the bears went for a walk.",
+        "image": "assets/books/goldilocks/art/goldilocks_01.webp",
+        "sourcePages": [
+          27
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-01.mp3"
+      },
+      {
+        "id": "goldilocks-page-02",
+        "text": "A little girl named Goldilocks was walking in the forest, too. She lost her way. Then she found the bears’ cozy cottage among the trees.",
+        "image": "assets/books/goldilocks/art/goldilocks_02.webp",
+        "sourcePages": [
+          28
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-02.mp3"
+      },
+      {
+        "id": "goldilocks-page-03",
+        "text": "Hungry Goldilocks went inside. She tasted the porridge. The big bowl was too hot. The middle bowl was too cold. The tiny bowl was just right! She ate it all.",
+        "image": "assets/books/goldilocks/art/goldilocks_03.webp",
+        "sourcePages": [
+          29
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-03.mp3"
+      },
+      {
+        "id": "goldilocks-page-04",
+        "text": "Goldilocks felt tired and tried the chairs. Papa Bear’s big chair was too hard. Ouch! Mama Bear’s middle-sized chair was too soft. Plop! Neither chair felt right.",
+        "image": "assets/books/goldilocks/art/goldilocks_04.webp",
+        "sourcePages": [
+          30
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-04.mp3"
+      },
+      {
+        "id": "goldilocks-page-05",
+        "text": "Goldilocks sat in Baby Bear’s tiny chair. It felt just right. But then, crash! The little chair broke, and Goldilocks fell down onto the floor.",
+        "image": "assets/books/goldilocks/art/goldilocks_05.webp",
+        "sourcePages": [
+          31
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-05.mp3"
+      },
+      {
+        "id": "goldilocks-page-06",
+        "text": "Upstairs, Goldilocks found three beds. The big bed was too smooth. The middle bed was too lumpy. Baby Bear’s tiny bed was just right. Goldilocks lay down and fell fast asleep.",
+        "image": "assets/books/goldilocks/art/goldilocks_06.webp",
+        "sourcePages": [
+          32
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-06.mp3"
+      },
+      {
+        "id": "goldilocks-page-07",
+        "text": "The three bears came home. Someone had eaten their porridge! Someone had sat in their chairs! Baby Bear looked at his tiny chair. It was broken into pieces.",
+        "image": "assets/books/goldilocks/art/goldilocks_07.webp",
+        "sourcePages": [
+          33
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-07.mp3"
+      },
+      {
+        "id": "goldilocks-page-08",
+        "text": "The bears went upstairs. “Someone has been sleeping in my bed,” said Baby Bear. “And here she is!” Goldilocks woke up and saw the bears. What a surprise!",
+        "image": "assets/books/goldilocks/art/goldilocks_08.webp",
+        "sourcePages": [
+          34
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-08.mp3"
+      },
+      {
+        "id": "goldilocks-page-09",
+        "text": "Goldilocks jumped up and ran out of the cozy cottage as fast as she could. She went away, and the three bears never saw or heard from her again.",
+        "image": "assets/books/goldilocks/art/goldilocks_09.webp",
+        "sourcePages": [
+          35
+        ],
+        "audio": "assets/books/goldilocks/audio/goldilocks-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "goldilocks-question-01",
+        "afterPage": 2,
+        "prompt": "Who made porridge for the bear family?",
+        "hint": "The big father bear cooked the breakfast.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is Papa Bear.",
+        "feedback": "Papa Bear made the porridge.",
+        "choices": [
+          {
+            "label": "Papa Bear",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_papa.webp"
+          },
+          {
+            "label": "Goldilocks",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_goldilocks.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-01-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-01-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-01-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-01-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-01"
+        ],
+        "evidenceSentence": "Papa Bear made porridge for Mama Bear, Baby Bear, and himself."
+      },
+      {
+        "id": "goldilocks-question-02",
+        "afterPage": 2,
+        "prompt": "What did hungry Goldilocks eat?",
+        "hint": "It was warm food in a bowl.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the bowl of porridge.",
+        "feedback": "Goldilocks ate the porridge.",
+        "choices": [
+          {
+            "label": "Baby Bear’s bed",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_bed.webp"
+          },
+          {
+            "label": "Bowl of porridge",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_porridge.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-02-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-02-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-02-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-02-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-03"
+        ],
+        "evidenceSentence": "She tasted the porridge."
+      },
+      {
+        "id": "goldilocks-question-03",
+        "afterPage": 5,
+        "prompt": "What broke when Goldilocks sat down?",
+        "hint": "Goldilocks was sitting on it when she fell to the floor.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the broken chair.",
+        "feedback": "The little chair broke. Crash!",
+        "choices": [
+          {
+            "label": "Broken chair",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_chair.webp"
+          },
+          {
+            "label": "Bowl of porridge",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_porridge.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-03-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-03-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-03-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-03-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-05"
+        ],
+        "evidenceSentence": "The little chair broke, and Goldilocks fell down onto the floor."
+      },
+      {
+        "id": "goldilocks-question-04",
+        "afterPage": 5,
+        "prompt": "Where did Goldilocks fall asleep?",
+        "hint": "She lay down upstairs, on something soft.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the baby Bear’s bed.",
+        "feedback": "Goldilocks fell asleep in Baby Bear’s bed.",
+        "choices": [
+          {
+            "label": "Broken chair",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_chair.webp"
+          },
+          {
+            "label": "Baby Bear’s bed",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_bed.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-04-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-04-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-04-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-04-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-06"
+        ],
+        "evidenceSentence": "Baby Bear’s tiny bed was just right. Goldilocks lay down and fell fast asleep."
+      },
+      {
+        "id": "goldilocks-question-05",
+        "afterPage": 8,
+        "prompt": "Who found Goldilocks in his bed?",
+        "hint": "The smallest bear said, “And here she is!”",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is Baby Bear.",
+        "feedback": "Baby Bear found Goldilocks in his bed.",
+        "choices": [
+          {
+            "label": "Baby Bear",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_baby.webp"
+          },
+          {
+            "label": "Papa Bear",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_papa.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-05-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-05-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-05-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-05-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-08"
+        ],
+        "evidenceSentence": "“Someone has been sleeping in my bed,” said Baby Bear."
+      },
+      {
+        "id": "goldilocks-question-06",
+        "afterPage": 8,
+        "prompt": "Who ran out of the cottage?",
+        "hint": "The girl woke up and saw the three bears.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is Goldilocks.",
+        "feedback": "Goldilocks ran out of the cottage.",
+        "choices": [
+          {
+            "label": "Baby Bear",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_baby.webp"
+          },
+          {
+            "label": "Goldilocks",
+            "image": "assets/books/goldilocks/art/goldilocks_answer_goldilocks.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/goldilocks/audio/goldilocks-question-06-prompt.mp3",
+          "hint": "assets/books/goldilocks/audio/goldilocks-question-06-hint.mp3",
+          "guided": "assets/books/goldilocks/audio/goldilocks-question-06-guided.mp3",
+          "feedback": "assets/books/goldilocks/audio/goldilocks-question-06-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "goldilocks-page-09"
+        ],
+        "evidenceSentence": "Goldilocks jumped up and ran out of the cozy cottage as fast as she could."
+      }
+    ],
+    "completion": {
+      "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/goldilocks/audio/goldilocks-complete.mp3"
+    }
+  },
+  {
+    "id": "gingerbread-man",
+    "title": "The Gingerbread Man",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/gingerbread-man/art/gingerbread-man_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening adaptation of this supplied edition, using its original illustrations and cropped picture choices. The complete source reading text is preserved separately. Preserves the source ending: the fox eats the Gingerbread Man.",
+    "pages": [
+      {
+        "id": "gingerbread-man-page-01",
+        "text": "One day, a little old woman decided to bake a gingerbread man cookie. She mixed the dough in her kitchen and got the cookie ready for the oven.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_01.webp",
+        "sourcePages": [
+          39
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-01.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-02",
+        "text": "The woman put the cookie on a baking sheet and baked it in the oven. When she opened the oven, out jumped the Gingerbread Man! What a surprise!",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_02.webp",
+        "sourcePages": [
+          40
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-02.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-03",
+        "text": "The Gingerbread Man ran out of the house. The little old woman and her husband ran after him. They ran as fast as they could, but they could not catch him.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_03.webp",
+        "sourcePages": [
+          41
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-03.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-04",
+        "text": "A cow in a field sniffed the air. Mmm, gingerbread! The cow wanted to eat the Gingerbread Man. But the cookie ran so fast that the cow could not catch him.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_04.webp",
+        "sourcePages": [
+          42
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-04.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-05",
+        "text": "A cat was sleeping in the warm sunshine. The cat thought the Gingerbread Man would be a tasty treat. But not even the cat could catch the running cookie!",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_05.webp",
+        "sourcePages": [
+          43
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-05.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-06",
+        "text": "Then the Gingerbread Man met a fox. The clever fox pretended he was not hungry. He made the Gingerbread Man think he did not want to catch him.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_06.webp",
+        "sourcePages": [
+          44
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-06.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-07",
+        "text": "The fox offered to help the Gingerbread Man cross the river. The Gingerbread Man climbed onto the fox, and the fox carried him into the water.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_07.webp",
+        "sourcePages": [
+          45
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-07.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-08",
+        "text": "“The water is getting deeper,” said the fox. “Ride on my head.” The Gingerbread Man climbed up. Then the fox said, “Now ride on my nose.”",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_08.webp",
+        "sourcePages": [
+          46
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-08.mp3"
+      },
+      {
+        "id": "gingerbread-man-page-09",
+        "text": "Before the Gingerbread Man could thank him, the fox ate the little cookie, every last bite. Then the fox licked his lips and crossed to the other side of the river.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_10.webp",
+        "sourcePages": [
+          47,
+          48
+        ],
+        "audio": "assets/books/gingerbread-man/audio/gingerbread-man-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "gingerbread-man-question-01",
+        "afterPage": 2,
+        "prompt": "Who baked the gingerbread cookie?",
+        "hint": "She mixed the dough in her kitchen.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the little old woman.",
+        "feedback": "The little old woman baked the cookie.",
+        "choices": [
+          {
+            "label": "Little old woman",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_woman.webp"
+          },
+          {
+            "label": "Cow",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cow.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-01-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-01-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-01-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-01-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-01"
+        ],
+        "evidenceSentence": "One day, a little old woman decided to bake a gingerbread man cookie."
+      },
+      {
+        "id": "gingerbread-man-question-02",
+        "afterPage": 2,
+        "prompt": "Who jumped out of the oven?",
+        "hint": "The little cookie suddenly came alive!",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the gingerbread Man.",
+        "feedback": "The Gingerbread Man jumped out of the oven!",
+        "choices": [
+          {
+            "label": "Cat",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+          },
+          {
+            "label": "Gingerbread Man",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_gingerbread.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-02-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-02-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-02-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-02-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-02"
+        ],
+        "evidenceSentence": "When she opened the oven, out jumped the Gingerbread Man!"
+      },
+      {
+        "id": "gingerbread-man-question-03",
+        "afterPage": 5,
+        "prompt": "Who sniffed the gingerbread smell in the field?",
+        "hint": "This big animal was grazing in a field.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the cow.",
+        "feedback": "The cow smelled the gingerbread.",
+        "choices": [
+          {
+            "label": "Cow",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cow.webp"
+          },
+          {
+            "label": "Fox",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_fox.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-03-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-03-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-03-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-03-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-04"
+        ],
+        "evidenceSentence": "A cow in a field sniffed the air."
+      },
+      {
+        "id": "gingerbread-man-question-04",
+        "afterPage": 5,
+        "prompt": "Who was sleeping in the warm sunshine?",
+        "hint": "This furry animal wanted the cookie for a treat.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the cat.",
+        "feedback": "The cat was sleeping in the sunshine.",
+        "choices": [
+          {
+            "label": "Cow",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cow.webp"
+          },
+          {
+            "label": "Cat",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-04-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-04-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-04-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-04-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-05"
+        ],
+        "evidenceSentence": "A cat was sleeping in the warm sunshine."
+      },
+      {
+        "id": "gingerbread-man-question-05",
+        "afterPage": 8,
+        "prompt": "Who ate the Gingerbread Man?",
+        "hint": "The animal who carried him across the river ate him.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the fox.",
+        "feedback": "The fox ate the Gingerbread Man.",
+        "choices": [
+          {
+            "label": "Fox",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_fox.webp"
+          },
+          {
+            "label": "Cat",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-05-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-05-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-05-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-05-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-09"
+        ],
+        "evidenceSentence": "Before the Gingerbread Man could thank him, the fox ate the little cookie, every last bite."
+      },
+      {
+        "id": "gingerbread-man-question-06",
+        "afterPage": 8,
+        "prompt": "Who rode on the fox’s head?",
+        "hint": "The little cookie climbed up as the water got deeper.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the gingerbread Man.",
+        "feedback": "The Gingerbread Man rode on the fox’s head.",
+        "choices": [
+          {
+            "label": "Little old woman",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_woman.webp"
+          },
+          {
+            "label": "Gingerbread Man",
+            "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_gingerbread.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/gingerbread-man/audio/gingerbread-man-question-06-prompt.mp3",
+          "hint": "assets/books/gingerbread-man/audio/gingerbread-man-question-06-hint.mp3",
+          "guided": "assets/books/gingerbread-man/audio/gingerbread-man-question-06-guided.mp3",
+          "feedback": "assets/books/gingerbread-man/audio/gingerbread-man-question-06-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "gingerbread-man-page-08"
+        ],
+        "evidenceSentence": "The Gingerbread Man climbed up."
+      }
+    ],
+    "completion": {
+      "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/gingerbread-man/audio/gingerbread-man-complete.mp3"
+    }
+  },
+  {
+    "id": "shoemaker-and-elves",
+    "title": "The Shoemaker and the Elves",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Barbara L. Gibson. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "A shortened listening adaptation of this supplied edition, using its original illustrations and cropped picture choices. The complete source reading text is preserved separately. Preserves the source’s four-pair surprise after leather for two pairs, and the elves’ final departure.",
+    "pages": [
+      {
+        "id": "shoemaker-and-elves-page-01",
+        "text": "A poor shoemaker lived with his wife. He was worried. They had only enough leather to make one more pair of shoes. What would they do after that?",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp",
+        "sourcePages": [
+          53
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-01.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-02",
+        "text": "That night, the shoemaker left the leather on his workbench. He went to bed. He planned to make his last pair of shoes in the morning.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_02.webp",
+        "sourcePages": [
+          54
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-02.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-03",
+        "text": "When the shoemaker woke up, a beautiful pair of shoes was waiting on the workbench! He had not made them. He looked at the shoes and wondered who had helped.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_03.webp",
+        "sourcePages": [
+          55
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-03.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-04",
+        "text": "A customer came into the workshop. The beautiful shoes fit his feet perfectly. He liked them so much that he paid the shoemaker twice the usual money.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_04.webp",
+        "sourcePages": [
+          56
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-04.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-05",
+        "text": "Now the shoemaker and his wife could buy dinner and more leather. That evening, the shoemaker cut leather for two pairs of shoes and left it on his workbench.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_05.webp",
+        "sourcePages": [
+          57
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-05.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-06",
+        "text": "The next morning, four pairs of fancy shoes were waiting! The couple sold them all. “Who is making these shoes?” wondered the shoemaker. That night, he and his wife stayed awake to watch.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_06.webp",
+        "sourcePages": [
+          58
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-06.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-07",
+        "text": "Two tiny elves tiptoed into the workshop. Their clothes were ragged and torn. The elves began sewing the leather into beautiful shoes. Now the couple knew who their little helpers were!",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_07.webp",
+        "sourcePages": [
+          59
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-07.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-08",
+        "text": "“Those poor elves must be cold,” said the wife. She and the shoemaker made new clothes and shoes for them. That evening, they left the gifts on the workbench for the elves to find.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_08.webp",
+        "sourcePages": [
+          60
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-08.mp3"
+      },
+      {
+        "id": "shoemaker-and-elves-page-09",
+        "text": "The elves found their new clothes and shoes. They were so happy that they danced away and never came back. From then on, the shoemaker and his wife lived happily, with plenty to eat.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_09.webp",
+        "sourcePages": [
+          61
+        ],
+        "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "shoemaker-and-elves-question-01",
+        "afterPage": 2,
+        "prompt": "What did the shoemaker find on his workbench?",
+        "hint": "He could wear them on his feet.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoe.",
+        "feedback": "He found beautiful shoes on his workbench.",
+        "choices": [
+          {
+            "label": "Shoe",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+          },
+          {
+            "label": "Candle",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_candle.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-01-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-01-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-01-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-01-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-03"
+        ],
+        "evidenceSentence": "When the shoemaker woke up, a beautiful pair of shoes was waiting on the workbench!"
+      },
+      {
+        "id": "shoemaker-and-elves-question-02",
+        "afterPage": 2,
+        "prompt": "Who was worried about having only a little leather?",
+        "hint": "The man made shoes for his work.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoemaker.",
+        "feedback": "The shoemaker was worried about his leather.",
+        "choices": [
+          {
+            "label": "Shoemaker’s wife",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_wife.webp"
+          },
+          {
+            "label": "Shoemaker",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoemaker.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-02-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-02-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-02-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-02-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-01"
+        ],
+        "evidenceSentence": "A poor shoemaker lived with his wife. He was worried."
+      },
+      {
+        "id": "shoemaker-and-elves-question-03",
+        "afterPage": 5,
+        "prompt": "What did the customer buy?",
+        "hint": "They fit the customer’s feet perfectly.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoe.",
+        "feedback": "The customer bought the beautiful shoes.",
+        "choices": [
+          {
+            "label": "Shoe",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+          },
+          {
+            "label": "Candle",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_candle.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-03-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-03-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-03-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-03-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-04"
+        ],
+        "evidenceSentence": "The beautiful shoes fit his feet perfectly."
+      },
+      {
+        "id": "shoemaker-and-elves-question-04",
+        "afterPage": 5,
+        "prompt": "What did the shoemaker cut to make more shoes?",
+        "hint": "These pieces became the outside of the shoes.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the leather pieces.",
+        "feedback": "The shoemaker cut pieces of leather.",
+        "choices": [
+          {
+            "label": "Shoe",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+          },
+          {
+            "label": "Leather pieces",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_leather.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-04-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-04-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-04-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-04-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-05"
+        ],
+        "evidenceSentence": "That evening, the shoemaker cut leather for two pairs of shoes and left it on his workbench."
+      },
+      {
+        "id": "shoemaker-and-elves-question-05",
+        "afterPage": 8,
+        "prompt": "Who secretly made the beautiful shoes?",
+        "hint": "Two tiny helpers came into the workshop at night.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the elf.",
+        "feedback": "The little elves made the shoes!",
+        "choices": [
+          {
+            "label": "Elf",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_elf.webp"
+          },
+          {
+            "label": "Shoemaker",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoemaker.webp"
+          }
+        ],
+        "answer": 0,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-05-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-05-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-05-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-05-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-07"
+        ],
+        "evidenceSentence": "The elves began sewing the leather into beautiful shoes."
+      },
+      {
+        "id": "shoemaker-and-elves-question-06",
+        "afterPage": 8,
+        "prompt": "Who said the little elves must be cold?",
+        "hint": "She helped her husband make gifts for the elves.",
+        "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoemaker’s wife.",
+        "feedback": "The shoemaker’s wife wanted to keep the elves warm.",
+        "choices": [
+          {
+            "label": "Elf",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_elf.webp"
+          },
+          {
+            "label": "Shoemaker’s wife",
+            "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_wife.webp"
+          }
+        ],
+        "answer": 1,
+        "audio": {
+          "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-06-prompt.mp3",
+          "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-06-hint.mp3",
+          "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-06-guided.mp3",
+          "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-question-06-feedback.mp3"
+        },
+        "evidenceSceneIds": [
+          "shoemaker-and-elves-page-08"
+        ],
+        "evidenceSentence": "“Those poor elves must be cold,” said the wife."
+      }
+    ],
+    "completion": {
+      "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-complete.mp3"
+    }
+  }
+]

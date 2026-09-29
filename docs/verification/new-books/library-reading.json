@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    "en: every title has its own library entry",
+    "ru: every title has its own library entry",
+    "lion-and-mouse: first reading batch and all four answers earn exactly 30 coins",
+    "city-and-country-mouse: first reading batch and all four answers earn exactly 30 coins",
+    "goldilocks: first reading batch and all four answers earn exactly 30 coins",
+    "gingerbread-man: first reading batch and all four answers earn exactly 30 coins",
+    "shoemaker-and-elves: first reading batch and all four answers earn exactly 30 coins",
+    "little-red-hen: first reading batch and all four answers earn exactly 20 coins",
+    "thumbelina: first reading batch and all four answers earn exactly 30 coins",
+    "turtle-shell: first reading batch and all four answers earn exactly 30 coins",
+    "why-flies-buzz: first reading batch and all four answers earn exactly 30 coins",
+    "three-little-pigs: first reading batch and all four answers earn exactly 30 coins",
+    "aibolit: first reading batch and all four answers earn exactly 30 coins",
+    "ugly-duckling: first reading batch and all four answers earn exactly 30 coins",
+    "little-red-riding-hood: first reading batch and all four answers earn exactly 30 coins",
+    "turnip: first reading batch and all four answers earn exactly 30 coins",
+    "teremok: first reading batch and all four answers earn exactly 20 coins",
+    "frog-princess: first reading batch and all four answers earn exactly 30 coins"
+  ],
+  "errors": []
+}

@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
+import '../../ui/motion_spec.dart';
 import '../../ui/theme.dart';
 import 'book.dart';
+import '../listening/listening_screen.dart';
 import 'reader_screen.dart';
 
 class LibraryContent extends StatefulWidget {
@@ -41,20 +44,11 @@ class _LibraryContentState extends State<LibraryContent> {
         ),
       ),
       const SizedBox(height: 24),
-      SegmentedButton<String>(
-        segments: [
-          ButtonSegment(
-            value: 'en',
-            label: Text(c.tr('English books', 'Книги на английском')),
-          ),
-          ButtonSegment(
-            value: 'ru',
-            label: Text(c.tr('Russian books', 'Книги на русском')),
-          ),
-        ],
-        selected: {_language},
-        onSelectionChanged: (v) => setState(() => _language = v.first),
-        showSelectedIcon: false,
+      _BookLanguageSelector(
+        language: _language,
+        englishLabel: c.tr('English books', 'Книги на английском'),
+        russianLabel: c.tr('Russian books', 'Книги на русском'),
+        onChanged: (value) => setState(() => _language = value),
       ),
       const SizedBox(height: 22),
       ...c.books
@@ -84,6 +78,121 @@ class _LibraryContentState extends State<LibraryContent> {
       ),
     ],
   );
+}
+
+class _BookLanguageSelector extends StatelessWidget {
+  const _BookLanguageSelector({
+    required this.language,
+    required this.englishLabel,
+    required this.russianLabel,
+    required this.onChanged,
+  });
+
+  final String language, englishLabel, russianLabel;
+  final ValueChanged<String> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    final motion = MotionSpec.of(context);
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: WinTheme.lavender,
+        borderRadius: BorderRadius.circular(24),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(4),
+        child: Stack(
+          children: [
+            Positioned.fill(
+              child: AnimatedAlign(
+                alignment: language == 'en'
+                    ? Alignment.centerLeft
+                    : Alignment.centerRight,
+                duration: motion.transition,
+                curve: Curves.easeOutCubic,
+                child: FractionallySizedBox(
+                  widthFactor: .5,
+                  heightFactor: 1,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: WinTheme.purple,
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x26773CFF),
+                          offset: Offset(0, 2),
+                          blurRadius: 4,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Row(
+              children: [
+                for (final code in ['en', 'ru'])
+                  Expanded(
+                    child: Semantics(
+                      button: true,
+                      selected: language == code,
+                      inMutuallyExclusiveGroup: true,
+                      label: code == 'en' ? englishLabel : russianLabel,
+                      child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(20),
+                          onTap: () => onChanged(code),
+                          child: ExcludeSemantics(
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 14,
+                              ),
+                              child: AnimatedDefaultTextStyle(
+                                duration: motion.selection,
+                                style: TextStyle(
+                                  fontFamily: 'Nunito',
+                                  fontSize: 17,
+                                  height: 1.3,
+                                  fontWeight: FontWeight.w800,
+                                  color: language == code
+                                      ? Colors.white
+                                      : WinTheme.ink,
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Flexible(
+                                      child: Text(
+                                        code == 'en' ? 'English' : 'Русский',
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                    if (language == code) ...[
+                                      const SizedBox(width: 6),
+                                      const Icon(
+                                        Icons.check_circle_rounded,
+                                        size: 18,
+                                        color: Colors.white,
+                                      ),
+                                    ],
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 }
 
 class BookTile extends StatelessWidget {
@@ -177,7 +286,14 @@ class BookTile extends StatelessWidget {
               ? c.tr('Continue reading', 'Продолжить чтение')
               : c.tr('Open the story', 'Открыть историю'),
           onPressed: () => openBook(context, c, book),
-          icon: Icons.auto_stories_rounded,
+          illustration: Illustration.book,
+        ),
+        const SizedBox(height: 12),
+        WinButton(
+          c.tr('Listen & play', 'Слушать и играть'),
+          secondary: true,
+          icon: Icons.headphones_rounded,
+          onPressed: () => openListeningBook(context, book.id),
         ),
         TextButton(
           onPressed: () => showDialog<void>(

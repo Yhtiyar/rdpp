@@ -1,0 +1,6 @@
+# Developer-only content preparation; none of these ship in Flutter.
+requests
+Pillow
+PyMuPDF
+imageio-ffmpeg
+mutagen

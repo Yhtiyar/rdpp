@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "blocked browser autoplay exposes working retry; narration works with effects off",
+    "reduced-motion speaking page stays visually stable during real playback",
+    "hidden document stops audio; returning stays paused",
+    "manual page turns and captions persist; next remains gated by narration",
+    "rapid replay, pause and close leave no overlapping audio"
+  ],
+  "errors": []
+}

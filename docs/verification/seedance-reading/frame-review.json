@@ -1,0 +1,21 @@
+{
+  "native_frame_count": 121,
+  "native_fps": 24,
+  "native_duration_seconds": 5.041666666666667,
+  "unique_decoded_frames": 121,
+  "first_last_mean_pixel_difference_0_to_255": 2.093597424218898,
+  "adjacent_frame_mean_pixel_difference_median": 1.9189551236708473,
+  "adjacent_frame_mean_pixel_difference_maximum": 4.0178986307357,
+  "review": "All 121 decoded frames reviewed in chronological contact sheets; enlarged ear, face, paw, and page views also inspected. One forward page turn, two blinks, connected limbs, coordinated head/ears, original style preserved. First and last frames are visually close but not pixel-identical.",
+  "application_asset": {
+    "path": "assets/art/mimi/reading/reading.mp4",
+    "width": 972,
+    "height": 834,
+    "duration_seconds": 5,
+    "frame_count": 121,
+    "fps": 24.2,
+    "bytes": 946603,
+    "sha256": "4a9c19d79b1edeac32cbb69522973efba3366148e547b183daf845f51a85a281",
+    "processing": "Crop only the 70px added side margins; retime 121 frames to exactly five seconds; H.264 CRF18; no audio track."
+  }
+}

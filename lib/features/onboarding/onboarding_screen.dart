@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/theme.dart';
 import '../../ui/motion_spec.dart';
 import 'pin_pad.dart';
@@ -85,9 +86,24 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       Row(
         children:
             [
-                  ('book', 'Read', 'Читай', WinTheme.peach),
-                  ('star', 'Earn', 'Копи', WinTheme.mint),
-                  ('growth', 'Grow', 'Расти', WinTheme.lavender),
+                  (
+                    const IllustratedIcon(Illustration.book, size: 49),
+                    'Read',
+                    'Читай',
+                    WinTheme.peach,
+                  ),
+                  (
+                    const IllustratedIcon(Illustration.coin, size: 49),
+                    'Earn',
+                    'Копи',
+                    WinTheme.mint,
+                  ),
+                  (
+                    const Art('growth', height: 49),
+                    'Grow',
+                    'Расти',
+                    WinTheme.lavender,
+                  ),
                 ]
                 .map(
                   (v) => Expanded(
@@ -98,7 +114,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           SoftPanel(
                             color: v.$4,
                             padding: const EdgeInsets.all(10),
-                            child: Art(v.$1, height: 49),
+                            child: v.$1,
                           ),
                           smallGap,
                           Text(
@@ -237,7 +253,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         center: true,
       ),
       gap,
-      const Art('lock', height: 137),
+      const IllustratedIcon(Illustration.lock, size: 137),
       gap,
       Text(
         _firstPin == null

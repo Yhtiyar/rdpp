@@ -1,0 +1,809 @@
+{
+  "frames": [
+    {
+      "phase": 0,
+      "file": "pose-000.png"
+    },
+    {
+      "phase": 0.005,
+      "file": "pose-001.png"
+    },
+    {
+      "phase": 0.01,
+      "file": "pose-002.png"
+    },
+    {
+      "phase": 0.015,
+      "file": "pose-003.png"
+    },
+    {
+      "phase": 0.02,
+      "file": "pose-004.png"
+    },
+    {
+      "phase": 0.025,
+      "file": "pose-005.png"
+    },
+    {
+      "phase": 0.03,
+      "file": "pose-006.png"
+    },
+    {
+      "phase": 0.035,
+      "file": "pose-007.png"
+    },
+    {
+      "phase": 0.04,
+      "file": "pose-008.png"
+    },
+    {
+      "phase": 0.045,
+      "file": "pose-009.png"
+    },
+    {
+      "phase": 0.05,
+      "file": "pose-010.png"
+    },
+    {
+      "phase": 0.055,
+      "file": "pose-011.png"
+    },
+    {
+      "phase": 0.06,
+      "file": "pose-012.png"
+    },
+    {
+      "phase": 0.065,
+      "file": "pose-013.png"
+    },
+    {
+      "phase": 0.07,
+      "file": "pose-014.png"
+    },
+    {
+      "phase": 0.075,
+      "file": "pose-015.png"
+    },
+    {
+      "phase": 0.08,
+      "file": "pose-016.png"
+    },
+    {
+      "phase": 0.085,
+      "file": "pose-017.png"
+    },
+    {
+      "phase": 0.09,
+      "file": "pose-018.png"
+    },
+    {
+      "phase": 0.095,
+      "file": "pose-019.png"
+    },
+    {
+      "phase": 0.1,
+      "file": "pose-020.png"
+    },
+    {
+      "phase": 0.105,
+      "file": "pose-021.png"
+    },
+    {
+      "phase": 0.11,
+      "file": "pose-022.png"
+    },
+    {
+      "phase": 0.115,
+      "file": "pose-023.png"
+    },
+    {
+      "phase": 0.12,
+      "file": "pose-024.png"
+    },
+    {
+      "phase": 0.125,
+      "file": "pose-025.png"
+    },
+    {
+      "phase": 0.13,
+      "file": "pose-026.png"
+    },
+    {
+      "phase": 0.135,
+      "file": "pose-027.png"
+    },
+    {
+      "phase": 0.14,
+      "file": "pose-028.png"
+    },
+    {
+      "phase": 0.145,
+      "file": "pose-029.png"
+    },
+    {
+      "phase": 0.15,
+      "file": "pose-030.png"
+    },
+    {
+      "phase": 0.155,
+      "file": "pose-031.png"
+    },
+    {
+      "phase": 0.16,
+      "file": "pose-032.png"
+    },
+    {
+      "phase": 0.165,
+      "file": "pose-033.png"
+    },
+    {
+      "phase": 0.17,
+      "file": "pose-034.png"
+    },
+    {
+      "phase": 0.175,
+      "file": "pose-035.png"
+    },
+    {
+      "phase": 0.18,
+      "file": "pose-036.png"
+    },
+    {
+      "phase": 0.185,
+      "file": "pose-037.png"
+    },
+    {
+      "phase": 0.19,
+      "file": "pose-038.png"
+    },
+    {
+      "phase": 0.195,
+      "file": "pose-039.png"
+    },
+    {
+      "phase": 0.2,
+      "file": "pose-040.png"
+    },
+    {
+      "phase": 0.205,
+      "file": "pose-041.png"
+    },
+    {
+      "phase": 0.21,
+      "file": "pose-042.png"
+    },
+    {
+      "phase": 0.215,
+      "file": "pose-043.png"
+    },
+    {
+      "phase": 0.22,
+      "file": "pose-044.png"
+    },
+    {
+      "phase": 0.225,
+      "file": "pose-045.png"
+    },
+    {
+      "phase": 0.23,
+      "file": "pose-046.png"
+    },
+    {
+      "phase": 0.235,
+      "file": "pose-047.png"
+    },
+    {
+      "phase": 0.24,
+      "file": "pose-048.png"
+    },
+    {
+      "phase": 0.245,
+      "file": "pose-049.png"
+    },
+    {
+      "phase": 0.25,
+      "file": "pose-050.png"
+    },
+    {
+      "phase": 0.255,
+      "file": "pose-051.png"
+    },
+    {
+      "phase": 0.26,
+      "file": "pose-052.png"
+    },
+    {
+      "phase": 0.265,
+      "file": "pose-053.png"
+    },
+    {
+      "phase": 0.27,
+      "file": "pose-054.png"
+    },
+    {
+      "phase": 0.275,
+      "file": "pose-055.png"
+    },
+    {
+      "phase": 0.28,
+      "file": "pose-056.png"
+    },
+    {
+      "phase": 0.285,
+      "file": "pose-057.png"
+    },
+    {
+      "phase": 0.29,
+      "file": "pose-058.png"
+    },
+    {
+      "phase": 0.295,
+      "file": "pose-059.png"
+    },
+    {
+      "phase": 0.3,
+      "file": "pose-060.png"
+    },
+    {
+      "phase": 0.305,
+      "file": "pose-061.png"
+    },
+    {
+      "phase": 0.31,
+      "file": "pose-062.png"
+    },
+    {
+      "phase": 0.315,
+      "file": "pose-063.png"
+    },
+    {
+      "phase": 0.32,
+      "file": "pose-064.png"
+    },
+    {
+      "phase": 0.325,
+      "file": "pose-065.png"
+    },
+    {
+      "phase": 0.33,
+      "file": "pose-066.png"
+    },
+    {
+      "phase": 0.335,
+      "file": "pose-067.png"
+    },
+    {
+      "phase": 0.34,
+      "file": "pose-068.png"
+    },
+    {
+      "phase": 0.345,
+      "file": "pose-069.png"
+    },
+    {
+      "phase": 0.35,
+      "file": "pose-070.png"
+    },
+    {
+      "phase": 0.355,
+      "file": "pose-071.png"
+    },
+    {
+      "phase": 0.36,
+      "file": "pose-072.png"
+    },
+    {
+      "phase": 0.365,
+      "file": "pose-073.png"
+    },
+    {
+      "phase": 0.37,
+      "file": "pose-074.png"
+    },
+    {
+      "phase": 0.375,
+      "file": "pose-075.png"
+    },
+    {
+      "phase": 0.38,
+      "file": "pose-076.png"
+    },
+    {
+      "phase": 0.385,
+      "file": "pose-077.png"
+    },
+    {
+      "phase": 0.39,
+      "file": "pose-078.png"
+    },
+    {
+      "phase": 0.395,
+      "file": "pose-079.png"
+    },
+    {
+      "phase": 0.4,
+      "file": "pose-080.png"
+    },
+    {
+      "phase": 0.405,
+      "file": "pose-081.png"
+    },
+    {
+      "phase": 0.41,
+      "file": "pose-082.png"
+    },
+    {
+      "phase": 0.415,
+      "file": "pose-083.png"
+    },
+    {
+      "phase": 0.42,
+      "file": "pose-084.png"
+    },
+    {
+      "phase": 0.425,
+      "file": "pose-085.png"
+    },
+    {
+      "phase": 0.43,
+      "file": "pose-086.png"
+    },
+    {
+      "phase": 0.435,
+      "file": "pose-087.png"
+    },
+    {
+      "phase": 0.44,
+      "file": "pose-088.png"
+    },
+    {
+      "phase": 0.445,
+      "file": "pose-089.png"
+    },
+    {
+      "phase": 0.45,
+      "file": "pose-090.png"
+    },
+    {
+      "phase": 0.455,
+      "file": "pose-091.png"
+    },
+    {
+      "phase": 0.46,
+      "file": "pose-092.png"
+    },
+    {
+      "phase": 0.465,
+      "file": "pose-093.png"
+    },
+    {
+      "phase": 0.47,
+      "file": "pose-094.png"
+    },
+    {
+      "phase": 0.475,
+      "file": "pose-095.png"
+    },
+    {
+      "phase": 0.48,
+      "file": "pose-096.png"
+    },
+    {
+      "phase": 0.485,
+      "file": "pose-097.png"
+    },
+    {
+      "phase": 0.49,
+      "file": "pose-098.png"
+    },
+    {
+      "phase": 0.495,
+      "file": "pose-099.png"
+    },
+    {
+      "phase": 0.5,
+      "file": "pose-100.png"
+    },
+    {
+      "phase": 0.505,
+      "file": "pose-101.png"
+    },
+    {
+      "phase": 0.51,
+      "file": "pose-102.png"
+    },
+    {
+      "phase": 0.515,
+      "file": "pose-103.png"
+    },
+    {
+      "phase": 0.52,
+      "file": "pose-104.png"
+    },
+    {
+      "phase": 0.525,
+      "file": "pose-105.png"
+    },
+    {
+      "phase": 0.53,
+      "file": "pose-106.png"
+    },
+    {
+      "phase": 0.535,
+      "file": "pose-107.png"
+    },
+    {
+      "phase": 0.54,
+      "file": "pose-108.png"
+    },
+    {
+      "phase": 0.545,
+      "file": "pose-109.png"
+    },
+    {
+      "phase": 0.55,
+      "file": "pose-110.png"
+    },
+    {
+      "phase": 0.555,
+      "file": "pose-111.png"
+    },
+    {
+      "phase": 0.56,
+      "file": "pose-112.png"
+    },
+    {
+      "phase": 0.565,
+      "file": "pose-113.png"
+    },
+    {
+      "phase": 0.57,
+      "file": "pose-114.png"
+    },
+    {
+      "phase": 0.575,
+      "file": "pose-115.png"
+    },
+    {
+      "phase": 0.58,
+      "file": "pose-116.png"
+    },
+    {
+      "phase": 0.585,
+      "file": "pose-117.png"
+    },
+    {
+      "phase": 0.59,
+      "file": "pose-118.png"
+    },
+    {
+      "phase": 0.595,
+      "file": "pose-119.png"
+    },
+    {
+      "phase": 0.6,
+      "file": "pose-120.png"
+    },
+    {
+      "phase": 0.605,
+      "file": "pose-121.png"
+    },
+    {
+      "phase": 0.61,
+      "file": "pose-122.png"
+    },
+    {
+      "phase": 0.615,
+      "file": "pose-123.png"
+    },
+    {
+      "phase": 0.62,
+      "file": "pose-124.png"
+    },
+    {
+      "phase": 0.625,
+      "file": "pose-125.png"
+    },
+    {
+      "phase": 0.63,
+      "file": "pose-126.png"
+    },
+    {
+      "phase": 0.635,
+      "file": "pose-127.png"
+    },
+    {
+      "phase": 0.64,
+      "file": "pose-128.png"
+    },
+    {
+      "phase": 0.645,
+      "file": "pose-129.png"
+    },
+    {
+      "phase": 0.65,
+      "file": "pose-130.png"
+    },
+    {
+      "phase": 0.655,
+      "file": "pose-131.png"
+    },
+    {
+      "phase": 0.66,
+      "file": "pose-132.png"
+    },
+    {
+      "phase": 0.665,
+      "file": "pose-133.png"
+    },
+    {
+      "phase": 0.67,
+      "file": "pose-134.png"
+    },
+    {
+      "phase": 0.675,
+      "file": "pose-135.png"
+    },
+    {
+      "phase": 0.68,
+      "file": "pose-136.png"
+    },
+    {
+      "phase": 0.685,
+      "file": "pose-137.png"
+    },
+    {
+      "phase": 0.69,
+      "file": "pose-138.png"
+    },
+    {
+      "phase": 0.695,
+      "file": "pose-139.png"
+    },
+    {
+      "phase": 0.7,
+      "file": "pose-140.png"
+    },
+    {
+      "phase": 0.705,
+      "file": "pose-141.png"
+    },
+    {
+      "phase": 0.71,
+      "file": "pose-142.png"
+    },
+    {
+      "phase": 0.715,
+      "file": "pose-143.png"
+    },
+    {
+      "phase": 0.72,
+      "file": "pose-144.png"
+    },
+    {
+      "phase": 0.725,
+      "file": "pose-145.png"
+    },
+    {
+      "phase": 0.73,
+      "file": "pose-146.png"
+    },
+    {
+      "phase": 0.735,
+      "file": "pose-147.png"
+    },
+    {
+      "phase": 0.74,
+      "file": "pose-148.png"
+    },
+    {
+      "phase": 0.745,
+      "file": "pose-149.png"
+    },
+    {
+      "phase": 0.75,
+      "file": "pose-150.png"
+    },
+    {
+      "phase": 0.755,
+      "file": "pose-151.png"
+    },
+    {
+      "phase": 0.76,
+      "file": "pose-152.png"
+    },
+    {
+      "phase": 0.765,
+      "file": "pose-153.png"
+    },
+    {
+      "phase": 0.77,
+      "file": "pose-154.png"
+    },
+    {
+      "phase": 0.775,
+      "file": "pose-155.png"
+    },
+    {
+      "phase": 0.78,
+      "file": "pose-156.png"
+    },
+    {
+      "phase": 0.785,
+      "file": "pose-157.png"
+    },
+    {
+      "phase": 0.79,
+      "file": "pose-158.png"
+    },
+    {
+      "phase": 0.795,
+      "file": "pose-159.png"
+    },
+    {
+      "phase": 0.8,
+      "file": "pose-160.png"
+    },
+    {
+      "phase": 0.805,
+      "file": "pose-161.png"
+    },
+    {
+      "phase": 0.81,
+      "file": "pose-162.png"
+    },
+    {
+      "phase": 0.815,
+      "file": "pose-163.png"
+    },
+    {
+      "phase": 0.82,
+      "file": "pose-164.png"
+    },
+    {
+      "phase": 0.825,
+      "file": "pose-165.png"
+    },
+    {
+      "phase": 0.83,
+      "file": "pose-166.png"
+    },
+    {
+      "phase": 0.835,
+      "file": "pose-167.png"
+    },
+    {
+      "phase": 0.84,
+      "file": "pose-168.png"
+    },
+    {
+      "phase": 0.845,
+      "file": "pose-169.png"
+    },
+    {
+      "phase": 0.85,
+      "file": "pose-170.png"
+    },
+    {
+      "phase": 0.855,
+      "file": "pose-171.png"
+    },
+    {
+      "phase": 0.86,
+      "file": "pose-172.png"
+    },
+    {
+      "phase": 0.865,
+      "file": "pose-173.png"
+    },
+    {
+      "phase": 0.87,
+      "file": "pose-174.png"
+    },
+    {
+      "phase": 0.875,
+      "file": "pose-175.png"
+    },
+    {
+      "phase": 0.88,
+      "file": "pose-176.png"
+    },
+    {
+      "phase": 0.885,
+      "file": "pose-177.png"
+    },
+    {
+      "phase": 0.89,
+      "file": "pose-178.png"
+    },
+    {
+      "phase": 0.895,
+      "file": "pose-179.png"
+    },
+    {
+      "phase": 0.9,
+      "file": "pose-180.png"
+    },
+    {
+      "phase": 0.905,
+      "file": "pose-181.png"
+    },
+    {
+      "phase": 0.91,
+      "file": "pose-182.png"
+    },
+    {
+      "phase": 0.915,
+      "file": "pose-183.png"
+    },
+    {
+      "phase": 0.92,
+      "file": "pose-184.png"
+    },
+    {
+      "phase": 0.925,
+      "file": "pose-185.png"
+    },
+    {
+      "phase": 0.93,
+      "file": "pose-186.png"
+    },
+    {
+      "phase": 0.935,
+      "file": "pose-187.png"
+    },
+    {
+      "phase": 0.94,
+      "file": "pose-188.png"
+    },
+    {
+      "phase": 0.945,
+      "file": "pose-189.png"
+    },
+    {
+      "phase": 0.95,
+      "file": "pose-190.png"
+    },
+    {
+      "phase": 0.955,
+      "file": "pose-191.png"
+    },
+    {
+      "phase": 0.96,
+      "file": "pose-192.png"
+    },
+    {
+      "phase": 0.965,
+      "file": "pose-193.png"
+    },
+    {
+      "phase": 0.97,
+      "file": "pose-194.png"
+    },
+    {
+      "phase": 0.975,
+      "file": "pose-195.png"
+    },
+    {
+      "phase": 0.98,
+      "file": "pose-196.png"
+    },
+    {
+      "phase": 0.985,
+      "file": "pose-197.png"
+    },
+    {
+      "phase": 0.99,
+      "file": "pose-198.png"
+    },
+    {
+      "phase": 0.995,
+      "file": "pose-199.png"
+    },
+    {
+      "phase": 1,
+      "file": "pose-200.png"
+    }
+  ],
+  "errors": []
+}

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../core/reward_progress.dart';
 import '../../ui/celebration.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/mimi_character.dart';
 import '../../ui/motion_spec.dart';
 import '../../ui/theme.dart';
@@ -182,10 +183,9 @@ class _RewardCelebrationState extends State<RewardCelebration>
                               ),
                               child: Opacity(
                                 opacity: sin(t * pi),
-                                child: const Icon(
-                                  Icons.stars_rounded,
-                                  color: Color(0xFFF2B420),
-                                  size: 20,
+                                child: const IllustratedIcon(
+                                  Illustration.coin,
+                                  size: 24,
                                 ),
                               ),
                             ),

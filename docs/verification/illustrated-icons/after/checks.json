@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "Navigation works; reduced-motion icons remain still",
+    "Home, books, wins, wallet, parent lock and welcome captured; 320px, 430px and desktop checked",
+    "Russian home and milestone layouts checked at 320px",
+    "Selection visibly animates, settles, exposes selected state and preserves reading progress",
+    "All five production icons loaded successfully"
+  ],
+  "assets": [
+    "coin.webp",
+    "lock.webp",
+    "book.webp",
+    "home.webp",
+    "trophy.webp"
+  ],
+  "errors": []
+}

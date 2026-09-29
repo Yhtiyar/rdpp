@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../../core/app_controller.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/theme.dart';
 import '../../core/sound_service.dart';
+import 'child_age_setting.dart';
 import 'parent_access.dart';
 import 'parent_session_lock.dart';
 
@@ -278,6 +280,9 @@ class _ParentScreenState extends State<ParentScreen>
             c.tr('Your settings', 'Ваши настройки'),
             style: Theme.of(context).textTheme.titleLarge,
           ),
+          gap,
+          ChildAgeSetting(controller: c),
+          const Divider(height: 32),
           smallGap,
           SwitchListTile(
             contentPadding: EdgeInsets.zero,
@@ -357,7 +362,7 @@ class _ParentScreenState extends State<ParentScreen>
           WinButton(
             c.tr('Back to reading', 'Вернуться к чтению'),
             onPressed: () => Navigator.pop(context),
-            icon: Icons.auto_stories_rounded,
+            illustration: Illustration.book,
           ),
         ],
       ),

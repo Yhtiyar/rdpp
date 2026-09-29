@@ -1,0 +1,187 @@
+{
+  "id": "little-red-hen",
+  "title": "The Little Red Hen",
+  "language": "en",
+  "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/little-red-hen/art/little-red-hen_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "little-red-hen-part-001",
+      "text": "There once was a little red hen who lived with her friends on a farm. She was not a lazy hen. She worked harder than all of the other animals. The Little Red Hen wanted to plant some grains of wheat. She asked for help, but her friends refused.",
+      "image": "assets/books/little-red-hen/art/little-red-hen_01.webp",
+      "sourcePages": [
+        65,
+        66
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 244,
+      "estimatedPlaybackSeconds": 19.32,
+      "audio": "assets/books/little-red-hen/audio/little-red-hen-part-001.mp3"
+    },
+    {
+      "id": "little-red-hen-part-002",
+      "text": "So she planted the grains herself. In the summertime, the wonderful golden wheat was ready to be harvested. Once again, with no one to help her, the Little Red Hen did all the work. The Little Red Hen had to grind the wheat into flour.",
+      "image": "assets/books/little-red-hen/art/little-red-hen_03.webp",
+      "sourcePages": [
+        66,
+        67,
+        68
+      ],
+      "sourceReadingPages": [
+        1,
+        2,
+        3
+      ],
+      "sourceTextStart": 245,
+      "sourceTextEnd": 480,
+      "estimatedPlaybackSeconds": 18.61,
+      "audio": "assets/books/little-red-hen/audio/little-red-hen-part-002.mp3"
+    },
+    {
+      "id": "little-red-hen-part-003",
+      "text": "As usual, her friends did not want to do any hard work. So the Little Red Hen ground the flour herself. The Little Red Hen used the flour to make bread dough. With no one to help her, she kneaded the dough all by herself. The Little Red Hen’s friends had completely abandoned her.",
+      "image": "assets/books/little-red-hen/art/little-red-hen_05.webp",
+      "sourcePages": [
+        68,
+        69,
+        70
+      ],
+      "sourceReadingPages": [
+        3,
+        4,
+        5
+      ],
+      "sourceTextStart": 481,
+      "sourceTextEnd": 761,
+      "estimatedPlaybackSeconds": 22.17,
+      "audio": "assets/books/little-red-hen/audio/little-red-hen-part-003.mp3"
+    },
+    {
+      "id": "little-red-hen-part-004",
+      "text": "So she baked the bread all by herself. When the smell of freshly baked bread rose up into the air, the Little Red Hen’s friends appeared. They were willing to help eat the bread, but the Little Red Hen ate it all by herself. She had done all the work!",
+      "image": "assets/books/little-red-hen/art/little-red-hen_06.webp",
+      "sourcePages": [
+        70,
+        71
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 762,
+      "sourceTextEnd": 1013,
+      "estimatedPlaybackSeconds": 19.87,
+      "audio": "assets/books/little-red-hen/audio/little-red-hen-part-004.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who wanted to plant grains of wheat?",
+      "hint": "She was the hardworking hen on the farm.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the little red hen.",
+      "feedback": "The Little Red Hen wanted to plant the wheat.",
+      "choices": [
+        {
+          "label": "Little red hen",
+          "image": "assets/books/little-red-hen/art/little-red-hen-hen.webp"
+        },
+        {
+          "label": "Bread",
+          "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "little-red-hen-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/little-red-hen/audio/little-red-hen-exact-question-001-prompt.mp3",
+        "hint": "assets/books/little-red-hen/audio/little-red-hen-exact-question-001-hint.mp3",
+        "guided": "assets/books/little-red-hen/audio/little-red-hen-exact-question-001-guided.mp3",
+        "feedback": "assets/books/little-red-hen/audio/little-red-hen-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "little-red-hen-part-001"
+        ],
+        "quote": "The Little Red Hen wanted to plant some grains of wheat. She asked for help, but her friends refused."
+      }
+    },
+    {
+      "prompt": "What did the hen gather in summer?",
+      "hint": "It grew tall and golden in the field.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the wheat.",
+      "feedback": "You found the wheat! The hen gathered it herself.",
+      "choices": [
+        {
+          "label": "Bread",
+          "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+        },
+        {
+          "label": "Wheat",
+          "image": "assets/books/little-red-hen/art/little-red-hen-wheat.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "little-red-hen-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/little-red-hen/audio/little-red-hen-exact-question-002-prompt.mp3",
+        "hint": "assets/books/little-red-hen/audio/little-red-hen-exact-question-002-hint.mp3",
+        "guided": "assets/books/little-red-hen/audio/little-red-hen-exact-question-002-guided.mp3",
+        "feedback": "assets/books/little-red-hen/audio/little-red-hen-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "little-red-hen-part-002"
+        ],
+        "quote": "In the summertime, the wonderful golden wheat was ready to be harvested."
+      }
+    },
+    {
+      "prompt": "What did the Little Red Hen bake?",
+      "hint": "Her friends appeared when they smelled it freshly baked.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the bread.",
+      "feedback": "She baked the bread all by herself.",
+      "choices": [
+        {
+          "label": "Bread",
+          "image": "assets/books/little-red-hen/art/little-red-hen-bread.webp"
+        },
+        {
+          "label": "Little red hen",
+          "image": "assets/books/little-red-hen/art/little-red-hen-hen.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "little-red-hen-exact-question-003",
+      "afterPage": 3,
+      "audio": {
+        "prompt": "assets/books/little-red-hen/audio/little-red-hen-exact-question-003-prompt.mp3",
+        "hint": "assets/books/little-red-hen/audio/little-red-hen-exact-question-003-hint.mp3",
+        "guided": "assets/books/little-red-hen/audio/little-red-hen-exact-question-003-guided.mp3",
+        "feedback": "assets/books/little-red-hen/audio/little-red-hen-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "little-red-hen-part-004"
+        ],
+        "quote": "So she baked the bread all by herself."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to The Little Red Hen and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/little-red-hen/audio/little-red-hen-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

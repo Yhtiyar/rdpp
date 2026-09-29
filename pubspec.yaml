@@ -39,6 +39,7 @@ dependencies:
   shared_preferences: ^2.5.5
   crypto: ^3.0.7
   audioplayers: ^6.8.1
+  video_player: ^2.14.0
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +51,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  video_player_platform_interface: ^6.9.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -95,9 +97,67 @@ flutter:
 
   assets:
     - assets/art/
+    - assets/art/icons/
     - assets/art/mimi/
+    - assets/art/mimi/reading/reading.mp4
     - assets/books/
+    - assets/books/shared/
+    - assets/books/aibolit/
+    - assets/books/aibolit/art/
+    - assets/books/aibolit/audio/
+    - assets/books/city-and-country-mouse/
+    - assets/books/city-and-country-mouse/art/
+    - assets/books/city-and-country-mouse/audio/
+    - assets/books/frog/
+    - assets/books/frog/art/
+    - assets/books/frog/audio/
+    - assets/books/frog-princess/
+    - assets/books/frog-princess/art/
+    - assets/books/frog-princess/audio/
+    - assets/books/gingerbread-man/
+    - assets/books/gingerbread-man/art/
+    - assets/books/gingerbread-man/audio/
+    - assets/books/goldilocks/
+    - assets/books/goldilocks/art/
+    - assets/books/goldilocks/audio/
+    - assets/books/kolobok/
+    - assets/books/kolobok/art/
+    - assets/books/kolobok/audio/
+    - assets/books/lion-and-mouse/
+    - assets/books/lion-and-mouse/art/
+    - assets/books/lion-and-mouse/audio/
+    - assets/books/little-red-hen/
+    - assets/books/little-red-hen/art/
+    - assets/books/little-red-hen/audio/
+    - assets/books/little-red-riding-hood/
+    - assets/books/little-red-riding-hood/art/
+    - assets/books/little-red-riding-hood/audio/
+    - assets/books/shoemaker-and-elves/
+    - assets/books/shoemaker-and-elves/art/
+    - assets/books/shoemaker-and-elves/audio/
+    - assets/books/teremok/
+    - assets/books/teremok/art/
+    - assets/books/teremok/audio/
+    - assets/books/three-little-pigs/
+    - assets/books/three-little-pigs/art/
+    - assets/books/three-little-pigs/audio/
+    - assets/books/thumbelina/
+    - assets/books/thumbelina/art/
+    - assets/books/thumbelina/audio/
+    - assets/books/turnip/
+    - assets/books/turnip/art/
+    - assets/books/turnip/audio/
+    - assets/books/turtle-shell/
+    - assets/books/turtle-shell/art/
+    - assets/books/turtle-shell/audio/
+    - assets/books/ugly-duckling/
+    - assets/books/ugly-duckling/art/
+    - assets/books/ugly-duckling/audio/
+    - assets/books/why-flies-buzz/
+    - assets/books/why-flies-buzz/art/
+    - assets/books/why-flies-buzz/audio/
     - assets/sounds/
+    - assets/toddler/
   fonts:
     - family: Nunito
       fonts:

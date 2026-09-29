@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../core/app_controller.dart';
 import '../../core/sound_service.dart';
 import '../../ui/components.dart';
+import '../../ui/illustrated_icon.dart';
 import '../../ui/theme.dart';
 import '../../ui/mimi_character.dart';
 import 'reward_message.dart';
@@ -202,7 +203,7 @@ class _WalletScreenState extends State<WalletScreen> {
             SoftPanel(
               child: Row(
                 children: [
-                  const Art('reward_star', width: 85, height: 95),
+                  const IllustratedIcon(Illustration.coin, size: 85),
                   const SizedBox(width: 16),
                   Expanded(
                     child: Column(

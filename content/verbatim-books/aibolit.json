@@ -1,0 +1,790 @@
+{
+  "id": "aibolit",
+  "title": "Айболит",
+  "language": "ru",
+  "attribution": "Корней Иванович Чуковский. «Айболит». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+  "original": "assets/books/aibolit/aibolit_original.pdf",
+  "cover": "assets/books/aibolit/art/aibolit_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "aibolit-part-001",
+      "text": "Добрый доктор Айболит! Он под деревом сидит. Приходи к нему лечиться И корова, и волчица, И жучок, и червячок, И медведица! Всех излечит, исцелит Добрый доктор Айболит! И пришла к Айболиту лиса: «Ой, меня укусила оса!»",
+      "image": "assets/books/aibolit/art/aibolit_01.webp",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 218,
+      "estimatedPlaybackSeconds": 19.45,
+      "audio": "assets/books/aibolit/audio/aibolit-part-001.mp3"
+    },
+    {
+      "id": "aibolit-part-002",
+      "text": "И пришёл к Айболиту барбос: «Меня курица клюнула в нос!» И прибежала зайчиха И закричала: «Ай, ай! Мой зайчик попал под трамвай! Мой зайчик, мой мальчик Попал под трамвай! Он бежал по дорожке, И ему перерезало ножки, И теперь он больной и хромой, Маленький заинька мой!»",
+      "image": "assets/books/aibolit/art/aibolit_04.webp",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 219,
+      "sourceTextEnd": 489,
+      "estimatedPlaybackSeconds": 24.09,
+      "audio": "assets/books/aibolit/audio/aibolit-part-002.mp3"
+    },
+    {
+      "id": "aibolit-part-003",
+      "text": "И сказал Айболит: «Не беда! Подавай-ка его сюда! Я пришью ему новые ножки, Он опять побежит по дорожке». И принесли к нему зайку, Такого больного, хромого, И доктор пришил ему ножки. И заинька прыгает снова. А с ним и зайчиха-мать Тоже пошла танцевать.",
+      "image": "assets/books/aibolit/art/aibolit_04.webp",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 490,
+      "sourceTextEnd": 742,
+      "estimatedPlaybackSeconds": 22.48,
+      "audio": "assets/books/aibolit/audio/aibolit-part-003.mp3"
+    },
+    {
+      "id": "aibolit-part-004",
+      "text": "И смеётся она и кричит: «Ну, спасибо тебе, Айболит!» Вдруг откуда-то шакал На кобыле прискакал: «Вот вам телеграмма От Гиппопотама!» «Приезжайте, доктор, В Африку скорей И спасайте, доктор, Наших малышей!»",
+      "image": "assets/books/aibolit/art/aibolit_05.webp",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 743,
+      "sourceTextEnd": 948,
+      "estimatedPlaybackSeconds": 18.29,
+      "audio": "assets/books/aibolit/audio/aibolit-part-004.mp3"
+    },
+    {
+      "id": "aibolit-part-005",
+      "text": "«Что такое? Неужели Ваши дети заболели?» «Да-да-да! У них ангина, Скарлатина, холерина, Дифтерит, аппендицит, Малярия и бронхит! Приходите же скорее, Добрый доктор Айболит!» «Ладно, ладно, побегу, Вашим детям помогу. Только где же вы живете? На горе или в болоте?»",
+      "image": "assets/books/aibolit/art/aibolit_05.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 949,
+      "sourceTextEnd": 1213,
+      "estimatedPlaybackSeconds": 23.55,
+      "audio": "assets/books/aibolit/audio/aibolit-part-005.mp3"
+    },
+    {
+      "id": "aibolit-part-006",
+      "text": "«Мы живем на Занзибаре, В Калахари и Сахаре, На горе Фернандо-По, Где гуляет Гиппо-по По широкой Лимпопо. И встал Айболит, побежал Айболит. По полям, по лесам, по лугам он бежит. И одно только слово твердит Айболит: «Лимпопо, Лимпопо, Лимпопо!»",
+      "image": "assets/books/aibolit/art/aibolit_05.webp",
+      "sourcePages": [
+        6
+      ],
+      "sourceReadingPages": [
+        5
+      ],
+      "sourceTextStart": 1214,
+      "sourceTextEnd": 1458,
+      "estimatedPlaybackSeconds": 21.77,
+      "audio": "assets/books/aibolit/audio/aibolit-part-006.mp3"
+    },
+    {
+      "id": "aibolit-part-007",
+      "text": "А в лицо ему ветер, и снег, и град: «Эй, Айболит, воротися назад!» И упал Айболит и лежит на снегу: «Я дальше идти не могу». И сейчас же к нему из-за ёлки Выбегают мохнатые волки: «Садись, Айболит, верхом, Мы живо тебя довезём!»",
+      "image": "assets/books/aibolit/art/aibolit_06.webp",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 1459,
+      "sourceTextEnd": 1687,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/aibolit/audio/aibolit-part-007.mp3"
+    },
+    {
+      "id": "aibolit-part-008",
+      "text": "И вперёд поскакал Айболит И одно только слово твердит: «Лимпопо, Лимпопо, Лимпопо!» Но вот перед ними море — Бушует, шумит на просторе. А в море высокая ходит волна, Сейчас Айболита проглотит она.",
+      "image": "assets/books/aibolit/art/aibolit_06.webp",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1688,
+      "sourceTextEnd": 1884,
+      "estimatedPlaybackSeconds": 17.48,
+      "audio": "assets/books/aibolit/audio/aibolit-part-008.mp3"
+    },
+    {
+      "id": "aibolit-part-009",
+      "text": "«Ой, если я утону, Если пойду я ко дну. Что станется с ними, с больными, С моими зверями лесными?» Но тут выплывает кит: «Садись на меня, Айболит, И, как большой пароход, Тебя повезу я вперёд!» И сел на кита Айболит И одно только слово твердит: «Лимпопо, Лимпопо, Лимпопо!»",
+      "image": "assets/books/aibolit/art/aibolit_07.webp",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "sourceReadingPages": [
+        7,
+        8
+      ],
+      "sourceTextStart": 1885,
+      "sourceTextEnd": 2158,
+      "estimatedPlaybackSeconds": 24.35,
+      "audio": "assets/books/aibolit/audio/aibolit-part-009.mp3"
+    },
+    {
+      "id": "aibolit-part-010",
+      "text": "И горы встают перед ним на пути, И он по горам начинает ползти, А горы всё выше, а горы всё круче, А горы уходят под самые тучи! «О, если я не дойду, Если в пути пропаду, Что станется с ними, с больными, С моими зверями лесными?",
+      "image": "assets/books/aibolit/art/aibolit_08.webp",
+      "sourcePages": [
+        9
+      ],
+      "sourceReadingPages": [
+        8
+      ],
+      "sourceTextStart": 2159,
+      "sourceTextEnd": 2387,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/aibolit/audio/aibolit-part-010.mp3"
+    },
+    {
+      "id": "aibolit-part-011",
+      "text": "И сейчас же с высокой скалы К Айболиту слетели орлы: «Садись, Айболит, верхом, Мы живо тебя довезём!» И сел на орла Айболит И одно только слово твердит: «Лимпопо, Лимпопо, Лимпопо!»",
+      "image": "assets/books/aibolit/art/aibolit_08.webp",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "sourceReadingPages": [
+        8,
+        9
+      ],
+      "sourceTextStart": 2388,
+      "sourceTextEnd": 2569,
+      "estimatedPlaybackSeconds": 16.15,
+      "audio": "assets/books/aibolit/audio/aibolit-part-011.mp3"
+    },
+    {
+      "id": "aibolit-part-012",
+      "text": "А в Африке, А в Африке, На черной Лимпопо, Сидит и плачет В Африке Печальный Гиппопо. Он в Африке, он в Африке Под пальмою сидит И на море из Африки Без отдыха глядит: Не едет ли в кораблике Доктор Айболит? И рыщут по дороге Слоны и носороги И говорят сердито: «Что ж нету Айболита?»",
+      "image": "assets/books/aibolit/art/aibolit_09.webp",
+      "sourcePages": [
+        10,
+        11,
+        12
+      ],
+      "sourceReadingPages": [
+        9,
+        10,
+        11
+      ],
+      "sourceTextStart": 2570,
+      "sourceTextEnd": 2853,
+      "estimatedPlaybackSeconds": 25.25,
+      "audio": "assets/books/aibolit/audio/aibolit-part-012.mp3"
+    },
+    {
+      "id": "aibolit-part-013",
+      "text": "А рядом бегемотики Схватились за животики: У них, у бегемотиков, Животики болят. И тут же страусята Визжат, как поросята. Ах, жалко, жалко, жалко Бедных страусят! И корь, и дифтерит у них, И оспа, и бронхит у них, И голова болит у них, И горлышко болит.",
+      "image": "assets/books/aibolit/art/aibolit_10.webp",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "sourceReadingPages": [
+        11,
+        12
+      ],
+      "sourceTextStart": 2854,
+      "sourceTextEnd": 3107,
+      "estimatedPlaybackSeconds": 22.57,
+      "audio": "assets/books/aibolit/audio/aibolit-part-013.mp3"
+    },
+    {
+      "id": "aibolit-part-014",
+      "text": "Они лежат и бредят: «Ну что же он не едет, ну что же он не едет, Доктор Айболит?» А рядом прикорнула Зубастая акула, Зубастая акула На солнышке лежит. Ах, у её малюток, У бедных акулят, Уже двенадцать суток Зубки болят!",
+      "image": "assets/books/aibolit/art/aibolit_11.webp",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceReadingPages": [
+        12,
+        13
+      ],
+      "sourceTextStart": 3108,
+      "sourceTextEnd": 3327,
+      "estimatedPlaybackSeconds": 19.54,
+      "audio": "assets/books/aibolit/audio/aibolit-part-014.mp3"
+    },
+    {
+      "id": "aibolit-part-015",
+      "text": "И вывихнуто плечико У бедного кузнечика; Не прыгает, не скачет он, А горько-горько плачет он И доктора зовет: «О, где же добрый доктор? Когда же он придет?»",
+      "image": "assets/books/aibolit/art/aibolit_12.webp",
+      "sourcePages": [
+        15
+      ],
+      "sourceReadingPages": [
+        14
+      ],
+      "sourceTextStart": 3328,
+      "sourceTextEnd": 3484,
+      "estimatedPlaybackSeconds": 13.92,
+      "audio": "assets/books/aibolit/audio/aibolit-part-015.mp3"
+    },
+    {
+      "id": "aibolit-part-016",
+      "text": "Но вот, поглядите, какая-то птица Всё ближе и ближе по воздуху мчится. На птице, глядите, сидит Айболит И шляпою машет и громко кричит: «Да здравствует милая Африка!» И рада и счастлива вся детвора: «Приехал, приехал! Ура! Ура!» А птица, над ними кружится, А птица на землю садится.",
+      "image": "assets/books/aibolit/art/aibolit_13.webp",
+      "sourcePages": [
+        16
+      ],
+      "sourceReadingPages": [
+        15
+      ],
+      "sourceTextStart": 3485,
+      "sourceTextEnd": 3767,
+      "estimatedPlaybackSeconds": 25.16,
+      "audio": "assets/books/aibolit/audio/aibolit-part-016.mp3"
+    },
+    {
+      "id": "aibolit-part-017",
+      "text": "И бежит Айболит к бегемотикам, И хлопает их по животикам, И всем по порядку Даёт шоколадку, И ставит и ставит им градусники! И к полосатым Бежит он тигрятам, И к бедным горбатым Больным верблюжатам, И каждого гоголем, Каждого моголем, Гоголем-моголем, Гоголем-моголем, Гоголем-моголем потчует.",
+      "image": "assets/books/aibolit/art/aibolit_14.webp",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "sourceReadingPages": [
+        16,
+        17
+      ],
+      "sourceTextStart": 3768,
+      "sourceTextEnd": 4061,
+      "estimatedPlaybackSeconds": 26.14,
+      "audio": "assets/books/aibolit/audio/aibolit-part-017.mp3"
+    },
+    {
+      "id": "aibolit-part-018",
+      "text": "Десять ночей Айболит Не ест и не пьет и не спит, Десять ночей подряд Он лечит несчастных зверят, И ставит и ставит им градусники. Вот и вылечил он их, Лимпопо! Вот и вылечил больных, Лимпопо! И пошли они смеяться, Лимпопо! И плясать и баловаться, Лимпопо!",
+      "image": "assets/books/aibolit/art/aibolit_15.webp",
+      "sourcePages": [
+        18
+      ],
+      "sourceReadingPages": [
+        17
+      ],
+      "sourceTextStart": 4062,
+      "sourceTextEnd": 4317,
+      "estimatedPlaybackSeconds": 22.75,
+      "audio": "assets/books/aibolit/audio/aibolit-part-018.mp3"
+    },
+    {
+      "id": "aibolit-part-019",
+      "text": "И акула Каракула Правым глазом подмигнула И хохочет, и хохочет, Будто кто её щекочет. И малютки бегемотики Ухватились за животики И смеются, заливаются — Так что горы сотрясаются.",
+      "image": "assets/books/aibolit/art/aibolit_15.webp",
+      "sourcePages": [
+        18
+      ],
+      "sourceReadingPages": [
+        17
+      ],
+      "sourceTextStart": 4318,
+      "sourceTextEnd": 4497,
+      "estimatedPlaybackSeconds": 15.97,
+      "audio": "assets/books/aibolit/audio/aibolit-part-019.mp3"
+    },
+    {
+      "id": "aibolit-part-020",
+      "text": "Вот и Гиппо, вот и Попо, Гиппо-попо, Гиппо-попо! Вот идёт Гиппопотам. Он идёт от Занзибара, Он идёт к Килиманджаро — И кричит он, и поёт он: «Слава, слава Айболиту! Слава добрым докторам!»",
+      "image": "assets/books/aibolit/art/aibolit_15.webp",
+      "sourcePages": [
+        19
+      ],
+      "sourceReadingPages": [
+        18
+      ],
+      "sourceTextStart": 4498,
+      "sourceTextEnd": 4686,
+      "estimatedPlaybackSeconds": 16.77,
+      "audio": "assets/books/aibolit/audio/aibolit-part-020.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "aibolit-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто помог зайчику снова прыгать?",
+      "hint": "Этот добрый человек лечит зверей и носит белый халат.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, доктор Айболит помог зайчику!",
+      "feedback": "Да, доктор Айболит помог зайчику!",
+      "choices": [
+        {
+          "label": "Доктор Айболит",
+          "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+        },
+        {
+          "label": "Лиса",
+          "image": "assets/books/aibolit/art/aibolit-fox.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-003"
+        ],
+        "quote": "И доктор пришил ему ножки. И заинька прыгает снова."
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-001-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-001-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-001-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Кого укусила оса?",
+      "hint": "У этого зверя рыжая шубка и пушистый хвост.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, оса укусила лису. Лиса пришла к Айболиту.",
+      "feedback": "Верно, оса укусила лису. Лиса пришла к Айболиту.",
+      "choices": [
+        {
+          "label": "Собака",
+          "image": "assets/books/aibolit/art/aibolit-dog.webp"
+        },
+        {
+          "label": "Лиса",
+          "image": "assets/books/aibolit/art/aibolit-fox.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-001"
+        ],
+        "quote": "И пришла к Айболиту лиса: «Ой, меня укусила оса!»"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-002-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-002-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-002-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-003",
+      "afterPage": 5,
+      "prompt": "От кого Айболиту привезли телеграмму?",
+      "hint": "Это большой бегемот. В телеграмме просят спасти малышей в Африке.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл Гиппопотама! От него привезли телеграмму.",
+      "feedback": "Ты нашёл Гиппопотама! От него привезли телеграмму.",
+      "choices": [
+        {
+          "label": "Гиппопотам",
+          "image": "assets/books/aibolit/art/aibolit_09.webp"
+        },
+        {
+          "label": "Кузнечик",
+          "image": "assets/books/aibolit/art/aibolit-grasshopper.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-004"
+        ],
+        "quote": "Вот вам телеграмма От Гиппопотама!"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-003-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-003-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-003-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Кто побежал помогать больным детям?",
+      "hint": "Это добрый доктор. Он повторяет: «Лимпопо!»",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Айболит отправился помогать больным малышам.",
+      "feedback": "Да, Айболит отправился помогать больным малышам.",
+      "choices": [
+        {
+          "label": "Лиса",
+          "image": "assets/books/aibolit/art/aibolit-fox.webp"
+        },
+        {
+          "label": "Доктор Айболит",
+          "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-006"
+        ],
+        "quote": "И встал Айболит, побежал Айболит. По полям, по лесам, по лугам он бежит."
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-004-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-004-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-004-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-005",
+      "afterPage": 8,
+      "prompt": "Кто предложил везти доктора по снегу?",
+      "hint": "Эти мохнатые звери выбежали из-за ёлки.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, волки помогли Айболиту в снежном лесу.",
+      "feedback": "Верно, волки помогли Айболиту в снежном лесу.",
+      "choices": [
+        {
+          "label": "Айболит на волке",
+          "image": "assets/books/aibolit/art/aibolit-wolves.webp"
+        },
+        {
+          "label": "Айболит на ките",
+          "image": "assets/books/aibolit/art/aibolit-whale.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-007"
+        ],
+        "quote": "Выбегают мохнатые волки: «Садись, Айболит, верхом, Мы живо тебя довезём!»"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-005-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-005-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-005-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-006",
+      "afterPage": 8,
+      "prompt": "Кто повёз Айболита через море?",
+      "hint": "Он большой и живёт в воде. Он сравнил себя с пароходом.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, кит повёз Айболита через море!",
+      "feedback": "Да, кит повёз Айболита через море!",
+      "choices": [
+        {
+          "label": "Орлы над горами",
+          "image": "assets/books/aibolit/art/aibolit-eagles.webp"
+        },
+        {
+          "label": "Айболит на ките",
+          "image": "assets/books/aibolit/art/aibolit-whale.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-009"
+        ],
+        "quote": "Но тут выплывает кит: «Садись на меня, Айболит"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-006-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-006-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-006-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-006-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-007",
+      "afterPage": 11,
+      "prompt": "Какие птицы помогли Айболиту в горах?",
+      "hint": "Это большие птицы. Они слетели с высокой скалы.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл орлов! Айболит сел на орла и полетел дальше.",
+      "feedback": "Ты нашёл орлов! Айболит сел на орла и полетел дальше.",
+      "choices": [
+        {
+          "label": "Орлы над горами",
+          "image": "assets/books/aibolit/art/aibolit-eagles.webp"
+        },
+        {
+          "label": "Айболит на ките",
+          "image": "assets/books/aibolit/art/aibolit-whale.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-011"
+        ],
+        "quote": "К Айболиту слетели орлы: «Садись, Айболит, верхом, Мы живо тебя довезём!»"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-007-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-007-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-007-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-007-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-008",
+      "afterPage": 11,
+      "prompt": "Кто печально сидел и плакал в Африке?",
+      "hint": "Это большой бегемот. Он ждал доктора под пальмой.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, печальный Гиппопо ждал Айболита.",
+      "feedback": "Да, печальный Гиппопо ждал Айболита.",
+      "choices": [
+        {
+          "label": "Кузнечик",
+          "image": "assets/books/aibolit/art/aibolit-grasshopper.webp"
+        },
+        {
+          "label": "Гиппопотам",
+          "image": "assets/books/aibolit/art/aibolit_09.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-012"
+        ],
+        "quote": "Сидит и плачет В Африке Печальный Гиппопо."
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-008-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-008-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-008-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-008-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-009",
+      "afterPage": 14,
+      "prompt": "У каких малышей болели животики?",
+      "hint": "Это маленькие бегемоты. Они держатся за свои животики.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл бегемотиков. У них болели животики.",
+      "feedback": "Ты нашёл бегемотиков. У них болели животики.",
+      "choices": [
+        {
+          "label": "Бегемотики",
+          "image": "assets/books/aibolit/art/aibolit-hippos.webp"
+        },
+        {
+          "label": "Акула",
+          "image": "assets/books/aibolit/art/aibolit-shark.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-013"
+        ],
+        "quote": "А рядом бегемотики Схватились за животики"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-009-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-009-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-009-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-009-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-010",
+      "afterPage": 14,
+      "prompt": "У кого было вывихнуто плечико?",
+      "hint": "Этот маленький зелёный герой не мог прыгать и звал доктора.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, у кузнечика было вывихнуто плечико.",
+      "feedback": "Да, у кузнечика было вывихнуто плечико.",
+      "choices": [
+        {
+          "label": "Собака",
+          "image": "assets/books/aibolit/art/aibolit-dog.webp"
+        },
+        {
+          "label": "Кузнечик",
+          "image": "assets/books/aibolit/art/aibolit-grasshopper.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-015"
+        ],
+        "quote": "И вывихнуто плечико У бедного кузнечика"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-010-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-010-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-010-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-010-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-011",
+      "afterPage": 17,
+      "prompt": "Кто прилетел на птице к больным зверятам?",
+      "hint": "Это добрый доктор в белом халате. Зверята кричали ему: «Ура!»",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, прилетел Айболит! Он принялся лечить зверят.",
+      "feedback": "Верно, прилетел Айболит! Он принялся лечить зверят.",
+      "choices": [
+        {
+          "label": "Доктор Айболит",
+          "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+        },
+        {
+          "label": "Лиса",
+          "image": "assets/books/aibolit/art/aibolit-fox.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-016"
+        ],
+        "quote": "На птице, глядите, сидит Айболит"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-011-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-011-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-011-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-011-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-012",
+      "afterPage": 17,
+      "prompt": "К каким малышам доктор побежал и стал хлопать по животикам?",
+      "hint": "Это маленькие бегемоты, которых пришёл лечить доктор.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Айболит побежал к бегемотикам!",
+      "feedback": "Да, Айболит побежал к бегемотикам!",
+      "choices": [
+        {
+          "label": "Зайчик с мамой",
+          "image": "assets/books/aibolit/art/aibolit-rabbit.webp"
+        },
+        {
+          "label": "Бегемотики",
+          "image": "assets/books/aibolit/art/aibolit-hippos.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-017"
+        ],
+        "quote": "И бежит Айболит к бегемотикам, И хлопает их по животикам"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-012-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-012-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-012-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-012-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-013",
+      "afterPage": 19,
+      "prompt": "Кто подмигнул правым глазом и стал хохотать?",
+      "hint": "Это зубастая морская рыба. Её зовут Каракула.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, акула Каракула подмигнула и хохочет!",
+      "feedback": "Верно, акула Каракула подмигнула и хохочет!",
+      "choices": [
+        {
+          "label": "Акула",
+          "image": "assets/books/aibolit/art/aibolit-shark.webp"
+        },
+        {
+          "label": "Кузнечик",
+          "image": "assets/books/aibolit/art/aibolit-grasshopper.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-019"
+        ],
+        "quote": "И акула Каракула Правым глазом подмигнула И хохочет, и хохочет"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-013-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-013-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-013-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-013-feedback.mp3"
+      }
+    },
+    {
+      "id": "aibolit-exact-question-014",
+      "afterPage": 19,
+      "prompt": "Кто идёт от Занзибара и поёт славу Айболиту?",
+      "hint": "Это большой бегемот. Он радуется вместе со всеми.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Гиппопотам поёт: «Слава Айболиту! Слава добрым докторам!»",
+      "feedback": "Да, Гиппопотам поёт: «Слава Айболиту! Слава добрым докторам!»",
+      "choices": [
+        {
+          "label": "Доктор Айболит",
+          "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+        },
+        {
+          "label": "Гиппопотам",
+          "image": "assets/books/aibolit/art/aibolit_09.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "aibolit-part-020"
+        ],
+        "quote": "Вот идёт Гиппопотам. Он идёт от Занзибара"
+      },
+      "audio": {
+        "prompt": "assets/books/aibolit/audio/aibolit-exact-question-014-prompt.mp3",
+        "hint": "assets/books/aibolit/audio/aibolit-exact-question-014-hint.mp3",
+        "guided": "assets/books/aibolit/audio/aibolit-exact-question-014-guided.mp3",
+        "feedback": "assets/books/aibolit/audio/aibolit-exact-question-014-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку «Айболит» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+    "audio": "assets/books/aibolit/audio/aibolit-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0,
+  "speechOverrides": {
+    "assets/books/aibolit/audio/aibolit-part-017.mp3": {
+      "segments": [
+        "И бежит Айболит к бегемотикам, И хлопает их по животикам, И всем по порядку Даёт шоколадку, И ставит и ставит им градусники! И к полосатым Бежит он тигрятам, И к бедным горбатым Больным верблюжатам, И каждого гоголем, Каждого моголем, Гоголем-моголем,",
+        "Гоголем-моголем, Гоголем-моголем потчует."
+      ]
+    }
+  }
+}

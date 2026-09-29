@@ -1,0 +1,36 @@
+[
+  {
+    "id": "kolobok",
+    "passed": true,
+    "repeatedBothQuestions": true,
+    "restartedDuringQuestion": true,
+    "preservedStarAndOtherProgress": true,
+    "libraryLanguages": [
+      "en",
+      "ru"
+    ],
+    "widths": [
+      320,
+      430,
+      1024
+    ],
+    "errors": []
+  },
+  {
+    "id": "frog",
+    "passed": true,
+    "repeatedBothQuestions": true,
+    "restartedDuringQuestion": true,
+    "preservedStarAndOtherProgress": true,
+    "libraryLanguages": [
+      "en",
+      "ru"
+    ],
+    "widths": [
+      320,
+      430,
+      1024
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "lion-and-mouse",
+    "title": "The Lion and the Mouse",
+    "author": "Aesop",
+    "language": "en",
+    "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp",
+    "pages": [
+      {
+        "sourcePage": 9,
+        "text": "One day a little mouse was scampering about. The mouse accidently ran across the paw of a sleeping lion.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp"
+      },
+      {
+        "sourcePage": 10,
+        "text": "The angry lion awoke and captured the mouse in his great, big, furry paws.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_02.webp"
+      },
+      {
+        "sourcePage": 11,
+        "text": "The lion was just about to eat the mouse when the tiny creature cried out, “Please set me free. One day I will return your kindness.”\n\nSo the lion released the mouse.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_03.webp"
+      },
+      {
+        "sourcePage": 12,
+        "text": "A little while later, the mouse heard what sounded like angry roars. The mouse followed the sounds and discovered the lion trapped in a net made of ropes.\n\nThough frightened, the mouse was determined to keep his promise.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_04.webp"
+      },
+      {
+        "sourcePage": 13,
+        "text": "Using his sharp teeth, the mouse made a hole in the net. And so the great lion was set free by the little mouse.\n\nThe moral of this story is: Friends who are little in size can still be great friends.",
+        "image": "assets/books/lion-and-mouse/art/lion-and-mouse_05.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "What did the little mouse run across?",
+            "options": [
+              "A sleeping lion’s paw.",
+              "A river bridge.",
+              "A bird’s nest.",
+              "A pile of ropes."
+            ],
+            "answer": 0,
+            "hint": "The lion was asleep when the mouse came near.",
+            "explanation": "The mouse accidentally ran across the paw of a sleeping lion."
+          },
+          {
+            "prompt": "How did the lion catch the mouse?",
+            "options": [
+              "In a wooden box.",
+              "In his big furry paws.",
+              "In a hole in a tree.",
+              "With a long rope."
+            ],
+            "answer": 1,
+            "hint": "The lion used part of his own body.",
+            "explanation": "The angry lion captured the mouse in his great, big, furry paws."
+          },
+          {
+            "prompt": "What did the mouse promise the lion?",
+            "options": [
+              "To bring him dinner.",
+              "To leave the forest.",
+              "To return his kindness one day.",
+              "To build him a home."
+            ],
+            "answer": 2,
+            "hint": "The mouse asked to be free and offered help in return.",
+            "explanation": "The mouse promised to return the lion’s kindness one day."
+          },
+          {
+            "prompt": "What did the lion do after hearing the mouse’s plea?",
+            "options": [
+              "He fell into a river.",
+              "He ran away from the mouse.",
+              "He built a net.",
+              "He let the mouse go."
+            ],
+            "answer": 3,
+            "hint": "The mouse asked the lion to set him free.",
+            "explanation": "The lion released the mouse after the mouse asked for freedom."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 5,
+        "questions": [
+          {
+            "prompt": "What sound led the mouse back to the lion?",
+            "options": [
+              "Angry roars.",
+              "Birdsong.",
+              "A bell ringing.",
+              "Quiet snoring."
+            ],
+            "answer": 0,
+            "hint": "The lion was caught and could not get free.",
+            "explanation": "The mouse heard angry roars and followed them to the lion."
+          },
+          {
+            "prompt": "What was the lion trapped in?",
+            "options": [
+              "A deep well.",
+              "A net made of ropes.",
+              "A locked house.",
+              "A hollow tree."
+            ],
+            "answer": 1,
+            "hint": "The mouse needed to make a hole to free him.",
+            "explanation": "The mouse found the lion trapped in a net made of ropes."
+          },
+          {
+            "prompt": "How did the mouse free the lion?",
+            "options": [
+              "He called a hunter.",
+              "He pushed down a tree.",
+              "He used his sharp teeth to make a hole.",
+              "He carried the lion away."
+            ],
+            "answer": 2,
+            "hint": "The mouse could bite through the ropes.",
+            "explanation": "The mouse made a hole in the net with his sharp teeth, setting the lion free."
+          },
+          {
+            "prompt": "What does the story say about small friends?",
+            "options": [
+              "They cannot keep promises.",
+              "They should never help lions.",
+              "They are always afraid.",
+              "They can still be great friends."
+            ],
+            "answer": 3,
+            "hint": "Think about how the little mouse helped the great lion.",
+            "explanation": "The moral says friends who are little in size can still be great friends."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "city-and-country-mouse",
+    "title": "The City Mouse and the Country Mouse",
+    "author": "Aesop",
+    "language": "en",
+    "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/city-and-country-mouse/art/city-and-country-mouse_01.webp",
+    "pages": [
+      {
+        "sourcePage": 17,
+        "text": "One beautiful summer’s day, the City Mouse went to visit his cousin the Country Mouse.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_01.webp"
+      },
+      {
+        "sourcePage": 18,
+        "text": "The Country Mouse had a humble home. He ate plain food like corn and peas. The City Mouse was not impressed. No, Sir!",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_02.webp"
+      },
+      {
+        "sourcePage": 19,
+        "text": "“Cousin, come with me to the wonderful city,” said the City Mouse. The Country Mouse agreed, and they set off together.\n\n“Oh my!” said the Country Mouse when he saw his cousin’s grand home.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_03.webp"
+      },
+      {
+        "sourcePage": 20,
+        "text": "“A feast awaits us!” said the City Mouse proudly. The cousins secretly began to eat wonderful, delicious foods like ham and chocolate cake.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_04.webp"
+      },
+      {
+        "sourcePage": 21,
+        "text": "Suddenly, they heard noises. A cat with sharp claws appeared.\n\nJust in time, the mice escaped inside a small hole in the wall.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_05.webp"
+      },
+      {
+        "sourcePage": 22,
+        "text": "The Country Mouse decided that the city was not for him. He made his way back to his simple home where he was safe and happy.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_06.webp"
+      },
+      {
+        "sourcePage": 23,
+        "text": "The moral of the story is: There’s no place like home.",
+        "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_07.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Who did the City Mouse visit?",
+            "options": [
+              "His cousin, the Country Mouse.",
+              "A cat in the city.",
+              "A lion in the forest.",
+              "A shoemaker."
+            ],
+            "answer": 0,
+            "hint": "The two mice belonged to the same family.",
+            "explanation": "The City Mouse visited his cousin, the Country Mouse, on a summer’s day."
+          },
+          {
+            "prompt": "What food did the Country Mouse eat?",
+            "options": [
+              "Ham and chocolate cake.",
+              "Corn and peas.",
+              "Fish and bread.",
+              "Honey and gingerbread."
+            ],
+            "answer": 1,
+            "hint": "His meals were simple foods from the country.",
+            "explanation": "The Country Mouse ate plain food like corn and peas."
+          },
+          {
+            "prompt": "What did the City Mouse invite his cousin to do?",
+            "options": [
+              "Build a new barn.",
+              "Hide from a lion.",
+              "Come with him to the city.",
+              "Plant a field of corn."
+            ],
+            "answer": 2,
+            "hint": "The City Mouse wanted to show his cousin where he lived.",
+            "explanation": "The City Mouse invited the Country Mouse to the wonderful city."
+          },
+          {
+            "prompt": "How did the Country Mouse react to his cousin’s grand home?",
+            "options": [
+              "He said it was too small.",
+              "He refused to look at it.",
+              "He went to sleep.",
+              "He exclaimed, “Oh my!”"
+            ],
+            "answer": 3,
+            "hint": "The grand home surprised the Country Mouse.",
+            "explanation": "When he saw his cousin’s grand home, the Country Mouse said, “Oh my!”"
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 5,
+        "questions": [
+          {
+            "prompt": "What foods did the cousins enjoy in the city?",
+            "options": [
+              "Ham and chocolate cake.",
+              "Only corn and peas.",
+              "Leaves and grass.",
+              "Porridge and honey."
+            ],
+            "answer": 0,
+            "hint": "The City Mouse proudly called the meal a feast.",
+            "explanation": "The mice secretly ate delicious foods like ham and chocolate cake."
+          },
+          {
+            "prompt": "What animal interrupted the mice’s feast?",
+            "options": [
+              "A cow.",
+              "A cat.",
+              "A fox.",
+              "A bear."
+            ],
+            "answer": 1,
+            "hint": "The visitor had sharp claws.",
+            "explanation": "A cat with sharp claws appeared after the mice heard noises."
+          },
+          {
+            "prompt": "Where did the mice escape?",
+            "options": [
+              "Under a boat.",
+              "Into a garden.",
+              "Inside a small hole in the wall.",
+              "Onto a roof."
+            ],
+            "answer": 2,
+            "hint": "They squeezed into a place too small for the cat.",
+            "explanation": "The mice escaped just in time into a small hole in the wall."
+          },
+          {
+            "prompt": "How were the mice eating before the cat appeared?",
+            "options": [
+              "At a picnic with the cat.",
+              "Alone in a field.",
+              "Beside the Country Mouse’s corn.",
+              "Secretly, at the City Mouse’s feast."
+            ],
+            "answer": 3,
+            "hint": "The text describes how the cousins began their meal.",
+            "explanation": "The cousins secretly began to eat the feast in the city."
+          }
+        ]
+      },
+      {
+        "startPage": 5,
+        "endPage": 7,
+        "questions": [
+          {
+            "prompt": "Where did the Country Mouse go at the end?",
+            "options": [
+              "Back to his simple home.",
+              "To another city.",
+              "Into the cat’s house.",
+              "To a palace."
+            ],
+            "answer": 0,
+            "hint": "He decided that the city was not for him.",
+            "explanation": "The Country Mouse made his way back to his simple home."
+          },
+          {
+            "prompt": "How did the Country Mouse feel at home?",
+            "options": [
+              "Lost and lonely.",
+              "Safe and happy.",
+              "Angry with his family.",
+              "Afraid of the fields."
+            ],
+            "answer": 1,
+            "hint": "His simple home gave him what the city could not.",
+            "explanation": "The text says he was safe and happy in his simple home."
+          },
+          {
+            "prompt": "What did the Country Mouse decide about the city?",
+            "options": [
+              "He wanted to rule it.",
+              "It needed more chocolate.",
+              "It was not for him.",
+              "He would never leave it."
+            ],
+            "answer": 2,
+            "hint": "His decision sent him back to the country.",
+            "explanation": "The Country Mouse decided that the city was not for him."
+          },
+          {
+            "prompt": "What is the moral of this tale?",
+            "options": [
+              "Bigger meals are always better.",
+              "All cousins should live together.",
+              "Never visit a friend.",
+              "There’s no place like home."
+            ],
+            "answer": 3,
+            "hint": "The Country Mouse was happiest when he returned home.",
+            "explanation": "The final page gives the moral: There’s no place like home."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "goldilocks",
+    "title": "Goldilocks and the Three Bears",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/goldilocks/art/goldilocks_01.webp",
+    "pages": [
+      {
+        "sourcePage": 27,
+        "text": "One morning, Papa Bear made some steaming-hot porridge for his family. He poured his porridge into a big bowl. He poured Mama Bear’s porridge into a middle-sized bowl.\n\nFinally, he poured Baby Bear’s porridge into a tiny bowl. While the porridge cooled, the Three Bears went for a walk in the forest.",
+        "image": "assets/books/goldilocks/art/goldilocks_01.webp"
+      },
+      {
+        "sourcePage": 28,
+        "text": "That very same morning, a little girl named Goldilocks had also gone for a walk in the forest. However, Goldilocks lost her way and came upon the Bears’ cozy cottage.",
+        "image": "assets/books/goldilocks/art/goldilocks_02.webp"
+      },
+      {
+        "sourcePage": 29,
+        "text": "Goldilocks was hungry. She stepped inside the cozy cottage. There, she found the three bowls of porridge.\n\nGoldilocks tasted the porridge in the big bowl—too hot! She tasted the porridge in the middle-sized bowl—too cold! Then she tasted the porridge in the tiny bowl. It was just right, so she gobbled it all up.",
+        "image": "assets/books/goldilocks/art/goldilocks_03.webp"
+      },
+      {
+        "sourcePage": 30,
+        "text": "Goldilocks began to feel tired. She looked around and saw three chairs. She tried sitting in the big chair. It was too hard. Ouch!\n\nShe tried sitting in the middle-sized chair. It was too soft. Plop!",
+        "image": "assets/books/goldilocks/art/goldilocks_04.webp"
+      },
+      {
+        "sourcePage": 31,
+        "text": "She sat down in the tiny chair. It was just right. But, suddenly the chair broke and Goldilocks fell to the floor! Crash!",
+        "image": "assets/books/goldilocks/art/goldilocks_05.webp"
+      },
+      {
+        "sourcePage": 32,
+        "text": "Goldilocks went upstairs and found three beds.\n\nShe was still tired, so she tried the big bed. It was too smooth. She tried the middle-sized bed. It was too lumpy. She tried the tiny bed. It was just right. Goldilocks fell fast asleep.",
+        "image": "assets/books/goldilocks/art/goldilocks_06.webp"
+      },
+      {
+        "sourcePage": 33,
+        "text": "While Goldilocks was sleeping, the Bears returned home. They saw that someone had been eating their porridge. They saw that someone had been sitting in their chairs.\n\nBaby Bear said, “Someone has been sitting in my chair—and has broken it all to pieces!”",
+        "image": "assets/books/goldilocks/art/goldilocks_07.webp"
+      },
+      {
+        "sourcePage": 34,
+        "text": "The Bears went upstairs and discovered that someone had been sleeping in their beds. Baby Bear said, “Someone has been sleeping in my bed—and here she is!”\n\nGoldilocks was startled when she woke up and saw the Bears.",
+        "image": "assets/books/goldilocks/art/goldilocks_08.webp"
+      },
+      {
+        "sourcePage": 35,
+        "text": "Goldilocks ran out of the cozy cottage as fast as she could. The Three Bears never saw or heard from her again.",
+        "image": "assets/books/goldilocks/art/goldilocks_09.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Who made porridge for the bear family?",
+            "options": [
+              "Papa Bear.",
+              "Goldilocks.",
+              "Baby Bear.",
+              "A neighbor."
+            ],
+            "answer": 0,
+            "hint": "The first page names the bear who cooked breakfast.",
+            "explanation": "Papa Bear made the steaming-hot porridge and poured it into three bowls."
+          },
+          {
+            "prompt": "Why did the bears go for a walk?",
+            "options": [
+              "They were looking for Goldilocks.",
+              "Their porridge needed to cool.",
+              "They needed new chairs.",
+              "They had no food."
+            ],
+            "answer": 1,
+            "hint": "Their breakfast was steaming hot.",
+            "explanation": "The bears went walking in the forest while their porridge cooled."
+          },
+          {
+            "prompt": "How did Goldilocks find the cottage?",
+            "options": [
+              "She followed Baby Bear.",
+              "She rode there in a cart.",
+              "She lost her way in the forest.",
+              "The bears invited her."
+            ],
+            "answer": 2,
+            "hint": "Goldilocks was also out walking that morning.",
+            "explanation": "Goldilocks lost her way in the forest and came upon the bears’ cottage."
+          },
+          {
+            "prompt": "Which porridge did Goldilocks eat all up?",
+            "options": [
+              "The big bowl’s hot porridge.",
+              "The middle bowl’s cold porridge.",
+              "All three bowls equally.",
+              "The tiny bowl’s porridge."
+            ],
+            "answer": 3,
+            "hint": "One bowl tasted just right.",
+            "explanation": "The porridge in the tiny bowl was just right, so Goldilocks gobbled it all up."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "How did the big chair feel to Goldilocks?",
+            "options": [
+              "Too hard.",
+              "Too soft.",
+              "Just right.",
+              "Too wobbly to touch."
+            ],
+            "answer": 0,
+            "hint": "She said “Ouch!” when she tried it.",
+            "explanation": "The big chair was too hard for Goldilocks."
+          },
+          {
+            "prompt": "What happened when she sat in the tiny chair?",
+            "options": [
+              "It flew away.",
+              "It broke and she fell to the floor.",
+              "It became bigger.",
+              "It rocked her to sleep."
+            ],
+            "answer": 1,
+            "hint": "The story says “Crash!” at this moment.",
+            "explanation": "The tiny chair broke and Goldilocks fell to the floor."
+          },
+          {
+            "prompt": "Where did Goldilocks find the three beds?",
+            "options": [
+              "In the garden.",
+              "Beside the front door.",
+              "Upstairs.",
+              "In a cave."
+            ],
+            "answer": 2,
+            "hint": "She went to another part of the cottage after trying the chairs.",
+            "explanation": "Goldilocks went upstairs and found three beds."
+          },
+          {
+            "prompt": "Which bed did Goldilocks fall asleep in?",
+            "options": [
+              "The big, smooth bed.",
+              "The middle-sized, lumpy bed.",
+              "A bed outside.",
+              "The tiny bed."
+            ],
+            "answer": 3,
+            "hint": "One bed was just right.",
+            "explanation": "The tiny bed was just right, and Goldilocks fell fast asleep in it."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "What did Baby Bear find had happened to his chair?",
+            "options": [
+              "It had been broken to pieces.",
+              "It had been painted blue.",
+              "It had been moved outdoors.",
+              "It had grown bigger."
+            ],
+            "answer": 0,
+            "hint": "The bears noticed someone had been sitting in their chairs.",
+            "explanation": "Baby Bear said that someone had sat in his chair and broken it to pieces."
+          },
+          {
+            "prompt": "Where did the bears find Goldilocks?",
+            "options": [
+              "In the kitchen.",
+              "In Baby Bear’s bed.",
+              "Behind a tree.",
+              "Under Papa Bear’s chair."
+            ],
+            "answer": 1,
+            "hint": "They found her when they went upstairs.",
+            "explanation": "Baby Bear found Goldilocks sleeping in his bed."
+          },
+          {
+            "prompt": "How did Goldilocks feel when she woke and saw the bears?",
+            "options": [
+              "Pleased to meet them.",
+              "Too sleepy to notice.",
+              "Startled.",
+              "Proud of herself."
+            ],
+            "answer": 2,
+            "hint": "Seeing the bears was an unexpected surprise.",
+            "explanation": "The text says Goldilocks was startled when she woke up and saw the bears."
+          },
+          {
+            "prompt": "What happened after Goldilocks ran from the cottage?",
+            "options": [
+              "She returned for more porridge.",
+              "The bears invited her to stay.",
+              "Baby Bear followed her home.",
+              "The bears never saw or heard from her again."
+            ],
+            "answer": 3,
+            "hint": "The final sentence tells whether she returned.",
+            "explanation": "Goldilocks ran away, and the three bears never saw or heard from her again."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gingerbread-man",
+    "title": "The Gingerbread Man",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/gingerbread-man/art/gingerbread-man_01.webp",
+    "pages": [
+      {
+        "sourcePage": 39,
+        "text": "One day, a little old woman decided to make a delicious gingerbread man cookie.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_01.webp"
+      },
+      {
+        "sourcePage": 40,
+        "text": "She put the cookie dough on a cookie sheet and baked it in the oven. To her surprise, when she opened the oven, the Gingerbread Man jumped out!",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_02.webp"
+      },
+      {
+        "sourcePage": 41,
+        "text": "The Gingerbread Man ran out of the house. The little old woman and her husband ran as fast as they could, but they could not catch the Gingerbread Man.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_03.webp"
+      },
+      {
+        "sourcePage": 42,
+        "text": "A cow grazing in a field sniffed the air. The smell of ginger made the cow want to eat the Gingerbread Man. The cow could not catch the Gingerbread Man either.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_04.webp"
+      },
+      {
+        "sourcePage": 43,
+        "text": "A cat sleeping in the warm sunshine thought that the Gingerbread Man would make a tasty treat. Not even the cat could catch the Gingerbread Man.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_05.webp"
+      },
+      {
+        "sourcePage": 44,
+        "text": "Then the Gingerbread Man met a clever fox.\n\nThe fox pretended that he was not hungry and therefore did not want to catch the Gingerbread Man.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_06.webp"
+      },
+      {
+        "sourcePage": 45,
+        "text": "The clever fox said that he would be happy to help the Gingerbread Man cross the river.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_07.webp"
+      },
+      {
+        "sourcePage": 46,
+        "text": "As they were crossing the river, the fox said, “The water is getting deeper. You should ride on my head.”\n\nMoments later the fox said, “Now you should ride on my nose.”",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_08.webp"
+      },
+      {
+        "sourcePage": 47,
+        "text": "Before the Gingerbread Man could even say, “Thank you for your kindness,” the fox ate him— every last bite.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_09.webp"
+      },
+      {
+        "sourcePage": 48,
+        "text": "Chomp! Smack! The clever fox licked his lips as he crossed to the other side of the river.",
+        "image": "assets/books/gingerbread-man/art/gingerbread-man_10.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Who decided to make a gingerbread man cookie?",
+            "options": [
+              "A little old woman.",
+              "A clever fox.",
+              "A farmer’s cow.",
+              "A little boy."
+            ],
+            "answer": 0,
+            "hint": "The story begins in her kitchen.",
+            "explanation": "A little old woman decided to make the cookie."
+          },
+          {
+            "prompt": "Where did the woman bake the cookie dough?",
+            "options": [
+              "In a bowl of water.",
+              "On a cookie sheet in the oven.",
+              "In a basket outdoors.",
+              "On a windowsill."
+            ],
+            "answer": 1,
+            "hint": "She opened the oven after baking.",
+            "explanation": "She put the cookie dough on a cookie sheet and baked it in the oven."
+          },
+          {
+            "prompt": "What surprised the woman when she opened the oven?",
+            "options": [
+              "The cookie had disappeared.",
+              "A cat was sleeping there.",
+              "The Gingerbread Man jumped out.",
+              "The oven was full of flowers."
+            ],
+            "answer": 2,
+            "hint": "The cookie suddenly began to move.",
+            "explanation": "The Gingerbread Man jumped out when she opened the oven."
+          },
+          {
+            "prompt": "Who chased the Gingerbread Man out of the house?",
+            "options": [
+              "The fox and the cat.",
+              "The cow and the fox.",
+              "Only the woman’s husband.",
+              "The woman and her husband."
+            ],
+            "answer": 3,
+            "hint": "Both people ran as fast as they could.",
+            "explanation": "The little old woman and her husband chased him, but could not catch him."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "What made the cow want to eat the Gingerbread Man?",
+            "options": [
+              "The smell of ginger.",
+              "The sound of a bell.",
+              "A bowl of milk.",
+              "A promise from the fox."
+            ],
+            "answer": 0,
+            "hint": "The cow sniffed the air.",
+            "explanation": "The smell of ginger made the cow want to eat him."
+          },
+          {
+            "prompt": "What was the cat doing before noticing the Gingerbread Man?",
+            "options": [
+              "Swimming in the river.",
+              "Sleeping in the warm sunshine.",
+              "Climbing the oven.",
+              "Helping the woman bake."
+            ],
+            "answer": 1,
+            "hint": "The cat was resting in a warm place.",
+            "explanation": "The cat was sleeping in the warm sunshine."
+          },
+          {
+            "prompt": "Which of these animals caught the Gingerbread Man during the chase?",
+            "options": [
+              "The cow.",
+              "The cat.",
+              "Neither the cow nor the cat.",
+              "Both the cow and the cat."
+            ],
+            "answer": 2,
+            "hint": "He ran too fast for both animals.",
+            "explanation": "The cow could not catch him, and not even the cat could catch him."
+          },
+          {
+            "prompt": "What did the fox pretend?",
+            "options": [
+              "That he could not see the cookie.",
+              "That he was asleep.",
+              "That he had lost his way.",
+              "That he was not hungry."
+            ],
+            "answer": 3,
+            "hint": "The fox wanted the Gingerbread Man to trust him.",
+            "explanation": "The fox pretended he was not hungry and did not want to catch him."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 8,
+        "questions": [
+          {
+            "prompt": "What did the fox offer to help the Gingerbread Man cross?",
+            "options": [
+              "The river.",
+              "A high mountain.",
+              "A city street.",
+              "A deep forest."
+            ],
+            "answer": 0,
+            "hint": "The next page describes the water getting deeper.",
+            "explanation": "The fox offered to help the Gingerbread Man cross the river."
+          },
+          {
+            "prompt": "Why did the fox say the Gingerbread Man should move to his head?",
+            "options": [
+              "His ears were cold.",
+              "The water was getting deeper.",
+              "They had reached the house.",
+              "The cow was waiting."
+            ],
+            "answer": 1,
+            "hint": "The fox gave a reason about the river.",
+            "explanation": "The fox said the water was getting deeper and told him to ride on his head."
+          },
+          {
+            "prompt": "Where did the fox tell him to ride after his head?",
+            "options": [
+              "On his tail.",
+              "On his back.",
+              "On his nose.",
+              "On a floating leaf."
+            ],
+            "answer": 2,
+            "hint": "It was a part of the fox’s face.",
+            "explanation": "Moments later, the fox told him to ride on his nose."
+          },
+          {
+            "prompt": "When did the fox give these instructions?",
+            "options": [
+              "Before meeting the Gingerbread Man.",
+              "Inside the woman’s kitchen.",
+              "After returning to the field.",
+              "While they were crossing the river."
+            ],
+            "answer": 3,
+            "hint": "The fox was carrying him through the water.",
+            "explanation": "The fox gave the instructions as they were crossing the river."
+          }
+        ]
+      },
+      {
+        "startPage": 8,
+        "endPage": 10,
+        "questions": [
+          {
+            "prompt": "What did the fox do to the Gingerbread Man?",
+            "options": [
+              "He ate him.",
+              "He took him home.",
+              "He gave him to the cat.",
+              "He left him in a tree."
+            ],
+            "answer": 0,
+            "hint": "The story says the fox ate every last bite.",
+            "explanation": "Before the Gingerbread Man could finish thanking him, the fox ate him."
+          },
+          {
+            "prompt": "What was the Gingerbread Man about to say?",
+            "options": [
+              "“Run faster!”",
+              "“Thank you for your kindness.”",
+              "“Where is the cow?”",
+              "“Let us go back.”"
+            ],
+            "answer": 1,
+            "hint": "He thought the fox had been helpful.",
+            "explanation": "He was about to thank the fox for his kindness."
+          },
+          {
+            "prompt": "What did the fox do with his lips afterward?",
+            "options": [
+              "He covered them with a leaf.",
+              "He washed them with soap.",
+              "He licked them.",
+              "He painted them."
+            ],
+            "answer": 2,
+            "hint": "The final page describes the fox after eating.",
+            "explanation": "The fox licked his lips as he crossed to the other side of the river."
+          },
+          {
+            "prompt": "Where did the fox go at the end?",
+            "options": [
+              "Back into the oven.",
+              "To the woman’s cottage.",
+              "To the cow’s field.",
+              "To the other side of the river."
+            ],
+            "answer": 3,
+            "hint": "He completed the crossing.",
+            "explanation": "The fox crossed to the other side of the river after eating the Gingerbread Man."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shoemaker-and-elves",
+    "title": "The Shoemaker and the Elves",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "Retold by Rosie McCormick. Illustrated by Barbara L. Gibson. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp",
+    "pages": [
+      {
+        "sourcePage": 53,
+        "text": "Once there was a poor shoemaker and his wife. “We only have enough leather left to make one pair of shoes,” said the worried shoemaker to his wife.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp"
+      },
+      {
+        "sourcePage": 54,
+        "text": "That night, the shoemaker left the leather on his workbench and went to bed. He decided he would make his last pair of shoes in the morning.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_02.webp"
+      },
+      {
+        "sourcePage": 55,
+        "text": "When the shoemaker woke up, he was shocked to find a beautiful pair of shoes on his workbench.\n\nHe puzzled and puzzled over who could have made such beautiful shoes.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_03.webp"
+      },
+      {
+        "sourcePage": 56,
+        "text": "Later that day, a customer came into the workshop and admired the shoes. They fit his feet so perfectly that he paid double the money for them!",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_04.webp"
+      },
+      {
+        "sourcePage": 57,
+        "text": "“We now have enough money to buy dinner and to buy leather for two more pairs of shoes,” the shoemaker said happily.\n\nThat evening he cut leather for two pairs of shoes and left it on his workbench.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_05.webp"
+      },
+      {
+        "sourcePage": 58,
+        "text": "Amazingly, the next morning, there were four pairs of new, fancy shoes. The shoemaker and his wife sold all four and made more money.\n\n“I must discover who is making these shoes,” said the shoemaker to his wife. So, they decided to stay awake and watch the workbench all night.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_06.webp"
+      },
+      {
+        "sourcePage": 59,
+        "text": "That evening, two tiny elves in tattered clothes tip-toed into the workshop. They began to sew the leather into beautiful shoes.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_07.webp"
+      },
+      {
+        "sourcePage": 60,
+        "text": "“Those poor elves must be freezing in their ragged clothes,” said the wife to the shoemaker.\n\nSo, they decided to sew new clothes and shoes for the poor little elves. That evening, they left the gifts on the workbench for the elves to find.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_08.webp"
+      },
+      {
+        "sourcePage": 61,
+        "text": "When the elves returned, they discovered the beautiful clothes and shoes. They were so happy with their new clothes that they danced out of the workshop and were never seen again.\n\nFrom that day forward, the shoemaker and his wife lived a happy life with plenty to eat.",
+        "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_09.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "How much leather did the poor shoemaker have at first?",
+            "options": [
+              "Enough for one pair of shoes.",
+              "Enough for ten pairs of shoes.",
+              "A whole cart of leather.",
+              "No leather at all."
+            ],
+            "answer": 0,
+            "hint": "He told his wife why he was worried.",
+            "explanation": "He had only enough leather left to make one pair of shoes."
+          },
+          {
+            "prompt": "Where did the shoemaker leave the leather that night?",
+            "options": [
+              "Under his bed.",
+              "On his workbench.",
+              "Beside the road.",
+              "In the customer’s bag."
+            ],
+            "answer": 1,
+            "hint": "It was the place where he worked.",
+            "explanation": "He left the leather on his workbench and went to bed."
+          },
+          {
+            "prompt": "When did he plan to make the shoes?",
+            "options": [
+              "In a week.",
+              "At midnight.",
+              "In the morning.",
+              "After the winter."
+            ],
+            "answer": 2,
+            "hint": "He went to bed before doing the work.",
+            "explanation": "The shoemaker decided to make his last pair of shoes in the morning."
+          },
+          {
+            "prompt": "What surprised him when he woke up?",
+            "options": [
+              "The leather had vanished forever.",
+              "His workbench was broken.",
+              "His wife had sold the house.",
+              "A beautiful pair of shoes was on the workbench."
+            ],
+            "answer": 3,
+            "hint": "The work seemed to have been done while he slept.",
+            "explanation": "He found a beautiful pair of shoes and wondered who had made them."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "Why did the customer pay double for the shoes?",
+            "options": [
+              "They fit his feet perfectly.",
+              "He wanted to buy the workbench.",
+              "They were the only red shoes.",
+              "He had promised the wife."
+            ],
+            "answer": 0,
+            "hint": "The customer admired how well the shoes fit.",
+            "explanation": "The shoes fit so perfectly that the customer paid double the money."
+          },
+          {
+            "prompt": "What could the shoemaker buy with the money?",
+            "options": [
+              "A new cottage and a horse.",
+              "Dinner and leather for two more pairs.",
+              "Only one loaf of bread.",
+              "A golden crown."
+            ],
+            "answer": 1,
+            "hint": "The money helped with both food and his work.",
+            "explanation": "He had enough money to buy dinner and leather for two more pairs of shoes."
+          },
+          {
+            "prompt": "How many pairs appeared the next morning?",
+            "options": [
+              "One pair.",
+              "Two pairs.",
+              "Four pairs.",
+              "Eight pairs."
+            ],
+            "answer": 2,
+            "hint": "The story calls the surprise amazing.",
+            "explanation": "Although he cut leather for two pairs, the source says four pairs appeared the next morning."
+          },
+          {
+            "prompt": "How did the shoemaker and his wife plan to find the helpers?",
+            "options": [
+              "They asked the customer.",
+              "They followed tracks outdoors.",
+              "They locked the workshop.",
+              "They stayed awake to watch the workbench."
+            ],
+            "answer": 3,
+            "hint": "They wanted to see what happened at night.",
+            "explanation": "They decided to stay awake and watch the workbench all night."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "Who came into the workshop and made the shoes?",
+            "options": [
+              "Two tiny elves.",
+              "Two bears.",
+              "The customer’s children.",
+              "A family of mice."
+            ],
+            "answer": 0,
+            "hint": "The helpers arrived wearing tattered clothes.",
+            "explanation": "Two tiny elves tiptoed in and sewed the leather into beautiful shoes."
+          },
+          {
+            "prompt": "Why did the wife want to help the elves?",
+            "options": [
+              "They had lost their tools.",
+              "She thought they were freezing in ragged clothes.",
+              "They had asked for a large house.",
+              "They could not find the workshop."
+            ],
+            "answer": 1,
+            "hint": "She noticed what the elves were wearing.",
+            "explanation": "She worried that the elves were freezing in their ragged clothes."
+          },
+          {
+            "prompt": "What gifts did the couple leave on the workbench?",
+            "options": [
+              "Bowls of porridge.",
+              "Bags of gold.",
+              "New clothes and shoes.",
+              "A toy cart."
+            ],
+            "answer": 2,
+            "hint": "They sewed gifts to keep the little helpers warm.",
+            "explanation": "The shoemaker and his wife made new clothes and shoes for the elves."
+          },
+          {
+            "prompt": "What happened after the elves found their gifts?",
+            "options": [
+              "They asked for more leather.",
+              "They stayed in the workshop forever.",
+              "They hid all the shoes.",
+              "They danced away, and the couple lived happily."
+            ],
+            "answer": 3,
+            "hint": "The last page tells how both the elves and the couple fared.",
+            "explanation": "The happy elves danced away and were never seen again; the couple lived happily with plenty to eat."
+          }
+        ]
+      }
+    ]
+  }
+]

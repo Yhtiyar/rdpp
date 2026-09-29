@@ -1,0 +1,246 @@
+{
+  "id": "shoemaker-and-elves",
+  "title": "The Shoemaker and the Elves",
+  "language": "en",
+  "attribution": "Retold by Rosie McCormick. Illustrated by Barbara L. Gibson. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "shoemaker-and-elves-part-001",
+      "text": "Once there was a poor shoemaker and his wife. “We only have enough leather left to make one pair of shoes,” said the worried shoemaker to his wife. That night, the shoemaker left the leather on his workbench and went to bed. He decided he would make his last pair of shoes in the morning.",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_01.webp",
+      "sourcePages": [
+        53,
+        54
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 288,
+      "estimatedPlaybackSeconds": 22.8,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-001.mp3"
+    },
+    {
+      "id": "shoemaker-and-elves-part-002",
+      "text": "When the shoemaker woke up, he was shocked to find a beautiful pair of shoes on his workbench. He puzzled and puzzled over who could have made such beautiful shoes. Later that day, a customer came into the workshop and admired the shoes. They fit his feet so perfectly that he paid double the money for them!",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_03.webp",
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 289,
+      "sourceTextEnd": 597,
+      "estimatedPlaybackSeconds": 24.39,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-002.mp3"
+    },
+    {
+      "id": "shoemaker-and-elves-part-003",
+      "text": "“We now have enough money to buy dinner and to buy leather for two more pairs of shoes,” the shoemaker said happily. That evening he cut leather for two pairs of shoes and left it on his workbench. Amazingly, the next morning, there were four pairs of new, fancy shoes.",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_05.webp",
+      "sourcePages": [
+        57,
+        58
+      ],
+      "sourceReadingPages": [
+        4,
+        5
+      ],
+      "sourceTextStart": 598,
+      "sourceTextEnd": 867,
+      "estimatedPlaybackSeconds": 21.3,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-003.mp3"
+    },
+    {
+      "id": "shoemaker-and-elves-part-004",
+      "text": "The shoemaker and his wife sold all four and made more money. “I must discover who is making these shoes,” said the shoemaker to his wife. So, they decided to stay awake and watch the workbench all night. That evening, two tiny elves in tattered clothes tip-toed into the workshop.",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_06.webp",
+      "sourcePages": [
+        58,
+        59
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 868,
+      "sourceTextEnd": 1149,
+      "estimatedPlaybackSeconds": 22.25,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-004.mp3"
+    },
+    {
+      "id": "shoemaker-and-elves-part-005",
+      "text": "They began to sew the leather into beautiful shoes. “Those poor elves must be freezing in their ragged clothes,” said the wife to the shoemaker. So, they decided to sew new clothes and shoes for the poor little elves. That evening, they left the gifts on the workbench for the elves to find.",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_08.webp",
+      "sourcePages": [
+        59,
+        60
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1150,
+      "sourceTextEnd": 1441,
+      "estimatedPlaybackSeconds": 23.04,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-005.mp3"
+    },
+    {
+      "id": "shoemaker-and-elves-part-006",
+      "text": "When the elves returned, they discovered the beautiful clothes and shoes. They were so happy with their new clothes that they danced out of the workshop and were never seen again. From that day forward, the shoemaker and his wife lived a happy life with plenty to eat.",
+      "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_09.webp",
+      "sourcePages": [
+        61
+      ],
+      "sourceReadingPages": [
+        8
+      ],
+      "sourceTextStart": 1442,
+      "sourceTextEnd": 1710,
+      "estimatedPlaybackSeconds": 21.22,
+      "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-part-006.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What did the shoemaker find on his workbench?",
+      "hint": "He could wear them on his feet.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoe.",
+      "feedback": "He found beautiful shoes on his workbench.",
+      "choices": [
+        {
+          "label": "Shoe",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+        },
+        {
+          "label": "Candle",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_candle.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "shoemaker-and-elves-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-001-prompt.mp3",
+        "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-001-hint.mp3",
+        "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-001-guided.mp3",
+        "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "shoemaker-and-elves-part-002"
+        ],
+        "quote": "When the shoemaker woke up, he was shocked to find a beautiful pair of shoes on his workbench."
+      }
+    },
+    {
+      "prompt": "What did the shoemaker cut to make more shoes?",
+      "hint": "These pieces became the outside of the shoes.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the leather pieces.",
+      "feedback": "The shoemaker cut pieces of leather.",
+      "choices": [
+        {
+          "label": "Shoe",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+        },
+        {
+          "label": "Leather pieces",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_leather.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "shoemaker-and-elves-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-002-prompt.mp3",
+        "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-002-hint.mp3",
+        "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-002-guided.mp3",
+        "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "shoemaker-and-elves-part-003"
+        ],
+        "quote": "That evening he cut leather for two pairs of shoes and left it on his workbench."
+      }
+    },
+    {
+      "prompt": "Who secretly made the beautiful shoes?",
+      "hint": "Two tiny helpers came into the workshop at night.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the elf.",
+      "feedback": "The little elves made the shoes!",
+      "choices": [
+        {
+          "label": "Elf",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_elf.webp"
+        },
+        {
+          "label": "Shoemaker",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoemaker.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "shoemaker-and-elves-exact-question-003",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-003-prompt.mp3",
+        "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-003-hint.mp3",
+        "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-003-guided.mp3",
+        "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "shoemaker-and-elves-part-004"
+        ],
+        "quote": "That evening, two tiny elves in tattered clothes tip-toed into the workshop."
+      }
+    },
+    {
+      "prompt": "Who said the little elves must be cold?",
+      "hint": "She helped her husband make gifts for the elves.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the shoemaker’s wife.",
+      "feedback": "The shoemaker’s wife wanted to keep the elves warm.",
+      "choices": [
+        {
+          "label": "Elf",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_elf.webp"
+        },
+        {
+          "label": "Shoemaker’s wife",
+          "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_wife.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "shoemaker-and-elves-exact-question-004",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-004-prompt.mp3",
+        "hint": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-004-hint.mp3",
+        "guided": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-004-guided.mp3",
+        "feedback": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "shoemaker-and-elves-part-005"
+        ],
+        "quote": "“Those poor elves must be freezing in their ragged clothes,” said the wife to the shoemaker."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/shoemaker-and-elves/audio/shoemaker-and-elves-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

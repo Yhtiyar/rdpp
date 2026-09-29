@@ -1,0 +1,141 @@
+{
+  "id": "city-and-country-mouse",
+  "title": "The City Mouse and the Country Mouse",
+  "language": "en",
+  "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/city-and-country-mouse/art/city-and-country-mouse_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "city-and-country-mouse-part-001",
+      "text": "One beautiful summer’s day, the City Mouse went to visit his cousin the Country Mouse. The Country Mouse had a humble home. He ate plain food like corn and peas. The City Mouse was not impressed. No, Sir! “Cousin, come with me to the wonderful city,” said the City Mouse.",
+      "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_02.webp",
+      "sourcePages": [
+        17,
+        18,
+        19
+      ],
+      "sourceReadingPages": [
+        0,
+        1,
+        2
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 271,
+      "estimatedPlaybackSeconds": 21.46,
+      "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-part-001.mp3"
+    },
+    {
+      "id": "city-and-country-mouse-part-002",
+      "text": "The Country Mouse agreed, and they set off together. “Oh my!” said the Country Mouse when he saw his cousin’s grand home. “A feast awaits us!” said the City Mouse proudly. The cousins secretly began to eat wonderful, delicious foods like ham and chocolate cake. Suddenly, they heard noises.",
+      "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_04.webp",
+      "sourcePages": [
+        19,
+        20,
+        21
+      ],
+      "sourceReadingPages": [
+        2,
+        3,
+        4
+      ],
+      "sourceTextStart": 272,
+      "sourceTextEnd": 562,
+      "estimatedPlaybackSeconds": 22.96,
+      "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-part-002.mp3"
+    },
+    {
+      "id": "city-and-country-mouse-part-003",
+      "text": "A cat with sharp claws appeared. Just in time, the mice escaped inside a small hole in the wall. The Country Mouse decided that the city was not for him. He made his way back to his simple home where he was safe and happy. The moral of the story is: There’s no place like home.",
+      "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_05.webp",
+      "sourcePages": [
+        21,
+        22,
+        23
+      ],
+      "sourceReadingPages": [
+        4,
+        5,
+        6
+      ],
+      "sourceTextStart": 563,
+      "sourceTextEnd": 840,
+      "estimatedPlaybackSeconds": 21.93,
+      "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-part-003.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who appeared while the mice were eating?",
+      "hint": "This animal had sharp claws. The mice hurried away.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the cat.",
+      "feedback": "The cat appeared while the mice were eating.",
+      "choices": [
+        {
+          "label": "Cat",
+          "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_cat.webp"
+        },
+        {
+          "label": "Country Mouse in blue overalls",
+          "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "city-and-country-mouse-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-001-prompt.mp3",
+        "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-001-hint.mp3",
+        "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-001-guided.mp3",
+        "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "city-and-country-mouse-part-003"
+        ],
+        "quote": "A cat with sharp claws appeared."
+      }
+    },
+    {
+      "prompt": "Who went back to his country home?",
+      "hint": "He decided that the city was not for him. He wanted his simple home.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the country Mouse in blue overalls.",
+      "feedback": "Country Mouse went home and felt safe and happy.",
+      "choices": [
+        {
+          "label": "Cat",
+          "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_cat.webp"
+        },
+        {
+          "label": "Country Mouse in blue overalls",
+          "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "city-and-country-mouse-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-002-prompt.mp3",
+        "hint": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-002-hint.mp3",
+        "guided": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-002-guided.mp3",
+        "feedback": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "city-and-country-mouse-part-003"
+        ],
+        "quote": "The Country Mouse decided that the city was not for him. He made his way back to his simple home where he was safe and happy."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/city-and-country-mouse/audio/city-and-country-mouse-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

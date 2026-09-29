@@ -1,0 +1,347 @@
+{
+  "id": "why-flies-buzz",
+  "title": "Why Flies Buzz",
+  "language": "en",
+  "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh; illustration on PDF page 113 by Barbara L. Gibson. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "why-flies-buzz-part-001",
+      "text": "One bright, sunny day, a man and his wife went into the jungle to gather food. When they reached a coconut tree, the man took out his knife. The man climbed up the tree to cut down some delicious coconuts. As the man reached for a coconut, a black fly flitted around his face.",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp",
+      "sourcePages": [
+        103,
+        104
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 276,
+      "estimatedPlaybackSeconds": 21.85,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-001.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-002",
+      "text": "He tried to swat the fly, and dropped his knife. “Watch out, Wife!” he cried. The wife jumped out of the way. As she jumped, she kicked a crocodile that was sleeping beneath the tree. The angry crocodile’s tail went—swack! swack! swack! Nearby, a jungle bird was looking for bugs to eat.",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_03.webp",
+      "sourcePages": [
+        104,
+        105,
+        106
+      ],
+      "sourceReadingPages": [
+        1,
+        2,
+        3
+      ],
+      "sourceTextStart": 277,
+      "sourceTextEnd": 564,
+      "estimatedPlaybackSeconds": 22.72,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-002.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-003",
+      "text": "As the crocodile’s tail came down, the bird squawked—scree! scree! scree! The bird soared to a branch in a tree and landed right next to a monkey. The monkey was peeling a juicy mango. The monkey, startled by the bird, dropped his mango. It fell on the head of a hippo—splat! splat! splat!",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_05.webp",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 565,
+      "sourceTextEnd": 854,
+      "estimatedPlaybackSeconds": 22.88,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-003.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-004",
+      "text": "The hippo thought he was being attacked by hunters. He tried to escape—stomp! stomp! stomp! As he did, he trampled on a bushfowl’s nest. The nest was full of eggs. “My eggs are all broken!” wailed the bushfowl. She began to cry—sob! sob! sob!",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_06.webp",
+      "sourcePages": [
+        108,
+        109
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 855,
+      "sourceTextEnd": 1097,
+      "estimatedPlaybackSeconds": 19.16,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-004.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-005",
+      "text": "And there she stayed, beside her nest, for many days and nights. She did not awaken the sun with her familiar call—kark! kark! kark! So the sky remained dark for several days. The jungle animals were worried. They went to talk to the wise lion. The lion gathered all the animals together to find out what had happened.",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_08.webp",
+      "sourcePages": [
+        109,
+        110
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1098,
+      "sourceTextEnd": 1416,
+      "estimatedPlaybackSeconds": 25.18,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-005.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-006",
+      "text": "Everyone blamed each other. The last to speak was the man. He said, “Wise Lion, I dropped my knife because a black fly was annoying me.” “Aha!” said the lion. “Then it is the black fly’s fault!” said the lion. But the black fly answered back. “Buzz! Buzz! Buzz!” said the fly.",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_10.webp",
+      "sourcePages": [
+        111,
+        112
+      ],
+      "sourceReadingPages": [
+        8,
+        9
+      ],
+      "sourceTextStart": 1417,
+      "sourceTextEnd": 1693,
+      "estimatedPlaybackSeconds": 21.85,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-006.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-007",
+      "text": "“Have you nothing else to say?” asked the lion. The fly ignored the lion and continued saying “buzz! Buzz! Buzz!” The lion was angry with the fly and decided to punish him. “Black Fly!” he bellowed. “Since you refuse to answer, I shall take away your power to talk.”",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_11.webp",
+      "sourcePages": [
+        112,
+        113
+      ],
+      "sourceReadingPages": [
+        9,
+        10
+      ],
+      "sourceTextStart": 1694,
+      "sourceTextEnd": 1960,
+      "estimatedPlaybackSeconds": 21.06,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-007.mp3"
+    },
+    {
+      "id": "why-flies-buzz-part-008",
+      "text": "The fly tried to speak, but all he could say was, “Buzz! Buzz! Buzz!” To this day, flies all around the world can only say, “Buzz! Buzz! Buzz!” The bushfowl was satisfied. The fly that had caused all the trouble had been punished. And so she agreed to once again call the sun to begin the day.",
+      "image": "assets/books/why-flies-buzz/art/why-flies-buzz_12.webp",
+      "sourcePages": [
+        113,
+        114
+      ],
+      "sourceReadingPages": [
+        10,
+        11
+      ],
+      "sourceTextStart": 1961,
+      "sourceTextEnd": 2254,
+      "estimatedPlaybackSeconds": 23.2,
+      "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-part-008.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who flew around the man’s face?",
+      "hint": "It was a tiny insect with wings.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the black fly.",
+      "feedback": "The black fly flew around the man’s face.",
+      "choices": [
+        {
+          "label": "Black fly",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-fly.webp"
+        },
+        {
+          "label": "Lion",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-lion.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "why-flies-buzz-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-001-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-001-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-001-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-001"
+        ],
+        "quote": "As the man reached for a coconut, a black fly flitted around his face."
+      }
+    },
+    {
+      "prompt": "Who was sleeping under the coconut tree?",
+      "hint": "It woke up and swung a long tail.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the crocodile.",
+      "feedback": "The crocodile was sleeping under the tree.",
+      "choices": [
+        {
+          "label": "Monkey",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-monkey.webp"
+        },
+        {
+          "label": "Crocodile",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-crocodile.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "why-flies-buzz-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-002-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-002-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-002-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-002"
+        ],
+        "quote": "As she jumped, she kicked a crocodile that was sleeping beneath the tree."
+      }
+    },
+    {
+      "prompt": "Who gathered everyone to hear what happened?",
+      "hint": "This wise animal had a big mane.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the lion.",
+      "feedback": "The lion gathered everyone together.",
+      "choices": [
+        {
+          "label": "Lion",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-lion.webp"
+        },
+        {
+          "label": "Black fly",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-fly.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "why-flies-buzz-exact-question-003",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-003-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-003-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-003-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-005"
+        ],
+        "quote": "The lion gathered all the animals together to find out what had happened."
+      }
+    },
+    {
+      "prompt": "Who stayed beside the broken eggs?",
+      "hint": "She was a bird with a nest.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the bushfowl.",
+      "feedback": "The bushfowl stayed beside her broken eggs.",
+      "choices": [
+        {
+          "label": "Hippo",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-hippo.webp"
+        },
+        {
+          "label": "Bushfowl",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-bushfowl.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "why-flies-buzz-exact-question-004",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-004-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-004-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-004-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-004",
+          "why-flies-buzz-part-005"
+        ],
+        "quote": "“My eggs are all broken!” wailed the bushfowl. She began to cry—sob! sob! sob! And there she stayed, beside her nest, for many days and nights."
+      }
+    },
+    {
+      "prompt": "Who could only say, “Buzz, buzz, buzz”?",
+      "hint": "The little insect tried to speak after the lion punished him.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the black fly.",
+      "feedback": "The fly could only say, “Buzz, buzz, buzz!”",
+      "choices": [
+        {
+          "label": "Black fly",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-fly.webp"
+        },
+        {
+          "label": "Lion",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-lion.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "why-flies-buzz-exact-question-005",
+      "afterPage": 7,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-005-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-005-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-005-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-005-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-008"
+        ],
+        "quote": "The fly tried to speak, but all he could say was, “Buzz! Buzz! Buzz!”"
+      }
+    },
+    {
+      "prompt": "Who called the sun again at the end?",
+      "hint": "This bird was satisfied when the fly was punished.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the bushfowl.",
+      "feedback": "The bushfowl called the sun, and the day could begin!",
+      "choices": [
+        {
+          "label": "Monkey",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-monkey.webp"
+        },
+        {
+          "label": "Bushfowl",
+          "image": "assets/books/why-flies-buzz/art/why-flies-buzz-bushfowl.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "why-flies-buzz-exact-question-006",
+      "afterPage": 7,
+      "audio": {
+        "prompt": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-006-prompt.mp3",
+        "hint": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-006-hint.mp3",
+        "guided": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-006-guided.mp3",
+        "feedback": "assets/books/why-flies-buzz/audio/why-flies-buzz-exact-question-006-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "why-flies-buzz-part-008"
+        ],
+        "quote": "The bushfowl was satisfied. The fly that had caused all the trouble had been punished. And so she agreed to once again call the sun to begin the day."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to Why Flies Buzz and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/why-flies-buzz/audio/why-flies-buzz-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

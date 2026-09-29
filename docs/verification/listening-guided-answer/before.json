@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kolobok",
+    "passed": false,
+    "error": "State did not advance: {\"version\":2,\"phase\":\"question\",\"page\":2,\"question\":0,\"heard\":[0,1,2],\"answers\":{},\"attempts\":2,\"clipKind\":\"guided\",\"promptHeard\":true,\"positionMs\":0,\"autoAdvance\":true,\"captions\":false,\"completedEver\":false}",
+    "state": {
+      "version": 2,
+      "phase": "question",
+      "page": 2,
+      "question": 0,
+      "heard": [
+        0,
+        1,
+        2
+      ],
+      "answers": {},
+      "attempts": 2,
+      "clipKind": "guided",
+      "promptHeard": true,
+      "positionMs": 0,
+      "autoAdvance": true,
+      "captions": false,
+      "completedEver": false
+    },
+    "errors": []
+  }
+]

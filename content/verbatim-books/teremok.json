@@ -1,0 +1,340 @@
+{
+  "id": "teremok",
+  "title": "Теремок",
+  "language": "ru",
+  "attribution": "Русская народная сказка. «Теремок». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Исходный PDF не содержит иллюстраций; рисунки созданы для этого приложения.",
+  "original": "assets/books/teremok/teremok_original.pdf",
+  "cover": "assets/books/teremok/art/teremok_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "teremok-part-001",
+      "text": "В густой траве да полевых цветах стоит домик. С какой стороны ни глянь — настоящий теремок, ставенки резные, а окошки блестят как разноцветные леденцы. Пробегал мимо мышонок. Удивился такой красоте, постучал в двери и спрашивает: — Кто в теремке живёт?",
+      "image": "assets/books/teremok/art/teremok_01.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 252,
+      "estimatedPlaybackSeconds": 22.48,
+      "audio": "assets/books/teremok/audio/teremok-part-001.mp3"
+    },
+    {
+      "id": "teremok-part-002",
+      "text": "Ему никто не ответил. Зашел тогда мышонок в терем и остался там жить. Живёт припеваючи. Скакал мимо лягушонок. Увидел теремок. Остановился и спрашивает: — Кто в теремке живёт? А мышонок ему в ответ: — Только я, мышонок. Заходи ко мне! Вместе веселее жить!",
+      "image": "assets/books/teremok/art/teremok_02.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 253,
+      "sourceTextEnd": 508,
+      "estimatedPlaybackSeconds": 22.75,
+      "audio": "assets/books/teremok/audio/teremok-part-002.mp3"
+    },
+    {
+      "id": "teremok-part-003",
+      "text": "И стали мышонок и лягушонок жить вместе. Живут припеваючи. Теремок украшают, чисто прибирают. Зашелестела рядом листва и рядом с теремком оказался ёжик. Присмотрелся, принюхался, сильно ему теремок понравился. Подошёл ёжик поближе и спрашивает: — Кто в теремке живёт?",
+      "image": "assets/books/teremok/art/teremok_03.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 509,
+      "sourceTextEnd": 776,
+      "estimatedPlaybackSeconds": 23.82,
+      "audio": "assets/books/teremok/audio/teremok-part-003.mp3"
+    },
+    {
+      "id": "teremok-part-004",
+      "text": "Мышонок и лягушонок ему в ответ: — Мы, мышонок и лягушонок. Заходи к нам! Вместе веселее жить! И стали они жить вместе. Пробегал мимо зайчонок. Приглянулся ему теремок. Постучался в двери и спрашивает: — Кто в теремке живёт?",
+      "image": "assets/books/teremok/art/teremok_04.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 777,
+      "sourceTextEnd": 1001,
+      "estimatedPlaybackSeconds": 19.98,
+      "audio": "assets/books/teremok/audio/teremok-part-004.mp3"
+    },
+    {
+      "id": "teremok-part-005",
+      "text": "Мышонок, лягушонок и ёжик ему в ответ: — Мы, мышонок, лягушонок и ёжик. Заходи к нам! Вместе веселее жить! Зайчонок с радостью стал жить в компании веселых и добрых друзей. Проходил мимо медведь косолапый. Остановился и спрашивает: — Кто в теремке живёт?",
+      "image": "assets/books/teremok/art/teremok_04.webp",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 1002,
+      "sourceTextEnd": 1256,
+      "estimatedPlaybackSeconds": 22.66,
+      "audio": "assets/books/teremok/audio/teremok-part-005.mp3"
+    },
+    {
+      "id": "teremok-part-006",
+      "text": "— Мы, мышонок, лягушонок, ёжик и зайчонок. Заходи к нам! Вместе веселее жить! И полез медведь в теремок. Сам большой, а теремок маленький, лез-лез, и так и сяк — не выходит. Вот косолапый и говорит: — В теремок залезть не могу, посижу тогда у вас на крыше.",
+      "image": "assets/books/teremok/art/teremok_04.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1257,
+      "sourceTextEnd": 1513,
+      "estimatedPlaybackSeconds": 22.84,
+      "audio": "assets/books/teremok/audio/teremok-part-006.mp3"
+    },
+    {
+      "id": "teremok-part-007",
+      "text": "Испугались зверята. Как бы медведь теремок не раздавил. А медведь всё обещает, что не раздавит, что осторожным будет. Они ему и разрешили залезть на крышу. Только медведь на крышу полез, как теремок развалился на маленькие кусочки.",
+      "image": "assets/books/teremok/art/teremok_05.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1514,
+      "sourceTextEnd": 1745,
+      "estimatedPlaybackSeconds": 20.61,
+      "audio": "assets/books/teremok/audio/teremok-part-007.mp3"
+    },
+    {
+      "id": "teremok-part-008",
+      "text": "Хорошо, что мышонок, лягушонок, ёжик и зайчонок успели из него выскочить. Посмотрели тогда друзья друг на дружку и разом принялись за строительство. Новый теремок получился такой большой и красивый, что любо дорого глядеть.",
+      "image": "assets/books/teremok/art/teremok_06.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 1746,
+      "sourceTextEnd": 1969,
+      "estimatedPlaybackSeconds": 19.89,
+      "audio": "assets/books/teremok/audio/teremok-part-008.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "teremok-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто первым поселился в теремке?",
+      "hint": "Это маленький зверёк с круглыми ушками и тонким хвостиком.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, мышонок первым остался жить в теремке!",
+      "feedback": "Да, мышонок первым остался жить в теремке!",
+      "choices": [
+        {
+          "label": "Мышонок",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 0
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 4
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-002"
+        ],
+        "quote": "Зашел тогда мышонок в терем и остался там жить."
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-001-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-001-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-001-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "teremok-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Кто пришёл к теремку, когда зашелестела листва?",
+      "hint": "У этого маленького зверька на спинке иголки.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, к теремку пришёл ёжик!",
+      "feedback": "Верно, к теремку пришёл ёжик!",
+      "choices": [
+        {
+          "label": "Зайчонок",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Ёжик",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 2
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-003"
+        ],
+        "quote": "Зашелестела рядом листва и рядом с теремком оказался ёжик."
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-002-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-002-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-002-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "teremok-exact-question-003",
+      "afterPage": 5,
+      "prompt": "Кто с радостью поселился у мышонка, лягушонка и ёжика?",
+      "hint": "У этого зверька длинные ушки.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл зайчонка! Друзья пригласили его жить вместе.",
+      "feedback": "Ты нашёл зайчонка! Друзья пригласили его жить вместе.",
+      "choices": [
+        {
+          "label": "Зайчонок",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 3
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 4
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-005"
+        ],
+        "quote": "Зайчонок с радостью стал жить в компании веселых и добрых друзей."
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-003-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-003-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-003-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "teremok-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Кто не помещался в маленьком теремке?",
+      "hint": "Это большой бурый зверь. Он решил сесть на крышу.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, медведь был слишком большим для маленького теремка.",
+      "feedback": "Да, медведь был слишком большим для маленького теремка.",
+      "choices": [
+        {
+          "label": "Лягушонок",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 1
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 4
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-006"
+        ],
+        "quote": "И полез медведь в теремок. Сам большой, а теремок маленький"
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-004-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-004-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-004-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "teremok-exact-question-005",
+      "afterPage": 7,
+      "prompt": "Кто полез на крышу перед тем, как теремок развалился?",
+      "hint": "Этот зверь обещал быть осторожным, но оказался слишком тяжёлым.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, на крышу полез медведь.",
+      "feedback": "Верно, на крышу полез медведь.",
+      "choices": [
+        {
+          "label": "Медведь",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 4
+        },
+        {
+          "label": "Мышонок",
+          "image": "assets/books/teremok/art/teremok-answers.webp",
+          "cell": 0
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-007"
+        ],
+        "quote": "Только медведь на крышу полез, как теремок развалился на маленькие кусочки."
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-005-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-005-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-005-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "teremok-exact-question-006",
+      "afterPage": 7,
+      "prompt": "Что получилось, когда друзья стали строить вместе?",
+      "hint": "Друзья построили новый дом, большой и красивый.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, у друзей получился новый большой теремок!",
+      "feedback": "Да, у друзей получился новый большой теремок!",
+      "choices": [
+        {
+          "label": "Развалившийся теремок",
+          "image": "assets/books/teremok/art/teremok_05.webp"
+        },
+        {
+          "label": "Новый большой теремок",
+          "image": "assets/books/teremok/art/teremok_06.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "teremok-part-008"
+        ],
+        "quote": "Новый теремок получился такой большой и красивый"
+      },
+      "audio": {
+        "prompt": "assets/books/teremok/audio/teremok-exact-question-006-prompt.mp3",
+        "hint": "assets/books/teremok/audio/teremok-exact-question-006-hint.mp3",
+        "guided": "assets/books/teremok/audio/teremok-exact-question-006-guided.mp3",
+        "feedback": "assets/books/teremok/audio/teremok-exact-question-006-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку «Теремок» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+    "audio": "assets/books/teremok/audio/teremok-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0
+}

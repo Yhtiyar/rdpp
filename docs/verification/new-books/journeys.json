@@ -1,0 +1,200 @@
+[
+  {
+    "id": "frog",
+    "version": 2,
+    "passed": true,
+    "pages": 35,
+    "questions": 24,
+    "actualAudioEndEvents": 85,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "frog-princess",
+    "version": 2,
+    "passed": true,
+    "pages": 45,
+    "questions": 30,
+    "actualAudioEndEvents": 107,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "aibolit",
+    "version": 2,
+    "passed": true,
+    "pages": 20,
+    "questions": 14,
+    "actualAudioEndEvents": 50,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "little-red-riding-hood",
+    "version": 2,
+    "passed": true,
+    "pages": 14,
+    "questions": 10,
+    "actualAudioEndEvents": 36,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "ugly-duckling",
+    "version": 2,
+    "passed": true,
+    "pages": 67,
+    "questions": 45,
+    "actualAudioEndEvents": 159,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "kolobok",
+    "version": 2,
+    "passed": true,
+    "pages": 11,
+    "questions": 8,
+    "actualAudioEndEvents": 29,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "why-flies-buzz",
+    "version": 2,
+    "passed": true,
+    "pages": 8,
+    "questions": 6,
+    "actualAudioEndEvents": 22,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "goldilocks",
+    "version": 2,
+    "passed": true,
+    "pages": 7,
+    "questions": 5,
+    "actualAudioEndEvents": 19,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "teremok",
+    "version": 2,
+    "passed": true,
+    "pages": 8,
+    "questions": 6,
+    "actualAudioEndEvents": 22,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "thumbelina",
+    "version": 2,
+    "passed": true,
+    "pages": 7,
+    "questions": 5,
+    "actualAudioEndEvents": 19,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "shoemaker-and-elves",
+    "version": 2,
+    "passed": true,
+    "pages": 6,
+    "questions": 4,
+    "actualAudioEndEvents": 16,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "three-little-pigs",
+    "version": 2,
+    "passed": true,
+    "pages": 7,
+    "questions": 5,
+    "actualAudioEndEvents": 19,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "gingerbread-man",
+    "version": 2,
+    "passed": true,
+    "pages": 5,
+    "questions": 4,
+    "actualAudioEndEvents": 15,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "lion-and-mouse",
+    "version": 2,
+    "passed": true,
+    "pages": 3,
+    "questions": 2,
+    "actualAudioEndEvents": 9,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "little-red-hen",
+    "version": 2,
+    "passed": true,
+    "pages": 4,
+    "questions": 3,
+    "actualAudioEndEvents": 12,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "turtle-shell",
+    "version": 2,
+    "passed": true,
+    "pages": 5,
+    "questions": 4,
+    "actualAudioEndEvents": 15,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "city-and-country-mouse",
+    "version": 2,
+    "passed": true,
+    "pages": 3,
+    "questions": 2,
+    "actualAudioEndEvents": 9,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  },
+  {
+    "id": "turnip",
+    "version": 2,
+    "passed": true,
+    "pages": 3,
+    "questions": 2,
+    "actualAudioEndEvents": 9,
+    "guidedRecovery": true,
+    "errors": [],
+    "external": []
+  }
+]

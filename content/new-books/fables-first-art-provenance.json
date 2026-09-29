@@ -1,0 +1,288 @@
+[
+  {
+    "book": "lion-and-mouse",
+    "key": "lion",
+    "sourcePage": 11,
+    "embeddedImage": 0,
+    "crop": [
+      30,
+      0,
+      863,
+      803
+    ],
+    "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+  },
+  {
+    "book": "lion-and-mouse",
+    "key": "mouse",
+    "sourcePage": 11,
+    "embeddedImage": 0,
+    "crop": [
+      236,
+      837,
+      763,
+      1060
+    ],
+    "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+  },
+  {
+    "book": "city-and-country-mouse",
+    "key": "city-mouse",
+    "sourcePage": 17,
+    "embeddedImage": 0,
+    "crop": [
+      264,
+      327,
+      607,
+      718
+    ],
+    "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_city-mouse.webp"
+  },
+  {
+    "book": "city-and-country-mouse",
+    "key": "country-mouse",
+    "sourcePage": 17,
+    "embeddedImage": 0,
+    "crop": [
+      631,
+      426,
+      954,
+      804
+    ],
+    "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_country-mouse.webp"
+  },
+  {
+    "book": "city-and-country-mouse",
+    "key": "cat",
+    "sourcePage": 21,
+    "embeddedImage": 0,
+    "crop": [
+      550,
+      115,
+      928,
+      566
+    ],
+    "image": "assets/books/city-and-country-mouse/art/city-and-country-mouse_answer_cat.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "papa",
+    "sourcePage": 27,
+    "embeddedImage": 0,
+    "crop": [
+      73,
+      159,
+      627,
+      830
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_papa.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "goldilocks",
+    "sourcePage": 29,
+    "embeddedImage": 0,
+    "crop": [
+      777,
+      0,
+      1067,
+      313
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_goldilocks.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "porridge",
+    "sourcePage": 29,
+    "embeddedImage": 0,
+    "crop": [
+      88,
+      30,
+      377,
+      375
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_porridge.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "chair",
+    "sourcePage": 31,
+    "embeddedImage": 0,
+    "crop": [
+      0,
+      0,
+      896,
+      1255
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_chair.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "bed",
+    "sourcePage": 32,
+    "embeddedImage": 0,
+    "crop": [
+      803,
+      145,
+      1168,
+      478
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_bed.webp"
+  },
+  {
+    "book": "goldilocks",
+    "key": "baby",
+    "sourcePage": 33,
+    "embeddedImage": 0,
+    "crop": [
+      833,
+      401,
+      1128,
+      832
+    ],
+    "image": "assets/books/goldilocks/art/goldilocks_answer_baby.webp"
+  },
+  {
+    "book": "gingerbread-man",
+    "key": "woman",
+    "sourcePage": 39,
+    "embeddedImage": 0,
+    "crop": [
+      480,
+      65,
+      921,
+      552
+    ],
+    "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_woman.webp"
+  },
+  {
+    "book": "gingerbread-man",
+    "key": "gingerbread",
+    "sourcePage": 40,
+    "embeddedImage": 0,
+    "crop": [
+      306,
+      13,
+      785,
+      629
+    ],
+    "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_gingerbread.webp"
+  },
+  {
+    "book": "gingerbread-man",
+    "key": "cow",
+    "sourcePage": 42,
+    "embeddedImage": 0,
+    "crop": [
+      373,
+      136,
+      887,
+      815
+    ],
+    "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cow.webp"
+  },
+  {
+    "book": "gingerbread-man",
+    "key": "cat",
+    "sourcePage": 43,
+    "embeddedImage": 0,
+    "crop": [
+      119,
+      825,
+      1030,
+      1373
+    ],
+    "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_cat.webp"
+  },
+  {
+    "book": "gingerbread-man",
+    "key": "fox",
+    "sourcePage": 48,
+    "embeddedImage": 0,
+    "crop": [
+      30,
+      168,
+      807,
+      633
+    ],
+    "image": "assets/books/gingerbread-man/art/gingerbread-man_answer_fox.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "shoe",
+    "sourcePage": 55,
+    "embeddedImage": 0,
+    "crop": [
+      270,
+      539,
+      456,
+      701
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoe.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "candle",
+    "sourcePage": 59,
+    "embeddedImage": 0,
+    "crop": [
+      837,
+      121,
+      1104,
+      510
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_candle.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "shoemaker",
+    "sourcePage": 57,
+    "embeddedImage": 0,
+    "crop": [
+      614,
+      12,
+      1135,
+      572
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_shoemaker.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "wife",
+    "sourcePage": 57,
+    "embeddedImage": 0,
+    "crop": [
+      227,
+      33,
+      612,
+      583
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_wife.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "leather",
+    "sourcePage": 59,
+    "embeddedImage": 0,
+    "crop": [
+      700,
+      554,
+      1092,
+      742
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_leather.webp"
+  },
+  {
+    "book": "shoemaker-and-elves",
+    "key": "elf",
+    "sourcePage": 59,
+    "embeddedImage": 0,
+    "crop": [
+      564,
+      239,
+      824,
+      487
+    ],
+    "image": "assets/books/shoemaker-and-elves/art/shoemaker-and-elves_answer_elf.webp"
+  }
+]

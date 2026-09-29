@@ -1,0 +1,137 @@
+{
+  "id": "lion-and-mouse",
+  "title": "The Lion and the Mouse",
+  "language": "en",
+  "attribution": "A fable by Aesop. Illustrated by Gail McIntosh. This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Text and illustrations from Classic Tales Big Book, Preschool, Core Knowledge Language Arts®. Noncommercial use only; adaptations distributed under the same license. License: https://creativecommons.org/licenses/by-nc-sa/3.0/. Complete original notices retained in the bundled source PDF.",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "lion-and-mouse-part-001",
+      "text": "One day a little mouse was scampering about. The mouse accidently ran across the paw of a sleeping lion. The angry lion awoke and captured the mouse in his great, big, furry paws. The lion was just about to eat the mouse when the tiny creature cried out, “Please set me free. One day I will return your kindness.”",
+      "image": "assets/books/lion-and-mouse/art/lion-and-mouse_01.webp",
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "sourceReadingPages": [
+        0,
+        1,
+        2
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 313,
+      "estimatedPlaybackSeconds": 24.78,
+      "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-part-001.mp3"
+    },
+    {
+      "id": "lion-and-mouse-part-002",
+      "text": "So the lion released the mouse. A little while later, the mouse heard what sounded like angry roars. The mouse followed the sounds and discovered the lion trapped in a net made of ropes.",
+      "image": "assets/books/lion-and-mouse/art/lion-and-mouse_04.webp",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 314,
+      "sourceTextEnd": 500,
+      "estimatedPlaybackSeconds": 14.73,
+      "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-part-002.mp3"
+    },
+    {
+      "id": "lion-and-mouse-part-003",
+      "text": "Though frightened, the mouse was determined to keep his promise. Using his sharp teeth, the mouse made a hole in the net. And so the great lion was set free by the little mouse. The moral of this story is: Friends who are little in size can still be great friends.",
+      "image": "assets/books/lion-and-mouse/art/lion-and-mouse_05.webp",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 501,
+      "sourceTextEnd": 765,
+      "estimatedPlaybackSeconds": 20.9,
+      "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-part-003.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who was sleeping when the mouse ran by?",
+      "hint": "The sleeping animal had big paws and a thick mane.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the lion.",
+      "feedback": "Yes, the lion was sleeping!",
+      "choices": [
+        {
+          "label": "Lion",
+          "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+        },
+        {
+          "label": "Mouse",
+          "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "lion-and-mouse-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-001-prompt.mp3",
+        "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-001-hint.mp3",
+        "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-001-guided.mp3",
+        "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "lion-and-mouse-part-001"
+        ],
+        "quote": "The mouse accidently ran across the paw of a sleeping lion."
+      }
+    },
+    {
+      "prompt": "Who bit the ropes and helped his friend?",
+      "hint": "The helper was little and had sharp teeth.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the mouse.",
+      "feedback": "The mouse helped the lion get free!",
+      "choices": [
+        {
+          "label": "Lion",
+          "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_lion.webp"
+        },
+        {
+          "label": "Mouse",
+          "image": "assets/books/lion-and-mouse/art/lion-and-mouse_answer_mouse.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "lion-and-mouse-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-002-prompt.mp3",
+        "hint": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-002-hint.mp3",
+        "guided": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-002-guided.mp3",
+        "feedback": "assets/books/lion-and-mouse/audio/lion-and-mouse-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "lion-and-mouse-part-003"
+        ],
+        "quote": "Using his sharp teeth, the mouse made a hole in the net."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to the whole story and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/lion-and-mouse/audio/lion-and-mouse-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

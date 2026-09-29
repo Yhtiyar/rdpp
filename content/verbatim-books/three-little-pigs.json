@@ -1,0 +1,298 @@
+{
+  "id": "three-little-pigs",
+  "title": "The Three Little Pigs",
+  "language": "en",
+  "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/three-little-pigs/art/three-little-pigs_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "three-little-pigs-part-001",
+      "text": "Once upon a time, there were three little pigs. They lived with their mother. One day, Mama Pig said, “You are all grown now. It is time for you to go out into the world and live on your own.” The pigs said good-bye and went on their way. The First Little Pig decided to build a house made out of straw.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_01.webp",
+      "sourcePages": [
+        119,
+        120
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 303,
+      "estimatedPlaybackSeconds": 23.99,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-001.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-002",
+      "text": "Before long, he was finished. He had time to relax in the shade. The Second Little Pig built a house made out of sticks. He worked hard, but he still had time to relax in the shade. The Third Little Pig decided to build a house made out of bricks. He worked very, very hard.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_03.webp",
+      "sourcePages": [
+        120,
+        121,
+        122
+      ],
+      "sourceReadingPages": [
+        1,
+        2,
+        3
+      ],
+      "sourceTextStart": 304,
+      "sourceTextEnd": 578,
+      "estimatedPlaybackSeconds": 21.69,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-002.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-003",
+      "text": "It took him a long time to finish building his house. He did not have time to rest in the shade. Soon after, a big, bad wolf came along. He saw the First Little Pig napping in the shade. ‘That little pig would make a tasty bite to eat,’ thought the Big Bad Wolf to himself.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_05.webp",
+      "sourcePages": [
+        122,
+        123
+      ],
+      "sourceReadingPages": [
+        3,
+        4
+      ],
+      "sourceTextStart": 579,
+      "sourceTextEnd": 852,
+      "estimatedPlaybackSeconds": 21.62,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-003.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-004",
+      "text": "The little pig saw the wolf coming and ran inside his straw house. The wolf said, “Little pig, little pig, let me come in.” The little pig replied, “Not by the hair of my chinny-chin-chin.” “Then I’ll huff, and I’ll puff, and I’ll blow your house down,” said the Big Bad Wolf.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_06.webp",
+      "sourcePages": [
+        124,
+        125
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 853,
+      "sourceTextEnd": 1129,
+      "estimatedPlaybackSeconds": 21.85,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-004.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-005",
+      "text": "And that is what he did! As the straw blew everywhere, the First Little Pig ran away. The Big Bad Wolf soon came across the Second Little Pig home made of sticks. The Big Bad Wolf knocked on the door and asked to come in. “Not by the hair of my chinny-chin-chin,” said the Second Little Pig.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_07.webp",
+      "sourcePages": [
+        125,
+        126
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1130,
+      "sourceTextEnd": 1421,
+      "estimatedPlaybackSeconds": 23.04,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-005.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-006",
+      "text": "“Then I’ll huff, and I’ll puff, and I’ll blow your house down,” replied the wolf. The two little pigs ran to their brother’s brick house. Right behind them was the wolf! Once again the wolf asked to come inside. “Not by the hair of my chinny-chin-chin,” replied the Third Little Pig.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_09.webp",
+      "sourcePages": [
+        126,
+        127
+      ],
+      "sourceReadingPages": [
+        7,
+        8
+      ],
+      "sourceTextStart": 1422,
+      "sourceTextEnd": 1705,
+      "estimatedPlaybackSeconds": 22.41,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-006.mp3"
+    },
+    {
+      "id": "three-little-pigs-part-007",
+      "text": "The wolf did not give up. He climbed up onto the roof. He jumped down the chimney. And he fell right into a pot of water that was heating on the fire. That water was so hot that the wolf jumped out and ran away. The Three Little Pigs lived happily ever after.",
+      "image": "assets/books/three-little-pigs/art/three-little-pigs_10.webp",
+      "sourcePages": [
+        127,
+        128
+      ],
+      "sourceReadingPages": [
+        8,
+        9
+      ],
+      "sourceTextStart": 1706,
+      "sourceTextEnd": 1965,
+      "estimatedPlaybackSeconds": 20.51,
+      "audio": "assets/books/three-little-pigs/audio/three-little-pigs-part-007.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Who told the pigs they were ready to live on their own?",
+      "hint": "She was the pigs’ mother.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is Mama Pig.",
+      "feedback": "Mama Pig told her little pigs they were ready.",
+      "choices": [
+        {
+          "label": "Mama Pig",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-mother.webp"
+        },
+        {
+          "label": "Wolf",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "three-little-pigs-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-001-prompt.mp3",
+        "hint": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-001-hint.mp3",
+        "guided": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-001-guided.mp3",
+        "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "three-little-pigs-part-001"
+        ],
+        "quote": "One day, Mama Pig said, “You are all grown now. It is time for you to go out into the world and live on your own.”"
+      }
+    },
+    {
+      "prompt": "Which house did the first little pig build?",
+      "hint": "His house was made of golden straw.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the straw house.",
+      "feedback": "The first little pig built the straw house.",
+      "choices": [
+        {
+          "label": "Stick house",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-sticks.webp"
+        },
+        {
+          "label": "Straw house",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-straw.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "three-little-pigs-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-002-prompt.mp3",
+        "hint": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-002-hint.mp3",
+        "guided": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-002-guided.mp3",
+        "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "three-little-pigs-part-001"
+        ],
+        "quote": "The First Little Pig decided to build a house made out of straw."
+      }
+    },
+    {
+      "prompt": "Who said he would huff and puff?",
+      "hint": "He wanted the little pig to let him into the straw house.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the wolf.",
+      "feedback": "The Big Bad Wolf said he would huff and puff.",
+      "choices": [
+        {
+          "label": "Wolf",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+        },
+        {
+          "label": "First little pig",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-first.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "three-little-pigs-exact-question-003",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-003-prompt.mp3",
+        "hint": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-003-hint.mp3",
+        "guided": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-003-guided.mp3",
+        "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "three-little-pigs-part-004"
+        ],
+        "quote": "“Then I’ll huff, and I’ll puff, and I’ll blow your house down,” said the Big Bad Wolf."
+      }
+    },
+    {
+      "prompt": "Which house did the two pigs run to?",
+      "hint": "Their brother had built it with bricks.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the brick house.",
+      "feedback": "They ran to their brother’s brick house.",
+      "choices": [
+        {
+          "label": "Straw house",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-straw.webp"
+        },
+        {
+          "label": "Brick house",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-bricks.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "three-little-pigs-exact-question-004",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-004-prompt.mp3",
+        "hint": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-004-hint.mp3",
+        "guided": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-004-guided.mp3",
+        "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "three-little-pigs-part-006"
+        ],
+        "quote": "The two little pigs ran to their brother’s brick house."
+      }
+    },
+    {
+      "prompt": "Who jumped out of the hot water and ran away?",
+      "hint": "He had come down the chimney.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the wolf.",
+      "feedback": "The wolf ran away. The three pigs were safe!",
+      "choices": [
+        {
+          "label": "Wolf",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-wolf.webp"
+        },
+        {
+          "label": "Third little pig",
+          "image": "assets/books/three-little-pigs/art/three-little-pigs-third.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "three-little-pigs-exact-question-005",
+      "afterPage": 6,
+      "audio": {
+        "prompt": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-005-prompt.mp3",
+        "hint": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-005-hint.mp3",
+        "guided": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-005-guided.mp3",
+        "feedback": "assets/books/three-little-pigs/audio/three-little-pigs-exact-question-005-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "three-little-pigs-part-007"
+        ],
+        "quote": "That water was so hot that the wolf jumped out and ran away."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to The Three Little Pigs and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/three-little-pigs/audio/three-little-pigs-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

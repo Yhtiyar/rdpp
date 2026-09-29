@@ -1,0 +1,199 @@
+[
+  {
+    "id": "grok-ara-kolobok-01",
+    "status": 200,
+    "model": "x-ai/grok-voice-tts-1.0",
+    "voice": "ara",
+    "script": "Жили-были старик со старухой. Однажды просит старик: — Испеки, старуха, колобок. — Из чего испечь-то? Муки нет. — Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
+    "body": {
+      "model": "x-ai/grok-voice-tts-1.0",
+      "voice": "ara",
+      "input": "Жили-были старик со старухой. Однажды просит старик: — Испеки, старуха, колобок. — Из чего испечь-то? Муки нет. — Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
+      "response_format": "mp3",
+      "provider": {
+        "options": {
+          "xai": {
+            "language": "ru"
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548895-vML8Ne5WMJ9EdaIaCKkq",
+    "file": "docs/verification/russian-voice-audition/grok-ara-kolobok-01.mp3",
+    "sha256": "a7bea8b86f352f73bfe380a25bdf99e437b6ca4b3e2998da953d36438fc6836c",
+    "bytes": 211968
+  },
+  {
+    "id": "grok-ara-kolobok-02",
+    "status": 200,
+    "model": "x-ai/grok-voice-tts-1.0",
+    "voice": "ara",
+    "script": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.",
+    "body": {
+      "model": "x-ai/grok-voice-tts-1.0",
+      "voice": "ara",
+      "input": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.",
+      "response_format": "mp3",
+      "provider": {
+        "options": {
+          "xai": {
+            "language": "ru"
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548895-hKLJCb3yRW8QbPF9wIsn",
+    "file": "docs/verification/russian-voice-audition/grok-ara-kolobok-02.mp3",
+    "sha256": "92924c1c4997557c968622eb66556fd8a3014f8fa7d3b51234b74a6b184ab84a",
+    "bytes": 170880
+  },
+  {
+    "id": "grok-ara-aibolit-01",
+    "status": 200,
+    "model": "x-ai/grok-voice-tts-1.0",
+    "voice": "ara",
+    "script": "Добрый доктор Айболит! Он под деревом сидит. Приходи к нему лечиться И корова, и волчица, И жучок, и червячок, И медведица! Всех излечит, исцелит Добрый доктор Айболит! И пришла к Айболиту лиса: «Ой, меня укусила оса!»",
+    "body": {
+      "model": "x-ai/grok-voice-tts-1.0",
+      "voice": "ara",
+      "input": "Добрый доктор Айболит! Он под деревом сидит. Приходи к нему лечиться И корова, и волчица, И жучок, и червячок, И медведица! Всех излечит, исцелит Добрый доктор Айболит! И пришла к Айболиту лиса: «Ой, меня укусила оса!»",
+      "response_format": "mp3",
+      "provider": {
+        "options": {
+          "xai": {
+            "language": "ru"
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548895-OfpEX5H7cpYES5QQyRjY",
+    "file": "docs/verification/russian-voice-audition/grok-ara-aibolit-01.mp3",
+    "sha256": "ca25bc76defceccb86dd3008008aa3b25922e0e34228b5228695830b10b72c3a",
+    "bytes": 260736
+  },
+  {
+    "id": "grok-ara-question",
+    "status": 200,
+    "model": "x-ai/grok-voice-tts-1.0",
+    "voice": "ara",
+    "script": "Кто укатился с окошка? Найди его на картинке.",
+    "body": {
+      "model": "x-ai/grok-voice-tts-1.0",
+      "voice": "ara",
+      "input": "Кто укатился с окошка? Найди его на картинке.",
+      "response_format": "mp3",
+      "provider": {
+        "options": {
+          "xai": {
+            "language": "ru"
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548895-ZqwpvubIFBZnG80vPK7w",
+    "file": "docs/verification/russian-voice-audition/grok-ara-question.mp3",
+    "sha256": "bd2ae0f931659af321e76c1c287af4fdd5a98ad139f61cf3aa24823f4fe264bf",
+    "bytes": 52224
+  },
+  {
+    "id": "gemini-sulafat-kolobok-01",
+    "status": 200,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "script": "Жили-были старик со старухой. Однажды просит старик: — Испеки, старуха, колобок. — Из чего испечь-то? Муки нет. — Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
+    "body": {
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "voice": "Sulafat",
+      "input": "Жили-были старик со старухой. Однажды просит старик: — Испеки, старуха, колобок. — Из чего испечь-то? Муки нет. — Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
+      "response_format": "pcm",
+      "provider": {
+        "options": {
+          "google-ai-studio": {
+            "speech_metadata": {
+              "style": "warm, gentle storytelling, clear natural pacing"
+            }
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548977-fijRuRTw81gZQMPEVK0s",
+    "file": "docs/verification/russian-voice-audition/gemini-sulafat-kolobok-01.wav",
+    "sha256": "cba6dd54117faffbb5c4762a183ca87bd21fcca02dbed198013587415416e3d5",
+    "bytes": 960044
+  },
+  {
+    "id": "gemini-sulafat-kolobok-02",
+    "status": 200,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "script": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.",
+    "body": {
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "voice": "Sulafat",
+      "input": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.",
+      "response_format": "pcm",
+      "provider": {
+        "options": {
+          "google-ai-studio": {
+            "speech_metadata": {
+              "style": "warm, gentle storytelling, clear natural pacing"
+            }
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548977-iWe6MfyC6M4a1bvD9o2P",
+    "file": "docs/verification/russian-voice-audition/gemini-sulafat-kolobok-02.wav",
+    "sha256": "9efd2bcee2de5b9c83e19bd8f4adc9cceaf4e56e4add3b433a0c201b08919c9a",
+    "bytes": 754604
+  },
+  {
+    "id": "gemini-sulafat-aibolit-01",
+    "status": 200,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "script": "Добрый доктор Айболит! Он под деревом сидит. Приходи к нему лечиться И корова, и волчица, И жучок, и червячок, И медведица! Всех излечит, исцелит Добрый доктор Айболит! И пришла к Айболиту лиса: «Ой, меня укусила оса!»",
+    "body": {
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "voice": "Sulafat",
+      "input": "Добрый доктор Айболит! Он под деревом сидит. Приходи к нему лечиться И корова, и волчица, И жучок, и червячок, И медведица! Всех излечит, исцелит Добрый доктор Айболит! И пришла к Айболиту лиса: «Ой, меня укусила оса!»",
+      "response_format": "pcm",
+      "provider": {
+        "options": {
+          "google-ai-studio": {
+            "speech_metadata": {
+              "style": "warm, gentle storytelling, clear natural pacing"
+            }
+          }
+        }
+      }
+    },
+    "generationId": "gen-tts-1790548977-GT4vwW8HuwgSJ1OYX0rW",
+    "file": "docs/verification/russian-voice-audition/gemini-sulafat-aibolit-01.wav",
+    "sha256": "62cc037c227b37c958f47cf1ad2e7acf7bde3ae3925b7b34d7e9dc4d042dc575",
+    "bytes": 1107884
+  },
+  {
+    "id": "gemini-sulafat-question",
+    "status": 400,
+    "model": "google/gemini-3.8-flash-lite-tts",
+    "voice": "Sulafat",
+    "script": "Кто укатился с окошка? Найди его на картинке.",
+    "body": {
+      "model": "google/gemini-3.8-flash-lite-tts",
+      "voice": "Sulafat",
+      "input": "Кто укатился с окошка? Найди его на картинке.",
+      "response_format": "mp3",
+      "provider": {
+        "options": {
+          "google-ai-studio": {
+            "speech_metadata": {
+              "style": "warm, gentle storytelling, clear natural pacing"
+            }
+          }
+        }
+      }
+    },
+    "generationId": null
+  }
+]

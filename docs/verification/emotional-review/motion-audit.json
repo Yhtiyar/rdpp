@@ -1,0 +1,19 @@
+[
+  {
+    "mode": "no-preference",
+    "mediaQuery": false,
+    "changedBounds": [
+      22,
+      166,
+      408,
+      495
+    ],
+    "changedPixels": 29056
+  },
+  {
+    "mode": "reduce",
+    "mediaQuery": true,
+    "changedBounds": null,
+    "changedPixels": 0
+  }
+]

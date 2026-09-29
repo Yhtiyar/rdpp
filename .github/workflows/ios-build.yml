@@ -1275,6 +1275,10 @@ jobs:
             echo "Created unsigned IPA: build/$BUILD_ID.ipa"
           fi
 
+      - name: Verify preview IPA has no Screen Time extension
+        if: env.LITTLEWINS_WITHOUT_SC == '1'
+        run: python3 tools/verify_preview_ipa.py build/*.ipa
+
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v7
         with:

@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 import '../core/app_controller.dart';
 import '../ui/components.dart';
+import '../ui/illustrated_icon.dart';
 import '../ui/mimi_reading.dart';
 import '../ui/theme.dart';
 import 'reading/library_screen.dart';
+import 'listening/listening_screen.dart';
 import 'rewards/reward_message.dart';
 
 class HomeContent extends StatelessWidget {
@@ -31,8 +33,8 @@ class HomeContent extends StatelessWidget {
         Heading(
           remaining == 0
               ? c.tr(
-                  'Two stories. So many discoveries!',
-                  'Две истории. Столько открытий!',
+                  'So many stories. So many discoveries!',
+                  'Столько историй. Столько открытий!',
                 )
               : today > 0
               ? c.tr(
@@ -50,28 +52,25 @@ class HomeContent extends StatelessWidget {
         gap,
         const MiMiReading(),
         gap,
+        Text(
+          c.tr('Read with MiMi', 'Читаем с МиМи'),
+          style: Theme.of(context).textTheme.titleMedium
+              ?.copyWith(color: WinTheme.purple),
+        ),
+        const SizedBox(height: 4),
         Text(book.title, style: Theme.of(context).textTheme.headlineMedium),
         smallGap,
         Text(
           batch != null
               ? c.tr(
-                  'Your section: pages ${batch.startPage + 1}–${batch.endPage}',
-                  'Твой отрывок: страницы ${batch.startPage + 1}–${batch.endPage}',
+                  'A few pages, then a little quiz!',
+                  'Почитаем чуть-чуть, а потом — вопросы!',
                 )
               : c.tr(
-                  'A story to enjoy again. Previously verified pages earn no extra coins.',
-                  'История для нового прочтения. За проверенные страницы новых монет не будет.',
+                  'Let’s enjoy this story again!',
+                  'Почитаем эту книжку ещё раз!',
                 ),
         ),
-        if (!started) ...[
-          smallGap,
-          Text(
-            c.tr(
-              'Read the first section with MiMi, then try four questions.',
-              'Прочитай первый отрывок с МиМи и ответь на четыре вопроса.',
-            ),
-          ),
-        ],
         const SizedBox(height: 22),
         WinButton(
           batch == null
@@ -80,7 +79,14 @@ class HomeContent extends StatelessWidget {
               ? c.tr('Continue my story', 'Продолжить историю')
               : c.tr('Let’s read a story', 'Почитаем историю'),
           onPressed: () => openBook(context, c, book),
-          icon: Icons.auto_stories_rounded,
+          illustration: Illustration.book,
+        ),
+        const SizedBox(height: 12),
+        WinButton(
+          c.tr('Listen & play', 'Слушать и играть'),
+          secondary: true,
+          icon: Icons.headphones_rounded,
+          onPressed: () => openListeningBook(context, book.id),
         ),
         smallGap,
         TextButton(
@@ -95,7 +101,7 @@ class HomeContent extends StatelessWidget {
             color: WinTheme.mint,
             child: Row(
               children: [
-                const Art('star', width: 48, height: 48),
+                const IllustratedIcon(Illustration.coin, size: 48),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(

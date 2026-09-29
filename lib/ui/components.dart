@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'theme.dart';
 import 'motion_spec.dart';
+import 'illustrated_icon.dart';
 
 class SceneScaffold extends StatelessWidget {
   const SceneScaffold({
@@ -79,6 +80,7 @@ class WinButton extends StatefulWidget {
     required this.onPressed,
     this.secondary = false,
     this.icon = Icons.arrow_forward_rounded,
+    this.illustration,
     this.loading = false,
     this.autofocus = false,
   });
@@ -86,6 +88,7 @@ class WinButton extends StatefulWidget {
   final VoidCallback? onPressed;
   final bool secondary, loading, autofocus;
   final IconData? icon;
+  final Illustration? illustration;
   @override
   State<WinButton> createState() => _WinButtonState();
 }
@@ -151,15 +154,18 @@ class _WinButtonState extends State<WinButton> {
                         ),
                       ),
                     ),
-                    if (widget.icon != null) ...[
+                    if (widget.illustration != null || widget.icon != null) ...[
                       const SizedBox(width: 10),
-                      Icon(
-                        widget.icon,
-                        size: 24,
-                        color: widget.secondary
-                            ? WinTheme.purple
-                            : Colors.white,
-                      ),
+                      if (widget.illustration != null)
+                        IllustratedIcon(widget.illustration!, size: 28)
+                      else
+                        Icon(
+                          widget.icon,
+                          size: 24,
+                          color: widget.secondary
+                              ? WinTheme.purple
+                              : Colors.white,
+                        ),
                     ],
                   ],
                 ],

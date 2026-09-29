@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "width": 1112,
+    "height": 834,
+    "duration": 5.041667,
+    "muted": true,
+    "audioTracks": null
+  },
+  "playback": {
+    "loops": 2,
+    "paused": false,
+    "error": null,
+    "totalFrames": 270,
+    "droppedFrames": 0
+  },
+  "errors": []
+}

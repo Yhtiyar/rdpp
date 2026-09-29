@@ -1,0 +1,1285 @@
+[
+  {
+    "id": "aibolit",
+    "title": "Айболит",
+    "language": "ru",
+    "attribution": "Корней Иванович Чуковский. «Айболит». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+    "original": "assets/books/aibolit/aibolit_original.pdf",
+    "cover": "assets/books/aibolit/art/aibolit_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ стихотворения для прослушивания. Стихи изложены прозой, подробности травмы зайчика и перечни болезней смягчены. Сохранены путешествие доктора, помощь зверей и выздоровление всех малышей. Иллюстрации и изображения ответов взяты из предоставленного PDF; сохранены исходный файл и указание deti-online.com.",
+    "pages": [
+      {
+        "id": "aibolit-page-01",
+        "text": "Под деревом сидит добрый доктор Айболит. К нему приходят разные звери. Лису укусила оса, а собаку курица клюнула в нос. Доктор внимательно слушает каждого и помогает всем, кому больно.",
+        "image": "assets/books/aibolit/art/aibolit_01.webp",
+        "sourcePages": [
+          1,
+          2,
+          3
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-01.mp3"
+      },
+      {
+        "id": "aibolit-page-02",
+        "text": "Прибежала мама-зайчиха. Её маленький зайчик поранил ножки. Айболит помог зайчику, и тот снова смог прыгать! Обрадовалась зайчиха, пустилась танцевать и сказала доктору большое спасибо.",
+        "image": "assets/books/aibolit/art/aibolit_04.webp",
+        "sourcePages": [
+          3,
+          4,
+          5
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-02.mp3"
+      },
+      {
+        "id": "aibolit-page-03",
+        "text": "Шакал привёз Айболиту телеграмму от Гиппопотама. В далёкой Африке заболели маленькие зверята. «Приезжайте скорее!» — просят они. Айболит обещает помочь и отправляется в долгий путь к реке Лимпопо.",
+        "image": "assets/books/aibolit/art/aibolit_05.webp",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-03.mp3"
+      },
+      {
+        "id": "aibolit-page-04",
+        "text": "Бежит доктор по лесам и полям. В лицо ему летят снег и град. Айболит устал и не может идти дальше. Тут прибежали волки: «Садись на нас!» Волки понесли доктора вперёд.",
+        "image": "assets/books/aibolit/art/aibolit_06.webp",
+        "sourcePages": [
+          6,
+          7
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-04.mp3"
+      },
+      {
+        "id": "aibolit-page-05",
+        "text": "Перед доктором шумит большое море. Как добраться до другого берега? Из воды выплыл кит. «Садись на меня, Айболит!» Доктор сел ему на спину, и добрый кит повёз его через волны.",
+        "image": "assets/books/aibolit/art/aibolit_07.webp",
+        "sourcePages": [
+          8,
+          9
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-05.mp3"
+      },
+      {
+        "id": "aibolit-page-06",
+        "text": "За морем поднялись высокие горы. Айболиту трудно взбираться по крутым скалам. Слетели к нему орлы и предложили помощь. Доктор сел на орла и полетел дальше, к больным зверятам.",
+        "image": "assets/books/aibolit/art/aibolit_08.webp",
+        "sourcePages": [
+          9,
+          10
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-06.mp3"
+      },
+      {
+        "id": "aibolit-page-07",
+        "text": "В Африке Гиппопотам ждёт доктора под пальмой. У бегемотиков болят животики, у акулят — зубки. Кузнечик тоже зовёт на помощь. Все ждут: когда же прилетит добрый Айболит?",
+        "image": "assets/books/aibolit/art/aibolit_10.webp",
+        "sourcePages": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-07.mp3"
+      },
+      {
+        "id": "aibolit-page-08",
+        "text": "Наконец прилетел Айболит! Зверята радостно закричали: «Ура!» Доктор сразу принялся их лечить. Каждого осмотрел, каждому помог. Десять ночей заботился он о малышах, пока все они не поправились.",
+        "image": "assets/books/aibolit/art/aibolit_14.webp",
+        "sourcePages": [
+          16,
+          17,
+          18
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-08.mp3"
+      },
+      {
+        "id": "aibolit-page-09",
+        "text": "Зверята выздоровели! Бегемотики смеются, радуются и танцуют. Гиппопотам идёт и поёт: «Слава Айболиту! Слава добрым докторам!» Долгий путь закончился радостью: доктор добрался до друзей и помог каждому.",
+        "image": "assets/books/aibolit/art/aibolit_15.webp",
+        "sourcePages": [
+          18,
+          19
+        ],
+        "audio": "assets/books/aibolit/audio/aibolit-page-09.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "aibolit-question-01",
+        "afterPage": 2,
+        "prompt": "Кто помог зайчику снова прыгать?",
+        "hint": "Этот добрый человек лечит зверей. Он носит белый халат.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, доктор Айболит помог зайчику!",
+        "feedback": "Да, доктор Айболит помог зайчику!",
+        "choices": [
+          {
+            "label": "Доктор Айболит",
+            "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+          },
+          {
+            "label": "Лиса",
+            "image": "assets/books/aibolit/art/aibolit-fox.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "aibolit-page-02"
+        ],
+        "evidence": "Айболит помог зайчику, и тот снова смог прыгать!",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-01-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-01-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-01-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "aibolit-question-02",
+        "afterPage": 2,
+        "prompt": "Кто поранил ножки и пришёл с мамой к доктору?",
+        "hint": "У этого малыша длинные ушки. Теперь он снова прыгает.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл зайчика! Доктор помог его ножкам.",
+        "feedback": "Ты нашёл зайчика! Доктор помог его ножкам.",
+        "choices": [
+          {
+            "label": "Собака",
+            "image": "assets/books/aibolit/art/aibolit-dog.webp"
+          },
+          {
+            "label": "Зайчик с мамой",
+            "image": "assets/books/aibolit/art/aibolit-rabbit.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "aibolit-page-02"
+        ],
+        "evidence": "Её маленький зайчик поранил ножки.",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-02-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-02-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-02-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "aibolit-question-03",
+        "afterPage": 5,
+        "prompt": "Кто вёз доктора по снегу?",
+        "hint": "Эти лесные звери похожи на больших серых собак.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, волки помогли Айболиту в снежном лесу.",
+        "feedback": "Верно, волки помогли Айболиту в снежном лесу.",
+        "choices": [
+          {
+            "label": "Айболит едет на волке по снегу",
+            "image": "assets/books/aibolit/art/aibolit-wolves.webp"
+          },
+          {
+            "label": "Айболит плывёт на ките",
+            "image": "assets/books/aibolit/art/aibolit-whale.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "aibolit-page-04"
+        ],
+        "evidence": "Волки понесли доктора вперёд.",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-03-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-03-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-03-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "aibolit-question-04",
+        "afterPage": 5,
+        "prompt": "Кто перевёз доктора через море?",
+        "hint": "Он очень большой и живёт в воде. Доктор сел ему на спину.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, кит перевёз Айболита через морские волны!",
+        "feedback": "Да, кит перевёз Айболита через морские волны!",
+        "choices": [
+          {
+            "label": "Орлы над горами",
+            "image": "assets/books/aibolit/art/aibolit-eagles.webp"
+          },
+          {
+            "label": "Айболит плывёт на ките",
+            "image": "assets/books/aibolit/art/aibolit-whale.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "aibolit-page-05"
+        ],
+        "evidence": "Добрый кит повёз его через волны.",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-04-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-04-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-04-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-04-feedback.mp3"
+        }
+      },
+      {
+        "id": "aibolit-question-05",
+        "afterPage": 8,
+        "prompt": "У каких малышей болели животики?",
+        "hint": "Это маленькие бегемоты. Они держатся за свои животики.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл бегемотиков! Айболит помог им выздороветь.",
+        "feedback": "Ты нашёл бегемотиков! Айболит помог им выздороветь.",
+        "choices": [
+          {
+            "label": "Бегемотики",
+            "image": "assets/books/aibolit/art/aibolit-hippos.webp"
+          },
+          {
+            "label": "Акула",
+            "image": "assets/books/aibolit/art/aibolit-shark.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "aibolit-page-07"
+        ],
+        "evidence": "У бегемотиков болят животики, у акулят — зубки.",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-05-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-05-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-05-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-05-feedback.mp3"
+        }
+      },
+      {
+        "id": "aibolit-question-06",
+        "afterPage": 8,
+        "prompt": "Кто прилетел и вылечил зверят?",
+        "hint": "Это заботливый доктор в белом халате.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Правильно, добрый доктор Айболит вылечил зверят!",
+        "feedback": "Правильно, добрый доктор Айболит вылечил зверят!",
+        "choices": [
+          {
+            "label": "Кузнечик",
+            "image": "assets/books/aibolit/art/aibolit-grasshopper.webp"
+          },
+          {
+            "label": "Доктор Айболит",
+            "image": "assets/books/aibolit/art/aibolit-doctor.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "aibolit-page-08"
+        ],
+        "evidence": "Наконец прилетел Айболит! ... Доктор сразу принялся их лечить.",
+        "audio": {
+          "prompt": "assets/books/aibolit/audio/aibolit-question-06-prompt.mp3",
+          "hint": "assets/books/aibolit/audio/aibolit-question-06-hint.mp3",
+          "guided": "assets/books/aibolit/audio/aibolit-question-06-guided.mp3",
+          "feedback": "assets/books/aibolit/audio/aibolit-question-06-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Айболит» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/aibolit/audio/aibolit-complete.mp3"
+    }
+  },
+  {
+    "id": "ugly-duckling",
+    "title": "Гадкий утенок",
+    "language": "ru",
+    "attribution": "Ганс Христиан Андерсен. «Гадкий утенок». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Исходный PDF не содержит иллюстраций; рисунки созданы для этого приложения.",
+    "original": "assets/books/ugly-duckling/ugly-duckling_original.pdf",
+    "cover": "assets/books/ugly-duckling/art/ugly-duckling_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ для прослушивания. Опущены подробности охоты, жестоких насмешек и опасных зимних приключений; сохранены одиночество птенца, спасение крестьянином и счастливое узнавание себя лебедем. В предоставленном PDF иллюстраций нет; картинки и изображения ответов созданы для этой адаптации.",
+    "pages": [
+      {
+        "id": "ugly-duckling-page-01",
+        "text": "Под большими зелёными листьями утка высиживала яйца. Один за другим появились маленькие утята. Из самого большого яйца последним вылупился серый птенец. Он был крупнее остальных и совсем на них не похож.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_01.webp",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-01.mp3"
+      },
+      {
+        "id": "ugly-duckling-page-02",
+        "text": "Мама-утка повела малышей к воде. Плюх! Все поплыли за ней. Серый утёнок тоже ловко работал лапками и не отставал. Мама увидела, как хорошо он плавает, и позвала его за собой.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_02.webp",
+        "sourcePages": [
+          2
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-02.mp3"
+      },
+      {
+        "id": "ugly-duckling-page-03",
+        "text": "На птичьем дворе серого утёнка обижали и дразнили за то, что он не похож на других. Ему было очень грустно. Утёнок ушёл со двора и нашёл тихое место среди камышей.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_03.webp",
+        "sourcePages": [
+          3,
+          4
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-03.mp3"
+      },
+      {
+        "id": "ugly-duckling-page-04",
+        "text": "Потом утёнок укрылся в маленьком доме. Там жили старушка, кот и курица. Но утёнок скучал по воде: ему хотелось плавать и нырять. Кот и курица его не понимали, и он снова ушёл.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_04.webp",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-04.mp3"
+      },
+      {
+        "id": "ugly-duckling-page-05",
+        "text": "Наступила холодная зима. Вода замёрзла, и утёнок выбился из сил. Добрый крестьянин спас его и отогрел дома. Потом утёнок испугался шума и убежал. Зима была трудной, но наконец пришла тёплая весна.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_05.webp",
+        "sourcePages": [
+          7
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-05.mp3"
+      },
+      {
+        "id": "ugly-duckling-page-06",
+        "text": "Весной утёнок увидел прекрасных белых лебедей. Он подплыл к ним и посмотрел в воду. В отражении был лебедь! Он вырос и узнал, кто он такой. Лебеди ласково встретили его, а дети радовались новому другу.",
+        "image": "assets/books/ugly-duckling/art/ugly-duckling_06.webp",
+        "sourcePages": [
+          8,
+          9
+        ],
+        "audio": "assets/books/ugly-duckling/audio/ugly-duckling-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "ugly-duckling-question-01",
+        "afterPage": 2,
+        "prompt": "Кто повёл малышей плавать?",
+        "hint": "Она мама утят. У неё коричневые пёрышки и широкий клюв.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, мама-утка повела малышей к воде!",
+        "feedback": "Да, мама-утка повела малышей к воде!",
+        "choices": [
+          {
+            "label": "Мама-утка",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 1
+          },
+          {
+            "label": "Курица",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 2
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "ugly-duckling-page-02"
+        ],
+        "evidence": "Мама-утка повела малышей к воде.",
+        "audio": {
+          "prompt": "assets/books/ugly-duckling/audio/ugly-duckling-question-01-prompt.mp3",
+          "hint": "assets/books/ugly-duckling/audio/ugly-duckling-question-01-hint.mp3",
+          "guided": "assets/books/ugly-duckling/audio/ugly-duckling-question-01-guided.mp3",
+          "feedback": "assets/books/ugly-duckling/audio/ugly-duckling-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "ugly-duckling-question-02",
+        "afterPage": 2,
+        "prompt": "Кто был крупнее остальных птенцов?",
+        "hint": "Этот птенец был серым. Он вылупился последним.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл серого утёнка. Он появился из самого большого яйца.",
+        "feedback": "Ты нашёл серого утёнка. Он появился из самого большого яйца.",
+        "choices": [
+          {
+            "label": "Белый лебедь",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 4
+          },
+          {
+            "label": "Серый утёнок",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 0
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "ugly-duckling-page-01"
+        ],
+        "evidence": "Из самого большого яйца последним вылупился серый птенец. Он был крупнее остальных.",
+        "audio": {
+          "prompt": "assets/books/ugly-duckling/audio/ugly-duckling-question-02-prompt.mp3",
+          "hint": "assets/books/ugly-duckling/audio/ugly-duckling-question-02-hint.mp3",
+          "guided": "assets/books/ugly-duckling/audio/ugly-duckling-question-02-guided.mp3",
+          "feedback": "assets/books/ugly-duckling/audio/ugly-duckling-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "ugly-duckling-question-03",
+        "afterPage": 5,
+        "prompt": "Кто жил в доме вместе со старушкой и курицей?",
+        "hint": "Он умеет мяукать. У него мягкие лапки и длинный хвост.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, в доме жил кот!",
+        "feedback": "Верно, в доме жил кот!",
+        "choices": [
+          {
+            "label": "Кот",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 3
+          },
+          {
+            "label": "Мама-утка",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 1
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "ugly-duckling-page-04"
+        ],
+        "evidence": "Там жили старушка, кот и курица.",
+        "audio": {
+          "prompt": "assets/books/ugly-duckling/audio/ugly-duckling-question-03-prompt.mp3",
+          "hint": "assets/books/ugly-duckling/audio/ugly-duckling-question-03-hint.mp3",
+          "guided": "assets/books/ugly-duckling/audio/ugly-duckling-question-03-guided.mp3",
+          "feedback": "assets/books/ugly-duckling/audio/ugly-duckling-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "ugly-duckling-question-04",
+        "afterPage": 5,
+        "prompt": "Кем оказался выросший серый утёнок?",
+        "hint": "У этой белой птицы длинная шея. Она красиво плывёт по воде.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, он вырос и стал прекрасным белым лебедем!",
+        "feedback": "Да, он вырос и стал прекрасным белым лебедем!",
+        "choices": [
+          {
+            "label": "Курица",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 2
+          },
+          {
+            "label": "Белый лебедь",
+            "image": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+            "cell": 4
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "ugly-duckling-page-06"
+        ],
+        "evidence": "В отражении был лебедь! Он вырос и узнал, кто он такой.",
+        "audio": {
+          "prompt": "assets/books/ugly-duckling/audio/ugly-duckling-question-04-prompt.mp3",
+          "hint": "assets/books/ugly-duckling/audio/ugly-duckling-question-04-hint.mp3",
+          "guided": "assets/books/ugly-duckling/audio/ugly-duckling-question-04-guided.mp3",
+          "feedback": "assets/books/ugly-duckling/audio/ugly-duckling-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Гадкий утенок» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/ugly-duckling/audio/ugly-duckling-complete.mp3"
+    }
+  },
+  {
+    "id": "little-red-riding-hood",
+    "title": "Красная Шапочка",
+    "language": "ru",
+    "attribution": "Шарль Перро. «Красная Шапочка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+    "original": "assets/books/little-red-riding-hood/little-red-riding-hood_original.pdf",
+    "cover": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ предоставленной версии с сохранением спасения бабушки и внучки дровосеками. Эпизоды с волком изложены кратко, без страшных подробностей. Иллюстрации и картинки ответов из исходного PDF deti-online.com. Оригинальная версия чтения сохранена полностью.",
+    "pages": [
+      {
+        "id": "little-red-riding-hood-page-01",
+        "text": "Жила-была девочка, которую очень любили мама и бабушка. Бабушка сшила ей красную шапочку. Девочке так понравилась обновка, что она носила её повсюду. Поэтому все звали девочку Красной Шапочкой.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+        "sourcePages": [
+          1
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-01.mp3"
+      },
+      {
+        "id": "little-red-riding-hood-page-02",
+        "text": "Однажды мама попросила Красную Шапочку навестить бабушку. Девочка взяла пирожки и горшочек масла и пошла через лес. Мама велела не останавливаться по дороге и ни с кем не разговаривать.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_01.webp",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-02.mp3"
+      },
+      {
+        "id": "little-red-riding-hood-page-03",
+        "text": "В лесу Красная Шапочка встретила волка. Она забыла мамины слова и рассказала, куда идёт. Волк выбрал короткую дорогу к бабушке. А девочка пошла по длинной тропинке, собирала цветы и напевала песенки.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_02.webp",
+        "sourcePages": [
+          2,
+          3,
+          4
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-03.mp3"
+      },
+      {
+        "id": "little-red-riding-hood-page-04",
+        "text": "Волк первым прибежал к бабушкиному дому. Он назвался внучкой. Бабушка сказала потянуть за верёвочку, чтобы открыть дверь. Волк вошёл, проглотил бабушку и лёг в её постель, притворившись ею.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_04.webp",
+        "sourcePages": [
+          4,
+          5
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-04.mp3"
+      },
+      {
+        "id": "little-red-riding-hood-page-05",
+        "text": "Пришла Красная Шапочка и тоже открыла дверь за верёвочку. Волк укутался одеялом. Девочка удивилась его большим ушам, глазам и зубам. Тут волк проглотил и её. Но рядом работали дровосеки и услышали шум.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_05.webp",
+        "sourcePages": [
+          6,
+          7,
+          8
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-05.mp3"
+      },
+      {
+        "id": "little-red-riding-hood-page-06",
+        "text": "Дровосеки прибежали в дом и спасли бабушку и Красную Шапочку. Обе остались целы и невредимы. Бабушка и внучка снова были вместе! Так счастливо закончилась эта история о девочке в красной шапочке.",
+        "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood_06.webp",
+        "sourcePages": [
+          8,
+          9
+        ],
+        "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "little-red-riding-hood-question-01",
+        "afterPage": 2,
+        "prompt": "Кто пошёл навестить бабушку?",
+        "hint": "Эта девочка носит красную шапочку и несёт корзинку.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Красная Шапочка пошла к бабушке!",
+        "feedback": "Да, Красная Шапочка пошла к бабушке!",
+        "choices": [
+          {
+            "label": "Красная Шапочка",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+          },
+          {
+            "label": "Волк",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "little-red-riding-hood-page-02"
+        ],
+        "evidence": "Мама попросила Красную Шапочку навестить бабушку.",
+        "audio": {
+          "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-01-prompt.mp3",
+          "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-01-hint.mp3",
+          "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-01-guided.mp3",
+          "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-riding-hood-question-02",
+        "afterPage": 2,
+        "prompt": "Кого девочка встретила в лесу?",
+        "hint": "У этого зверя серая шерсть и острые уши.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, в лесу Красная Шапочка встретила волка.",
+        "feedback": "Верно, в лесу Красная Шапочка встретила волка.",
+        "choices": [
+          {
+            "label": "Бабушка",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+          },
+          {
+            "label": "Волк",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "little-red-riding-hood-page-03"
+        ],
+        "evidence": "В лесу Красная Шапочка встретила волка.",
+        "audio": {
+          "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-02-prompt.mp3",
+          "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-02-hint.mp3",
+          "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-02-guided.mp3",
+          "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-riding-hood-question-03",
+        "afterPage": 5,
+        "prompt": "Кто притворился бабушкой?",
+        "hint": "Серый зверь лёг в бабушкину постель и укрылся одеялом.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл волка. Он притворялся бабушкой.",
+        "feedback": "Ты нашёл волка. Он притворялся бабушкой.",
+        "choices": [
+          {
+            "label": "Волк",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+          },
+          {
+            "label": "Красная Шапочка",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-girl.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "little-red-riding-hood-page-04"
+        ],
+        "evidence": "Волк вошёл, проглотил бабушку и лёг в её постель, притворившись ею.",
+        "audio": {
+          "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-03-prompt.mp3",
+          "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-03-hint.mp3",
+          "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-03-guided.mp3",
+          "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "little-red-riding-hood-question-04",
+        "afterPage": 5,
+        "prompt": "Кто снова был вместе с Красной Шапочкой в конце сказки?",
+        "hint": "Это добрая бабушка девочки. Дровосеки спасли их обеих.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, бабушка! Она и Красная Шапочка снова вместе.",
+        "feedback": "Да, бабушка! Она и Красная Шапочка снова вместе.",
+        "choices": [
+          {
+            "label": "Волк",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-wolf.webp"
+          },
+          {
+            "label": "Бабушка",
+            "image": "assets/books/little-red-riding-hood/art/little-red-riding-hood-grandmother.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "little-red-riding-hood-page-06"
+        ],
+        "evidence": "Бабушка и внучка снова были вместе!",
+        "audio": {
+          "prompt": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-04-prompt.mp3",
+          "hint": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-04-hint.mp3",
+          "guided": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-04-guided.mp3",
+          "feedback": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Красная Шапочка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/little-red-riding-hood/audio/little-red-riding-hood-complete.mp3"
+    }
+  },
+  {
+    "id": "turnip",
+    "title": "Репка",
+    "language": "ru",
+    "attribution": "Русская народная сказка. «Репка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Иллюстрации из того же PDF, исходные подписи deti-online.com сохранены.",
+    "original": "assets/books/turnip/turnip_original.pdf",
+    "cover": "assets/books/turnip/art/turnip_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ для прослушивания. Сохранены порядок всех шести помощников и общий успех после прихода мышки. Исходные рисунки иногда показывают помощника раньше соответствующего абзаца PDF; для сцен выбраны рисунки по изображённому событию. Изображения ответов — фрагменты исходных рисунков, оригиналы и подписи источника сохранены.",
+    "pages": [
+      {
+        "id": "turnip-page-01",
+        "text": "Посадил дед репку в огороде. Росла она, росла и стала большой-пребольшой. Пришёл дед собирать урожай. Ухватился он за зелёные листья и стал тянуть репку из земли.",
+        "image": "assets/books/turnip/art/turnip_02.webp",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-01.mp3"
+      },
+      {
+        "id": "turnip-page-02",
+        "text": "Тянет дед репку, а вытащить не может. Позвал он бабку на помощь. Бабка ухватилась за деда, а дед — за репку. Тянут вместе, тянут, но репка крепко сидит в земле.",
+        "image": "assets/books/turnip/art/turnip_03.webp",
+        "sourcePages": [
+          2
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-02.mp3"
+      },
+      {
+        "id": "turnip-page-03",
+        "text": "Позвала бабка внучку. Внучка встала за бабкой, бабка — за дедом, а дед держит репку. Дружно тянут все трое. Но большая репка пока не поддаётся. Нужна ещё помощь!",
+        "image": "assets/books/turnip/art/turnip_04.webp",
+        "sourcePages": [
+          3
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-03.mp3"
+      },
+      {
+        "id": "turnip-page-04",
+        "text": "Внучка позвала собаку Жучку. Жучка встала за внучкой, и все снова потянули репку. Тянут-потянут, вытащить не могут! Тогда Жучка позвала кошку, чтобы та тоже помогла.",
+        "image": "assets/books/turnip/art/turnip_05.webp",
+        "sourcePages": [
+          4,
+          5
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-04.mp3"
+      },
+      {
+        "id": "turnip-page-05",
+        "text": "Кошка ухватилась за Жучку. Жучка держит внучку, внучка — бабку, бабка — деда. Все стараются, но репка не выходит. Кошка позвала маленькую мышку. Прибежала мышка помогать друзьям.",
+        "image": "assets/books/turnip/art/turnip_06.webp",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-05.mp3"
+      },
+      {
+        "id": "turnip-page-06",
+        "text": "Мышка встала за кошкой. Все приготовились и дружно потянули ещё раз. Тянут-потянут — и вытащили репку! Дед, бабка, внучка, Жучка, кошка и маленькая мышка справились вместе. Вот какая большая выросла репка!",
+        "image": "assets/books/turnip/art/turnip_07.webp",
+        "sourcePages": [
+          7
+        ],
+        "audio": "assets/books/turnip/audio/turnip-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "turnip-question-01",
+        "afterPage": 2,
+        "prompt": "Кто первым стал тянуть репку?",
+        "hint": "Это дедушка с белой бородой. Он сам посадил репку.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, дед первым стал тянуть репку!",
+        "feedback": "Да, дед первым стал тянуть репку!",
+        "choices": [
+          {
+            "label": "Дед",
+            "image": "assets/books/turnip/art/turnip-grandpa.webp"
+          },
+          {
+            "label": "Внучка",
+            "image": "assets/books/turnip/art/turnip-girl.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "turnip-page-01"
+        ],
+        "evidence": "Пришёл дед собирать урожай. Ухватился он за зелёные листья и стал тянуть репку из земли.",
+        "audio": {
+          "prompt": "assets/books/turnip/audio/turnip-question-01-prompt.mp3",
+          "hint": "assets/books/turnip/audio/turnip-question-01-hint.mp3",
+          "guided": "assets/books/turnip/audio/turnip-question-01-guided.mp3",
+          "feedback": "assets/books/turnip/audio/turnip-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "turnip-question-02",
+        "afterPage": 2,
+        "prompt": "Кого бабка позвала на помощь?",
+        "hint": "Это маленькая девочка в зелёном платочке.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, внучка пришла помогать бабке и деду!",
+        "feedback": "Верно, внучка пришла помогать бабке и деду!",
+        "choices": [
+          {
+            "label": "Кошка",
+            "image": "assets/books/turnip/art/turnip-cat.webp"
+          },
+          {
+            "label": "Внучка",
+            "image": "assets/books/turnip/art/turnip-girl.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "turnip-page-03"
+        ],
+        "evidence": "Позвала бабка внучку.",
+        "audio": {
+          "prompt": "assets/books/turnip/audio/turnip-question-02-prompt.mp3",
+          "hint": "assets/books/turnip/audio/turnip-question-02-hint.mp3",
+          "guided": "assets/books/turnip/audio/turnip-question-02-guided.mp3",
+          "feedback": "assets/books/turnip/audio/turnip-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "turnip-question-03",
+        "afterPage": 5,
+        "prompt": "Кого позвала Жучка?",
+        "hint": "Этот пушистый помощник умеет мяукать.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Жучка позвала кошку!",
+        "feedback": "Да, Жучка позвала кошку!",
+        "choices": [
+          {
+            "label": "Кошка",
+            "image": "assets/books/turnip/art/turnip-cat.webp"
+          },
+          {
+            "label": "Жучка",
+            "image": "assets/books/turnip/art/turnip-dog.webp"
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "turnip-page-04"
+        ],
+        "evidence": "Тогда Жучка позвала кошку, чтобы та тоже помогла.",
+        "audio": {
+          "prompt": "assets/books/turnip/audio/turnip-question-03-prompt.mp3",
+          "hint": "assets/books/turnip/audio/turnip-question-03-hint.mp3",
+          "guided": "assets/books/turnip/audio/turnip-question-03-guided.mp3",
+          "feedback": "assets/books/turnip/audio/turnip-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "turnip-question-04",
+        "afterPage": 5,
+        "prompt": "Кто пришёл помогать последним?",
+        "hint": "Это самый маленький помощник, с длинным тонким хвостиком.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл мышку! Все потянули вместе и вытащили репку.",
+        "feedback": "Ты нашёл мышку! Все потянули вместе и вытащили репку.",
+        "choices": [
+          {
+            "label": "Жучка",
+            "image": "assets/books/turnip/art/turnip-dog.webp"
+          },
+          {
+            "label": "Мышка",
+            "image": "assets/books/turnip/art/turnip-mouse.webp"
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "turnip-page-05"
+        ],
+        "evidence": "Кошка позвала маленькую мышку. Прибежала мышка помогать друзьям.",
+        "audio": {
+          "prompt": "assets/books/turnip/audio/turnip-question-04-prompt.mp3",
+          "hint": "assets/books/turnip/audio/turnip-question-04-hint.mp3",
+          "guided": "assets/books/turnip/audio/turnip-question-04-guided.mp3",
+          "feedback": "assets/books/turnip/audio/turnip-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Репка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/turnip/audio/turnip-complete.mp3"
+    }
+  },
+  {
+    "id": "teremok",
+    "title": "Теремок",
+    "language": "ru",
+    "attribution": "Русская народная сказка. «Теремок». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Исходный PDF не содержит иллюстраций; рисунки созданы для этого приложения.",
+    "original": "assets/books/teremok/teremok_original.pdf",
+    "cover": "assets/books/teremok/art/teremok_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ именно предоставленного варианта: мышонок, лягушонок, ёжик, зайчонок и медведь. Сохранены разрушение маленького теремка, безопасность всех друзей и строительство нового большого дома. В PDF нет иллюстраций; картинки созданы для этой адаптации.",
+    "pages": [
+      {
+        "id": "teremok-page-01",
+        "text": "Среди травы и цветов стоял красивый маленький теремок. Пробегал мимо мышонок. Постучал: «Кто здесь живёт?» Никто не ответил. Мышонок вошёл в пустой домик и остался там жить.",
+        "image": "assets/books/teremok/art/teremok_01.webp",
+        "sourcePages": [
+          1
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-01.mp3"
+      },
+      {
+        "id": "teremok-page-02",
+        "text": "Прискакал к теремку зелёный лягушонок. «Кто здесь живёт?» — спросил он. «Я, мышонок. Заходи, вместе веселее!» Лягушонок вошёл. Стали они жить вдвоём, украшать теремок и чисто прибирать.",
+        "image": "assets/books/teremok/art/teremok_02.webp",
+        "sourcePages": [
+          1
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-02.mp3"
+      },
+      {
+        "id": "teremok-page-03",
+        "text": "Зашелестела трава — это пришёл ёжик. Понравился ему красивый домик. Мышонок и лягушонок пригласили его к себе: «Заходи, вместе веселее!» Ёжик обрадовался. Теперь в теремке жили трое друзей.",
+        "image": "assets/books/teremok/art/teremok_03.webp",
+        "sourcePages": [
+          1
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-03.mp3"
+      },
+      {
+        "id": "teremok-page-04",
+        "text": "Прибежал длинноухий зайчонок и постучал в дверь. Мышонок, лягушонок и ёжик позвали его внутрь. Зайчонок с радостью остался с ними. Четверо добрых друзей стали жить в маленьком теремке.",
+        "image": "assets/books/teremok/art/teremok_04.webp",
+        "sourcePages": [
+          1,
+          2
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-04.mp3"
+      },
+      {
+        "id": "teremok-page-05",
+        "text": "Пришёл большой медведь. В маленький теремок он не помещался и попросился на крышу. Только полез наверх — домик развалился! Мышонок, лягушонок, ёжик и зайчонок успели выскочить. Все остались целы.",
+        "image": "assets/books/teremok/art/teremok_05.webp",
+        "sourcePages": [
+          2
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-05.mp3"
+      },
+      {
+        "id": "teremok-page-06",
+        "text": "Посмотрели друзья друг на друга и принялись строить новый теремок. Работали вместе и построили большой, красивый дом. Вот какой замечательный получился теремок! Теперь у друзей снова был уютный дом.",
+        "image": "assets/books/teremok/art/teremok_06.webp",
+        "sourcePages": [
+          2
+        ],
+        "audio": "assets/books/teremok/audio/teremok-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "teremok-question-01",
+        "afterPage": 2,
+        "prompt": "Кто первым поселился в теремке?",
+        "hint": "Это маленький зверёк с круглыми ушками и тонким хвостиком.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, мышонок первым нашёл пустой теремок!",
+        "feedback": "Да, мышонок первым нашёл пустой теремок!",
+        "choices": [
+          {
+            "label": "Мышонок",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 0
+          },
+          {
+            "label": "Медведь",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 4
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "teremok-page-01"
+        ],
+        "evidence": "Мышонок вошёл в пустой домик и остался там жить.",
+        "audio": {
+          "prompt": "assets/books/teremok/audio/teremok-question-01-prompt.mp3",
+          "hint": "assets/books/teremok/audio/teremok-question-01-hint.mp3",
+          "guided": "assets/books/teremok/audio/teremok-question-01-guided.mp3",
+          "feedback": "assets/books/teremok/audio/teremok-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "teremok-question-02",
+        "afterPage": 2,
+        "prompt": "Кто пришёл к мышонку и лягушонку?",
+        "hint": "У этого маленького зверька на спинке иголки.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, ёжик пришёл жить с друзьями!",
+        "feedback": "Верно, ёжик пришёл жить с друзьями!",
+        "choices": [
+          {
+            "label": "Зайчонок",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 3
+          },
+          {
+            "label": "Ёжик",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 2
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "teremok-page-03"
+        ],
+        "evidence": "Зашелестела трава — это пришёл ёжик.",
+        "audio": {
+          "prompt": "assets/books/teremok/audio/teremok-question-02-prompt.mp3",
+          "hint": "assets/books/teremok/audio/teremok-question-02-hint.mp3",
+          "guided": "assets/books/teremok/audio/teremok-question-02-guided.mp3",
+          "feedback": "assets/books/teremok/audio/teremok-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "teremok-question-03",
+        "afterPage": 5,
+        "prompt": "Кто был слишком большим для маленького теремка?",
+        "hint": "Этот большой бурый зверь попросился на крышу.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, медведь не помещался в маленьком домике.",
+        "feedback": "Да, медведь не помещался в маленьком домике.",
+        "choices": [
+          {
+            "label": "Медведь",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 4
+          },
+          {
+            "label": "Лягушонок",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 1
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "teremok-page-05"
+        ],
+        "evidence": "Пришёл большой медведь. В маленький теремок он не помещался.",
+        "audio": {
+          "prompt": "assets/books/teremok/audio/teremok-question-03-prompt.mp3",
+          "hint": "assets/books/teremok/audio/teremok-question-03-hint.mp3",
+          "guided": "assets/books/teremok/audio/teremok-question-03-guided.mp3",
+          "feedback": "assets/books/teremok/audio/teremok-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "teremok-question-04",
+        "afterPage": 5,
+        "prompt": "Кто из друзей был с длинными ушами?",
+        "hint": "Он быстро скачет. Друзья позвали его в теремок после ёжика.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл зайчонка! Он тоже жил в теремке.",
+        "feedback": "Ты нашёл зайчонка! Он тоже жил в теремке.",
+        "choices": [
+          {
+            "label": "Мышонок",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 0
+          },
+          {
+            "label": "Зайчонок",
+            "image": "assets/books/teremok/art/teremok-answers.webp",
+            "cell": 3
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "teremok-page-04"
+        ],
+        "evidence": "Прибежал длинноухий зайчонок и постучал в дверь.",
+        "audio": {
+          "prompt": "assets/books/teremok/audio/teremok-question-04-prompt.mp3",
+          "hint": "assets/books/teremok/audio/teremok-question-04-hint.mp3",
+          "guided": "assets/books/teremok/audio/teremok-question-04-guided.mp3",
+          "feedback": "assets/books/teremok/audio/teremok-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Теремок» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/teremok/audio/teremok-complete.mp3"
+    }
+  },
+  {
+    "id": "frog-princess",
+    "title": "Царевна-лягушка",
+    "language": "ru",
+    "attribution": "Русская народная сказка. «Царевна-лягушка». Текст из предоставленного PDF deti-online.com. Оригинальный файл, авторство и указание источника сохранены. Исходный PDF не содержит иллюстраций; рисунки созданы для этого приложения.",
+    "original": "assets/books/frog-princess/frog-princess_original.pdf",
+    "cover": "assets/books/frog-princess/art/frog-princess_01.webp",
+    "version": 1,
+    "voice": "longanlingxin",
+    "model": "qwen/qwen-audio-3.0-tts-plus",
+    "adaptationNote": "Короткий пересказ для прослушивания. Сохранены задания Василисы, преждевременное сожжение кожи, поиски, помощь зверей, победа над Кощеем и возвращение домой. Подробности гибели животных и Кощея смягчены. В PDF нет иллюстраций; картинки созданы для этой адаптации.",
+    "pages": [
+      {
+        "id": "frog-princess-page-01",
+        "text": "У царя было три сына. Он велел им пустить стрелы, чтобы найти себе невест. Стрела Ивана-царевича попала на болото. Там её держала маленькая лягушка. Иван взял лягушку в жёны и привёл домой.",
+        "image": "assets/books/frog-princess/art/frog-princess_01.webp",
+        "sourcePages": [
+          1
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-01.mp3"
+      },
+      {
+        "id": "frog-princess-page-02",
+        "text": "Царь попросил жён сыновей сшить рубашки, а потом испечь хлеб. Ночью лягушка превращалась в Василису Премудрую. С помощницами она приготовила нарядную рубашку и красивый хлеб. Царю понравились её подарки.",
+        "image": "assets/books/frog-princess/art/frog-princess_02.webp",
+        "sourcePages": [
+          2,
+          3
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-02.mp3"
+      },
+      {
+        "id": "frog-princess-page-03",
+        "text": "На пиру Василиса танцевала. Взмахнула рукавами — появились озеро и белые лебеди! Иван побежал домой и сжёг лягушечью кожу. А надо было ещё подождать. Василиса превратилась в кукушку и улетела к Кощею. Иван отправился её искать.",
+        "image": "assets/books/frog-princess/art/frog-princess_03.webp",
+        "sourcePages": [
+          4,
+          5
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-03.mp3"
+      },
+      {
+        "id": "frog-princess-page-04",
+        "text": "Старичок дал Ивану волшебный клубок. Клубок катился и показывал дорогу. По пути Иван пощадил медведя, селезня и зайца, а щуку вернул в воду. Баба-яга подсказала: тайна Кощея спрятана в игле, а игла — в яйце.",
+        "image": "assets/books/frog-princess/art/frog-princess_04.webp",
+        "sourcePages": [
+          5,
+          6
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-04.mp3"
+      },
+      {
+        "id": "frog-princess-page-05",
+        "text": "Медведь помог достать сундук с высокого дуба. Заяц догнал зайца из сундука, а селезень поймал вылетевшую утку. Утка выронила яйцо прямо в море. Тут приплыла щука и принесла Ивану яйцо. Звери помогли своему спасителю!",
+        "image": "assets/books/frog-princess/art/frog-princess_05.webp",
+        "sourcePages": [
+          6,
+          7
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-05.mp3"
+      },
+      {
+        "id": "frog-princess-page-06",
+        "text": "Иван разбил яйцо, достал иголку и сломал её кончик. Кощей был побеждён! Василиса освободилась и выбежала навстречу Ивану. Они вернулись домой и жили долго и счастливо. Так закончились их трудные приключения.",
+        "image": "assets/books/frog-princess/art/frog-princess_06.webp",
+        "sourcePages": [
+          7
+        ],
+        "audio": "assets/books/frog-princess/audio/frog-princess-page-06.mp3"
+      }
+    ],
+    "questions": [
+      {
+        "id": "frog-princess-question-01",
+        "afterPage": 2,
+        "prompt": "Кто держал стрелу Ивана на болоте?",
+        "hint": "Она маленькая, зелёная и умеет прыгать.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, маленькая лягушка держала стрелу!",
+        "feedback": "Верно, маленькая лягушка держала стрелу!",
+        "choices": [
+          {
+            "label": "Лягушка",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 0
+          },
+          {
+            "label": "Белый лебедь",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 5
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "frog-princess-page-01"
+        ],
+        "evidence": "Там её держала маленькая лягушка.",
+        "audio": {
+          "prompt": "assets/books/frog-princess/audio/frog-princess-question-01-prompt.mp3",
+          "hint": "assets/books/frog-princess/audio/frog-princess-question-01-hint.mp3",
+          "guided": "assets/books/frog-princess/audio/frog-princess-question-01-guided.mp3",
+          "feedback": "assets/books/frog-princess/audio/frog-princess-question-01-feedback.mp3"
+        }
+      },
+      {
+        "id": "frog-princess-question-02",
+        "afterPage": 2,
+        "prompt": "Что Василиса сшила для царя?",
+        "hint": "Это нарядная одежда с рукавами и красивыми узорами.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, Василиса приготовила нарядную рубашку!",
+        "feedback": "Да, Василиса приготовила нарядную рубашку!",
+        "choices": [
+          {
+            "label": "Клубок ниток",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 3
+          },
+          {
+            "label": "Нарядная рубашка",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 1
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "frog-princess-page-02"
+        ],
+        "evidence": "С помощницами она приготовила нарядную рубашку и красивый хлеб.",
+        "audio": {
+          "prompt": "assets/books/frog-princess/audio/frog-princess-question-02-prompt.mp3",
+          "hint": "assets/books/frog-princess/audio/frog-princess-question-02-hint.mp3",
+          "guided": "assets/books/frog-princess/audio/frog-princess-question-02-guided.mp3",
+          "feedback": "assets/books/frog-princess/audio/frog-princess-question-02-feedback.mp3"
+        }
+      },
+      {
+        "id": "frog-princess-question-03",
+        "afterPage": 5,
+        "prompt": "Что катилось впереди Ивана и показывало дорогу?",
+        "hint": "Это круглый клубочек ниток. Его дал старичок.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл волшебный клубок! Иван шёл за ним.",
+        "feedback": "Ты нашёл волшебный клубок! Иван шёл за ним.",
+        "choices": [
+          {
+            "label": "Клубок ниток",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 3
+          },
+          {
+            "label": "Красивый хлеб",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 2
+          }
+        ],
+        "answer": 0,
+        "evidenceSceneIds": [
+          "frog-princess-page-04"
+        ],
+        "evidence": "Клубок катился и показывал дорогу.",
+        "audio": {
+          "prompt": "assets/books/frog-princess/audio/frog-princess-question-03-prompt.mp3",
+          "hint": "assets/books/frog-princess/audio/frog-princess-question-03-hint.mp3",
+          "guided": "assets/books/frog-princess/audio/frog-princess-question-03-guided.mp3",
+          "feedback": "assets/books/frog-princess/audio/frog-princess-question-03-feedback.mp3"
+        }
+      },
+      {
+        "id": "frog-princess-question-04",
+        "afterPage": 5,
+        "prompt": "Кто принёс Ивану яйцо из моря?",
+        "hint": "Это рыба. Иван раньше помог ей вернуться в воду.",
+        "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, щука принесла яйцо и помогла Ивану!",
+        "feedback": "Да, щука принесла яйцо и помогла Ивану!",
+        "choices": [
+          {
+            "label": "Лягушка",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 0
+          },
+          {
+            "label": "Щука",
+            "image": "assets/books/frog-princess/art/frog-princess-answers.webp",
+            "cell": 4
+          }
+        ],
+        "answer": 1,
+        "evidenceSceneIds": [
+          "frog-princess-page-05"
+        ],
+        "evidence": "Тут приплыла щука и принесла Ивану яйцо.",
+        "audio": {
+          "prompt": "assets/books/frog-princess/audio/frog-princess-question-04-prompt.mp3",
+          "hint": "assets/books/frog-princess/audio/frog-princess-question-04-hint.mp3",
+          "guided": "assets/books/frog-princess/audio/frog-princess-question-04-guided.mp3",
+          "feedback": "assets/books/frog-princess/audio/frog-princess-question-04-feedback.mp3"
+        }
+      }
+    ],
+    "completion": {
+      "text": "Ты послушал всю сказку «Царевна-лягушка» и нашёл картинки! Вот твоя звёздочка за сказку. Можно послушать её снова.",
+      "audio": "assets/books/frog-princess/audio/frog-princess-complete.mp3"
+    }
+  }
+]

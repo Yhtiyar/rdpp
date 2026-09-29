@@ -1,0 +1,63 @@
+{
+  "book": "ugly-duckling",
+  "policy": "Illustrations accompany the complete supplied text; they do not replace or shorten narration.",
+  "atlasCells": [
+    "grey cygnet",
+    "brown mother duck",
+    "russet hen",
+    "black cat",
+    "white swan",
+    "reed-lined pond"
+  ],
+  "records": [
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_01.webp",
+      "prompt": "Children’s picture book, premium tactile gouache painting, square, no text. A warm brown mother duck beside a reed-lined nest, three small fluffy yellow ducklings and one larger soft grey cygnet with a black bill. Summer pond garden, gentle expressive faces, rounded natural anatomy, soft mint water and warm cream sunlight. Complete subjects comfortably inside the frame. Charming finished storybook art.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-36852cd7-26db-4d2d-8252-28752ac36ad1.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_02.webp",
+      "prompt": "Create a new square storybook illustration matching the reference’s painterly style and exact bird designs. Summer pond: the same brown mother duck swims ahead with three yellow ducklings; the larger grey black-billed cygnet swims behind them. All birds fully visible, gentle ripples and reeds, warm light. Clear coherent bird anatomy, premium tactile gouache, no text.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-f80557a0-12cd-4c98-9a39-817b178f3118.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_03.webp",
+      "prompt": "Create a new square storybook illustration matching the reference’s style and same grey black-billed cygnet. The lonely grey cygnet walks away from a rustic poultry yard through an open wooden gate. Gentle sadness, expressive dark eyes, softly drooping head, two visible webbed feet. Distant brown chickens, warm meadow, painterly gouache, no text.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-a92376b3-0c7d-40b7-8099-0f8dd6f5e7c5.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_04.webp",
+      "prompt": "Square gouache storybook scene using the reference characters: the grey cygnet, black cat, and russet pointed-beak chicken stand together inside a cozy rustic cottage. Elderly woman sits beside hearth behind them. The cygnet gazes toward a pond outside the open door. Keep the reference character designs. No text.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-dfec7930-a0e4-4811-ad15-33c6a0e60116.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_05.webp",
+      "prompt": "New square storybook illustration, matching reference gouache style and the same grey black-billed cygnet. Winter rescue: a kind farmer in brown coat gently cradles the exhausted grey cygnet in a warm cream blanket beside a snowy frozen pond. A cozy cottage glows in the distance. Reassuring tenderness, beautiful snow and soft evening light, anatomically clear hands and bird, no text.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-159cf9d4-1652-4bfd-81e8-a8eb3d7c2ce3.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling_06.webp",
+      "prompt": "New square gouache storybook illustration matching the reference. Spring pond: the cygnet has grown into a beautiful young WHITE SWAN, gazing at his clear swan reflection. Three adult white swans warmly welcome him nearby. All four swans fully visible, long elegant curved necks, natural anatomy. Soft flowering branches, warm sunlight, joyful tender ending, no text.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-0ce1556c-ced6-4cec-83a2-bc2793df3c66.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    },
+    {
+      "asset": "assets/books/ugly-duckling/art/ugly-duckling-answers.webp",
+      "prompt": "Landscape 3:2 picture-answer atlas, exactly three columns and two rows, six equal cream square cells, no borders or text. Match reference painterly gouache. Each cell one large complete isolated subject, equal scale, generous empty margins. Reading order: grey black-billed cygnet; brown mother duck; russet chicken hen with pointed beak and red comb; black cat; elegant white swan; small blue pond surrounded by reeds. Nothing crosses cell boundaries.",
+      "generation": "/home/yhtiyar/.codex/generated_images/01a0e4cd-8586-7642-a7ab-773408598a70/exec-b7c2e4fc-816d-468f-b0f4-2302504f2243.png",
+      "method": "Built-in image_gen; format converted to WebP at quality 93; original retained",
+      "review": "Viewed and accepted; coherent character design, no text, clear anatomy"
+    }
+  ]
+}

@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "little-red-hen",
+    "title": "The Little Red Hen",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/little-red-hen/art/little-red-hen_01.webp",
+    "pages": [
+      {
+        "sourcePage": 65,
+        "text": "There once was a little red hen who lived with her friends on a farm. She was not a lazy hen. She worked harder than all of the other animals.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_01.webp"
+      },
+      {
+        "sourcePage": 66,
+        "text": "The Little Red Hen wanted to plant some grains of wheat. She asked for help, but her friends refused. So she planted the grains herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_02.webp"
+      },
+      {
+        "sourcePage": 67,
+        "text": "In the summertime, the wonderful golden wheat was ready to be harvested. Once again, with no one to help her, the Little Red Hen did all the work.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_03.webp"
+      },
+      {
+        "sourcePage": 68,
+        "text": "The Little Red Hen had to grind the wheat into flour.\n\nAs usual, her friends did not want to do any hard work. So the Little Red Hen ground the flour herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_04.webp"
+      },
+      {
+        "sourcePage": 69,
+        "text": "The Little Red Hen used the flour to make bread dough. With no one to help her, she kneaded the dough all by herself.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_05.webp"
+      },
+      {
+        "sourcePage": 70,
+        "text": "The Little Red Hen’s friends had completely abandoned her. So she baked the bread all by herself.\n\nWhen the smell of freshly baked bread rose up into the air, the Little Red Hen’s friends appeared.",
+        "image": "assets/books/little-red-hen/art/little-red-hen_06.webp"
+      },
+      {
+        "sourcePage": 71,
+        "text": "They were willing to help eat the bread, but the Little Red Hen ate it all by herself. She had done all the work!",
+        "image": "assets/books/little-red-hen/art/little-red-hen_07.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 2,
+        "questions": [
+          {
+            "prompt": "Where did the little red hen live?",
+            "options": [
+              "On a farm",
+              "In a castle",
+              "Beside the sea",
+              "In a cave"
+            ],
+            "answer": 0,
+            "hint": "Her home had other animals.",
+            "explanation": "The hen lived with her friends on a farm."
+          },
+          {
+            "prompt": "What did the hen want to plant?",
+            "options": [
+              "Apple trees",
+              "Grains of wheat",
+              "Flower bulbs",
+              "Carrots"
+            ],
+            "answer": 1,
+            "hint": "These grains would eventually become bread.",
+            "explanation": "She wanted to plant some grains of wheat."
+          },
+          {
+            "prompt": "How did her friends respond when she asked for help?",
+            "options": [
+              "They all helped.",
+              "They brought tools.",
+              "They refused.",
+              "They planted the grains first."
+            ],
+            "answer": 2,
+            "hint": "The hen had to do the planting herself.",
+            "explanation": "Her friends refused to help her plant."
+          },
+          {
+            "prompt": "How did the hen compare with the other animals?",
+            "options": [
+              "She slept longer.",
+              "She was the laziest.",
+              "She never worked.",
+              "She worked harder."
+            ],
+            "answer": 3,
+            "hint": "The story says she was not lazy.",
+            "explanation": "She worked harder than all the other animals."
+          }
+        ]
+      },
+      {
+        "startPage": 2,
+        "endPage": 4,
+        "questions": [
+          {
+            "prompt": "When was the wheat ready to harvest?",
+            "options": [
+              "In winter",
+              "In summer",
+              "Before it grew",
+              "During autumn snow"
+            ],
+            "answer": 1,
+            "hint": "The story names a warm season.",
+            "explanation": "The golden wheat was ready in the summertime."
+          },
+          {
+            "prompt": "Who harvested the wheat?",
+            "options": [
+              "The pig",
+              "All the friends",
+              "The hen by herself",
+              "A farmer"
+            ],
+            "answer": 2,
+            "hint": "Again, nobody would help.",
+            "explanation": "The Little Red Hen did all the harvesting work herself."
+          },
+          {
+            "prompt": "What did the hen need to make from the wheat?",
+            "options": [
+              "Soup",
+              "Honey",
+              "Jam",
+              "Flour"
+            ],
+            "answer": 3,
+            "hint": "She had to grind the wheat.",
+            "explanation": "The hen needed to grind the wheat into flour."
+          },
+          {
+            "prompt": "Why did the hen grind the wheat herself?",
+            "options": [
+              "Her friends did not want to work.",
+              "She had lost the wheat.",
+              "The flour was already baked.",
+              "Her friends were away at school."
+            ],
+            "answer": 0,
+            "hint": "Her friends acted as they had when she planted.",
+            "explanation": "Her friends did not want to do any hard work."
+          }
+        ]
+      },
+      {
+        "startPage": 4,
+        "endPage": 7,
+        "questions": [
+          {
+            "prompt": "What did the hen make from the flour?",
+            "options": [
+              "A nest",
+              "Porridge",
+              "Bread dough",
+              "A cake"
+            ],
+            "answer": 2,
+            "hint": "She pushed and folded it before baking.",
+            "explanation": "She used the flour to make bread dough and kneaded it."
+          },
+          {
+            "prompt": "What brought the hen’s friends back?",
+            "options": [
+              "The rain",
+              "A bell",
+              "The sound of singing",
+              "The smell of fresh bread"
+            ],
+            "answer": 3,
+            "hint": "Something delicious rose into the air.",
+            "explanation": "Her friends appeared when they smelled the freshly baked bread."
+          },
+          {
+            "prompt": "What were the friends finally willing to help with?",
+            "options": [
+              "Eating the bread",
+              "Planting the wheat",
+              "Grinding the wheat",
+              "Kneading the dough"
+            ],
+            "answer": 0,
+            "hint": "They arrived after the work was finished.",
+            "explanation": "They were willing to help eat the bread."
+          },
+          {
+            "prompt": "Why did the hen eat all the bread herself?",
+            "options": [
+              "There was no bread left.",
+              "She had done all the work.",
+              "Her friends disliked bread.",
+              "She could not find the flour."
+            ],
+            "answer": 1,
+            "hint": "Remember who planted, ground, kneaded, and baked.",
+            "explanation": "The hen ate it herself because she had done all the work."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thumbelina",
+    "title": "Thumbelina",
+    "author": "Hans Christian Andersen; retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Original story by Hans Christian Andersen. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/thumbelina/art/thumbelina_01.webp",
+    "pages": [
+      {
+        "sourcePage": 75,
+        "text": "Once upon a time, there was a woman who was very sad because she did not have any children. One day, she planted a magical seed. That night, the seed grew into a flowering plant.",
+        "image": "assets/books/thumbelina/art/thumbelina_01.webp"
+      },
+      {
+        "sourcePage": 76,
+        "text": "“What a beautiful flower,” said the woman as she kissed the petals. At that moment, the flower opened. Inside the flower sat a tiny girl.",
+        "image": "assets/books/thumbelina/art/thumbelina_02.webp"
+      },
+      {
+        "sourcePage": 77,
+        "text": "The girl was no bigger than a thumb. The woman named her Thumbelina.\n\nAt night, Thumbelina slept in a polished walnut shell.",
+        "image": "assets/books/thumbelina/art/thumbelina_03.webp"
+      },
+      {
+        "sourcePage": 78,
+        "text": "One night, a mother toad came and took Thumbelina away.\n\nThe mother toad wanted Thumbelina to marry her son.",
+        "image": "assets/books/thumbelina/art/thumbelina_04.webp"
+      },
+      {
+        "sourcePage": 79,
+        "text": "The mother toad and her son placed Thumbelina on a water lily leaf in the river. Then they set off to plan the wedding.\n\nThumbelina was very sad. She began to cry.",
+        "image": "assets/books/thumbelina/art/thumbelina_05.webp"
+      },
+      {
+        "sourcePage": 80,
+        "text": "A fish heard Thumbelina’s sobs. It nibbled on the stem of the lily pad until the leaf broke free. Thumbelina floated down the river.",
+        "image": "assets/books/thumbelina/art/thumbelina_06.webp"
+      },
+      {
+        "sourcePage": 81,
+        "text": "Summer disappeared, and winter came. Thumbelina was cold.\n\nA field mouse took pity on her. “My dear, you must come home with me,” the field mouse said.",
+        "image": "assets/books/thumbelina/art/thumbelina_07.webp"
+      },
+      {
+        "sourcePage": 82,
+        "text": "Thumbelina spent the rest of the winter in the mouse’s snug burrow. They became good friends.",
+        "image": "assets/books/thumbelina/art/thumbelina_08.webp"
+      },
+      {
+        "sourcePage": 83,
+        "text": "In a burrow nearby lived Mr. Mole. He liked to visit in the evening and hear Thumbelina sing.",
+        "image": "assets/books/thumbelina/art/thumbelina_09.webp"
+      },
+      {
+        "sourcePage": 84,
+        "text": "One evening, while visiting Mr. Mole, Thumbelina found a swallow. The bird was cold and hurt.\n\nThumbelina cared for the swallow and brought him food every day.",
+        "image": "assets/books/thumbelina/art/thumbelina_10.webp"
+      },
+      {
+        "sourcePage": 85,
+        "text": "Mr. Mole had fallen in love with Thumbelina. He wanted to marry her.\n\nThumbelina did not want to marry Mr. Mole. Once again, she was very unhappy.",
+        "image": "assets/books/thumbelina/art/thumbelina_11.webp"
+      },
+      {
+        "sourcePage": 86,
+        "text": "One day, the swallow that Thumbelina had cared for came to help her escape.\n\nTogether, they flew south to warmer lands.",
+        "image": "assets/books/thumbelina/art/thumbelina_12.webp"
+      },
+      {
+        "sourcePage": 87,
+        "text": "In a new land filled with flowers, Thumbelina met a king. He was tiny, too!",
+        "image": "assets/books/thumbelina/art/thumbelina_13.webp"
+      },
+      {
+        "sourcePage": 88,
+        "text": "Thumbelina became the queen. She and the king lived happily ever after.",
+        "image": "assets/books/thumbelina/art/thumbelina_14.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Why was the woman sad at the beginning?",
+            "options": [
+              "She did not have any children.",
+              "She had lost a crown.",
+              "Her garden was flooded.",
+              "She had no winter coat."
+            ],
+            "answer": 0,
+            "hint": "She wished for someone small to care for.",
+            "explanation": "The woman was sad because she did not have any children."
+          },
+          {
+            "prompt": "What grew from the magical seed?",
+            "options": [
+              "A walnut tree",
+              "A flowering plant",
+              "A giant beanstalk",
+              "A lily leaf in a river"
+            ],
+            "answer": 1,
+            "hint": "The woman later kissed its petals.",
+            "explanation": "The seed grew into a flowering plant that night."
+          },
+          {
+            "prompt": "What happened when the woman kissed the petals?",
+            "options": [
+              "The flower disappeared.",
+              "A toad jumped out.",
+              "The flower opened to reveal a tiny girl.",
+              "The seed fell into water."
+            ],
+            "answer": 2,
+            "hint": "Someone was sitting inside the flower.",
+            "explanation": "The flower opened, and a tiny girl was inside."
+          },
+          {
+            "prompt": "Where did Thumbelina sleep at night?",
+            "options": [
+              "In a teacup",
+              "Under a mushroom",
+              "In a shoe",
+              "In a polished walnut shell"
+            ],
+            "answer": 3,
+            "hint": "Her bed was made from part of a nut.",
+            "explanation": "Thumbelina slept in a polished walnut shell."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "Why did the mother toad take Thumbelina?",
+            "options": [
+              "To teach her to swim",
+              "To have her marry the toad’s son",
+              "To plant more flowers",
+              "To sing for the king"
+            ],
+            "answer": 1,
+            "hint": "The toads later left to plan a wedding.",
+            "explanation": "The mother toad wanted Thumbelina to marry her son."
+          },
+          {
+            "prompt": "Where did the toads leave Thumbelina?",
+            "options": [
+              "In a walnut bed",
+              "Inside a cave",
+              "On a water lily leaf",
+              "Under a tree"
+            ],
+            "answer": 2,
+            "hint": "She was in the river.",
+            "explanation": "The toads placed Thumbelina on a water lily leaf in the river."
+          },
+          {
+            "prompt": "How did Thumbelina feel on the lily leaf?",
+            "options": [
+              "Excited to marry",
+              "Sleepy and peaceful",
+              "Angry with the fish",
+              "Sad enough to cry"
+            ],
+            "answer": 3,
+            "hint": "The fish heard her sobs.",
+            "explanation": "Thumbelina was very sad and began to cry."
+          },
+          {
+            "prompt": "How did the fish help Thumbelina?",
+            "options": [
+              "It nibbled through the lily stem.",
+              "It carried her to the mouse.",
+              "It called the swallow.",
+              "It built a boat from wood."
+            ],
+            "answer": 0,
+            "hint": "The leaf broke free and floated away.",
+            "explanation": "The fish nibbled the stem until the leaf broke free."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "Why did Thumbelina need help when winter came?",
+            "options": [
+              "She had lost her crown.",
+              "She could not sing.",
+              "She was cold.",
+              "She wanted to fly."
+            ],
+            "answer": 2,
+            "hint": "The season had changed from summer.",
+            "explanation": "Winter came, and Thumbelina was cold."
+          },
+          {
+            "prompt": "Who invited Thumbelina home?",
+            "options": [
+              "The king",
+              "The mother toad",
+              "The swallow",
+              "A field mouse"
+            ],
+            "answer": 3,
+            "hint": "This animal had a snug burrow.",
+            "explanation": "A field mouse took pity on her and invited her home."
+          },
+          {
+            "prompt": "How long did Thumbelina stay with the mouse?",
+            "options": [
+              "The rest of winter",
+              "Only one hour",
+              "All her life",
+              "Until the next evening"
+            ],
+            "answer": 0,
+            "hint": "Their friendship grew during the cold season.",
+            "explanation": "She spent the rest of winter in the mouse’s snug burrow."
+          },
+          {
+            "prompt": "What did Mr. Mole like to hear?",
+            "options": [
+              "The fish splashing",
+              "Thumbelina singing",
+              "The toads arguing",
+              "The wind blowing"
+            ],
+            "answer": 1,
+            "hint": "He visited in the evenings to listen.",
+            "explanation": "Mr. Mole liked to hear Thumbelina sing."
+          }
+        ]
+      },
+      {
+        "startPage": 9,
+        "endPage": 12,
+        "questions": [
+          {
+            "prompt": "What was wrong with the swallow Thumbelina found?",
+            "options": [
+              "It had lost a seed.",
+              "It wanted a crown.",
+              "It was too warm.",
+              "It was cold and hurt."
+            ],
+            "answer": 3,
+            "hint": "Thumbelina needed to care for the bird.",
+            "explanation": "The swallow was cold and hurt."
+          },
+          {
+            "prompt": "How did Thumbelina care for the swallow?",
+            "options": [
+              "She brought him food every day.",
+              "She gave him a wedding ring.",
+              "She sent him to the toads.",
+              "She taught him to dig."
+            ],
+            "answer": 0,
+            "hint": "She returned daily with something he could eat.",
+            "explanation": "Thumbelina cared for the swallow and brought food every day."
+          },
+          {
+            "prompt": "How did Thumbelina feel about marrying Mr. Mole?",
+            "options": [
+              "She was delighted.",
+              "She did not want to marry him.",
+              "She had already agreed happily.",
+              "She never heard the proposal."
+            ],
+            "answer": 1,
+            "hint": "The proposal made her unhappy again.",
+            "explanation": "Thumbelina did not want to marry Mr. Mole."
+          },
+          {
+            "prompt": "How did Thumbelina escape?",
+            "options": [
+              "She swam with the fish again.",
+              "The field mouse carried her.",
+              "She flew south with the swallow.",
+              "She hid in a walnut shell."
+            ],
+            "answer": 2,
+            "hint": "The bird she had helped returned.",
+            "explanation": "The swallow helped her escape, and they flew south to warmer lands."
+          }
+        ]
+      },
+      {
+        "startPage": 12,
+        "endPage": 14,
+        "questions": [
+          {
+            "prompt": "What filled the new land?",
+            "options": [
+              "Flowers",
+              "Icebergs",
+              "Tall buildings",
+              "Desert sand"
+            ],
+            "answer": 0,
+            "hint": "The new setting matched the flower where she first appeared.",
+            "explanation": "Thumbelina arrived in a land filled with flowers."
+          },
+          {
+            "prompt": "Whom did Thumbelina meet there?",
+            "options": [
+              "A giant",
+              "A king",
+              "The mother toad",
+              "Mr. Mole"
+            ],
+            "answer": 1,
+            "hint": "She later became a queen.",
+            "explanation": "Thumbelina met a king in the new land."
+          },
+          {
+            "prompt": "What was special about the king’s size?",
+            "options": [
+              "He was taller than a tree.",
+              "He was bigger than the swallow.",
+              "He was tiny, too.",
+              "He changed size every day."
+            ],
+            "answer": 2,
+            "hint": "He and Thumbelina had something in common.",
+            "explanation": "The king was tiny, just like Thumbelina."
+          },
+          {
+            "prompt": "How did Thumbelina’s story end?",
+            "options": [
+              "She returned to the toads.",
+              "She married Mr. Mole.",
+              "She stayed alone in the river.",
+              "She became queen and lived happily with the king."
+            ],
+            "answer": 3,
+            "hint": "Her last home was in the flower-filled land.",
+            "explanation": "Thumbelina became queen, and she and the king lived happily ever after."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turtle-shell",
+    "title": "How Turtle Cracked His Shell",
+    "author": "Joseph Bruchac; retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh and Barbara L. Gibson. Adapted by Rosie McCormick from How the Turtle Flew South for the Winter by Joseph Bruchac, courtesy of Fulcrum Publishing, Inc. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/turtle-shell/art/turtle-shell_01.webp",
+    "pages": [
+      {
+        "sourcePage": 93,
+        "text": "One autumn day, Turtle was talking with the birds. They said, “Winter is coming. Soon it’s going to be very cold here. We’re getting ready to fly south where it is warm.”",
+        "image": "assets/books/turtle-shell/art/turtle-shell_01.webp"
+      },
+      {
+        "sourcePage": 94,
+        "text": "“Can I come with you?” asked Turtle. At first, the birds said, “No!” Turtle pleaded, “There must be some way I can go with you!” Finally, the birds agreed.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_02.webp"
+      },
+      {
+        "sourcePage": 95,
+        "text": "“Use your mouth to hold on tightly to this stick,” the birds explained. Turtle did just that.\n\nThen the two big birds grabbed the ends of the stick. Soon they were all high in the sky—including Turtle.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_03.webp"
+      },
+      {
+        "sourcePage": 96,
+        "text": "Turtle had never been so high off the ground before. He could look down and see how small everything looked. He wondered how far they had come, and how far they had to go.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_04.webp"
+      },
+      {
+        "sourcePage": 97,
+        "text": "Turtle tried to get the birds’ attention. He rolled his eyes at them, but they did not notice. He waved his legs too.\n\nFrustrated, Turtle opened his mouth to speak. At that moment he let go of the stick and began to fall! He fell down from the sky and hit the ground hard.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_05.webp"
+      },
+      {
+        "sourcePage": 98,
+        "text": "Turtle’s body ached. He ached so much he did not notice that his shell had cracked all over. He crawled into a pond and swam down to the bottom.\n\nThere he dug a hole in the mud and slept all winter long.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_06.webp"
+      },
+      {
+        "sourcePage": 99,
+        "text": "In the spring, Turtle woke up. He was very proud of the cracks on his shell.\n\nEver since then, every turtle’s shell looks like it has cracks all over it.",
+        "image": "assets/books/turtle-shell/art/turtle-shell_07.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Why were the birds getting ready to fly south?",
+            "options": [
+              "Winter was coming, and it was warm in the south.",
+              "They wanted to find a larger stick.",
+              "Turtle had lost his pond.",
+              "It was too warm where they lived."
+            ],
+            "answer": 0,
+            "hint": "They told Turtle it would soon be cold.",
+            "explanation": "The birds wanted to fly south to warm weather before winter."
+          },
+          {
+            "prompt": "What did Turtle ask the birds?",
+            "options": [
+              "To stay all winter",
+              "To let him come with them",
+              "To find a new shell",
+              "To dig a hole in the mud"
+            ],
+            "answer": 1,
+            "hint": "He wanted to join their journey.",
+            "explanation": "Turtle asked whether he could come with the birds."
+          },
+          {
+            "prompt": "How did Turtle hold the stick?",
+            "options": [
+              "With his back legs",
+              "With his shell",
+              "With his mouth",
+              "With a rope"
+            ],
+            "answer": 2,
+            "hint": "The birds told him to hold on tightly.",
+            "explanation": "Turtle used his mouth to hold the stick."
+          },
+          {
+            "prompt": "How many big birds held the ends of the stick?",
+            "options": [
+              "One",
+              "Four",
+              "Three",
+              "Two"
+            ],
+            "answer": 3,
+            "hint": "Each end had a bird.",
+            "explanation": "Two big birds grabbed the ends of the stick and carried Turtle."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 5,
+        "questions": [
+          {
+            "prompt": "How did everything below look to Turtle?",
+            "options": [
+              "Huge",
+              "Small",
+              "Completely dark",
+              "Covered in snow"
+            ],
+            "answer": 1,
+            "hint": "He had never been so high before.",
+            "explanation": "From high in the sky, Turtle saw how small everything looked."
+          },
+          {
+            "prompt": "What did Turtle wonder about the journey?",
+            "options": [
+              "Whether his friends could swim",
+              "Where his shell had gone",
+              "How far they had come and still had to go",
+              "Why it was spring"
+            ],
+            "answer": 2,
+            "hint": "He wanted to know about the distance.",
+            "explanation": "He wondered how far they had come and how much farther they had to go."
+          },
+          {
+            "prompt": "How did Turtle first try to get the birds’ attention?",
+            "options": [
+              "He dropped a stone.",
+              "He shouted their names.",
+              "He shook a branch.",
+              "He rolled his eyes and waved his legs."
+            ],
+            "answer": 3,
+            "hint": "He tried movements before speaking.",
+            "explanation": "Turtle rolled his eyes at the birds and waved his legs."
+          },
+          {
+            "prompt": "Why did Turtle fall?",
+            "options": [
+              "He opened his mouth and let go of the stick.",
+              "A bird pecked his shell.",
+              "The stick turned into water.",
+              "He jumped into the pond on purpose."
+            ],
+            "answer": 0,
+            "hint": "His mouth had been holding him up.",
+            "explanation": "When Turtle opened his mouth to speak, he released the stick and fell."
+          }
+        ]
+      },
+      {
+        "startPage": 5,
+        "endPage": 7,
+        "questions": [
+          {
+            "prompt": "What happened to Turtle’s shell when he fell?",
+            "options": [
+              "It turned blue.",
+              "It disappeared.",
+              "It cracked all over.",
+              "It grew wings."
+            ],
+            "answer": 2,
+            "hint": "He ached too much to notice at first.",
+            "explanation": "Turtle’s shell had cracked all over."
+          },
+          {
+            "prompt": "Where did Turtle spend the winter?",
+            "options": [
+              "In a nest",
+              "On a warm beach",
+              "In a tree",
+              "In a muddy hole at the bottom of a pond"
+            ],
+            "answer": 3,
+            "hint": "He crawled into water and swam down.",
+            "explanation": "He dug a hole in the mud at the pond bottom and slept there all winter."
+          },
+          {
+            "prompt": "When did Turtle wake up?",
+            "options": [
+              "In spring",
+              "That same evening",
+              "At the start of winter",
+              "Before the fall"
+            ],
+            "answer": 0,
+            "hint": "He slept through the cold season.",
+            "explanation": "Turtle woke up in the spring."
+          },
+          {
+            "prompt": "How did Turtle feel about the cracks when he woke?",
+            "options": [
+              "He was ashamed.",
+              "He was proud.",
+              "He could not see them.",
+              "He was angry with the fish."
+            ],
+            "answer": 1,
+            "hint": "He liked the new appearance of his shell.",
+            "explanation": "Turtle was very proud of the cracks on his shell."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "why-flies-buzz",
+    "title": "Why Flies Buzz",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh; illustration on PDF page 113 by Barbara L. Gibson. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp",
+    "pages": [
+      {
+        "sourcePage": 103,
+        "text": "One bright, sunny day, a man and his wife went into the jungle to gather food. When they reached a coconut tree, the man took out his knife. The man climbed up the tree to cut down some delicious coconuts.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_01.webp"
+      },
+      {
+        "sourcePage": 104,
+        "text": "As the man reached for a coconut, a black fly flitted around his face. He tried to swat the fly, and dropped his knife. “Watch out, Wife!” he cried.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_02.webp"
+      },
+      {
+        "sourcePage": 105,
+        "text": "The wife jumped out of the way. As she jumped, she kicked a crocodile that was sleeping beneath the tree.\n\nThe angry crocodile’s tail went—swack! swack! swack!",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_03.webp"
+      },
+      {
+        "sourcePage": 106,
+        "text": "Nearby, a jungle bird was looking for bugs to eat. As the crocodile’s tail came down, the bird squawked—scree! scree! scree!\n\nThe bird soared to a branch in a tree and landed right next to a monkey. The monkey was peeling a juicy mango.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_04.webp"
+      },
+      {
+        "sourcePage": 107,
+        "text": "The monkey, startled by the bird, dropped his mango. It fell on the head of a hippo—splat! splat! splat!",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_05.webp"
+      },
+      {
+        "sourcePage": 108,
+        "text": "The hippo thought he was being attacked by hunters. He tried to escape—stomp! stomp! stomp!\n\nAs he did, he trampled on a bushfowl’s nest. The nest was full of eggs.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_06.webp"
+      },
+      {
+        "sourcePage": 109,
+        "text": "“My eggs are all broken!” wailed the bushfowl. She began to cry—sob! sob! sob! And there she stayed, beside her nest, for many days and nights.\n\nShe did not awaken the sun with her familiar call—kark! kark! kark! So the sky remained dark for several days.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_07.webp"
+      },
+      {
+        "sourcePage": 110,
+        "text": "The jungle animals were worried. They went to talk to the wise lion.\n\nThe lion gathered all the animals together to find out what had happened.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_08.webp"
+      },
+      {
+        "sourcePage": 111,
+        "text": "Everyone blamed each other.\n\nThe last to speak was the man. He said, “Wise Lion, I dropped my knife because a black fly was annoying me.”",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_09.webp"
+      },
+      {
+        "sourcePage": 112,
+        "text": "“Aha!” said the lion. “Then it is the black fly’s fault!” said the lion. But the black fly answered back. “Buzz! Buzz! Buzz!” said the fly.\n\n“Have you nothing else to say?” asked the lion. The fly ignored the lion and continued saying “buzz! Buzz! Buzz!”",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_10.webp"
+      },
+      {
+        "sourcePage": 113,
+        "text": "The lion was angry with the fly and decided to punish him. “Black Fly!” he bellowed. “Since you refuse to answer, I shall take away your power to talk.”\n\nThe fly tried to speak, but all he could say was, “Buzz! Buzz! Buzz!” To this day, flies all around the world can only say, “Buzz! Buzz! Buzz!”",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_11.webp"
+      },
+      {
+        "sourcePage": 114,
+        "text": "The bushfowl was satisfied. The fly that had caused all the trouble had been punished. And so she agreed to once again call the sun to begin the day.",
+        "image": "assets/books/why-flies-buzz/art/why-flies-buzz_12.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Why did the man and his wife go into the jungle?",
+            "options": [
+              "To gather food",
+              "To meet the lion",
+              "To build a house",
+              "To find a lost nest"
+            ],
+            "answer": 0,
+            "hint": "The man climbed a coconut tree.",
+            "explanation": "They went into the jungle to gather food."
+          },
+          {
+            "prompt": "What did the man take up the coconut tree?",
+            "options": [
+              "A fishing net",
+              "A knife",
+              "A ladder",
+              "A mango"
+            ],
+            "answer": 1,
+            "hint": "He needed to cut down coconuts.",
+            "explanation": "The man took out his knife and climbed the tree to cut coconuts."
+          },
+          {
+            "prompt": "Why did the man drop his knife?",
+            "options": [
+              "A coconut hit his hand.",
+              "His wife called him.",
+              "He tried to swat a fly.",
+              "The lion roared."
+            ],
+            "answer": 2,
+            "hint": "Something was flitting around his face.",
+            "explanation": "The man tried to swat the black fly and dropped his knife."
+          },
+          {
+            "prompt": "What happened when the wife jumped away?",
+            "options": [
+              "She caught a mango.",
+              "She climbed the tree.",
+              "She broke the knife.",
+              "She kicked a sleeping crocodile."
+            ],
+            "answer": 3,
+            "hint": "An animal was sleeping beneath the tree.",
+            "explanation": "As she jumped, the wife kicked the crocodile."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "What startled the jungle bird?",
+            "options": [
+              "A falling mango",
+              "The crocodile’s swinging tail",
+              "The lion’s question",
+              "The bushfowl’s song"
+            ],
+            "answer": 1,
+            "hint": "It squawked as the tail came down.",
+            "explanation": "The crocodile’s tail startled the bird, which flew to a branch."
+          },
+          {
+            "prompt": "What was the monkey doing before the bird arrived?",
+            "options": [
+              "Building a nest",
+              "Climbing a coconut tree",
+              "Peeling a mango",
+              "Swimming with the hippo"
+            ],
+            "answer": 2,
+            "hint": "It was holding a juicy fruit.",
+            "explanation": "The monkey was peeling a juicy mango."
+          },
+          {
+            "prompt": "Where did the dropped mango land?",
+            "options": [
+              "In the river",
+              "On the lion’s mane",
+              "Inside the nest",
+              "On the hippo’s head"
+            ],
+            "answer": 3,
+            "hint": "The falling fruit frightened a large animal.",
+            "explanation": "The mango fell on the hippo’s head."
+          },
+          {
+            "prompt": "What did the escaping hippo trample?",
+            "options": [
+              "A bushfowl’s nest full of eggs",
+              "The coconut tree",
+              "The man’s basket",
+              "A pile of mangoes"
+            ],
+            "answer": 0,
+            "hint": "The nest belonged to a bird.",
+            "explanation": "The hippo trampled a bushfowl’s nest, which was full of eggs."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 9,
+        "questions": [
+          {
+            "prompt": "Why was the bushfowl crying?",
+            "options": [
+              "She had lost the mango.",
+              "The lion would not speak.",
+              "Her eggs were broken.",
+              "The fly had eaten her food."
+            ],
+            "answer": 2,
+            "hint": "The hippo had trampled her nest.",
+            "explanation": "The bushfowl cried because her eggs were all broken."
+          },
+          {
+            "prompt": "Why did the sky stay dark in this tale?",
+            "options": [
+              "The monkey covered the sky.",
+              "The crocodile hid the sun.",
+              "The lion slept all day.",
+              "The bushfowl stopped calling to awaken the sun."
+            ],
+            "answer": 3,
+            "hint": "She stayed beside her nest instead of making her familiar call.",
+            "explanation": "Without the bushfowl’s call, the sun did not awaken in the story."
+          },
+          {
+            "prompt": "Whom did the worried animals ask for help?",
+            "options": [
+              "The wise lion",
+              "The mother toad",
+              "The little red hen",
+              "The king of flowers"
+            ],
+            "answer": 0,
+            "hint": "He gathered the animals to hear what had happened.",
+            "explanation": "The worried animals went to talk to the wise lion."
+          },
+          {
+            "prompt": "What did the man tell the lion?",
+            "options": [
+              "The hippo had taken his knife.",
+              "A black fly had made him drop his knife.",
+              "The bird had eaten a coconut.",
+              "The wife had hidden the mango."
+            ],
+            "answer": 1,
+            "hint": "He was the last to speak.",
+            "explanation": "The man said he dropped his knife because the fly was annoying him."
+          }
+        ]
+      },
+      {
+        "startPage": 9,
+        "endPage": 12,
+        "questions": [
+          {
+            "prompt": "How did the black fly answer the lion?",
+            "options": [
+              "With a song",
+              "With an apology",
+              "With a long explanation",
+              "With “Buzz! Buzz! Buzz!”"
+            ],
+            "answer": 3,
+            "hint": "The lion kept asking if it had anything else to say.",
+            "explanation": "The black fly answered by buzzing."
+          },
+          {
+            "prompt": "What power did the lion take away from the fly?",
+            "options": [
+              "The power to talk",
+              "The power to fly",
+              "The power to see",
+              "The power to sleep"
+            ],
+            "answer": 0,
+            "hint": "The lion was angry that the fly would not answer.",
+            "explanation": "The lion took away the fly’s power to talk."
+          },
+          {
+            "prompt": "What could the fly say after the punishment?",
+            "options": [
+              "Only the lion’s name",
+              "Only buzzing sounds",
+              "Every animal’s name",
+              "A morning song"
+            ],
+            "answer": 1,
+            "hint": "The tale explains the sound flies make today.",
+            "explanation": "Afterward the fly could only say “Buzz! Buzz! Buzz!”"
+          },
+          {
+            "prompt": "What did the bushfowl agree to do at the end?",
+            "options": [
+              "Leave the jungle",
+              "Build a coconut tree",
+              "Call the sun to begin the day again",
+              "Give the fly back its voice"
+            ],
+            "answer": 2,
+            "hint": "She was satisfied that the fly had been punished.",
+            "explanation": "The bushfowl agreed to call the sun again so the day could begin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "three-little-pigs",
+    "title": "The Three Little Pigs",
+    "author": "Retold by Rosie McCormick",
+    "language": "en",
+    "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+    "original": "assets/books/shared/fables_original.pdf",
+    "cover": "assets/books/three-little-pigs/art/three-little-pigs_01.webp",
+    "pages": [
+      {
+        "sourcePage": 119,
+        "text": "Once upon a time, there were three little pigs. They lived with their mother. One day, Mama Pig said, “You are all grown now. It is time for you to go out into the world and live on your own.”",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_01.webp"
+      },
+      {
+        "sourcePage": 120,
+        "text": "The pigs said good-bye and went on their way.\n\nThe First Little Pig decided to build a house made out of straw. Before long, he was finished. He had time to relax in the shade.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_02.webp"
+      },
+      {
+        "sourcePage": 121,
+        "text": "The Second Little Pig built a house made out of sticks. He worked hard, but he still had time to relax in the shade.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_03.webp"
+      },
+      {
+        "sourcePage": 122,
+        "text": "The Third Little Pig decided to build a house made out of bricks. He worked very, very hard.\n\nIt took him a long time to finish building his house. He did not have time to rest in the shade.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_04.webp"
+      },
+      {
+        "sourcePage": 123,
+        "text": "Soon after, a big, bad wolf came along. He saw the First Little Pig napping in the shade.\n\n‘That little pig would make a tasty bite to eat,’ thought the Big Bad Wolf to himself.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_05.webp"
+      },
+      {
+        "sourcePage": 124,
+        "text": "The little pig saw the wolf coming and ran inside his straw house. The wolf said, “Little pig, little pig, let me come in.” The little pig replied, “Not by the hair of my chinny-chin-chin.”",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_06.webp"
+      },
+      {
+        "sourcePage": 125,
+        "text": "“Then I’ll huff, and I’ll puff, and I’ll blow your house down,” said the Big Bad Wolf. And that is what he did! As the straw blew everywhere, the First Little Pig ran away.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_07.webp"
+      },
+      {
+        "sourcePage": 126,
+        "text": "The Big Bad Wolf soon came across the Second Little Pig home made of sticks. The Big Bad Wolf knocked on the door and asked to come in.\n\n“Not by the hair of my chinny-chin-chin,” said the Second Little Pig. “Then I’ll huff, and I’ll puff, and I’ll blow your house down,” replied the wolf.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_08.webp"
+      },
+      {
+        "sourcePage": 127,
+        "text": "The two little pigs ran to their brother’s brick house. Right behind them was the wolf! Once again the wolf asked to come inside. “Not by the hair of my chinny-chin-chin,” replied the Third Little Pig.\n\nThe wolf did not give up. He climbed up onto the roof. He jumped down the chimney.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_09.webp"
+      },
+      {
+        "sourcePage": 128,
+        "text": "And he fell right into a pot of water that was heating on the fire. That water was so hot that the wolf jumped out and ran away.\n\nThe Three Little Pigs lived happily ever after.",
+        "image": "assets/books/three-little-pigs/art/three-little-pigs_10.webp"
+      }
+    ],
+    "batches": [
+      {
+        "startPage": 0,
+        "endPage": 3,
+        "questions": [
+          {
+            "prompt": "Why did Mama Pig send the pigs into the world?",
+            "options": [
+              "They were grown and ready to live on their own.",
+              "She had lost the house.",
+              "They wanted to find the wolf.",
+              "The farm had flooded."
+            ],
+            "answer": 0,
+            "hint": "She told them they were all grown now.",
+            "explanation": "Mama Pig said it was time for them to live on their own."
+          },
+          {
+            "prompt": "What did the first pig use for his house?",
+            "options": [
+              "Bricks",
+              "Straw",
+              "Stones",
+              "Wooden boards"
+            ],
+            "answer": 1,
+            "hint": "He finished quickly and rested.",
+            "explanation": "The first pig built a house out of straw."
+          },
+          {
+            "prompt": "What did the second pig use for his house?",
+            "options": [
+              "Snow",
+              "Straw",
+              "Sticks",
+              "Bricks"
+            ],
+            "answer": 2,
+            "hint": "His house used pieces of wood.",
+            "explanation": "The second pig built a house out of sticks."
+          },
+          {
+            "prompt": "What did both of these pigs have time to do after building?",
+            "options": [
+              "Visit the wolf",
+              "Dig a pond",
+              "Cook soup for Mama Pig",
+              "Relax in the shade"
+            ],
+            "answer": 3,
+            "hint": "Both finished with time left over.",
+            "explanation": "The first and second pigs both had time to relax in the shade."
+          }
+        ]
+      },
+      {
+        "startPage": 3,
+        "endPage": 6,
+        "questions": [
+          {
+            "prompt": "What did the third pig use for his house?",
+            "options": [
+              "Straw",
+              "Bricks",
+              "Leaves",
+              "Sticks"
+            ],
+            "answer": 1,
+            "hint": "This house took a long time to build.",
+            "explanation": "The third pig built his house from bricks."
+          },
+          {
+            "prompt": "Why did the third pig have no time to rest?",
+            "options": [
+              "He had gone swimming.",
+              "He was asleep already.",
+              "He worked a long time building.",
+              "He was visiting Mama Pig."
+            ],
+            "answer": 2,
+            "hint": "He worked very, very hard on his house.",
+            "explanation": "It took him a long time to finish building the brick house."
+          },
+          {
+            "prompt": "What did the wolf think when he saw the first pig?",
+            "options": [
+              "He wanted to help build.",
+              "He wanted to take a nap.",
+              "He wanted to plant wheat.",
+              "The pig would be tasty to eat."
+            ],
+            "answer": 3,
+            "hint": "The wolf was looking at the napping pig.",
+            "explanation": "The wolf thought the little pig would make a tasty bite to eat."
+          },
+          {
+            "prompt": "What did the first pig do when he saw the wolf coming?",
+            "options": [
+              "He ran inside his straw house.",
+              "He welcomed the wolf.",
+              "He climbed onto the roof.",
+              "He hid in a tree."
+            ],
+            "answer": 0,
+            "hint": "He used his new house for shelter.",
+            "explanation": "The first pig ran inside his straw house and refused to let the wolf in."
+          }
+        ]
+      },
+      {
+        "startPage": 6,
+        "endPage": 8,
+        "questions": [
+          {
+            "prompt": "How did the wolf destroy the straw house?",
+            "options": [
+              "He used an axe.",
+              "He set it on fire.",
+              "He huffed and puffed and blew it down.",
+              "He pushed it into a river."
+            ],
+            "answer": 2,
+            "hint": "His breath sent straw everywhere.",
+            "explanation": "The wolf huffed and puffed and blew the straw house down."
+          },
+          {
+            "prompt": "What did the first pig do as the straw blew everywhere?",
+            "options": [
+              "He rebuilt the house.",
+              "He invited the wolf in.",
+              "He went to sleep.",
+              "He ran away."
+            ],
+            "answer": 3,
+            "hint": "He needed to escape the wolf.",
+            "explanation": "The first little pig ran away."
+          },
+          {
+            "prompt": "Which house did the wolf come to next?",
+            "options": [
+              "The second pig’s stick house",
+              "Mama Pig’s house",
+              "The third pig’s brick house",
+              "A house made of stone"
+            ],
+            "answer": 0,
+            "hint": "The next house belonged to the second pig.",
+            "explanation": "The wolf came across the second pig’s home made of sticks."
+          },
+          {
+            "prompt": "How did the second pig respond when the wolf asked to enter?",
+            "options": [
+              "He opened the door.",
+              "He refused to let the wolf in.",
+              "He offered the wolf a mango.",
+              "He asked the wolf to build a roof."
+            ],
+            "answer": 1,
+            "hint": "He repeated the chinny-chin-chin reply.",
+            "explanation": "The second pig said “Not by the hair of my chinny-chin-chin,” refusing entry."
+          }
+        ]
+      },
+      {
+        "startPage": 8,
+        "endPage": 10,
+        "questions": [
+          {
+            "prompt": "Where did the first two pigs run?",
+            "options": [
+              "Back to the straw house",
+              "Into the forest",
+              "To a pond",
+              "To their brother’s brick house"
+            ],
+            "answer": 3,
+            "hint": "Their brother had worked hardest on his house.",
+            "explanation": "The two pigs ran to their brother’s brick house."
+          },
+          {
+            "prompt": "How did the wolf try to enter the brick house?",
+            "options": [
+              "He jumped down the chimney.",
+              "He dug under the floor.",
+              "He swam through a window.",
+              "He waited for a key."
+            ],
+            "answer": 0,
+            "hint": "He climbed onto the roof first.",
+            "explanation": "The wolf climbed onto the roof and jumped down the chimney."
+          },
+          {
+            "prompt": "What did the wolf land in?",
+            "options": [
+              "A basket of straw",
+              "A pot of hot water",
+              "A pile of pillows",
+              "A barrel of cold milk"
+            ],
+            "answer": 1,
+            "hint": "The pot was heating on the fire.",
+            "explanation": "The wolf fell into a pot of water that was heating on the fire."
+          },
+          {
+            "prompt": "How did the story end?",
+            "options": [
+              "The wolf ate all three pigs.",
+              "The pigs left with the wolf.",
+              "The wolf ran away, and the pigs lived happily.",
+              "The brick house fell down."
+            ],
+            "answer": 2,
+            "hint": "The hot water made the wolf jump out.",
+            "explanation": "The wolf jumped out and ran away, and the three pigs lived happily ever after."
+          }
+        ]
+      }
+    ]
+  }
+]

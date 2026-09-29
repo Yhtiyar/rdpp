@@ -47,7 +47,7 @@ void main() {
       testWidgets(
         'should wait for Start test when page $lastPage fits on screen',
         (tester) async {
-          final book = books.last;
+          final book = books.singleWhere((b) => b.id == 'kolobok');
           final controller = AppController(MemoryStore());
           for (var p = 0; p < lastPage - 3; p++) {
             controller.reading.completePage(book.id, p, DateTime.now());

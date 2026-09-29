@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Navigation works; reduced-motion icons remain still",
+    "Home, books, wins, wallet, parent lock and welcome captured; 320px, 430px and desktop checked"
+  ],
+  "assets": [],
+  "errors": []
+}

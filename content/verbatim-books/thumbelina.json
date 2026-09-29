@@ -1,0 +1,304 @@
+{
+  "id": "thumbelina",
+  "title": "Thumbelina",
+  "language": "en",
+  "attribution": "This work is based on an original work of the Core Knowledge® Foundation made available through licensing under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. This does not in any way imply that the Core Knowledge Foundation endorses this work. Copyright © 2014 Core Knowledge Foundation. Source: Classic Tales Big Book, shared by Free Kids Books (freekidsbooks.org). Noncommercial use and ShareAlike terms apply: https://creativecommons.org/licenses/by-nc-sa/3.0/. Original notices retained in assets/books/shared/fables_original.pdf. Retold by Rosie McCormick. Illustrated by Gail McIntosh. Original story by Hans Christian Andersen. Collection writing credits also name Linda Bevilacqua and Susan Hitchcock. ",
+  "original": "assets/books/shared/fables_original.pdf",
+  "cover": "assets/books/thumbelina/art/thumbelina_01.webp",
+  "version": 2,
+  "voice": "longanlingxin",
+  "model": "qwen/qwen-audio-3.0-tts-plus",
+  "adaptationNote": "Complete original book text, split into listening parts without rewriting.",
+  "pages": [
+    {
+      "id": "thumbelina-part-001",
+      "text": "Once upon a time, there was a woman who was very sad because she did not have any children. One day, she planted a magical seed. That night, the seed grew into a flowering plant. “What a beautiful flower,” said the woman as she kissed the petals.",
+      "image": "assets/books/thumbelina/art/thumbelina_01.webp",
+      "sourcePages": [
+        75,
+        76
+      ],
+      "sourceReadingPages": [
+        0,
+        1
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 246,
+      "estimatedPlaybackSeconds": 19.48,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-001.mp3"
+    },
+    {
+      "id": "thumbelina-part-002",
+      "text": "At that moment, the flower opened. Inside the flower sat a tiny girl. The girl was no bigger than a thumb. The woman named her Thumbelina. At night, Thumbelina slept in a polished walnut shell. One night, a mother toad came and took Thumbelina away.",
+      "image": "assets/books/thumbelina/art/thumbelina_02.webp",
+      "sourcePages": [
+        76,
+        77,
+        78
+      ],
+      "sourceReadingPages": [
+        1,
+        2,
+        3
+      ],
+      "sourceTextStart": 247,
+      "sourceTextEnd": 496,
+      "estimatedPlaybackSeconds": 19.71,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-002.mp3"
+    },
+    {
+      "id": "thumbelina-part-003",
+      "text": "The mother toad wanted Thumbelina to marry her son. The mother toad and her son placed Thumbelina on a water lily leaf in the river. Then they set off to plan the wedding. Thumbelina was very sad. She began to cry. A fish heard Thumbelina’s sobs.",
+      "image": "assets/books/thumbelina/art/thumbelina_05.webp",
+      "sourcePages": [
+        78,
+        79,
+        80
+      ],
+      "sourceReadingPages": [
+        3,
+        4,
+        5
+      ],
+      "sourceTextStart": 497,
+      "sourceTextEnd": 743,
+      "estimatedPlaybackSeconds": 19.48,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-003.mp3"
+    },
+    {
+      "id": "thumbelina-part-004",
+      "text": "It nibbled on the stem of the lily pad until the leaf broke free. Thumbelina floated down the river. Summer disappeared, and winter came. Thumbelina was cold. A field mouse took pity on her. “My dear, you must come home with me,” the field mouse said.",
+      "image": "assets/books/thumbelina/art/thumbelina_07.webp",
+      "sourcePages": [
+        80,
+        81
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 744,
+      "sourceTextEnd": 995,
+      "estimatedPlaybackSeconds": 19.87,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-004.mp3"
+    },
+    {
+      "id": "thumbelina-part-005",
+      "text": "Thumbelina spent the rest of the winter in the mouse’s snug burrow. They became good friends. In a burrow nearby lived Mr. Mole. He liked to visit in the evening and hear Thumbelina sing. One evening, while visiting Mr. Mole, Thumbelina found a swallow.",
+      "image": "assets/books/thumbelina/art/thumbelina_08.webp",
+      "sourcePages": [
+        82,
+        83,
+        84
+      ],
+      "sourceReadingPages": [
+        7,
+        8,
+        9
+      ],
+      "sourceTextStart": 996,
+      "sourceTextEnd": 1249,
+      "estimatedPlaybackSeconds": 20.03,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-005.mp3"
+    },
+    {
+      "id": "thumbelina-part-006",
+      "text": "The bird was cold and hurt. Thumbelina cared for the swallow and brought him food every day. Mr. Mole had fallen in love with Thumbelina. He wanted to marry her. Thumbelina did not want to marry Mr. Mole. Once again, she was very unhappy.",
+      "image": "assets/books/thumbelina/art/thumbelina_10.webp",
+      "sourcePages": [
+        84,
+        85
+      ],
+      "sourceReadingPages": [
+        9,
+        10
+      ],
+      "sourceTextStart": 1250,
+      "sourceTextEnd": 1488,
+      "estimatedPlaybackSeconds": 18.84,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-006.mp3"
+    },
+    {
+      "id": "thumbelina-part-007",
+      "text": "One day, the swallow that Thumbelina had cared for came to help her escape. Together, they flew south to warmer lands. In a new land filled with flowers, Thumbelina met a king. He was tiny, too! Thumbelina became the queen. She and the king lived happily ever after.",
+      "image": "assets/books/thumbelina/art/thumbelina_12.webp",
+      "sourcePages": [
+        86,
+        87,
+        88
+      ],
+      "sourceReadingPages": [
+        11,
+        12,
+        13
+      ],
+      "sourceTextStart": 1489,
+      "sourceTextEnd": 1755,
+      "estimatedPlaybackSeconds": 21.06,
+      "audio": "assets/books/thumbelina/audio/thumbelina-part-007.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Where did the woman first find the tiny girl?",
+      "hint": "The petals opened, and there she was!",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is Thumbelina in a flower.",
+      "feedback": "Thumbelina was inside a flower!",
+      "choices": [
+        {
+          "label": "Thumbelina in a flower",
+          "image": "assets/books/thumbelina/art/thumbelina-flower.webp"
+        },
+        {
+          "label": "Thumbelina in her walnut bed",
+          "image": "assets/books/thumbelina/art/thumbelina-bed.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "thumbelina-exact-question-001",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/thumbelina/audio/thumbelina-exact-question-001-prompt.mp3",
+        "hint": "assets/books/thumbelina/audio/thumbelina-exact-question-001-hint.mp3",
+        "guided": "assets/books/thumbelina/audio/thumbelina-exact-question-001-guided.mp3",
+        "feedback": "assets/books/thumbelina/audio/thumbelina-exact-question-001-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "thumbelina-part-002"
+        ],
+        "quote": "At that moment, the flower opened. Inside the flower sat a tiny girl."
+      }
+    },
+    {
+      "prompt": "Who carried Thumbelina away in the night?",
+      "hint": "It was the mother of the little toad.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the toad.",
+      "feedback": "A mother toad carried Thumbelina away.",
+      "choices": [
+        {
+          "label": "Fish",
+          "image": "assets/books/thumbelina/art/thumbelina-fish.webp"
+        },
+        {
+          "label": "Toad",
+          "image": "assets/books/thumbelina/art/thumbelina-toad.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "thumbelina-exact-question-002",
+      "afterPage": 2,
+      "audio": {
+        "prompt": "assets/books/thumbelina/audio/thumbelina-exact-question-002-prompt.mp3",
+        "hint": "assets/books/thumbelina/audio/thumbelina-exact-question-002-hint.mp3",
+        "guided": "assets/books/thumbelina/audio/thumbelina-exact-question-002-guided.mp3",
+        "feedback": "assets/books/thumbelina/audio/thumbelina-exact-question-002-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "thumbelina-part-002"
+        ],
+        "quote": "One night, a mother toad came and took Thumbelina away."
+      }
+    },
+    {
+      "prompt": "Who shared a warm home with Thumbelina in winter?",
+      "hint": "This kind little animal invited her into a burrow.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the field mouse.",
+      "feedback": "The field mouse shared her warm home with Thumbelina.",
+      "choices": [
+        {
+          "label": "Field mouse",
+          "image": "assets/books/thumbelina/art/thumbelina-mouse.webp"
+        },
+        {
+          "label": "Mr. Mole",
+          "image": "assets/books/thumbelina/art/thumbelina-mole.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "thumbelina-exact-question-003",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/thumbelina/audio/thumbelina-exact-question-003-prompt.mp3",
+        "hint": "assets/books/thumbelina/audio/thumbelina-exact-question-003-hint.mp3",
+        "guided": "assets/books/thumbelina/audio/thumbelina-exact-question-003-guided.mp3",
+        "feedback": "assets/books/thumbelina/audio/thumbelina-exact-question-003-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "thumbelina-part-004"
+        ],
+        "quote": "A field mouse took pity on her. “My dear, you must come home with me,” the field mouse said."
+      }
+    },
+    {
+      "prompt": "Which bird did Thumbelina care for?",
+      "hint": "The bird was cold and hurt. She brought him food every day.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the swallow.",
+      "feedback": "Thumbelina cared for the hurt swallow.",
+      "choices": [
+        {
+          "label": "Mr. Mole",
+          "image": "assets/books/thumbelina/art/thumbelina-mole.webp"
+        },
+        {
+          "label": "Swallow",
+          "image": "assets/books/thumbelina/art/thumbelina-swallow.webp"
+        }
+      ],
+      "answer": 1,
+      "id": "thumbelina-exact-question-004",
+      "afterPage": 5,
+      "audio": {
+        "prompt": "assets/books/thumbelina/audio/thumbelina-exact-question-004-prompt.mp3",
+        "hint": "assets/books/thumbelina/audio/thumbelina-exact-question-004-hint.mp3",
+        "guided": "assets/books/thumbelina/audio/thumbelina-exact-question-004-guided.mp3",
+        "feedback": "assets/books/thumbelina/audio/thumbelina-exact-question-004-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "thumbelina-part-006"
+        ],
+        "quote": "The bird was cold and hurt. Thumbelina cared for the swallow and brought him food every day."
+      }
+    },
+    {
+      "prompt": "Who did Thumbelina meet in the land of flowers?",
+      "hint": "He was tiny like her, and she became his queen.",
+      "guided": "Let’s do it together. Tap the picture with the green frame. This is the tiny king.",
+      "feedback": "Thumbelina met the tiny king!",
+      "choices": [
+        {
+          "label": "Tiny king",
+          "image": "assets/books/thumbelina/art/thumbelina-king.webp"
+        },
+        {
+          "label": "Field mouse",
+          "image": "assets/books/thumbelina/art/thumbelina-mouse.webp"
+        }
+      ],
+      "answer": 0,
+      "id": "thumbelina-exact-question-005",
+      "afterPage": 6,
+      "audio": {
+        "prompt": "assets/books/thumbelina/audio/thumbelina-exact-question-005-prompt.mp3",
+        "hint": "assets/books/thumbelina/audio/thumbelina-exact-question-005-hint.mp3",
+        "guided": "assets/books/thumbelina/audio/thumbelina-exact-question-005-guided.mp3",
+        "feedback": "assets/books/thumbelina/audio/thumbelina-exact-question-005-feedback.mp3"
+      },
+      "evidence": {
+        "pageIds": [
+          "thumbelina-part-007"
+        ],
+        "quote": "In a new land filled with flowers, Thumbelina met a king. He was tiny, too! Thumbelina became the queen."
+      }
+    }
+  ],
+  "completion": {
+    "text": "You listened to Thumbelina and found the pictures! Here is your story star. You can listen again whenever you like.",
+    "audio": "assets/books/thumbelina/audio/thumbelina-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 0.85
+}

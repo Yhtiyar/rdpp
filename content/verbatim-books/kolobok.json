@@ -1,0 +1,447 @@
+{
+  "id": "kolobok",
+  "title": "Колобок",
+  "language": "ru",
+  "attribution": "Русская народная сказка «Колобок». Текст и иллюстрации из предоставленного PDF deti-online.com. Оригинальный файл и указание источника сохранены.",
+  "original": "assets/books/kolobok/kolobok_original.pdf",
+  "cover": "assets/books/kolobok/art/kolobok_01.webp",
+  "version": 2,
+  "voice": "Sulafat",
+  "model": "google/gemini-3.8-flash-lite-tts",
+  "adaptationNote": "Полный оригинальный текст книги, разделённый на части для прослушивания без пересказа.",
+  "pages": [
+    {
+      "id": "kolobok-part-001",
+      "text": "Жили-были старик со старухой. Однажды просит старик: — Испеки, старуха, колобок. — Из чего испечь-то? Муки нет. — Эх, старуха! По коробу поскреби, по сусеку помети; авось муки и наберется.",
+      "image": "assets/books/kolobok/art/kolobok_01.webp",
+      "sourcePages": [
+        1
+      ],
+      "sourceReadingPages": [
+        0
+      ],
+      "sourceTextStart": 0,
+      "sourceTextEnd": 188,
+      "estimatedPlaybackSeconds": 16.77,
+      "audio": "assets/books/kolobok/audio/kolobok-part-001.mp3"
+    },
+    {
+      "id": "kolobok-part-002",
+      "text": "Старуха по коробу поскребла, по сусеку помела, и набралось муки две пригоршни. Замесила на сметане, пожарила в масле и положила на окошечко остудить.",
+      "image": "assets/books/kolobok/art/kolobok_02.webp",
+      "sourcePages": [
+        2
+      ],
+      "sourceReadingPages": [
+        1
+      ],
+      "sourceTextStart": 189,
+      "sourceTextEnd": 338,
+      "estimatedPlaybackSeconds": 13.29,
+      "audio": "assets/books/kolobok/audio/kolobok-part-002.mp3"
+    },
+    {
+      "id": "kolobok-part-003",
+      "text": "Колобок полежал-полежал, да вдруг и покатился — с окна на лавку, с лавки на пол, по полу да к дверям, перепрыгнул через порог в сени, из сеней на крыльцо, с крыльца на двор, со двора за ворота, дальше и дальше. Катится колобок по дороге, а навстречу ему заяц: — Колобок, колобок! Я тебя съем!",
+      "image": "assets/books/kolobok/art/kolobok_02.webp",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "sourceReadingPages": [
+        1,
+        2
+      ],
+      "sourceTextStart": 339,
+      "sourceTextEnd": 631,
+      "estimatedPlaybackSeconds": 26.05,
+      "audio": "assets/books/kolobok/audio/kolobok-part-003.mp3"
+    },
+    {
+      "id": "kolobok-part-004",
+      "text": "— Не ешь меня, косой зайчик! Я тебе песенку спою, — сказал колобок и запел: Я по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, От тебя, зайца, не хитро уйти!",
+      "image": "assets/books/kolobok/art/kolobok_03.webp",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceReadingPages": [
+        2,
+        3
+      ],
+      "sourceTextStart": 632,
+      "sourceTextEnd": 868,
+      "estimatedPlaybackSeconds": 21.05,
+      "audio": "assets/books/kolobok/audio/kolobok-part-004.mp3"
+    },
+    {
+      "id": "kolobok-part-005",
+      "text": "И покатился себе дальше; только заяц его и видел!.. Катится колобок, а навстречу ему волк: — Колобок, колобок! Я тебя съем! — Не ешь меня, серый волк! Я тебе песенку спою!",
+      "image": "assets/books/kolobok/art/kolobok_04.webp",
+      "sourcePages": [
+        4
+      ],
+      "sourceReadingPages": [
+        3
+      ],
+      "sourceTextStart": 869,
+      "sourceTextEnd": 1040,
+      "estimatedPlaybackSeconds": 15.25,
+      "audio": "assets/books/kolobok/audio/kolobok-part-005.mp3"
+    },
+    {
+      "id": "kolobok-part-006",
+      "text": "Я по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, Я от зайца ушел, От тебя, волка, не хитро уйти! И покатился себе дальше; только волк его и видел!.. Катится колобок, а навстречу ему медведь: — Колобок, колобок! Я тебя съем.",
+      "image": "assets/books/kolobok/art/kolobok_05.webp",
+      "sourcePages": [
+        4,
+        5,
+        6
+      ],
+      "sourceReadingPages": [
+        3,
+        4,
+        5
+      ],
+      "sourceTextStart": 1041,
+      "sourceTextEnd": 1345,
+      "estimatedPlaybackSeconds": 27.12,
+      "audio": "assets/books/kolobok/audio/kolobok-part-006.mp3"
+    },
+    {
+      "id": "kolobok-part-007",
+      "text": "— Где тебе, косолапому, съесть меня! Я по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, Я от зайца ушел, Я от волка ушел, От тебя, медведь, не хитро уйти!",
+      "image": "assets/books/kolobok/art/kolobok_06.webp",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceReadingPages": [
+        5,
+        6
+      ],
+      "sourceTextStart": 1346,
+      "sourceTextEnd": 1579,
+      "estimatedPlaybackSeconds": 20.79,
+      "audio": "assets/books/kolobok/audio/kolobok-part-007.mp3"
+    },
+    {
+      "id": "kolobok-part-008",
+      "text": "И опять укатился; только медведь его и видел!.. Катится, катится колобок, а навстречу ему лиса: — Здравствуй, колобок! Какой ты хорошенький!",
+      "image": "assets/books/kolobok/art/kolobok_07.webp",
+      "sourcePages": [
+        7
+      ],
+      "sourceReadingPages": [
+        6
+      ],
+      "sourceTextStart": 1580,
+      "sourceTextEnd": 1720,
+      "estimatedPlaybackSeconds": 12.49,
+      "audio": "assets/books/kolobok/audio/kolobok-part-008.mp3"
+    },
+    {
+      "id": "kolobok-part-009",
+      "text": "А колобок запел: Я по коробу скребен, По сусеку метен, На сметане мешон Да в масле пряжон, На окошке стужон; Я от дедушки ушел, Я от бабушки ушел, Я от зайца ушел, Я от волка ушел, От медведя ушел, От тебя, лиса, и подавно уйду!",
+      "image": "assets/books/kolobok/art/kolobok_08.webp",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceReadingPages": [
+        6,
+        7
+      ],
+      "sourceTextStart": 1721,
+      "sourceTextEnd": 1949,
+      "estimatedPlaybackSeconds": 20.34,
+      "audio": "assets/books/kolobok/audio/kolobok-part-009.mp3"
+    },
+    {
+      "id": "kolobok-part-010",
+      "text": "— Какая славная песенка! — сказала лиса. — Но ведь я, колобок, стара стала, плохо слышу; сядь-ка на мою мордочку да пропой еще разок погромче. Колобок вскочил лисе на мордочку и запел ту же песню.",
+      "image": "assets/books/kolobok/art/kolobok_09.webp",
+      "sourcePages": [
+        8
+      ],
+      "sourceReadingPages": [
+        7
+      ],
+      "sourceTextStart": 1950,
+      "sourceTextEnd": 2146,
+      "estimatedPlaybackSeconds": 17.48,
+      "audio": "assets/books/kolobok/audio/kolobok-part-010.mp3"
+    },
+    {
+      "id": "kolobok-part-011",
+      "text": "— Спасибо, колобок! Славная песенка, еще бы послушала! Сядь-ка на мой язычок да пропой в последний разок, — сказала лиса и высунула свой язык. Колобок прыг ей на язык, а лиса — ам его! — и скушала.",
+      "image": "assets/books/kolobok/art/kolobok_09.webp",
+      "sourcePages": [
+        9
+      ],
+      "sourceReadingPages": [
+        8
+      ],
+      "sourceTextStart": 2147,
+      "sourceTextEnd": 2344,
+      "estimatedPlaybackSeconds": 17.57,
+      "audio": "assets/books/kolobok/audio/kolobok-part-011.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "kolobok-exact-question-001",
+      "afterPage": 2,
+      "prompt": "Кто укатился с окошка? Найди его на картинке.",
+      "hint": "Он круглый, румяный и сделан из теста.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно! Это колобок. Он укатился с окошка.",
+      "feedback": "Верно! Это колобок. Он укатился с окошка.",
+      "choices": [
+        {
+          "label": "Колобок",
+          "image": "assets/books/kolobok/art/kolobok_02.webp"
+        },
+        {
+          "label": "Заяц",
+          "image": "assets/books/kolobok/art/kolobok_03.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-003"
+        ],
+        "quote": "Колобок полежал-полежал, да вдруг и покатился"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-001-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-001-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-001-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-001-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-002",
+      "afterPage": 2,
+      "prompt": "Кого колобок встретил первым на дорожке?",
+      "hint": "У этого зверька длинные ушки.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл зайца! Колобок встретил его первым.",
+      "feedback": "Ты нашёл зайца! Колобок встретил его первым.",
+      "choices": [
+        {
+          "label": "Медведь",
+          "image": "assets/books/kolobok/art/kolobok_06.webp"
+        },
+        {
+          "label": "Заяц",
+          "image": "assets/books/kolobok/art/kolobok_03.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-003"
+        ],
+        "quote": "Катится колобок по дороге, а навстречу ему заяц"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-002-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-002-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-002-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-002-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-003",
+      "afterPage": 5,
+      "prompt": "Кого колобок встретил после зайца?",
+      "hint": "Это серый лесной зверь. Колобок предложил спеть ему песенку.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, это волк! Колобок спел ему песенку и укатился.",
+      "feedback": "Да, это волк! Колобок спел ему песенку и укатился.",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/kolobok/art/kolobok_04.webp"
+        },
+        {
+          "label": "Лиса",
+          "image": "assets/books/kolobok/art/kolobok_07.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-005"
+        ],
+        "quote": "Катится колобок, а навстречу ему волк"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-003-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-003-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-003-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-003-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-004",
+      "afterPage": 5,
+      "prompt": "Кого колобок встретил после волка?",
+      "hint": "Этот зверь большой и косолапый.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Верно, медведя! Он встретился колобку после волка.",
+      "feedback": "Верно, медведя! Он встретился колобку после волка.",
+      "choices": [
+        {
+          "label": "Заяц",
+          "image": "assets/books/kolobok/art/kolobok_03.webp"
+        },
+        {
+          "label": "Медведь",
+          "image": "assets/books/kolobok/art/kolobok_06.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-006"
+        ],
+        "quote": "Катится колобок, а навстречу ему медведь"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-004-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-004-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-004-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-004-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-005",
+      "afterPage": 8,
+      "prompt": "Кто сказал колобку: «Какой ты хорошенький»?",
+      "hint": "У неё рыжая шубка и большой пушистый хвост.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Это лиса! Она поздоровалась с колобком и похвалила его.",
+      "feedback": "Это лиса! Она поздоровалась с колобком и похвалила его.",
+      "choices": [
+        {
+          "label": "Лиса",
+          "image": "assets/books/kolobok/art/kolobok_07.webp"
+        },
+        {
+          "label": "Волк",
+          "image": "assets/books/kolobok/art/kolobok_04.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-008"
+        ],
+        "quote": "а навстречу ему лиса: — Здравствуй, колобок! Какой ты хорошенький!"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-005-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-005-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-005-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-005-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-006",
+      "afterPage": 8,
+      "prompt": "Кто спел лисе песенку?",
+      "hint": "Он круглый и катится по дорожке.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, колобок спел лисе свою песенку.",
+      "feedback": "Да, колобок спел лисе свою песенку.",
+      "choices": [
+        {
+          "label": "Медведь",
+          "image": "assets/books/kolobok/art/kolobok_06.webp"
+        },
+        {
+          "label": "Колобок",
+          "image": "assets/books/kolobok/art/kolobok_02.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-009"
+        ],
+        "quote": "А колобок запел:"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-006-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-006-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-006-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-006-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-007",
+      "afterPage": 10,
+      "prompt": "Кто похвалил песенку и попросил спеть ещё раз?",
+      "hint": "Этот рыжий зверь сказал, что плохо слышит.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Ты нашёл лису. Она попросила колобка сесть на её мордочку.",
+      "feedback": "Ты нашёл лису. Она попросила колобка сесть на её мордочку.",
+      "choices": [
+        {
+          "label": "Лиса",
+          "image": "assets/books/kolobok/art/kolobok_07.webp"
+        },
+        {
+          "label": "Заяц",
+          "image": "assets/books/kolobok/art/kolobok_03.webp"
+        }
+      ],
+      "answer": 0,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-010"
+        ],
+        "quote": "— Какая славная песенка! — сказала лиса."
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-007-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-007-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-007-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-007-feedback.mp3"
+      }
+    },
+    {
+      "id": "kolobok-exact-question-008",
+      "afterPage": 10,
+      "prompt": "Кто прыгнул лисе на язык?",
+      "hint": "Это круглый герой нашей сказки.",
+      "guided": "Давай вместе. Нажми на картинку с зелёной рамкой. Да, колобок прыгнул лисе на язык, а лиса его съела.",
+      "feedback": "Да, колобок прыгнул лисе на язык, а лиса его съела.",
+      "choices": [
+        {
+          "label": "Волк",
+          "image": "assets/books/kolobok/art/kolobok_04.webp"
+        },
+        {
+          "label": "Колобок",
+          "image": "assets/books/kolobok/art/kolobok_02.webp"
+        }
+      ],
+      "answer": 1,
+      "evidence": {
+        "pageIds": [
+          "kolobok-part-011"
+        ],
+        "quote": "Колобок прыг ей на язык"
+      },
+      "audio": {
+        "prompt": "assets/books/kolobok/audio/kolobok-exact-question-008-prompt.mp3",
+        "hint": "assets/books/kolobok/audio/kolobok-exact-question-008-hint.mp3",
+        "guided": "assets/books/kolobok/audio/kolobok-exact-question-008-guided.mp3",
+        "feedback": "assets/books/kolobok/audio/kolobok-exact-question-008-feedback.mp3"
+      }
+    }
+  ],
+  "completion": {
+    "text": "Ты послушал всю сказку и нашёл картинки! Вот твоя звёздочка. Хочешь послушать ещё раз?",
+    "audio": "assets/books/kolobok/audio/kolobok-complete.mp3"
+  },
+  "textPolicy": "verbatim",
+  "playbackRate": 1.0
+}

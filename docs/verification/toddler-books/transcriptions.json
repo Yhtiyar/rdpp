@@ -1,0 +1,38 @@
+[
+  {
+    "file": "assets/books/frog/audio/frog-page-01.mp3",
+    "script": "Once upon a time, a princess loved to play with a golden ball. Up it went, and down it came! One day, the ball slipped away and fell into a deep well. Splash!",
+    "status": 200,
+    "transcript": "Once upon a time, a princess loved to play with a golden ball. Up it went, and down it came. One day, the ball slipped away and fell into a deep well. Splash!"
+  },
+  {
+    "file": "assets/books/frog/audio/frog-page-12.mp3",
+    "script": "The princess and the prince became friends. They spent happy days together. When they were older, they married and lived happily ever after. And that is the story of the Frog Prince.",
+    "status": 200,
+    "transcript": "The princess and the prince became friends. They spent happy days together. When they were older, they married and lived happily ever after. And that is the story of the Frog Prince."
+  },
+  {
+    "file": "assets/books/frog/audio/frog-question-01-prompt.mp3",
+    "script": "What did the princess lose? Tap its picture.",
+    "status": 200,
+    "transcript": "What did the princess lose? Tap its picture."
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-01.mp3",
+    "script": "Жили-были дедушка и бабушка. Попросил дедушка испечь колобок. Бабушка собрала муку, замесила тесто на сметане и испекла круглый, румяный колобок.",
+    "status": 200,
+    "transcript": "Жили были дедушка и бабушка. попросил дедушка испечь колобок. Бабушка собрала муку, замесила тесто на сметане и испекла круглый румяный колобок."
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-page-09.mp3",
+    "script": "Лиса попросила колобка сесть ещё ближе, прямо на язычок. Колобок прыгнул, а лиса — ам! — и съела его. На этом сказка закончилась. Лиса оказалась хитрее колобка.",
+    "status": 200,
+    "transcript": "Лиса попросила колобка сесть еще ближе, прямо на язычок. Колобок прыгнул, а лиса — ам — и съела его. На этом сказка закончилась. Лиса оказалась хитрее колобка."
+  },
+  {
+    "file": "assets/books/kolobok/audio/kolobok-question-01-prompt.mp3",
+    "script": "Кто укатился с окошка? Найди его на картинке.",
+    "status": 200,
+    "transcript": "Кто укатился с окошка? Найди его на картинке."
+  }
+]
